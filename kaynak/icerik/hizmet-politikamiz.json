@@ -1,0 +1,59 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Hizmet Politikamız"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/hizmetpoltikamiz.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/hizmetpoltikamiz.jpg",
+  "deco": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "deco": true
+ },
+ {
+  "t": "quote",
+  "html": "Egefe olarak kalite ve müşteri memnuniyetini temel alıyor, sürekli olarak iyileştirme prensiplerini uyguluyoruz. Bu çerçevede ekip arkadaşlarımız, paydaşlarımız ve müşterilerimizle tüm süreçlerde uçtan uca kapsamlı bir hizmet politikası uygulamaktayız."
+ },
+ {
+  "t": "p",
+  "html": "<strong>Erişilebilirlik:</strong> Şirketimiz tarafından sunulan çeşitli iletişim kanallarıyla müşterilerimiz şikayetlerini, bilgi taleplerini, öneri ya da memnuniyetlerini kolay bir şekilde iletebiliyor ve şirketimize erişim sağlayabiliyor."
+ },
+ {
+  "t": "p",
+  "html": "<strong>Bilgiye Ulaşılabilirlik:</strong> Müşterilerimiz talep ettikleri bilgiye en kısa zamanda ve en hızlı şekilde ulaşabiliyor."
+ },
+ {
+  "t": "p",
+  "html": "<strong>Hızlı Geri Bildirim:</strong> Müşterilerimiz tarafından iletilen tüm başvuruların en kısa sürede cevaplandırılması en önemli önceliklerimiz arasında yer alıyor."
+ },
+ {
+  "t": "p",
+  "html": "<strong>Çözüm Odaklılık:</strong> Müşterilerimizin ihtiyaçları doğrultusunda hızlı ve etkin çözümler üretiyoruz."
+ },
+ {
+  "t": "p",
+  "html": "<strong>Objektiflik:</strong> İletilen tüm başvurular objektif bir şekilde ele alınarak değerlendiriliyor, çözüm sürecinde objektiflik kriteri göz önünde bulunduruluyor."
+ },
+ {
+  "t": "p",
+  "html": "<strong>İnisiyatif Kullanma:</strong> Müşterilerimizin ihtiyaçlarını en kısa sürede karşılayabilmek ve müşteri memnuniyetini en yüksek düzeyde tutmak için çalışanlarımız gerekli durumlarda inisiyatif kullanarak karar alma yetkisine sahip."
+ },
+ {
+  "t": "p",
+  "html": "<strong>Denetime Açıklık:</strong> Müşterilerimiz tarafından yapılan başvuruların değerlendirmesi, çözüm aşamaları, durum kodları ve sonuçları raporlanıyor ve izleniyor."
+ },
+ {
+  "t": "p",
+  "html": "<strong>Kurum İçi Bilgilendirme:</strong> Şirketimizde müşteri ilişkilerine ait faaliyetler kurum genelinde paylaşılıyor ve takip ediliyor."
+ },
+ {
+  "t": "p",
+  "html": "<strong>Sürekli İyileştirme:</strong> Müşterilerimizden gelen öneri ve düşünceler titizlikle değerlendiriliyor ve sürekli iyileştirme çalışmaları kapsamında kaynak olarak kullanılıyor."
+ }
+]

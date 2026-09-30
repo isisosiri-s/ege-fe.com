@@ -1,0 +1,450 @@
+[
+  {
+    "u": "/",
+    "status": 200,
+    "final": "https://ege-fe.com/",
+    "attempt": 0,
+    "title": "Anasayfa - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/hakkimizda/",
+    "status": 200,
+    "final": "https://ege-fe.com/hakkimizda/",
+    "attempt": 0,
+    "title": "Hakkımızda - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/hizmetler/",
+    "status": 200,
+    "final": "https://ege-fe.com/hizmetler/",
+    "attempt": 0,
+    "title": "Hizmetler - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/hizmet-politikamiz/",
+    "status": 200,
+    "final": "https://ege-fe.com/hizmet-politikamiz/",
+    "attempt": 0,
+    "title": "Hizmet Politikamız - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/kalite-politikamiz/",
+    "status": 200,
+    "final": "https://ege-fe.com/kalite-politikamiz/",
+    "attempt": 0,
+    "title": "Kalite Politikamız - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/kariyer/",
+    "status": 200,
+    "final": "https://ege-fe.com/kariyer/",
+    "attempt": 0,
+    "title": "Kariyer - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/iletisim/",
+    "status": 200,
+    "final": "https://ege-fe.com/iletisim/",
+    "attempt": 0,
+    "title": "İletişim - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/bilgi/",
+    "status": 200,
+    "final": "https://ege-fe.com/bilgi/",
+    "attempt": 0,
+    "title": "Bilgi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/danismanlik/",
+    "status": 200,
+    "final": "https://ege-fe.com/danismanlik/",
+    "attempt": 0,
+    "title": "Danışmanlık - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/ilac/",
+    "status": 200,
+    "final": "https://ege-fe.com/ilac/",
+    "attempt": 0,
+    "title": "İlaç - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/diger/",
+    "status": 200,
+    "final": "https://ege-fe.com/diger/",
+    "attempt": 0,
+    "title": "Diğer - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/saglik-bakanligi-islemleri/",
+    "status": 200,
+    "final": "https://ege-fe.com/saglik-bakanligi-islemleri/",
+    "attempt": 0,
+    "title": "Sağlık Bakanlığı İşlemleri - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/saglik-bakanligi-islemleri/gmp-basvurusu/",
+    "status": 200,
+    "final": "https://ege-fe.com/saglik-bakanligi-islemleri/gmp-basvurusu/",
+    "attempt": 0,
+    "title": "GMP Başvurusu - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/",
+    "status": 200,
+    "final": "https://ege-fe.com/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/",
+    "attempt": 0,
+    "title": "Biyosidal Ruhsatlandırma - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/saglik-bakanligi-islemleri/ilac-fiyatlandirma/",
+    "status": 200,
+    "final": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-fiyatlandirma/",
+    "attempt": 0,
+    "title": "İlaç Fiyatlandırma - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/",
+    "status": 200,
+    "final": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/",
+    "attempt": 0,
+    "title": "İlaç Ruhsatlandırma - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/saglik-bakanligi-islemleri/kub-kt/",
+    "status": 200,
+    "final": "https://ege-fe.com/saglik-bakanligi-islemleri/kub-kt/",
+    "attempt": 0,
+    "title": "KÜB/KT - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/saglik-bakanligi-islemleri/ilac-varyasyon/",
+    "status": 200,
+    "final": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-varyasyon/",
+    "attempt": 0,
+    "title": "İlaç Varyasyon - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/saglik-bakanligi-islemleri/okunabilirlik-testi/",
+    "status": 200,
+    "final": "https://ege-fe.com/saglik-bakanligi-islemleri/okunabilirlik-testi/",
+    "attempt": 0,
+    "title": "Okunabilirlik Testi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/tibbi-cihaz/",
+    "status": 200,
+    "final": "https://ege-fe.com/tibbi-cihaz/",
+    "attempt": 0,
+    "title": "Tıbbi Cihaz - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/tibbi-cihaz/firma-kaydi/",
+    "status": 200,
+    "final": "https://ege-fe.com/tibbi-cihaz/firma-kaydi/",
+    "attempt": 0,
+    "title": "Firma Kaydı - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/tibbi-cihaz/tibbi-cihaz-belge-kaydi/",
+    "status": 200,
+    "final": "https://ege-fe.com/tibbi-cihaz/tibbi-cihaz-belge-kaydi/",
+    "attempt": 0,
+    "title": "Tıbbi Cihaz Belge Kaydı - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/tibbi-cihaz/ubb-e-imza/",
+    "status": 200,
+    "final": "https://ege-fe.com/tibbi-cihaz/ubb-e-imza/",
+    "attempt": 0,
+    "title": "UBB E-İmza - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/tibbi-cihaz/firma-bilgileri-guncelleme/",
+    "status": 200,
+    "final": "https://ege-fe.com/tibbi-cihaz/firma-bilgileri-guncelleme/",
+    "attempt": 0,
+    "title": "Firma Bilgileri Güncelleme - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/tibbi-cihaz/etiket-duzenleme/",
+    "status": 200,
+    "final": "https://ege-fe.com/tibbi-cihaz/etiket-duzenleme/",
+    "attempt": 0,
+    "title": "Etiket Düzenleme - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uts/",
+    "status": 200,
+    "final": "https://ege-fe.com/uts/",
+    "attempt": 0,
+    "title": "ÜTS - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uts/kozmetik-firma-kaydi/",
+    "status": 200,
+    "final": "https://ege-fe.com/uts/kozmetik-firma-kaydi/",
+    "attempt": 0,
+    "title": "Kozmetik Firma Kaydı - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uts/uts-bilgi-guncelleme/",
+    "status": 200,
+    "final": "https://ege-fe.com/uts/uts-bilgi-guncelleme/",
+    "attempt": 0,
+    "title": "ÜTS Bilgi Güncelleme - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uts/tibbi-cihaz-uts-gecisi/",
+    "status": 200,
+    "final": "https://ege-fe.com/uts/tibbi-cihaz-uts-gecisi/",
+    "attempt": 0,
+    "title": "Tıbbi Cihaz ÜTS Geçişi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uts/kozmetik-urun-bildirimi/",
+    "status": 200,
+    "final": "https://ege-fe.com/uts/kozmetik-urun-bildirimi/",
+    "attempt": 0,
+    "title": "Kozmetik Ürün Bildirimi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uts/sorumlu-teknik-eleman/",
+    "status": 200,
+    "final": "https://ege-fe.com/uts/sorumlu-teknik-eleman/",
+    "attempt": 0,
+    "title": "Sorumlu Teknik Eleman - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/diger-hizmetler/",
+    "status": 200,
+    "final": "https://ege-fe.com/diger-hizmetler/",
+    "attempt": 0,
+    "title": "Diğer Hizmetler - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/",
+    "status": 200,
+    "final": "https://ege-fe.com/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/",
+    "attempt": 0,
+    "title": "CE Teknik Dosya Hazırlanması - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/diger-hizmetler/permi-belgesi/",
+    "status": 200,
+    "final": "https://ege-fe.com/diger-hizmetler/permi-belgesi/",
+    "attempt": 0,
+    "title": "Permi Belgesi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/diger-hizmetler/kontrol-belgesi/",
+    "status": 200,
+    "final": "https://ege-fe.com/diger-hizmetler/kontrol-belgesi/",
+    "attempt": 0,
+    "title": "Kontrol Belgesi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/diger-hizmetler/takviye-edici-gida/",
+    "status": 200,
+    "final": "https://ege-fe.com/diger-hizmetler/takviye-edici-gida/",
+    "attempt": 0,
+    "title": "Takviye Edici Gıda - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/ariza-ve-onarim/",
+    "status": 200,
+    "final": "https://ege-fe.com/ariza-ve-onarim/",
+    "attempt": 0,
+    "title": "Arıza ve Onarım - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/periyodik-bakim/",
+    "status": 200,
+    "final": "https://ege-fe.com/periyodik-bakim/",
+    "attempt": 0,
+    "title": "Periyodik Bakım - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/kalibrasyon/",
+    "status": 200,
+    "final": "https://ege-fe.com/kalibrasyon/",
+    "attempt": 0,
+    "title": "Kalibrasyon - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/blog/",
+    "status": 200,
+    "final": "https://ege-fe.com/blog/",
+    "attempt": 0,
+    "title": "Blog - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/eroin-bagimliligi/",
+    "status": 200,
+    "final": "https://ege-fe.com/eroin-bagimliligi/",
+    "attempt": 0,
+    "title": "Eroin Bağımlılığı - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/eroin-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/eroin-nedir/",
+    "attempt": 0,
+    "title": "Eroin Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/opiatlar-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/opiatlar-nedir/",
+    "attempt": 0,
+    "title": "Opiatlar Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/kokain-bagimliligi-tedavisi/",
+    "status": 200,
+    "final": "https://ege-fe.com/kokain-bagimliligi-tedavisi/",
+    "attempt": 0,
+    "title": "Kokain Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uyusturucu-testi-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/uyusturucu-testi-nedir/",
+    "attempt": 0,
+    "title": "Uyuşturucu Testi Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/kokain-bagimliligi/",
+    "status": 200,
+    "final": "https://ege-fe.com/kokain-bagimliligi/",
+    "attempt": 0,
+    "title": "Kokain Bağımlılığı - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uyarici-madde-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/uyarici-madde-nedir/",
+    "attempt": 0,
+    "title": "Uyarıcı Madde Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/esrar-bagimliligi-tedavisi/",
+    "status": 200,
+    "final": "https://ege-fe.com/esrar-bagimliligi-tedavisi/",
+    "attempt": 0,
+    "title": "Esrar Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/esrar-bagimliligi/",
+    "status": 200,
+    "final": "https://ege-fe.com/esrar-bagimliligi/",
+    "attempt": 0,
+    "title": "Esrar Bağımlılığı - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/esrar-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/esrar-nedir/",
+    "attempt": 0,
+    "title": "Esrar Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/trafik-guvenligini-tehlikeye-sokma-sucu/",
+    "status": 200,
+    "final": "https://ege-fe.com/trafik-guvenligini-tehlikeye-sokma-sucu/",
+    "attempt": 0,
+    "title": "Trafik Güvenliğini Tehlikeye Sokma Suçu - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/alkolmetre-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/alkolmetre-nedir/",
+    "attempt": 0,
+    "title": "Alkolmetre Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/uyusturucu-madde-testi/",
+    "status": 200,
+    "final": "https://ege-fe.com/uyusturucu-madde-testi/",
+    "attempt": 0,
+    "title": "Uyuşturucu Madde Testi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/promil-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/promil-nedir/",
+    "attempt": 0,
+    "title": "Promil Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/kokain-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/kokain-nedir/",
+    "attempt": 0,
+    "title": "Kokain Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/ergenlerde-uyusturucu-kullanimi/",
+    "status": 200,
+    "final": "https://ege-fe.com/ergenlerde-uyusturucu-kullanimi/",
+    "attempt": 0,
+    "title": "Ergenlerde Uyuşturucu Kullanımı - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/alkol-bagimliligi/",
+    "status": 200,
+    "final": "https://ege-fe.com/alkol-bagimliligi/",
+    "attempt": 0,
+    "title": "ALKOL BAĞIMLILIĞI - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/madde-bagimliligi-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/madde-bagimliligi-nedir/",
+    "attempt": 0,
+    "title": "Madde Bağımlılığı Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/madde-bagimliligi-tedavisi/",
+    "status": 200,
+    "final": "https://ege-fe.com/madde-bagimliligi-tedavisi/",
+    "attempt": 0,
+    "title": "Madde Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/alkollu-arac-kullanmak/",
+    "status": 200,
+    "final": "https://ege-fe.com/alkollu-arac-kullanmak/",
+    "attempt": 0,
+    "title": "Alkollü Araç Kullanmak - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/ekstazi-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/ekstazi-nedir/",
+    "attempt": 0,
+    "title": "Ekstazi Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/metamfetamin-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/metamfetamin-nedir/",
+    "attempt": 0,
+    "title": "Metamfetamin Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/amfetamin-nedir/",
+    "status": 200,
+    "final": "https://ege-fe.com/amfetamin-nedir/",
+    "attempt": 0,
+    "title": "Amfetamin Nedir? - Egefe Sağlık Bilişim A.Ş."
+  },
+  {
+    "u": "/category/saglik/",
+    "status": 200,
+    "final": "https://ege-fe.com/category/saglik/",
+    "attempt": 0,
+    "title": "Sağlık - Egefe Sağlık Bilişim A.Ş."
+  }
+]

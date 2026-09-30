@@ -1,0 +1,64 @@
+﻿OK  200 / → Anasayfa - Egefe Sağlık Bilişim A.Ş.
+OK  200 /hakkimizda/ → Hakkımızda - Egefe Sağlık Bilişim A.Ş.
+OK  200 /hizmetler/ → Hizmetler - Egefe Sağlık Bilişim A.Ş.
+OK  200 /hizmet-politikamiz/ → Hizmet Politikamız - Egefe Sağlık Bilişim A.Ş.
+OK  200 /kalite-politikamiz/ → Kalite Politikamız - Egefe Sağlık Bilişim A.Ş.
+OK  200 /kariyer/ → Kariyer - Egefe Sağlık Bilişim A.Ş.
+OK  200 /iletisim/ → İletişim - Egefe Sağlık Bilişim A.Ş.
+OK  200 /bilgi/ → Bilgi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /danismanlik/ → Danışmanlık - Egefe Sağlık Bilişim A.Ş.
+OK  200 /ilac/ → İlaç - Egefe Sağlık Bilişim A.Ş.
+OK  200 /diger/ → Diğer - Egefe Sağlık Bilişim A.Ş.
+OK  200 /saglik-bakanligi-islemleri/ → Sağlık Bakanlığı İşlemleri - Egefe Sağlık Bilişim A.Ş.
+OK  200 /saglik-bakanligi-islemleri/gmp-basvurusu/ → GMP Başvurusu - Egefe Sağlık Bilişim A.Ş.
+OK  200 /saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/ → Biyosidal Ruhsatlandırma - Egefe Sağlık Bilişim A.Ş.
+OK  200 /saglik-bakanligi-islemleri/ilac-fiyatlandirma/ → İlaç Fiyatlandırma - Egefe Sağlık Bilişim A.Ş.
+OK  200 /saglik-bakanligi-islemleri/ilac-ruhsatlandirma/ → İlaç Ruhsatlandırma - Egefe Sağlık Bilişim A.Ş.
+OK  200 /saglik-bakanligi-islemleri/kub-kt/ → KÜB/KT - Egefe Sağlık Bilişim A.Ş.
+OK  200 /saglik-bakanligi-islemleri/ilac-varyasyon/ → İlaç Varyasyon - Egefe Sağlık Bilişim A.Ş.
+OK  200 /saglik-bakanligi-islemleri/okunabilirlik-testi/ → Okunabilirlik Testi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /tibbi-cihaz/ → Tıbbi Cihaz - Egefe Sağlık Bilişim A.Ş.
+OK  200 /tibbi-cihaz/firma-kaydi/ → Firma Kaydı - Egefe Sağlık Bilişim A.Ş.
+OK  200 /tibbi-cihaz/tibbi-cihaz-belge-kaydi/ → Tıbbi Cihaz Belge Kaydı - Egefe Sağlık Bilişim A.Ş.
+OK  200 /tibbi-cihaz/ubb-e-imza/ → UBB E-İmza - Egefe Sağlık Bilişim A.Ş.
+OK  200 /tibbi-cihaz/firma-bilgileri-guncelleme/ → Firma Bilgileri Güncelleme - Egefe Sağlık Bilişim A.Ş.
+OK  200 /tibbi-cihaz/etiket-duzenleme/ → Etiket Düzenleme - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uts/ → ÜTS - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uts/kozmetik-firma-kaydi/ → Kozmetik Firma Kaydı - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uts/uts-bilgi-guncelleme/ → ÜTS Bilgi Güncelleme - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uts/tibbi-cihaz-uts-gecisi/ → Tıbbi Cihaz ÜTS Geçişi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uts/kozmetik-urun-bildirimi/ → Kozmetik Ürün Bildirimi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uts/sorumlu-teknik-eleman/ → Sorumlu Teknik Eleman - Egefe Sağlık Bilişim A.Ş.
+OK  200 /diger-hizmetler/ → Diğer Hizmetler - Egefe Sağlık Bilişim A.Ş.
+OK  200 /diger-hizmetler/ce-teknik-dosya-hazirlanmasi/ → CE Teknik Dosya Hazırlanması - Egefe Sağlık Bilişim A.Ş.
+OK  200 /diger-hizmetler/permi-belgesi/ → Permi Belgesi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /diger-hizmetler/kontrol-belgesi/ → Kontrol Belgesi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /diger-hizmetler/takviye-edici-gida/ → Takviye Edici Gıda - Egefe Sağlık Bilişim A.Ş.
+OK  200 /ariza-ve-onarim/ → Arıza ve Onarım - Egefe Sağlık Bilişim A.Ş.
+OK  200 /periyodik-bakim/ → Periyodik Bakım - Egefe Sağlık Bilişim A.Ş.
+OK  200 /kalibrasyon/ → Kalibrasyon - Egefe Sağlık Bilişim A.Ş.
+OK  200 /blog/ → Blog - Egefe Sağlık Bilişim A.Ş.
+OK  200 /eroin-bagimliligi/ → Eroin Bağımlılığı - Egefe Sağlık Bilişim A.Ş.
+OK  200 /eroin-nedir/ → Eroin Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /opiatlar-nedir/ → Opiatlar Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /kokain-bagimliligi-tedavisi/ → Kokain Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uyusturucu-testi-nedir/ → Uyuşturucu Testi Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /kokain-bagimliligi/ → Kokain Bağımlılığı - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uyarici-madde-nedir/ → Uyarıcı Madde Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /esrar-bagimliligi-tedavisi/ → Esrar Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /esrar-bagimliligi/ → Esrar Bağımlılığı - Egefe Sağlık Bilişim A.Ş.
+OK  200 /esrar-nedir/ → Esrar Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /trafik-guvenligini-tehlikeye-sokma-sucu/ → Trafik Güvenliğini Tehlikeye Sokma Suçu - Egefe Sağlık Bilişim A.Ş.
+OK  200 /alkolmetre-nedir/ → Alkolmetre Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /uyusturucu-madde-testi/ → Uyuşturucu Madde Testi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /promil-nedir/ → Promil Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /kokain-nedir/ → Kokain Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /ergenlerde-uyusturucu-kullanimi/ → Ergenlerde Uyuşturucu Kullanımı - Egefe Sağlık Bilişim A.Ş.
+OK  200 /alkol-bagimliligi/ → ALKOL BAĞIMLILIĞI - Egefe Sağlık Bilişim A.Ş.
+OK  200 /madde-bagimliligi-nedir/ → Madde Bağımlılığı Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /madde-bagimliligi-tedavisi/ → Madde Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş.
+OK  200 /alkollu-arac-kullanmak/ → Alkollü Araç Kullanmak - Egefe Sağlık Bilişim A.Ş.
+OK  200 /ekstazi-nedir/ → Ekstazi Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /metamfetamin-nedir/ → Metamfetamin Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /amfetamin-nedir/ → Amfetamin Nedir? - Egefe Sağlık Bilişim A.Ş.
+OK  200 /category/saglik/ → Sağlık - Egefe Sağlık Bilişim A.Ş.

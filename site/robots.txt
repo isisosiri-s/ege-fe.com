@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /inc/
+Disallow: /form/
+
+Sitemap: https://ege-fe.com/sitemap.xml

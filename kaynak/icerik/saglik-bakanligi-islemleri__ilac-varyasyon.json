@@ -1,0 +1,26 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/Basliksiz-1.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/Basliksiz-1.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "İlaç Varyasyon Başvuruları ve Takibi"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Güncel varyasyon kılavuzu doğrultusunda varyasyon kapsamının (Tip IA, Tip IB, Tip II) belirlenmesi ve varyasyon dosyasının hazırlanması"
+  ]
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Varyasyon dosyalarının regülasyonlara uygun olarak e-başvurusunun yapılması",
+   "Dosyanın işlemler sonuçlanıncaya kadar takip edilmesi"
+  ]
+ }
+]

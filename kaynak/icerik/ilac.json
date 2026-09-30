@@ -1,0 +1,61 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Consultancy Innovations"
+ },
+ {
+  "t": "card",
+  "title": "Solicitory & Advocacy",
+  "text": "Nanotechnology immersion along the information highway will close the loop on focusing solely on the line.",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Organizations & Planning",
+  "text": "Seamlessly empower fully researched growth strategies and interoperable internal or \"organic\" sources.",
+  "href": ""
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Client Success"
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Businesses advised"
+ },
+ {
+  "t": "p",
+  "html": "Completely pursue scalable customer service through scalable proactive metrics.",
+  "sub": true
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Guides given"
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Awards achieved"
+ },
+ {
+  "t": "p",
+  "html": "Seamlessly empower fully researched growth strategies and interoperable organic sources.",
+  "sub": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/05/img-white-corner-top-right.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/05/img-white-corner-top-right.png",
+  "deco": true
+ }
+]

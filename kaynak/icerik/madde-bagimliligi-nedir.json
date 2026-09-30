@@ -1,0 +1,117 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Madde Bağımlılığı Nedir?"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/02/Screenshot_9.png",
+  "alt": "Madde Bağımlılığı Nedir?",
+  "cap": "Madde Bağımlılığı Nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Bağımlılık <a href=\"http://sozluk.gov.tr\">TDK</a>‘ya göre ‘bağımlı olma durumu’ olarak tanımlanmaktadır. Bağımlılık; Herhangi bir uyuşturucu maddenin ruhsal, fiziksel ya da sosyal sorunlara yol açmasına rağmen, alımının yapılması, bırakma arzusuna karşılık kullanıma devam edilmesi ve maddeyi alma isteğinin durdurulamaması olarak tanımlanabilir. Madde bağımlılığı sosyal statü fark etmeksizin her düzeyde ve her toplumda görülebilir. Günümüzde madde bağımlılığı özellikle gençler ve yetişkinler için oldukça önemli ve büyük bir sorun haline gelmiştir. Madde bağımlılığı günümüzde oldukça artmış ve kullanım yaşı günden güne düşmektedir."
+ },
+ {
+  "t": "p",
+  "html": "Bağımlı olunan madde kişiyi esir alarak, kişinin aklını ve iradesini çalışmaz hale getirir buda çeşitli büyük sorunlara yol açmaktadır. Kişi büyük bir irade gösteremezse hayat boyu sürecek olan hastalıklı bedeni ile yaşayacaktır."
+ },
+ {
+  "t": "p",
+  "html": "Madde bağımlılığının kişi üzerinde etkilediği en önemli durum ise kişinin sosyal hayatına direk olarak etki etmesidir. Madde tesiri altında kalan kişi sosyal çevresini ve yakın arkadaşlarını kaybeder. Bunun yanı sıra aile içerisinde bu durum hoş karşılanmayacak ve büyük ailesel sorunlara yol açacaktır. Kişi bu noktada hem kendisinin hem de ailesinin hayatını adeta bir düğüm haline getirecek ve ruhsal, fiziksel ve ekonomik olarak kendini zor duruma sokmuş olacaktır. Aklı ve iradesi çalışmayacak seviyede olan madde bağımlısı kişinin hayatı artık bağımlı olduğu madde etrafında dönecektir."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Bağımlılık Yapıcı Madde Kullanım Nedenleri?"
+ },
+ {
+  "t": "p",
+  "html": "Madde bağımlılığı olan kişilerin başlama sebeplerinin arasında ilk olarak merak duygusu gelmektedir. Merak duygusu özellikle ergenler için sorun teşkil etmekte olup bu merak onları yeni arayışlar içine sokar. Bu merak duygusu genellikle ergenlerin arkadaş ortamında bir fikir olarak ortaya çıkmaktadır. Arkadaş ortamlarında yaşadıkları arkadaş baskısı ve gruptan dışlanma korkusu ile kendilerini kanıtlamak isterler. Özellikle ergenlik çağlarında gelen kendini farklı gösterme ve beğeni toplama isteği uyuşturucu maddeye kolay erişe bilirlik sebebi ile büyük sorun teşkil etmektedir."
+ },
+ {
+  "t": "p",
+  "html": "Aynı durum yetişkinler içinde geçerlidir. Madde bağımlısı kişilerin ortak özellikleri hayatlarında kaygı, depresyon, başarısızlık ve güvensizlik yaşamasıdır. Karşılaşmış olduğu bu problemleri madde bağımlılığına sığınarak çözmek isterler. Bir nevi uyuşturucu maddeler onlar için kurtarıcı olarak nitelendirilir."
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Madde Bağımlılığının Zararları"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Bedensel Sorunlar",
+   "Ruhsal Sorunlar",
+   "Sosyal Sorunlar"
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 5,
+  "text": "Bedensel Sorunlar"
+ },
+ {
+  "t": "p",
+  "html": "Madde bağımlılığı birçok bedensel soruna yol açmaktadır. Direkt olarak merkezi sinir sitemini etkileyen uyuşturucu maddeler, dikkat eksikliğine yol açarak zaman ve mekan kavramlarını etkiler."
+ },
+ {
+  "t": "ol",
+  "items": [
+   "Karın ağrıları, Ülser, Siroz, Nefes Darlığı, Karın Ağrıları, Kabızlık, İshal, Kansızlık, Kan Kanserleri, Böbrek Hastalıkları, Kanın Pıhtılaşması, Cinsel Fonksiyon Bozuklukları, Solunum Felçleri v.b",
+   "Yaralar, Cilt Hastalıkları, Saç Dökülmeleri",
+   "Hareket Bozukluları",
+   "Konuşma Bozukları",
+   "Baygınlık Nöbetleri",
+   "Kilo Kaybı",
+   "Hafıza Kaybı"
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 5,
+  "text": "Ruhsal Sorunlar"
+ },
+ {
+  "t": "ol",
+  "items": [
+   "Depresyon",
+   "Kaygı",
+   "Şüpheler",
+   "Uyku Bozuklukları",
+   "Yalan Söyleme",
+   "Konsantrasyon Eksikliği",
+   "Gelecek Kaygısı Taşmama",
+   "Ruhsal Değişimler"
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 5,
+  "text": "Sosyal Sorunlar"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Ailesel Sorunlar",
+   "Sosyal Çevre Arkadaş Sorunları",
+   "Ekonomik Sorunlar",
+   "Toplumsal Sorunlar",
+   "Eğitim Sorunları olarak belirlenebilir."
+  ]
+ },
+ {
+  "t": "p",
+  "html": "Dikkat edilmesi gereken ön önemli nokta bağımlılık, oldukça uzun süreçlerde tedavi edilebilecek bir rahatsızlıktır. Bunun için kişi, ailesi ve yakın çevresi sakin ve iradeli davranmalıdır çünkü tedavi önemli olduğu gibi tedavi sonrası süreçte oldukça hayati bir öneme sahiptir. Kişi kendini eksik hissettiği noktada tekrardan aradığı çözümün bu maddelerde olduğunu düşünerek tekrardan bu maddelerin tesiri altına girebilir ve bağımlılık süreci tekrardan başlayabilir."
+ },
+ {
+  "t": "p",
+  "html": "Bu sebeple madde bağımlısı olan kişinin ailesi bu konuda ona destek olmalı, yargılamamalı ve kesinlikle eleştirmemelidir. Aile olarak duygularınızı kontrol altına almalı ve olayları gerçekçi bir şekilde yaklaşmalısınız ve tedavi sürecinde yardımcı olmalısınız…"
+ },
+ {
+  "t": "p",
+  "html": "Yazımızda sizler için madde bağımlılığı nedir? sorusunun cevabını vermeye çalıştık. Sitemizin <a href=\"https://ege-fe.com/blog\">Blog</a> sayfasını ziyaret ederek çeşitli makalelere ulaşabilirsiniz."
+ }
+]

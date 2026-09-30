@@ -1,0 +1,19 @@
+{
+  "name": "web-page-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "php -S localhost:8080 -t site tools/dev-router.php",
+    "build": "node tools/build.mjs",
+    "scrape": "node tools/scrape.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  },
+  "private": true
+}

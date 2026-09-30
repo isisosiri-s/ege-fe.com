@@ -1,0 +1,26 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Sorumlu Teknik Eleman (STE) Kimdir?"
+ },
+ {
+  "t": "p",
+  "html": "Eczacı veya kozmetik alanında iki yıl fiilen çalışmış olduğunu belgelemek kaydıyla kimyager, biyokimyager, kimya mühendisi, biyolog veya mikrobiyolog <em>sorumlu teknik eleman</em> olarak görevlendirilebilir. <em>Sorumlu teknik eleman</em>, piyasaya arz edilecek ürünün kozmetik mevzuatı, iyi imalat uygulamaları ve ilgili diğer mevzuata uygunluğunun kontrolünden sorumludur."
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Sorumlu Teknik Eleman (STE) Zorunlu Mu?"
+ },
+ {
+  "t": "p",
+  "html": "5324 Sayılı Kozmetik Kanunu gereği hizmetin gerektirdiği nitelikte personeli istihdam etmeyen üreticiye onbin Türk Lirası para cezası verilir."
+ }
+]

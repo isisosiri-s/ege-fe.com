@@ -1,0 +1,65 @@
+# ege-fe.com — Apache (cPanel) ayarları
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+ErrorDocument 404 /404.php
+AddDefaultCharset UTF-8
+AddType font/woff2 .woff2
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# 1) https + www'suz alan adı (canonical: https://ege-fe.com)
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://ege-fe.com%{REQUEST_URI} [L,R=301,NE]
+
+# 2) Dahili klasörlere doğrudan erişim yok
+RewriteRule ^inc/ - [F,L]
+
+# 3) index.php'yi gizle: /x/index.php → /x/
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.php[\s?] [NC]
+RewriteRule ^(.*/)?index\.php$ /$1 [L,R=301,NE]
+
+# 4) Eski sayfalama adresleri → /blog/ (23 yazı tek sayfada)
+RewriteRule ^blog/page/[0-9]+/?$ /blog/ [L,R=301]
+RewriteRule ^category/saglik/page/[0-9]+/?$ /blog/ [L,R=301]
+# 5 yazı "saglik" kategorisine taşındı; boş "kategorisiz" arşivi → Sağlık kategorisi
+RewriteRule ^category/kategorisiz(/.*)?$ /category/saglik/ [L,R=301]
+
+# /diger/ aynı içeriği taşıyordu → Diğer Hizmetler
+RewriteRule ^diger/?$ /diger-hizmetler/ [L,R=301]
+
+# 5) Klasör adreslerinde sonda / zorunlu
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ /$1/ [L,R=301,NE]
+
+# 6) WordPress'in boyutlu görsel varyantları (ör. -640x427.jpg) → orijinal dosya
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(wp-content/uploads/.+)-[0-9]+x[0-9]+\.(jpe?g|png|gif|webp)$ /$1.$2 [L,R=301,NC]
+</IfModule>
+
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Strict-Transport-Security "max-age=31536000"
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/xml text/xml application/manifest+json
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+<FilesMatch "\.(json|md|mjs)$">
+Require all denied
+</FilesMatch>

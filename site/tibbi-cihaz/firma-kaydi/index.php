@@ -1,0 +1,23 @@
+<?php
+// ÜRETİLDİ: tools/build.mjs
+$yol = '/tibbi-cihaz/firma-kaydi/';
+require __DIR__ . '/../../inc/header.php';
+?>
+<div class="kap icerik-duzen">
+  <article class="metin">
+    <figure class="banner"><img src="/wp-content/uploads/2022/01/uts-1.jpg" alt="Firma Kaydı" width="1000" height="666" decoding="async"></figure>
+<h2>UBB firma kaydı nasıl yapılır?</h2>
+<p>Türkiye Cumhuriyeti sınırları içinde, ilaç ve/veya tıbbi cihaz üretimi, ithalatı, ihracatı yapan veya bir yabancı firmanın Türkiye yetkili temsilcisi olarak faaliyet gösteren her türlü tüzel kişilerle, bu kişilerin ürünlerinin dağıtımını yetki ile üstlenmiş diğer tüzel kişilerdir.</p>
+<p>Danışmanlık ve bilgi için lütfen bizimle <a href="/iletisim/">iletişime</a> geçin.</p>
+<h2>Tedarikçi Firma nedir?</h2>
+<p>Türkiye’de ilaç ve/veya tıbbi cihaz alanında, üretici (imalatçı), ithalatçı veya yetkili temsilci olarak faaliyet gösteren tüzel kişidir. Tıbbi cihaz üretici ve ithalatçı firmaların TİTUBB sistemi üzerinden firma kayıt işlemleri tamamlanmadan belge (uygunluk beyanı, CE belgesi, kullanım kılavuzu vs) / ürün (TITUBB sisteminde firmanın satışını gerçekleştirdiği tıbbi cihaza ‘ürün’ denilmektedir.) / bayi kayıtları yapılmamaktadır.</p>
+<h2>Firma Faaliyet Alanı nasıl seçilir?</h2>
+<p>TITUBB’da faaliyet gösterecek firmaların, Türkiye’de ticari faaliyetini sürdürdükleri alan seçimidir. Firma kaydı sırasında açılan faaliyet menüsünden bir veya birden fazla alan seçilerek kayıt yapılmaktadır.</p>
+<h2>Firma Tanımlayıcı Numarası nedir?</h2>
+<p>Firmalara sistem tarafından verilen ve firmanın TİTUBB içerisinde tek olarak tanımlanmasında anahtar olarak kullanılan veri alanıdır. TITUBB sisteminde firmalara, firma tanımlayıcı numarası tanımlaması yapılmaktadır.</p>
+<p>29.10.2018 tarih itibariyle TİTUBB tamamen kapatılacak olup bu tarihe kadar yapılmış ÜTS başvurularının incelenmesini müteakip, ihale ve geri ödeme gibi tüm süreçler ÜTS esas alınarak devam edecektir.</p>
+  </article>
+  <?php $hub = '/tibbi-cihaz/'; require __DIR__ . '/../../inc/kenar-hizmet.php'; ?>
+</div>
+<?php require __DIR__ . '/../../inc/cta.php'; ?>
+<?php require __DIR__ . '/../../inc/footer.php'; ?>

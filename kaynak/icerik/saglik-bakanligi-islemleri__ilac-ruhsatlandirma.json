@@ -1,0 +1,59 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/Basliksiz-1.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/Basliksiz-1.jpg",
+  "deco": true
+ },
+ {
+  "t": "p",
+  "html": "02.11.2011 tarihli ve 28103 sayılı Resmi Gazetede yayımlanan “Sağlık Bakanlığı ve Bağlı Kuruluşlarının Teşkilat ve Görevleri Hakkında Kanun Hükmünde Kararname” kapsamında Türkiye’de ilaçların ruhsatlandırılması, üretimi, depolanması, satışı, ithalatı, ihracatı, piyasaya arzı, dağıtımı, hizmete sunulması, toplatılması ve kullanımları ile ilgili kural ve standartları belirlemek, bu faaliyetleri yürütecek kamu ve özel hukuk tüzel kişileri ile gerçek kişilere izin vermek, ruhsatlandırmak, denetlemek ve gerektiğinde yaptırım uygulamak, laboratuvar analizlerini yapmak veya yaptırmak üzere yetkili makam “Türkiye İlaç ve Tıbbi Cihaz Kurumu”dur."
+ },
+ {
+  "t": "p",
+  "html": "TİTCK tarafından ruhsatlandırılmayan hiçbir beşeri tıbbi ürün pazara sunulamaz ve Türkiye sınırları dahilinde yerleşik bulunan gerçek veya tüzel kişiler, bir ürünü pazara sunmak amacıyla ruhsat alabilmek için Beşeri Tıbbi Ürünler Ruhsatlandırma Yönetmeliğinin Ek-1’inde belirtilen tıbbi ürün ruhsat başvurusunda sunulması gereken bilgi ve belgeleri, her bir farmasötik form için hazırlayarak Bakanlığa sunmak zorundadır."
+ },
+ {
+  "t": "p",
+  "html": "Ruhsat başvuru dosyalarının hazırlanmasında, Ortak Teknik Doküman (Common Technical Document, CTD) kılavuzunun takip edilmesi gerekmektedir. CTD, üç ICH (International Conference on Harmonisation) bölgesi olan Avrupa, ABD ve Japonya’daki ilaç ruhsatlandırma makamlarına yapılacak başvuruların planlı şekilde sunulmasını hedefleyen ve uluslararası alanda üzerinde uzlaşmaya varılan bir formattır."
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "Genel İlaç Ruhsatlandırma Süreci"
+ },
+ {
+  "t": "img",
+  "src": "https://egefe.provega.com.tr/wp-content/uploads/2022/01/ilac.jpg",
+  "alt": ""
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "İlaç Ruhsat alım ve İlaç Varyasyon Başvuru Prosedürü"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "İlaç ruhsat alımı ( Geleneksel Bitkisel Tıbbi Ürünler, Reçeteli/reçetesiz İlaç,CTD başvuru ve dosya takibi )",
+   "<em>İlaç varyasyon</em> başvuruları ve takibi",
+   "KÜB/KT başvuruları ve takibi",
+   "GMP başvurusu, takibi ve denetim organizasyonu,",
+   "İlaç fiyat başvurusu ve takibi",
+   "Satış izni alımı,",
+   "Ruhsat devri",
+   "Ruhsat yenileme",
+   "İthalat izin belgesi alımı,",
+   "İthalat geri bildirimlerin yapılması,",
+   "İlaç tanıtım başvurusu yapılması",
+   "Bedelsiz numune izni alınması",
+   "Zayi ruhsat başvurusu",
+   "İthalden, imale geçiş başvurusu",
+   "CPP başvurusu ve takibi",
+   "Serbest satış sertifikası (FSC) alımı",
+   "SGK başvuru dosyası takibi",
+   "Ek-4 A listesinde pasiflenen ürünün aktiflenmesi",
+   "İskonto muafiyeti başvuruları"
+  ]
+ }
+]

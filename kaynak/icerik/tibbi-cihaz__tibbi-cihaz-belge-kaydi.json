@@ -1,0 +1,56 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "UBB Kaydı İçin Gerekli Evraklar"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "CE Sertifikası",
+   "Uygunluk Beyanı",
+   "Kullanım Kılavuzu"
+  ]
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Etiket Örneği",
+   "Ürün Kataloğu",
+   "Yetki Belgesi"
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "Kayıt için hangi evraklar gönderilecektir?"
+ },
+ {
+  "t": "p",
+  "html": "Firmaların sisteme kaydının onaylanması için aşağıdaki evrakların gönderilmesi gerekmektedir."
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Firma imza sirkülerinin aslı",
+   "Taahhütname",
+   "AT Uygunluk Beyanı (Deklarasyon)aslı ve yeminli tercümesi",
+   "EC Sertifikası’nın aslı, noter onaylı kopyası,konsolosluk onaylı kopyası veya Türkak onaylı kopyası (aslı ve yeminli Türkçe çevirisi olmak üzere)",
+   "Türkçe Etiket Örneği ve Türkçe Kullanma Kılavuzu"
+  ]
+ },
+ {
+  "t": "p",
+  "html": "Sağlık Bakanlığı’na dilekçe ile gönderilecektir. Ürünlerle ilgili doküman, girilen bilgilerle karşılaştırılarak yönetmeliklere uygunluğu kontrol edildikten sonra Sağlık Bakanlığı tarafından onay verilecektir."
+ },
+ {
+  "t": "p",
+  "html": "29.10.2018 tarih itibariyle <em>TİTUBB</em> tamamen kapatılacak olup bu tarihe kadar yapılmış ÜTS başvurularının incelenmesini müteakip, ihale ve geri ödeme gibi tüm süreçler ÜTS esas alınarak devam edecektir. <em>ActeCo</em> Danışmanlık olarak firmanızın zarar etmemesi sürdürebilirliğinin koruması adına ürünlerin ÜTS geçişleri ile ilgili paydaşlarımıza hizmet vermekteyiz."
+ }
+]

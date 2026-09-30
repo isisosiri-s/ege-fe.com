@@ -1,0 +1,43 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Kalite Politikamız"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/kalite-politikamiz.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/kalite-politikamiz.jpg",
+  "deco": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "deco": true
+ },
+ {
+  "t": "quote",
+  "html": "<strong>Egefe</strong> olarak kalite ve müşteri memnuniyetini temel alıyor, sürekli olarak iyileştirme prensiplerini uyguluyoruz. Bu çerçevede ekip arkadaşlarımız, paydaşlarımız ve müşterilerimizle tüm süreçlerde uçtan uca kapsamlı bir kalite politikası uygulamaktayız."
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Sadece kaliteli, akredite kuruluşlar tarafından onaylı, yasal koşulları tam olarak sağlayan, <strong>Egefe</strong> kalite prosedürlerine uygun, sağlıklı ve güvenli ürünleri satışa sunuyoruz.",
+   "Ürünlerin test raporlarını ve firmaların kalite belgelerini inceleyerek yalnızca ulusal ve uluslararası akreditasyon kuruluşlarınca onaylanmış ürünleri sizlere ulaştırıyoruz.",
+   "Yedek parça ve ürünleri sadece üreticiden ya da üreticinin yetkilendirdiği distribütör ve/veya bayilerden temin ediyoruz.",
+   "Yalnızca orijinal ürünler ile sizlerle hizmet sağlıyoruz.",
+   "Bilimsel verilerle; nitelikli, kaliteli, sağlıklı bir ürünün nasıl olması gerektiğini anlatıyoruz.",
+   "İş süreçlerimizin hiçbir aşamasında kaliteden ödün vermiyoruz."
+  ]
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Müşteri memnuniyetini kalite politikamızın ana unsurlarından biri olarak benimsiyoruz.",
+   "Müşteri deneyimini ve geri bildirimlerinizi temel alıyoruz.",
+   "Yenilikçi anlayışla, teknolojik gelişmelere göre araçlarımızı ve süreçlerimizi iyileştiriyoruz.",
+   "Tedarikçilerimizin, paydaşlarımızın ve firmamızın üretim ve hizmet süreçlerini kalite politikamız doğrultusunda sürekli olarak iyileştirmeye çalışıyoruz."
+  ]
+ }
+]

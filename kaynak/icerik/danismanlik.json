@@ -1,0 +1,118 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Avantage Services"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-12-1280x854.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-12-1280x854.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Financial Consultancy"
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Solicitory Consultancy"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-15-1280x854.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-15-1280x854.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "HR Consultancy"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-04-1280x854.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-04-1280x854.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Arıza ve Onarım"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-13-1280x854.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-13-1280x854.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Periyodik Bakım"
+ },
+ {
+  "t": "p",
+  "html": "Seamlessly empower fully researched growth strategies and interoperable internal or organic resource-leveling customer services."
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-14-1280x854.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2017/04/blog-post-14-1280x854.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Kalibrasyon"
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Affordable Consulting"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Basic website checkup",
+   "SEO recommendations",
+   "Google Ads recommendations",
+   "W3C Validator recommendations"
+  ]
+ },
+ {
+  "t": "btn",
+  "text": "Purchase now",
+  "href": "#"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Website checkup (W3C included)",
+   "SEO changes",
+   "Google Ads basic plan",
+   "Social Media plan"
+  ]
+ },
+ {
+  "t": "btn",
+  "text": "Purchase now",
+  "href": "#"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Website checkup (W3C included)",
+   "SEO changes",
+   "Google Ads marketing plan",
+   "Social Media marketing plan"
+  ]
+ },
+ {
+  "t": "btn",
+  "text": "Purchase now",
+  "href": "#"
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "Egefe Sağlık Bilişim A.Ş.",
+  "short_name": "Egefe",
+  "icons": [
+    { "src": "/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#1d7d95",
+  "background_color": "#ffffff",
+  "display": "browser"
+}

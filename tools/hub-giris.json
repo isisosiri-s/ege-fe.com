@@ -1,0 +1,62 @@
+{
+  "/hizmetler/": {
+    "kaynak": "mevcut metin (anasayfa 'Sorunsuz Teknik Destek' ve 'Bakım, Onarım, Kalibrasyon' kartı)",
+    "giris": "Egefe 10 yılı aşkın süredir; Uyuşturucu tespit cihazı, tespit kiti ve alkolmetrelerin hem satışını hem de yetkili servis hizmetini sizlere sunuyor... Cihazlarınızın bakım, onarım ve kalibrasyon hizmetlerinin yanında doğrudan cihaz temin edebileceğiniz yetkili kuruluştur.",
+    "kisa": "Arıza ve onarım, periyodik bakım ve kalibrasyon hizmetleri.",
+    "aciklama": "Uyuşturucu tespit cihazı, tespit kiti ve alkolmetreler için yetkili servis: arıza ve onarım, periyodik bakım ve kalibrasyon hizmetleri."
+  },
+  "/danismanlik/": {
+    "kaynak": "mevcut metin (anasayfa 'Sektörel Danışmanlık' kartı)",
+    "giris": "10 yılı aşkın süredir sektörde bulunan Egefe, tecrübe ve bilgi birikimlerini sizlere aktarıyor. Sağlık sektöründeki öncü danışmanınız…",
+    "kisa": "",
+    "aciklama": "ÜTS, tıbbi cihaz, Sağlık Bakanlığı işlemleri, permi, CE teknik dosya, takviye edici gıda ve kontrol belgesi süreçlerinde sektörel danışmanlık."
+  },
+  "/uts/": {
+    "kaynak": "mevcut metin (ÜTS sayfasının kendi tanım paragrafları)",
+    "giris": "ÜTS, Ürün Takip Sistemi anlamına gelen bir kısaltmadır. Bu kısaltma; 7 Ocak 2014 tarihinde T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu (TİTCK) ile TÜBİTAK-BİLGEM-YTE (Yazılım Teknolojileri Araştırma Enstitüsü) arasında imzalanan Ürün Takip Sistemi Projesi için kullanılmaktadır. Ürün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır.",
+    "kisa": "Kozmetik firma kaydı, sorumlu teknik eleman, kozmetik ürün bildirimi, ÜTS bilgi güncelleme ve tıbbi cihaz ÜTS geçişi.",
+    "aciklama": "ÜTS (Ürün Takip Sistemi) danışmanlığı: kozmetik firma kaydı, sorumlu teknik eleman, kozmetik ürün bildirimi, ÜTS bilgi güncelleme ve tıbbi cihaz ÜTS geçişi."
+  },
+  "/tibbi-cihaz/": {
+    "kaynak": "YENİ METİN — onayınıza sunulacak",
+    "giris": "Tıbbi cihaz üreticisi, ithalatçısı ve yetkili temsilcisi firmaların firma kaydı, firma bilgileri güncelleme, UBB e-imza, tıbbi cihaz belge kaydı ve etiket düzenleme işlemlerinde danışmanlık hizmeti veriyoruz.",
+    "kisa": "Firma kaydı, firma bilgileri güncelleme, UBB e-imza, belge kaydı ve etiket düzenleme.",
+    "aciklama": "Tıbbi cihaz danışmanlığı: UBB/TİTUBB firma kaydı, firma bilgileri güncelleme, UBB e-imza, tıbbi cihaz belge kaydı ve etiket düzenleme işlemleri."
+  },
+  "/saglik-bakanligi-islemleri/": {
+    "kaynak": "YENİ METİN — onayınıza sunulacak",
+    "giris": "İlaç ruhsatlandırma, ilaç varyasyon, ilaç fiyatlandırma, biyosidal ruhsatlandırma, GMP başvurusu, KÜB/KT ve okunabilirlik testi başvurularınızın hazırlanması ve takibinde danışmanlık hizmeti veriyoruz.",
+    "kisa": "İlaç ruhsatlandırma, varyasyon, fiyatlandırma, biyosidal ruhsat, GMP, KÜB/KT ve okunabilirlik testi.",
+    "aciklama": "Sağlık Bakanlığı işlemleri: ilaç ruhsatlandırma, varyasyon, fiyatlandırma, biyosidal ruhsatlandırma, GMP başvurusu, KÜB/KT ve okunabilirlik testi."
+  },
+  "/diger-hizmetler/": {
+    "kaynak": "YENİ METİN — onayınıza sunulacak",
+    "giris": "Permi belgesi, CE teknik dosya hazırlanması, takviye edici gıda ve kontrol belgesi başvurularınızın hazırlanması ve takibinde danışmanlık hizmeti veriyoruz.",
+    "kisa": "Permi belgesi, CE teknik dosya, takviye edici gıda ve kontrol belgesi.",
+    "aciklama": "Permi belgesi, CE teknik dosya hazırlanması, takviye edici gıda ve kontrol belgesi başvurularında danışmanlık hizmeti."
+  },
+  "/ilac/": {
+    "kaynak": "YENİ METİN — onayınıza sunulacak",
+    "giris": "İlaç ruhsatlandırma, ilaç varyasyon, ilaç fiyatlandırma, KÜB/KT, okunabilirlik testi ve GMP başvurusu süreçlerinde danışmanlık hizmeti veriyoruz.",
+    "kisa": "",
+    "aciklama": "İlaç danışmanlığı: ilaç ruhsatlandırma, varyasyon ve fiyatlandırma başvuruları, KÜB/KT, okunabilirlik testi ve GMP başvurusu süreçleri."
+  },
+  "/diger/": {
+    "kaynak": "YENİ METİN — onayınıza sunulacak",
+    "giris": "Permi belgesi, CE teknik dosya hazırlanması, takviye edici gıda ve kontrol belgesi başvurularınızın hazırlanması ve takibinde danışmanlık hizmeti veriyoruz.",
+    "kisa": "",
+    "aciklama": "Diğer danışmanlık hizmetleri: permi belgesi, CE teknik dosya hazırlanması, takviye edici gıda ve kontrol belgesi başvuruları."
+  },
+  "/blog/": {
+    "kaynak": "YENİ METİN — onayınıza sunulacak",
+    "giris": "",
+    "kisa": "",
+    "aciklama": "Madde bağımlılığı, uyuşturucu testleri, alkolmetre ve promil hakkında Egefe blog yazıları."
+  },
+  "/hakkimizda/": {
+    "kaynak": "sayfa metninden",
+    "giris": "",
+    "kisa": "",
+    "aciklama": "Yenilikçi vizyonu ile teknolojinin trendlerini sağlık sektöründe öne çıkaran Egefe, 2017 yılında kurulmuştur; yurt içinde ve yurt dışında hizmet vermektedir."
+  }
+}

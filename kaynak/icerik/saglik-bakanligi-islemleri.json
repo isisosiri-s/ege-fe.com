@@ -1,0 +1,180 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "ÜTS Nedir Ürün Takip Sistemi"
+ },
+ {
+  "t": "p",
+  "html": "ÜTS, Ürün Takip Sistemi anlamına gelen bir kısaltmadır. Bu kısaltma; 7 Ocak 2014 tarihinde T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu (TİTCK) ile TÜBİTAK-BİLGEM-YTE (Yazılım Teknolojileri Araştırma Enstitüsü) arasında imzalanan Ürün Takip Sistemi Projesi için kullanılmaktadır."
+ },
+ {
+  "t": "p",
+  "html": "Ürün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır."
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "Ürün Takip Sistemi Projesi Nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Ürün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır. Bu proje ile; ülkemizde üretilen ya da ithal edilen tüm tıbbi cihazların ve kozmetik ürünlerinin üretim bandından, satılıp kullanıldığı yere ve hastaya kadar takip edilebilmesi için altyapı sağlayacak bir sistemin geliştirilmesi hedeflenmektedir. Bilindiği gibi kullanılan ilaçların ve kozmetik ürünlerin orijinal olması insan sağlığı açısından büyük öneme sahiptir. Bu nedenle ürünlerin takip edilmesi ve ürünlerin kayıt edilmesi orijinal ürünlere erişim için uygulanabilecek işlemlerdir."
+ },
+ {
+  "t": "p",
+  "html": "Projenin amaçları;"
+ },
+ {
+  "t": "p",
+  "html": "• Hasta güvenliğinin sağlanmasına katkıda bulunmak,"
+ },
+ {
+  "t": "p",
+  "html": "• Tıbbi cihazların ve kozmetik ürünlerin izlenebilirliğini sağlamak,"
+ },
+ {
+  "t": "p",
+  "html": "• Denetim hizmetlerinin sağlıklı ve etkili şekilde yürütülmesini sağlayacak bir altyapı oluşturmak,"
+ },
+ {
+  "t": "p",
+  "html": "• Tıbbi cihazların ve kozmetik ürünlerin kullanımı sırasında ortaya çıkabilecek tehlikelere karşı, idarenin hızlı önlem almasını sağlayacak bir altyapı oluşturmak,"
+ },
+ {
+  "t": "p",
+  "html": "• Tıbbi cihazların ve kozmetik ürünlerinin takibinin yapılması ile kayıt dışı ekonominin önlenmesine katkıda bulunmak,"
+ },
+ {
+  "t": "p",
+  "html": "olarak belirtilmiştir."
+ },
+ {
+  "t": "p",
+  "html": "Ürün Takip Sistemi (ÜTS) Projesi’nin çalışmaya başlamasıyla elde edilmesi beklenen kazanımlar;"
+ },
+ {
+  "t": "p",
+  "html": "• Mevcut envanter üzerinden Türkiye’nin tıbbi cihaz haritası çıkarılarak ihtiyaçların belirlenmesi, tedarik edilmesi ve ürünlerin transfer edilmesi işlemlerinde kolaylık sağlanması,"
+ },
+ {
+  "t": "p",
+  "html": "• Ülke genelindeki tüm tıbbi cihazlara ait kalibrasyon ve bakım/onarım işlemlerinin tek bir sistem üzerinden izlenmesi,"
+ },
+ {
+  "t": "p",
+  "html": "• Eski ve kusurlu ürünlerin tespit edilmesi ve geri çağrılması,"
+ },
+ {
+  "t": "p",
+  "html": "• Tıbbi cihaz ve kozmetik ürünlerin ülkeye girişleri ve hareketlerinin denetim altına alınması,"
+ },
+ {
+  "t": "p",
+  "html": "• Ülke genelinde talep ve tüketim düzeylerinin izlenebilmesi,"
+ },
+ {
+  "t": "p",
+  "html": "• Marka güvenliğinin teminat altına alınması,"
+ },
+ {
+  "t": "p",
+  "html": "• Bayi ve şube ilişkileri bakımından imtiyaz ve ticari hakların korunması,"
+ },
+ {
+  "t": "p",
+  "html": "• Niteliksiz ve sahte ürünlerin haksız rekabetinin önlenmesi,olarak belirtilmiştir."
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "Ürün Takip Sistemi (ÜTS) Projesi’nin Modülleri"
+ },
+ {
+  "t": "p",
+  "html": "Ürün Takip Sistemi (ÜTS) Projesi’nin modülleri;"
+ },
+ {
+  "t": "p",
+  "html": "• Takip ve İzleme (Ürün hareketleri ve ürün geri çağırma modülü),"
+ },
+ {
+  "t": "p",
+  "html": "• Ürün Yönetimi (Ürün ağacı yönetimi ve ürün yönetimi modülü),"
+ },
+ {
+  "t": "p",
+  "html": "• Kullanıcı, Kurum ve Yetki Yönetimi (kullanıcı yönetimi, kurum yönetimi ve yetki yönetimi modülü),"
+ },
+ {
+  "t": "p",
+  "html": "• Klinik Mühendislik Yönetimi (Bakım ve onarım yönetimi, kalibrasyon yönetimi, teknik personel sertifikasyon modülü vb.),"
+ },
+ {
+  "t": "p",
+  "html": "• İş Zekası (Ön tanımlı raporlama, harita destekli raporlama modülü),"
+ },
+ {
+  "t": "p",
+  "html": "• Piyasa Gözetim ve Denetimi (PGD) ve Uyarı (Denetim faaliyetleri ve uyarı modülü),"
+ },
+ {
+  "t": "p",
+  "html": "• Destekleyici İşlevler (Belge ve sertifika yönetimi, referans alanlar yönetimi, log yönetimi, duyuru, zamanlanmış görevler modülü),"
+ },
+ {
+  "t": "p",
+  "html": "• Vatandaş Odaklı Hizmetler (Ürün sorgulama, kişi üzerine kayıtlı ürün sorgulama, şikayet bildirimi, bakım ve kalibrasyon sorgulama modülü),olarak belirtilmiştir."
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "ÜTS Kayıt Danışmanlığı"
+ },
+ {
+  "t": "p",
+  "html": "12 Haziran 2017 itibarıyla tıbbi cihaz kayıt/bildirim işlemleri, ürün hareketleri ve ilgili diğer iş ve işlemler ÜTS üzerinden takip edilmektedir. Ülkemizdeki bazı danışmanlık firmaları tarafından Ürün Takip Sistemi ile ilgili işlemlerde danışmanlık hizmeti verilmektedir. Bu işlemler ÜTS Kayıt Danışmanlığı olarak ifade edilebilir. Danışmanlık kapsamında verilen hizmetler;"
+ },
+ {
+  "t": "p",
+  "html": "• <strong>Tıbbi Cihaz Satış Merkezi Yetki Belgesi: </strong>15 Mayıs 2014’te yürürlüğe giren Tıbbi Cihaz Satış, Reklam ve Tanıtım Yönetmeliği ile tıbbi cihaz satışı yapan işletmelerin faaliyetlerini sürdürmek için yetki belgesi almaları zorunlu hale getirilmiştir. Yetki belgesi almak isteyen işletmeler bazı koşulları yerine getirmelidirler. Bu yetki belgesini almayan firmaların ÜTS firma kayıt işlemleri gerçekleştirilememektedir. Ayrıca; tıbbi cihaz işletmelerinde sorumlu müdür, satış ve tanıtım elemanı ve klinik destek elemanı olarak çalışabilmek için TCESİS içinde yer alan eğitimleri almak, sınavdan başarıyla geçmek ve Türkiye İlaç ve Tıbbi Cihaz Kurumu’na başvurarak yeterlilik belgesini almak gerekmektedir."
+ },
+ {
+  "t": "p",
+  "html": "• <strong>Firma Kaydı:</strong> Tıbbi Cihaz imalatçısı firmalar (yerel üretici), ithalatçı firmalar ve bayi firmaları için ÜTS sistemine kayıt yapılması gerekmektedir. Firmanın kaydının yapılabilmesi için tıbbi cihaz yetki belgesinin alınmış olması gerekmektedir."
+ },
+ {
+  "t": "p",
+  "html": "• Belge Kaydı: Firma sistemde onaylandıktan sonra sisteme kaydı yapılacak tıbbi cihazlarla ilgili ÜTS’ye kaydı yapılması gerekli belgeler;"
+ },
+ {
+  "t": "p",
+  "html": "o Uygunluk Beyanı (Üretici tarafından hazırlanan bir belgedir.),"
+ },
+ {
+  "t": "p",
+  "html": "o EC Belgesi (Onaylanmış bir kuruluş tarafından verilen bir belgedir.),"
+ },
+ {
+  "t": "p",
+  "html": "o Kullanma Kılavuzu (Ürünün kullanımını anlatan kılavuzdur.)’dur."
+ },
+ {
+  "t": "p",
+  "html": "• <strong>Ürün Kaydı:</strong> Belgelerin onaylanmasından sonra piyasaya sürülen her tıbbi cihazın ÜTS’ye kaydı yapılması gerekmektedir. Online (çevrimiçi) kayıt işlemi sırasında ürün ile ilgili bilgilerin sisteme girişinin yapılmasına ek olarak, ürünün Türkçe etiketlerinin PDF formatında veri tabanına yüklenmesi gerekmektedir."
+ },
+ {
+  "t": "p",
+  "html": "• <strong>Serbest Satış Sertifikası:</strong> İhracatının yapılmak istendiği veya ithalattan ihraç edilmek istenen ürünler için ÜTS’den serbest satış sertifikası başvurusu yapılmalıdır."
+ },
+ {
+  "t": "p",
+  "html": "• <strong>Sosyal Güvenlik Kurumu (SGK) Kaydı:</strong> SGK geri ödeme kapsamında olan ürünlerin, ÜTS’de onaylanmasının ardından SUT eşleştirmesi yapılarak SGK kayıtlarının tamamlanması gerekmektedir.olarak sıralanabilir. Yukarıda bahsedilen hizmetleri almak için bize hemen başvurabilirsiniz."
+ }
+]

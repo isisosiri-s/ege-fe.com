@@ -1,0 +1,127 @@
+<?php
+// ÜRETİLDİ: tools/build.mjs — elle düzenlemeler bir sonraki üretimde ezilir (açıklamalar hariç: bkz. inc/meta.php başı)
+return [
+  'servis' => [
+    'yol' => '/hizmetler/',
+    'ad' => 'Hizmetler',
+    'alt' => [[
+        'yol' => '/ariza-ve-onarim/',
+        'ad' => 'Arıza ve Onarım',
+        'ozet' => 'UTS, NAM-07 ve NAM-19 cihazların ve yedek parçalarının arızi bakımlarını üstleniyoruz. Ürününüzün garantisi devam ederken; ürününüzde herhangi bir…',
+      ], [
+        'yol' => '/periyodik-bakim/',
+        'ad' => 'Periyodik Bakım',
+        'ozet' => 'Satışını ve bakımlarını yaptığımız Alkolmetrelerin belirlenmiş periyotlar dahilinde bakımları yapılmaktadır.',
+      ], [
+        'yol' => '/kalibrasyon/',
+        'ad' => 'Kalibrasyon',
+        'ozet' => 'Kalibrasyon işleminde, ölçmede kullanılan test-ölçü aleti veya cihazlarının sapmaları belirlenir, hataları düzeltilir.',
+      ]],
+  ],
+  'danismanlik' => [[
+      'yol' => '/uts/',
+      'ad' => 'ÜTS',
+      'giris' => 'Kozmetik firma kaydı, sorumlu teknik eleman, kozmetik ürün bildirimi, ÜTS bilgi güncelleme ve tıbbi cihaz ÜTS geçişi.',
+      'alt' => [[
+          'yol' => '/uts/kozmetik-firma-kaydi/',
+          'ad' => 'Kozmetik Firma Kaydı',
+          'ozet' => '5324 sayılı Kozmetik Kanunu gereğince kozmetik ürünlerin piyasaya arz edilmeden önce Bakanlığa bildiriminin yapılması zorunludur.',
+        ], [
+          'yol' => '/uts/sorumlu-teknik-eleman/',
+          'ad' => 'Sorumlu Teknik Eleman',
+          'ozet' => 'Eczacı veya kozmetik alanında iki yıl fiilen çalışmış olduğunu belgelemek kaydıyla kimyager, biyokimyager, kimya mühendisi, biyolog veya mikrobiyolog…',
+        ], [
+          'yol' => '/uts/kozmetik-urun-bildirimi/',
+          'ad' => 'Kozmetik Ürün Bildirimi',
+          'ozet' => 'Bir kozmetik ürün üretip satışa sunacaksanız ya da bir kozmetik ürün ithal edip Türkiye pazarına arz edecekseniz, öncesinde kozmetik kapsamında…',
+        ], [
+          'yol' => '/uts/uts-bilgi-guncelleme/',
+          'ad' => 'ÜTS Bilgi Güncelleme',
+          'ozet' => 'Özellikle CE sertifikaları (EC certificate) tahditli validasyona sahiptir. Yani belli bir süre sonra geçerliğini yitirir ve yenilenmesi gerekir…',
+        ], [
+          'yol' => '/uts/tibbi-cihaz-uts-gecisi/',
+          'ad' => 'Tıbbi Cihaz ÜTS Geçişi',
+          'ozet' => 'Türkiye İlaç ve Tıbbi Cihaz Kurumu tarafından yayımlanan duyuru gereğince, 01.10.2018 tarihi itibariyle de sınıf III ürün gruplarında tekil ürün…',
+        ]],
+    ], [
+      'yol' => '/tibbi-cihaz/',
+      'ad' => 'Tıbbi Cihaz',
+      'giris' => 'Firma kaydı, firma bilgileri güncelleme, UBB e-imza, belge kaydı ve etiket düzenleme.',
+      'alt' => [[
+          'yol' => '/tibbi-cihaz/firma-kaydi/',
+          'ad' => 'Firma Kaydı',
+          'ozet' => 'Türkiye Cumhuriyeti sınırları içinde, ilaç ve/veya tıbbi cihaz üretimi, ithalatı, ihracatı yapan veya bir yabancı firmanın Türkiye yetkili temsilcisi…',
+        ], [
+          'yol' => '/tibbi-cihaz/firma-bilgileri-guncelleme/',
+          'ad' => 'Firma Bilgileri Güncelleme',
+          'ozet' => 'TİTUBB firma kayıt işlemlerinde verilen taahhütname gereği, TİTUBB’daki bilgi-belge değişiklikleri firma veya kurumlar tarafından gecikmeksizin…',
+        ], [
+          'yol' => '/tibbi-cihaz/ubb-e-imza/',
+          'ad' => 'UBB E-İmza',
+          'ozet' => 'Nitelikli Elektronik Sertifika’ya(NES) dayanılarak oluşturulan elektronik imza (e-İmza) güvenli elektronik imzadır.',
+        ], [
+          'yol' => '/tibbi-cihaz/tibbi-cihaz-belge-kaydi/',
+          'ad' => 'Tıbbi Cihaz Belge Kaydı',
+          'ozet' => 'CE Sertifikası. Uygunluk Beyanı. Kullanım Kılavuzu Etiket Örneği. Ürün Kataloğu. Yetki Belgesi Firmaların sisteme kaydının onaylanması için aşağıdaki…',
+        ], [
+          'yol' => '/tibbi-cihaz/etiket-duzenleme/',
+          'ad' => 'Etiket Düzenleme',
+          'ozet' => 'Tıbbi Cihaz Yönetmeliğinin (93/42/EEC), Vücuda Yerleştirilebilir Aktif Tıbbi Cihazlar Yönetmeliğinin (90/385/EEC) ve Vücut Dışında Kullanılan Tıbbi…',
+        ]],
+    ], [
+      'yol' => '/saglik-bakanligi-islemleri/',
+      'ad' => 'Sağlık Bakanlığı İşlemleri',
+      'giris' => 'İlaç ruhsatlandırma, varyasyon, fiyatlandırma, biyosidal ruhsat, GMP, KÜB/KT ve okunabilirlik testi.',
+      'alt' => [[
+          'yol' => '/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/',
+          'ad' => 'İlaç Ruhsatlandırma',
+          'ozet' => '02.11.2011 tarihli ve 28103 sayılı Resmi Gazetede yayımlanan “Sağlık Bakanlığı ve Bağlı Kuruluşlarının Teşkilat ve Görevleri Hakkında Kanun Hükmünde…',
+        ], [
+          'yol' => '/saglik-bakanligi-islemleri/ilac-varyasyon/',
+          'ad' => 'İlaç Varyasyon',
+          'ozet' => 'Güncel varyasyon kılavuzu doğrultusunda varyasyon kapsamının (Tip IA, Tip IB, Tip II) belirlenmesi ve varyasyon dosyasının hazırlanması',
+        ], [
+          'yol' => '/saglik-bakanligi-islemleri/ilac-fiyatlandirma/',
+          'ad' => 'İlaç Fiyatlandırma',
+          'ozet' => 'Avrupa Birliği (AB) üyeleri arasından en az 5, en fazla 10 ülke referans ülke olarak Sağlık Bakanlığınca belirlenir ve bir tebliğle duyurulur.',
+        ], [
+          'yol' => '/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/',
+          'ad' => 'Biyosidal Ruhsatlandırma',
+          'ozet' => 'Kimyasal veya biyolojik açıdan herhangi bir zararlı organizma üzerinde kontrol edici etki gösteren veya hareketini kısıtlayan, zararsız kılan, yok…',
+        ], [
+          'yol' => '/saglik-bakanligi-islemleri/gmp-basvurusu/',
+          'ad' => 'GMP Başvurusu',
+          'ozet' => 'Bilindiği üzere 01.03.2010 tarihinden itibaren yapılan CTD ruhsat başvurularında ön inceleme sırasında Bakanlığımızca denetlenerek verilmiş olan GMP…',
+        ], [
+          'yol' => '/saglik-bakanligi-islemleri/kub-kt/',
+          'ad' => 'KÜB/KT',
+          'ozet' => 'Farmakolojik Değerlendirme Birimi’ne yapılacak tüm başvurularla ( ruhsatlı ürünler için ilk başvuru veya cevap) ilgili olarak; 03.04.2017 tarihinden…',
+        ], [
+          'yol' => '/saglik-bakanligi-islemleri/okunabilirlik-testi/',
+          'ad' => 'Okunabilirlik Testi',
+          'ozet' => 'Bilindiği üzere; 25.04.2017 tarih ve 30048 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Beşeri Tıbbi Ürünlerin Ambalaj Bilgileri, Kullanma…',
+        ]],
+    ], [
+      'yol' => '/diger-hizmetler/',
+      'ad' => 'Diğer Hizmetler',
+      'giris' => 'Permi belgesi, CE teknik dosya, takviye edici gıda ve kontrol belgesi.',
+      'alt' => [[
+          'yol' => '/diger-hizmetler/permi-belgesi/',
+          'ad' => 'Permi Belgesi',
+          'ozet' => '2018/4 sayılı Sağlık Bakanlığının Özel İznine Tabi Maddelerin İthalat Denetimi Tebliği kapsamında yer alan; Uyuşturucu ve Psikotrop madde yapımında…',
+        ], [
+          'yol' => '/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/',
+          'ad' => 'CE Teknik Dosya Hazırlanması',
+          'ozet' => 'CE belgesi almak için başvuruda bulunan firmalar CE teknik dosyası hazırlamak zorundadır. Süreç içerisinde danışmanlık hizmetinin alındığı firma, bu…',
+        ], [
+          'yol' => '/diger-hizmetler/takviye-edici-gida/',
+          'ad' => 'Takviye Edici Gıda',
+          'ozet' => 'Takviye edici gıda normal beslenmeyi takviye etmek amacıyla; vitamin, mineral, protein, karbonhidrat, lif, yağ asidi, amino asit gibi besin…',
+        ], [
+          'yol' => '/diger-hizmetler/kontrol-belgesi/',
+          'ad' => 'Kontrol Belgesi',
+          'ozet' => 'İlgili tebliğde bulunan listelerde yer alan maddelerin, karşılarında belirtilen amaçlarla kullanılmak üzere ithal edilmeleri halinde, insan sağlığı…',
+        ]],
+    ]],
+  'ilac' => ['/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/', '/saglik-bakanligi-islemleri/ilac-varyasyon/', '/saglik-bakanligi-islemleri/ilac-fiyatlandirma/', '/saglik-bakanligi-islemleri/kub-kt/', '/saglik-bakanligi-islemleri/okunabilirlik-testi/', '/saglik-bakanligi-islemleri/gmp-basvurusu/'],
+];

@@ -1,0 +1,995 @@
+{
+  "url": "https://ege-fe.com/tibbi-cihaz/",
+  "title": "Tıbbi Cihaz - Egefe Sağlık Bilişim A.Ş.",
+  "lang": "tr",
+  "description": "Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric thinking.",
+  "canonical": "https://ege-fe.com/tibbi-cihaz/",
+  "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "og": {
+    "og:locale": "tr_TR",
+    "og:type": "article",
+    "og:title": "Tıbbi Cihaz - Egefe Sağlık Bilişim A.Ş.",
+    "og:description": "Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric thinking.",
+    "og:url": "https://ege-fe.com/tibbi-cihaz/",
+    "og:site_name": "Egefe Sağlık Bilişim A.Ş.",
+    "og:image": "https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18-1280x854.jpg",
+    "og:image:secure_url": "https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18-1280x854.jpg",
+    "og:image:width": "1200",
+    "og:image:height": "801",
+    "og:image:alt": "Tıbbi Cihaz",
+    "og:image:type": "image/jpeg",
+    "article:published_time": "2022-01-19T08:43:31+00:00"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Tıbbi Cihaz - Egefe Sağlık Bilişim A.Ş.",
+    "twitter:description": "Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric thinking.",
+    "twitter:image": "https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18-1280x854.jpg",
+    "twitter:label1": "Time to read",
+    "twitter:data1": "14 dakika"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Tıbbi Cihaz",
+      "inMain": true
+    },
+    {
+      "tag": "h2",
+      "text": "ÜTS Nedir\nÜrün Takip Sistemi",
+      "inMain": true
+    },
+    {
+      "tag": "h4",
+      "text": "Kurumsal Müşteri",
+      "inMain": true
+    },
+    {
+      "tag": "h4",
+      "text": "Sektörel Tecrübe",
+      "inMain": true
+    },
+    {
+      "tag": "h1",
+      "text": "Ürün Takip Sistemi Projesi Nedir?",
+      "inMain": true
+    },
+    {
+      "tag": "h1",
+      "text": "Ürün Takip Sistemi (ÜTS) Projesi’nin Modülleri",
+      "inMain": true
+    },
+    {
+      "tag": "h1",
+      "text": "ÜTS Kayıt Danışmanlığı",
+      "inMain": true
+    }
+  ],
+  "images": [
+    "https://ege-fe.com/wp-content/uploads/2023/08/logs.png",
+    "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png",
+    "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence-600x371.png",
+    "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence-640x396.png",
+    "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence-768x475.png",
+    "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence-320x198.png"
+  ],
+  "backgrounds": [
+    "https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18.jpg",
+    "https://ege-fe.com/wp-content/uploads/2020/04/bgn-gold-circle.png",
+    "https://ege-fe.com/wp-content/uploads/2020/04/bgn-blue-stripes.png"
+  ],
+  "icons": [
+    {
+      "rel": "apple-touch-icon-precomposed",
+      "href": "https://egefe.provega.com.tr/wp-content/uploads/2022/01/favicon-152.png",
+      "sizes": "152x152"
+    },
+    {
+      "rel": "icon",
+      "href": "https://egefe.provega.com.tr/wp-content/uploads/2022/01/favicon-152.png",
+      "sizes": "152x152"
+    },
+    {
+      "rel": "apple-touch-icon-precomposed",
+      "href": "https://egefe.provega.com.tr/wp-content/uploads/2022/01/favicon-144.png",
+      "sizes": "144x144"
+    },
+    {
+      "rel": "apple-touch-icon-precomposed",
+      "href": "https://egefe.provega.com.tr/wp-content/uploads/2022/01/favicon-120.png",
+      "sizes": "120x120"
+    },
+    {
+      "rel": "apple-touch-icon-precomposed",
+      "href": "https://egefe.provega.com.tr/wp-content/uploads/2022/01/favicon-72.png",
+      "sizes": "72x72"
+    },
+    {
+      "rel": "apple-touch-icon-precomposed",
+      "href": "https://egefe.provega.com.tr/wp-content/uploads/2022/01/favicon-57.png",
+      "sizes": null
+    }
+  ],
+  "jsonld": [
+    "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Place\",\"@id\":\"https://ege-fe.com/#place\",\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"39.89536167347178\",\"longitude\":\" 32.83684816905078\"},\"hasMap\":\"https://www.google.com/maps/search/?api=1&amp;query=39.89536167347178, 32.83684816905078\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Harbie Mahallesi H\\u00fcrriyet Caddesi No:7/12\",\"addressLocality\":\"\\u00c7ankaya\",\"addressRegion\":\"Ankara\",\"postalCode\":\"06460\",\"addressCountry\":\"T\\u00fcrkiye\"}},{\"@type\":[\"HealthAndBeautyBusiness\",\"Organization\"],\"@id\":\"https://ege-fe.com/#organization\",\"name\":\"Egefe Sa\\u011fl\\u0131k Bili\\u015fim A.\\u015e.\",\"url\":\"https://ege-fe.com\",\"email\":\"info@ege-fe.com\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Harbie Mahallesi H\\u00fcrriyet Caddesi No:7/12\",\"addressLocality\":\"\\u00c7ankaya\",\"addressRegion\":\"Ankara\",\"postalCode\":\"06460\",\"addressCountry\":\"T\\u00fcrkiye\"},\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://ege-fe.com/#logo\",\"url\":\"https://ege-fe.com/wp-content/uploads/2022/01/Basliksiz-1-1.jpg\",\"contentUrl\":\"https://ege-fe.com/wp-content/uploads/2022/01/Basliksiz-1-1.jpg\",\"caption\":\"Egefe Sa\\u011fl\\u0131k Bili\\u015fim A.\\u015e.\",\"inLanguage\":\"tr\",\"width\":\"320\",\"height\":\"180\"},\"openingHours\":[\"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday 09:00-18:00\"],\"location\":{\"@id\":\"https://ege-fe.com/#place\"},\"image\":{\"@id\":\"https://ege-fe.com/#logo\"},\"telephone\":\"+903124825451\"},{\"@type\":\"WebSite\",\"@id\":\"https://ege-fe.com/#website\",\"url\":\"https://ege-fe.com\",\"name\":\"Egefe Sa\\u011fl\\u0131k Bili\\u015fim A.\\u015e.\",\"publisher\":{\"@id\":\"https://ege-fe.com/#organization\"},\"inLanguage\":\"tr\"},{\"@type\":\"ImageObject\",\"@id\":\"https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18.jpg\",\"url\":\"https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18.jpg\",\"width\":\"2048\",\"height\":\"1366\",\"inLanguage\":\"tr\"},{\"@type\":\"WebPage\",\"@id\":\"https://ege-fe.com/tibbi-cihaz/#webpage\",\"url\":\"https://ege-fe.com/tibbi-cihaz/\",\"name\":\"T\\u0131bbi Cihaz - Egefe Sa\\u011fl\\u0131k Bili\\u015fim A.\\u015e.\",\"datePublished\":\"2022-01-19T08:43:31+00:00\",\"dateModified\":\"2022-01-19T08:43:31+00:00\",\"isPartOf\":{\"@id\":\"https://ege-fe.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18.jpg\"},\"inLanguage\":\"tr\"},{\"@type\":\"Person\",\"@id\":\"https://ege-fe.com/author/admin/\",\"name\":\"admin\",\"url\":\"https://ege-fe.com/author/admin/\",\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://secure.gravatar.com/avatar/f4c146b2a7e5b285059fa57c467b899d?s=96&amp;d=mm&amp;r=g\",\"url\":\"https://secure.gravatar.com/avatar/f4c146b2a7e5b285059fa57c467b899d?s=96&amp;d=mm&amp;r=g\",\"caption\":\"admin\",\"inLanguage\":\"tr\"},\"sameAs\":[\"https://egefe.provega.com.tr\"],\"worksFor\":{\"@id\":\"https://ege-fe.com/#organization\"}},{\"@type\":\"Article\",\"headline\":\"T\\u0131bbi Cihaz - Egefe Sa\\u011fl\\u0131k Bili\\u015fim A.\\u015e.\",\"datePublished\":\"2022-01-19T08:43:31+00:00\",\"dateModified\":\"2022-01-19T08:43:31+00:00\",\"author\":{\"@id\":\"https://ege-fe.com/author/admin/\",\"name\":\"admin\"},\"publisher\":{\"@id\":\"https://ege-fe.com/#organization\"},\"description\":\"Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric thinking.\",\"name\":\"T\\u0131bbi Cihaz - Egefe Sa\\u011fl\\u0131k Bili\\u015fim A.\\u015e.\",\"@id\":\"https://ege-fe.com/tibbi-cihaz/#richSnippet\",\"isPartOf\":{\"@id\":\"https://ege-fe.com/tibbi-cihaz/#webpage\"},\"image\":{\"@id\":\"https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18.jpg\"},\"inLanguage\":\"tr\",\"mainEntityOfPage\":{\"@id\":\"https://ege-fe.com/tibbi-cihaz/#webpage\"}}]}"
+  ],
+  "analytics": [],
+  "verification": [],
+  "forms": [
+    {
+      "action": "https://ege-fe.com/",
+      "method": "get",
+      "id": "",
+      "cls": "",
+      "fields": [
+        {
+          "name": "s",
+          "type": "text",
+          "ph": "Arama...",
+          "req": false
+        }
+      ]
+    }
+  ],
+  "iframes": [],
+  "nav": [
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "",
+      "depth": 0
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": "",
+      "depth": 0
+    },
+    {
+      "href": "https://www.facebook.com/",
+      "text": "",
+      "depth": 0
+    },
+    {
+      "href": "https://twitter.com/",
+      "text": "",
+      "depth": 0
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "",
+      "depth": 0
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "",
+      "depth": 0
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": "Anasayfa",
+      "depth": 1
+    },
+    {
+      "href": "https://ege-fe.com/hakkimizda/",
+      "text": "Kurumsal",
+      "depth": 1
+    },
+    {
+      "href": "https://ege-fe.com/hakkimizda/",
+      "text": "Hakkımızda",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/hizmet-politikamiz/",
+      "text": "Hizmet Politikamız",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/kalite-politikamiz/",
+      "text": "Kalite Politikamız",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/kariyer/",
+      "text": "Kariyer",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/hizmetler/",
+      "text": "Hizmetler",
+      "depth": 1
+    },
+    {
+      "href": "https://ege-fe.com/ariza-ve-onarim/",
+      "text": "Arıza ve Onarım",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/periyodik-bakim/",
+      "text": "Periyodik Bakım",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/kalibrasyon/",
+      "text": "Kalibrasyon",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/hizmetler/",
+      "text": "Danışmanlık",
+      "depth": 1
+    },
+    {
+      "href": "https://ege-fe.com/uts/",
+      "text": "ÜTS",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/uts/kozmetik-firma-kaydi/",
+      "text": "Kozmetik Firma Kaydı",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/uts/sorumlu-teknik-eleman/",
+      "text": "Sorumlu Teknik Eleman",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/uts/kozmetik-urun-bildirimi/",
+      "text": "Kozmetik Ürün Bildirimi",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/uts/uts-bilgi-guncelleme/",
+      "text": "ÜTS Bilgi Güncelleme",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Tıbbi Cihaz",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/firma-kaydi/",
+      "text": "Firma Kaydı",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/firma-bilgileri-guncelleme/",
+      "text": "Firma Bilgileri Güncelleme",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/ubb-e-imza/",
+      "text": "UBB E-İmza",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/tibbi-cihaz-belge-kaydi/",
+      "text": "Tıbbi Cihaz Belge Kaydı",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/etiket-duzenleme/",
+      "text": "Etiket Düzenleme",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Sağlık Bakanlığı İşlemleri",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/",
+      "text": "İlaç Ruhsatlandırma",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-varyasyon/",
+      "text": "İlaç Varyasyon",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-fiyatlandirma/",
+      "text": "İlaç Fiyatlandırma",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/",
+      "text": "Biyosidal Ruhsatlandırma",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/gmp-basvurusu/",
+      "text": "GMP Başvurusu",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/kub-kt/",
+      "text": "KÜB/KT",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/okunabilirlik-testi/",
+      "text": "Okunabilirlik Testi",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Diğer Hizmetler",
+      "depth": 2
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/permi-belgesi/",
+      "text": "Permi Belgesi",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/",
+      "text": "CE Teknik Dosya Hazırlanması",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/takviye-edici-gida/",
+      "text": "Takviye Edici Gıda",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/kontrol-belgesi/",
+      "text": "Kontrol Belgesi",
+      "depth": 3
+    },
+    {
+      "href": "https://ege-fe.com/magaza/",
+      "text": "Mağaza",
+      "depth": 1
+    },
+    {
+      "href": "https://ege-fe.com/blog/",
+      "text": "Blog",
+      "depth": 1
+    },
+    {
+      "href": "https://ege-fe.com/iletisim/",
+      "text": "İletişim",
+      "depth": 1
+    }
+  ],
+  "links": [
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": "Anasayfa"
+    },
+    {
+      "href": "https://ege-fe.com/hakkimizda/",
+      "text": "Kurumsal"
+    },
+    {
+      "href": "https://ege-fe.com/hakkimizda/",
+      "text": "Hakkımızda"
+    },
+    {
+      "href": "https://ege-fe.com/hizmet-politikamiz/",
+      "text": "Hizmet Politikamız"
+    },
+    {
+      "href": "https://ege-fe.com/kalite-politikamiz/",
+      "text": "Kalite Politikamız"
+    },
+    {
+      "href": "https://ege-fe.com/kariyer/",
+      "text": "Kariyer"
+    },
+    {
+      "href": "https://ege-fe.com/hizmetler/",
+      "text": "Hizmetler"
+    },
+    {
+      "href": "https://ege-fe.com/ariza-ve-onarim/",
+      "text": "Arıza ve Onarım"
+    },
+    {
+      "href": "https://ege-fe.com/periyodik-bakim/",
+      "text": "Periyodik Bakım"
+    },
+    {
+      "href": "https://ege-fe.com/kalibrasyon/",
+      "text": "Kalibrasyon"
+    },
+    {
+      "href": "https://ege-fe.com/hizmetler/",
+      "text": "Danışmanlık"
+    },
+    {
+      "href": "https://ege-fe.com/uts/",
+      "text": "ÜTS"
+    },
+    {
+      "href": "https://ege-fe.com/uts/kozmetik-firma-kaydi/",
+      "text": "Kozmetik Firma Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/uts/sorumlu-teknik-eleman/",
+      "text": "Sorumlu Teknik Eleman"
+    },
+    {
+      "href": "https://ege-fe.com/uts/kozmetik-urun-bildirimi/",
+      "text": "Kozmetik Ürün Bildirimi"
+    },
+    {
+      "href": "https://ege-fe.com/uts/uts-bilgi-guncelleme/",
+      "text": "ÜTS Bilgi Güncelleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Tıbbi Cihaz"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/firma-kaydi/",
+      "text": "Firma Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/firma-bilgileri-guncelleme/",
+      "text": "Firma Bilgileri Güncelleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/ubb-e-imza/",
+      "text": "UBB E-İmza"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/tibbi-cihaz-belge-kaydi/",
+      "text": "Tıbbi Cihaz Belge Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/etiket-duzenleme/",
+      "text": "Etiket Düzenleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Sağlık Bakanlığı İşlemleri"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/",
+      "text": "İlaç Ruhsatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-varyasyon/",
+      "text": "İlaç Varyasyon"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-fiyatlandirma/",
+      "text": "İlaç Fiyatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/",
+      "text": "Biyosidal Ruhsatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/gmp-basvurusu/",
+      "text": "GMP Başvurusu"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/kub-kt/",
+      "text": "KÜB/KT"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/okunabilirlik-testi/",
+      "text": "Okunabilirlik Testi"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Diğer Hizmetler"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/permi-belgesi/",
+      "text": "Permi Belgesi"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/",
+      "text": "CE Teknik Dosya Hazırlanması"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/takviye-edici-gida/",
+      "text": "Takviye Edici Gıda"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/kontrol-belgesi/",
+      "text": "Kontrol Belgesi"
+    },
+    {
+      "href": "https://ege-fe.com/magaza/",
+      "text": "Mağaza"
+    },
+    {
+      "href": "https://ege-fe.com/blog/",
+      "text": "Blog"
+    },
+    {
+      "href": "https://ege-fe.com/iletisim/",
+      "text": "İletişim"
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": "Anasayfa"
+    },
+    {
+      "href": "tel:903124825451",
+      "text": "+90 312 482 54 51"
+    },
+    {
+      "href": "mailto:info@ege-fe.com",
+      "text": "info@ege-fe.com"
+    },
+    {
+      "href": "http://www.ege-fe.com/",
+      "text": "ege-fe.com"
+    },
+    {
+      "href": "https://ege-fe.com/hesabim",
+      "text": "Hesabım"
+    },
+    {
+      "href": "https://ege-fe.com/hesabim/siparisler/",
+      "text": "Siparişlerim"
+    },
+    {
+      "href": "https://ege-fe.com/siparis-takip",
+      "text": "Sipariş Takip"
+    },
+    {
+      "href": "https://ege-fe.com/magaza",
+      "text": "Online Mağaza"
+    },
+    {
+      "href": "https://ege-fedestek.com/",
+      "text": "Teknik Servis Takip"
+    },
+    {
+      "href": "https://ege-fe.com/gizlilik-sozlesmesi",
+      "text": "Gizlilik Sözleşmesi"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Mesafeli Satış Sözleşmesi"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Ödeme, İade ve Garanti"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "KVKK"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "İletişim"
+    },
+    {
+      "href": "https://www.facebook.com/",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": ""
+    },
+    {
+      "href": "tel:903124825451",
+      "text": "+90 312 482 54 51"
+    },
+    {
+      "href": "mailto:info@ege-fe.com",
+      "text": "info@ege-fe.com"
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": "ege-fe.com"
+    },
+    {
+      "href": "https://ege-fe.com/hesabim",
+      "text": "Hesabım"
+    },
+    {
+      "href": "https://ege-fe.com/hesabim/siparisler/",
+      "text": "Siparişlerim"
+    },
+    {
+      "href": "https://ege-fe.com/siparis-takip",
+      "text": "Sipariş Takip"
+    },
+    {
+      "href": "https://ege-fe.com/magaza",
+      "text": "Online Mağaza"
+    },
+    {
+      "href": "https://destek.ege-fe.com/",
+      "text": "Teknik Servis Takip"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Mesafeli Satış Sözleşmesi"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Ödeme, İade ve Garanti"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "KVKK"
+    },
+    {
+      "href": "https://www.facebook.com/",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": ""
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": "Anasayfa"
+    },
+    {
+      "href": "https://ege-fe.com/hakkimizda/",
+      "text": "Kurumsal"
+    },
+    {
+      "href": "https://ege-fe.com/hakkimizda/",
+      "text": "Hakkımızda"
+    },
+    {
+      "href": "https://ege-fe.com/hizmet-politikamiz/",
+      "text": "Hizmet Politikamız"
+    },
+    {
+      "href": "https://ege-fe.com/kalite-politikamiz/",
+      "text": "Kalite Politikamız"
+    },
+    {
+      "href": "https://ege-fe.com/kariyer/",
+      "text": "Kariyer"
+    },
+    {
+      "href": "https://ege-fe.com/hizmetler/",
+      "text": "Hizmetler"
+    },
+    {
+      "href": "https://ege-fe.com/ariza-ve-onarim/",
+      "text": "Arıza ve Onarım"
+    },
+    {
+      "href": "https://ege-fe.com/periyodik-bakim/",
+      "text": "Periyodik Bakım"
+    },
+    {
+      "href": "https://ege-fe.com/kalibrasyon/",
+      "text": "Kalibrasyon"
+    },
+    {
+      "href": "https://ege-fe.com/hizmetler/",
+      "text": "Danışmanlık"
+    },
+    {
+      "href": "https://ege-fe.com/uts/",
+      "text": "ÜTS"
+    },
+    {
+      "href": "https://ege-fe.com/uts/kozmetik-firma-kaydi/",
+      "text": "Kozmetik Firma Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/uts/sorumlu-teknik-eleman/",
+      "text": "Sorumlu Teknik Eleman"
+    },
+    {
+      "href": "https://ege-fe.com/uts/kozmetik-urun-bildirimi/",
+      "text": "Kozmetik Ürün Bildirimi"
+    },
+    {
+      "href": "https://ege-fe.com/uts/uts-bilgi-guncelleme/",
+      "text": "ÜTS Bilgi Güncelleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Tıbbi Cihaz"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/firma-kaydi/",
+      "text": "Firma Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/firma-bilgileri-guncelleme/",
+      "text": "Firma Bilgileri Güncelleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/ubb-e-imza/",
+      "text": "UBB E-İmza"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/tibbi-cihaz-belge-kaydi/",
+      "text": "Tıbbi Cihaz Belge Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/etiket-duzenleme/",
+      "text": "Etiket Düzenleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Sağlık Bakanlığı İşlemleri"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/",
+      "text": "İlaç Ruhsatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-varyasyon/",
+      "text": "İlaç Varyasyon"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-fiyatlandirma/",
+      "text": "İlaç Fiyatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/",
+      "text": "Biyosidal Ruhsatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/gmp-basvurusu/",
+      "text": "GMP Başvurusu"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/kub-kt/",
+      "text": "KÜB/KT"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/okunabilirlik-testi/",
+      "text": "Okunabilirlik Testi"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Diğer Hizmetler"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/permi-belgesi/",
+      "text": "Permi Belgesi"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/",
+      "text": "CE Teknik Dosya Hazırlanması"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/takviye-edici-gida/",
+      "text": "Takviye Edici Gıda"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/kontrol-belgesi/",
+      "text": "Kontrol Belgesi"
+    },
+    {
+      "href": "https://ege-fe.com/magaza/",
+      "text": "Mağaza"
+    },
+    {
+      "href": "https://ege-fe.com/blog/",
+      "text": "Blog"
+    },
+    {
+      "href": "https://ege-fe.com/iletisim/",
+      "text": "İletişim"
+    },
+    {
+      "href": "https://ege-fe.com/",
+      "text": "Anasayfa"
+    },
+    {
+      "href": "https://ege-fe.com/hakkimizda/",
+      "text": "Kurumsal"
+    },
+    {
+      "href": "https://ege-fe.com/hakkimizda/",
+      "text": "Hakkımızda"
+    },
+    {
+      "href": "https://ege-fe.com/hizmet-politikamiz/",
+      "text": "Hizmet Politikamız"
+    },
+    {
+      "href": "https://ege-fe.com/kalite-politikamiz/",
+      "text": "Kalite Politikamız"
+    },
+    {
+      "href": "https://ege-fe.com/kariyer/",
+      "text": "Kariyer"
+    },
+    {
+      "href": "https://ege-fe.com/hizmetler/",
+      "text": "Hizmetler"
+    },
+    {
+      "href": "https://ege-fe.com/ariza-ve-onarim/",
+      "text": "Arıza ve Onarım"
+    },
+    {
+      "href": "https://ege-fe.com/periyodik-bakim/",
+      "text": "Periyodik Bakım"
+    },
+    {
+      "href": "https://ege-fe.com/kalibrasyon/",
+      "text": "Kalibrasyon"
+    },
+    {
+      "href": "https://ege-fe.com/hizmetler/",
+      "text": "Danışmanlık"
+    },
+    {
+      "href": "https://ege-fe.com/uts/",
+      "text": "ÜTS"
+    },
+    {
+      "href": "https://ege-fe.com/uts/kozmetik-firma-kaydi/",
+      "text": "Kozmetik Firma Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/uts/sorumlu-teknik-eleman/",
+      "text": "Sorumlu Teknik Eleman"
+    },
+    {
+      "href": "https://ege-fe.com/uts/kozmetik-urun-bildirimi/",
+      "text": "Kozmetik Ürün Bildirimi"
+    },
+    {
+      "href": "https://ege-fe.com/uts/uts-bilgi-guncelleme/",
+      "text": "ÜTS Bilgi Güncelleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Tıbbi Cihaz"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/firma-kaydi/",
+      "text": "Firma Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/firma-bilgileri-guncelleme/",
+      "text": "Firma Bilgileri Güncelleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/ubb-e-imza/",
+      "text": "UBB E-İmza"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/tibbi-cihaz-belge-kaydi/",
+      "text": "Tıbbi Cihaz Belge Kaydı"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/etiket-duzenleme/",
+      "text": "Etiket Düzenleme"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Sağlık Bakanlığı İşlemleri"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/",
+      "text": "İlaç Ruhsatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-varyasyon/",
+      "text": "İlaç Varyasyon"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/ilac-fiyatlandirma/",
+      "text": "İlaç Fiyatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/",
+      "text": "Biyosidal Ruhsatlandırma"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/gmp-basvurusu/",
+      "text": "GMP Başvurusu"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/kub-kt/",
+      "text": "KÜB/KT"
+    },
+    {
+      "href": "https://ege-fe.com/saglik-bakanligi-islemleri/okunabilirlik-testi/",
+      "text": "Okunabilirlik Testi"
+    },
+    {
+      "href": "https://ege-fe.com/tibbi-cihaz/#",
+      "text": "Diğer Hizmetler"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/permi-belgesi/",
+      "text": "Permi Belgesi"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/",
+      "text": "CE Teknik Dosya Hazırlanması"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/takviye-edici-gida/",
+      "text": "Takviye Edici Gıda"
+    },
+    {
+      "href": "https://ege-fe.com/diger-hizmetler/kontrol-belgesi/",
+      "text": "Kontrol Belgesi"
+    },
+    {
+      "href": "https://ege-fe.com/magaza/",
+      "text": "Mağaza"
+    },
+    {
+      "href": "https://ege-fe.com/blog/",
+      "text": "Blog"
+    },
+    {
+      "href": "https://ege-fe.com/iletisim/",
+      "text": "İletişim"
+    }
+  ],
+  "mainText": "Anasayfa\nTıbbi Cihaz\nPhosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric thinking.\nÜTS Nedir\nÜrün Takip Sistemi\n\nÜTS, Ürün Takip Sistemi anlamına gelen bir kısaltmadır. Bu kısaltma; 7 Ocak 2014 tarihinde T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu (TİTCK) ile TÜBİTAK-BİLGEM-YTE (Yazılım Teknolojileri Araştırma Enstitüsü) arasında imzalanan Ürün Takip Sistemi Projesi için kullanılmaktadır.\n\nÜrün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır.\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n+\nKurumsal Müşteri\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n+\nSektörel Tecrübe\nÜrün Takip Sistemi Projesi Nedir?\n\nÜrün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır. Bu proje ile; ülkemizde üretilen ya da ithal edilen tüm tıbbi cihazların ve kozmetik ürünlerinin üretim bandından, satılıp kullanıldığı yere ve hastaya kadar takip edilebilmesi için altyapı sağlayacak bir sistemin geliştirilmesi hedeflenmektedir. Bilindiği gibi kullanılan ilaçların ve kozmetik ürünlerin orijinal olması insan sağlığı açısından büyük öneme sahiptir. Bu nedenle ürünlerin takip edilmesi ve ürünlerin kayıt edilmesi orijinal ürünlere erişim için uygulanabilecek işlemlerdir.\n\nProjenin amaçları;\n\n•   Hasta güvenliğinin sağlanmasına katkıda bulunmak,\n\n•   Tıbbi cihazların ve kozmetik ürünlerin izlenebilirliğini sağlamak,\n\n•   Denetim hizmetlerinin sağlıklı ve etkili şekilde yürütülmesini sağlayacak bir altyapı oluşturmak,\n\n•   Tıbbi cihazların ve kozmetik ürünlerin kullanımı sırasında ortaya çıkabilecek tehlikelere karşı, idarenin hızlı önlem almasını sağlayacak bir altyapı oluşturmak,\n\n•   Tıbbi cihazların ve kozmetik ürünlerinin takibinin yapılması ile kayıt dışı ekonominin önlenmesine katkıda bulunmak,\n\nolarak belirtilmiştir.\n\nÜrün Takip Sistemi (ÜTS) Projesi’nin çalışmaya başlamasıyla elde edilmesi beklenen kazanımlar;\n\n•   Mevcut envanter üzerinden Türkiye’nin tıbbi cihaz haritası çıkarılarak ihtiyaçların belirlenmesi, tedarik edilmesi ve ürünlerin transfer edilmesi işlemlerinde kolaylık sağlanması,\n\n•   Ülke genelindeki tüm tıbbi cihazlara ait kalibrasyon ve bakım/onarım işlemlerinin tek bir sistem üzerinden izlenmesi,\n\n•   Eski ve kusurlu ürünlerin tespit edilmesi ve geri çağrılması,\n\n•   Tıbbi cihaz ve kozmetik ürünlerin ülkeye girişleri ve hareketlerinin denetim altına alınması,\n\n•   Ülke genelinde talep ve tüketim düzeylerinin izlenebilmesi,\n\n•   Marka güvenliğinin teminat altına alınması,\n\n•   Bayi ve şube ilişkileri bakımından imtiyaz ve ticari hakların korunması,\n\n•   Niteliksiz ve sahte ürünlerin haksız rekabetinin önlenmesi,olarak belirtilmiştir.\n\nÜrün Takip Sistemi (ÜTS) Projesi’nin Modülleri\n\nÜrün Takip Sistemi (ÜTS) Projesi’nin modülleri;\n\n•   Takip ve İzleme (Ürün hareketleri ve ürün geri çağırma modülü),\n\n•   Ürün Yönetimi (Ürün ağacı yönetimi ve ürün yönetimi modülü),\n\n•   Kullanıcı, Kurum ve Yetki Yönetimi (kullanıcı yönetimi, kurum yönetimi ve yetki yönetimi modülü),\n\n•   Klinik Mühendislik Yönetimi (Bakım ve onarım yönetimi, kalibrasyon yönetimi, teknik personel sertifikasyon modülü vb.),\n\n•   İş Zekası (Ön tanımlı raporlama, harita destekli raporlama modülü),\n\n•   Piyasa Gözetim ve Denetimi (PGD) ve Uyarı (Denetim faaliyetleri ve uyarı modülü),\n\n•   Destekleyici İşlevler (Belge ve sertifika yönetimi, referans alanlar yönetimi, log yönetimi, duyuru, zamanlanmış görevler modülü),\n\n•   Vatandaş Odaklı Hizmetler (Ürün sorgulama, kişi üzerine kayıtlı ürün sorgulama, şikayet bildirimi, bakım ve kalibrasyon sorgulama modülü),olarak belirtilmiştir.\n\nÜTS Kayıt Danışmanlığı\n\n12 Haziran 2017 itibarıyla tıbbi cihaz kayıt/bildirim işlemleri, ürün hareketleri ve ilgili diğer iş ve işlemler ÜTS üzerinden takip edilmektedir. Ülkemizdeki bazı danışmanlık firmaları tarafından Ürün Takip Sistemi ile ilgili işlemlerde danışmanlık hizmeti verilmektedir. Bu işlemler ÜTS Kayıt Danışmanlığı olarak ifade edilebilir. Danışmanlık kapsamında verilen hizmetler;\n\n•   Tıbbi Cihaz Satış Merkezi Yetki Belgesi: 15 Mayıs 2014’te yürürlüğe giren Tıbbi Cihaz Satış, Reklam ve Tanıtım Yönetmeliği ile tıbbi cihaz satışı yapan işletmelerin faaliyetlerini sürdürmek için yetki belgesi almaları zorunlu hale getirilmiştir. Yetki belgesi almak isteyen işletmeler bazı koşulları yerine getirmelidirler. Bu yetki belgesini almayan firmaların ÜTS firma kayıt işlemleri gerçekleştirilememektedir. Ayrıca; tıbbi cihaz işletmelerinde sorumlu müdür, satış ve tanıtım elemanı ve klinik destek elemanı olarak çalışabilmek için TCESİS içinde yer alan eğitimleri almak, sınavdan başarıyla geçmek ve Türkiye İlaç ve Tıbbi Cihaz Kurumu’na başvurarak yeterlilik belgesini almak gerekmektedir.\n\n•   Firma Kaydı: Tıbbi Cihaz imalatçısı firmalar (yerel üretici), ithalatçı firmalar ve bayi firmaları için ÜTS sistemine kayıt yapılması gerekmektedir. Firmanın kaydının yapılabilmesi için tıbbi cihaz yetki belgesinin alınmış olması gerekmektedir.\n\n•   Belge Kaydı: Firma sistemde onaylandıktan sonra sisteme kaydı yapılacak tıbbi cihazlarla ilgili ÜTS’ye kaydı yapılması gerekli belgeler;\n\no   Uygunluk Beyanı (Üretici tarafından hazırlanan bir belgedir.),\n\no   EC Belgesi (Onaylanmış bir kuruluş tarafından verilen bir belgedir.),\n\no   Kullanma Kılavuzu (Ürünün kullanımını anlatan kılavuzdur.)’dur.\n\n•   Ürün Kaydı: Belgelerin onaylanmasından sonra piyasaya sürülen her tıbbi cihazın ÜTS’ye kaydı yapılması gerekmektedir. Online (çevrimiçi) kayıt işlemi sırasında ürün ile ilgili bilgilerin sisteme girişinin yapılmasına ek olarak, ürünün Türkçe etiketlerinin PDF formatında veri tabanına yüklenmesi gerekmektedir.\n\n•   Serbest Satış Sertifikası: İhracatının yapılmak istendiği veya ithalattan ihraç edilmek istenen ürünler için ÜTS’den serbest satış sertifikası başvurusu yapılmalıdır.\n\n•   Sosyal Güvenlik Kurumu (SGK) Kaydı: SGK geri ödeme kapsamında olan ürünlerin, ÜTS’de onaylanmasının ardından SUT eşleştirmesi yapılarak SGK kayıtlarının tamamlanması gerekmektedir.olarak sıralanabilir. Yukarıda bahsedilen hizmetleri almak için bize hemen başvurabilirsiniz.",
+  "mainHTML": "\n<section class=\"bt_bb_section gutter bt_bb_vertical_align_top btPageHeadline bt_bb_background_image bt_bb_background_overlay_light_solid bt_bb_parallax btLightSkin \" style=\"background-image: url(&quot;https://ege-fe.com/wp-content/uploads/2019/04/blog-post-18.jpg&quot;); background-position-y: -300px;\" data-parallax=\"0.8\" data-parallax-offset=\"-300\"><div class=\"bt_bb_port port\"><div class=\"bt_bb_cell\"><div class=\"bt_bb_cell_inner\"><div class=\"bt_bb_row\" data-structure=\"\"><div class=\"bt_bb_column\"><div class=\"bt_bb_column_content\"><header class=\"bt_bb_headline bt_bb_dash_top bt_bb_superheadline bt_bb_superheadline_outside bt_bb_subheadline bt_bb_size_large\" data-bt-override-class=\"{}\"><div class=\"bt_bb_headline_superheadline_outside\"><span class=\"bt_bb_headline_superheadline\"><span class=\"btBreadCrumbs\"><span><a href=\"https://ege-fe.com/\">Anasayfa</a></span></span></span></div><h1 class=\"bt_bb_headline_tag\"><span class=\"bt_bb_headline_content\"><span>Tıbbi Cihaz</span></span></h1><div class=\"bt_bb_headline_subheadline\">Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric thinking.</div></header></div><!-- /rowItemContent --></div><!-- /rowItem --></div><!-- /boldRow --></div><!-- boldCellInner --></div><!-- boldCell --></div><!-- port --></section>\t\t<div class=\"btContentHolder\">\n<div class=\"btContent\">\n<div class=\"bt_bb_wrapper\"><section id=\"bt_bb_section656cedda3caa3\" class=\"bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large bt_bb_layout_boxed_1200 bt_bb_vertical_align_top bt_bb_section_show_right_boxed_content\"><div class=\"bt_bb_port\"><div class=\"bt_bb_cell\"><div class=\"bt_bb_cell_inner\"><div class=\"bt_bb_row_wrapper\"><div class=\"bt_bb_row\" data-bt-override-class=\"{}\" data-structure=\"7-5\"><div class=\"bt_bb_column col-xl-7 bt_bb_align_right bt_bb_vertical_align_middle bt_bb_animation_fade_in animate bt_bb_padding_double bt_bb_column_background_image bt_bb_mobile_align_to_both_edges bt_bb_animation_fade_in animate animated\" style=\"position: relative;background-image:url('https://ege-fe.com/wp-content/uploads/2020/04/bgn-gold-circle.png');background-position:6% 78%;background-size:auto;\" data-width=\"7\" data-bt-override-class=\"{}\"><div class=\"bt_bb_column_content\"><div class=\"bt_bb_floating_element bt_bb_floating_element_horizontal_position_left bt_bb_floating_element_vertical_position_bottom bt_bb_floating_element_animation_delay_default bt_bb_floating_element_animation_duration_default bt_bb_floating_element_animation_style_ease_out\" style=\"margin-left: 9.4vw;\" data-speed=\"1.0\"><div class=\"bt_bb_floating_element_html\" data-speed=\"1.0\" style=\"transform: translateY(13.2156px);\"><span style=\"width: 140px; height: 140px; border-radius: 50%; background-repeat: repeat;background-image:url('https://ege-fe.com/wp-content/uploads/2020/04/bgn-blue-stripes.png');\"></span></div></div><div class=\"bt_bb_floating_element bt_bb_floating_element_horizontal_position_left bt_bb_floating_element_vertical_position_top bt_bb_floating_element_animation_delay_default bt_bb_floating_element_animation_duration_default bt_bb_floating_element_animation_style_ease_out\" style=\"margin-left: 6.7vw;\" data-speed=\"1.0\"><div class=\"bt_bb_floating_element_html\" data-speed=\"1.0\" style=\"transform: translateY(-14.8297px);\"><span style=\"width: 17px; height: 17px; border-radius: 50%;background-color: rgba(204, 184, 146, 1);\"></span></div></div><div class=\"bt_bb_image bt_bb_shape_square bt_bb_target_self bt_bb_align_inherit bt_bb_hover_style_simple bt_bb_content_display_always bt_bb_content_align_middle bt_bb_fill_background_color_full\" style=\"max-width: 760px; position: relative;\" data-bt-override-class=\"{}\"><span><img width=\"1200\" height=\"742\" src=\"https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png\" class=\"attachment-full size-full\" alt=\"https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png\" decoding=\"async\" loading=\"lazy\" data-full_image_src=\"https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png\" srcset=\"https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png 1200w, https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence-600x371.png 600w, https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence-640x396.png 640w, https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence-768x475.png 768w, https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence-320x198.png 320w\" sizes=\"(max-width: 1200px) 100vw, 1200px\"></span></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_bottom_spacing_normal bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_hidden_md bt_bb_hidden_lg\" data-bt-override-class=\"null\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div></div></div><div class=\"bt_bb_column col-xl-5 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_animation_fade_in animate bt_bb_padding_normal bt_bb_animation_fade_in animate animated\" style=\"position: relative;\" data-width=\"5\" data-bt-override-class=\"{}\"><div class=\"bt_bb_column_content\"><div class=\"bt_bb_floating_element bt_bb_floating_element_horizontal_position_right bt_bb_floating_element_vertical_position_top bt_bb_floating_element_animation_delay_default bt_bb_floating_element_animation_duration_default bt_bb_floating_element_animation_style_ease_out\" style=\"margin: 6em 6vw 0 0; z-index: -1;\" data-speed=\"1.0\"><div class=\"bt_bb_floating_element_html\" data-speed=\"1.0\" style=\"transform: translateY(-5.22969px);\"><span style=\"width: 124px; height: 124px; border-radius: 50%; box-shadow: 0 1.25em 4.5em rgba(0,0,0,.1);background-color: rgba(255, 255, 255, 1);\"></span></div></div><header class=\"bt_bb_headline bt_bb_font_weight_900 bt_bb_dash_top bt_bb_size_extralarge bt_bb_align_inherit\" data-bt-override-class=\"{}\"><h2 class=\"bt_bb_headline_tag\"><span class=\"bt_bb_headline_content\"><span><b>ÜTS Nedir</b><br>\n<u>Ürün Takip Sistemi</u></span></span></h2></header><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_bottom_spacing_normal bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content\" data-bt-override-class=\"null\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_row_wrapper\"><div class=\"bt_bb_row_inner\" data-bt-override-class=\"{}\" data-structure=\"6-6\"><div class=\"bt_bb_column_inner col-xl-6 bt_bb_align_left bt_bb_vertical_align_top\" data-width=\"6\" data-bt-override-class=\"{}\"><div class=\"bt_bb_column_inner_content\"><div class=\"bt_bb_text\"><p>ÜTS, Ürün Takip Sistemi anlamına gelen bir kısaltmadır. Bu kısaltma; 7 Ocak 2014 tarihinde T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu (TİTCK) ile TÜBİTAK-BİLGEM-YTE (Yazılım Teknolojileri Araştırma Enstitüsü) arasında imzalanan Ürün Takip Sistemi Projesi için kullanılmaktadır.</p>\n</div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_bottom_spacing_small bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_hidden_md bt_bb_hidden_lg\" data-bt-override-class=\"null\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div></div></div><div class=\"bt_bb_column_inner col-xl-6 bt_bb_align_left bt_bb_vertical_align_top\" data-width=\"6\" data-bt-override-class=\"{}\"><div class=\"bt_bb_column_inner_content\"><div class=\"bt_bb_text\"><p>Ürün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır.</p>\n</div></div></div></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_bottom_spacing_medium bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_hidden_md bt_bb_hidden_lg\" data-bt-override-class=\"null\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div></div></div></div></div></div></div></div></section><section id=\"bt_bb_section656cedda5a912\" class=\"bt_bb_section bt_bb_top_spacing_medium bt_bb_bottom_spacing_medium bt_bb_color_scheme_1 bt_bb_layout_boxed_1400 bt_bb_vertical_align_top bt_bb_section_allow_content_outside\" style=\";background-color:#18407c;\"><div class=\"bt_bb_port\"><div class=\"bt_bb_cell\"><div class=\"bt_bb_cell_inner\"><div class=\"bt_bb_row_wrapper\"><div class=\"bt_bb_row\" data-bt-override-class=\"{}\" data-structure=\"6-6\"><div class=\"bt_bb_column col-xl-6 col-xs-12 col-sm-6 col-md-6 col-lg-6 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_double bt_bb_animation_fade_in animate animated\" data-width=\"6\" data-bt-override-class=\"{}\"><div class=\"bt_bb_column_content\"><div class=\"bt_bb_counter_holder bt_bb_size_xlarge\" style=\"font-weight: 900;color:rgb(255,255,255);\"><span class=\"bt_bb_counter animate animated\" data-digit-length=\"4\"><span class=\"onedigit p4 d1\" data-digit=\"1\" style=\"transform: translateY(-60px);\"><span class=\"n0\">0</span><span class=\"n1\">1</span><span class=\"n2\">2</span><span class=\"n3\">3</span><span class=\"n4\">4</span><span class=\"n5\">5</span><span class=\"n6\">6</span><span class=\"n7\">7</span><span class=\"n8\">8</span><span class=\"n9\">9</span><span class=\"n0\">0</span></span><span class=\"onedigit p3 d0\" data-digit=\"0\" style=\"transform: translateY(-600px);\"><span class=\"n0\">0</span><span class=\"n1\">1</span><span class=\"n2\">2</span><span class=\"n3\">3</span><span class=\"n4\">4</span><span class=\"n5\">5</span><span class=\"n6\">6</span><span class=\"n7\">7</span><span class=\"n8\">8</span><span class=\"n9\">9</span><span class=\"n0\">0</span></span><span class=\"onedigit p2 d0\" data-digit=\"0\" style=\"transform: translateY(-600px);\"><span class=\"n0\">0</span><span class=\"n1\">1</span><span class=\"n2\">2</span><span class=\"n3\">3</span><span class=\"n4\">4</span><span class=\"n5\">5</span><span class=\"n6\">6</span><span class=\"n7\">7</span><span class=\"n8\">8</span><span class=\"n9\">9</span><span class=\"n0\">0</span></span><span class=\"onedigit p1 d+\" data-digit=\"+\" style=\"transform: translateY(-600px);\"><span class=\"t\">+</span></span></span></div><header class=\"bt_bb_headline bt_bb_font_weight_normal bt_bb_dash_bottom bt_bb_size_small bt_bb_align_inherit\" data-bt-override-class=\"{&quot;bt_bb_size_&quot;:{&quot;current_class&quot;:&quot;bt_bb_size_small&quot;,&quot;xxl&quot;:&quot;small&quot;,&quot;xl&quot;:&quot;small&quot;},&quot;bt_bb_align_&quot;:{&quot;current_class&quot;:&quot;bt_bb_align_inherit&quot;,&quot;xxl&quot;:&quot;inherit&quot;,&quot;xl&quot;:&quot;inherit&quot;}}\"><h4 class=\"bt_bb_headline_tag\"><span class=\"bt_bb_headline_content\"><span>Kurumsal Müşteri</span></span></h4></header><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_bottom_spacing_normal bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_hidden_md bt_bb_hidden_lg\" data-bt-override-class=\"null\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div></div></div><div class=\"bt_bb_column col-xl-6 col-xs-12 col-sm-6 col-md-6 col-lg-6 bt_bb_align_center bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_double bt_bb_animation_fade_in animate animated\" data-width=\"6\" data-bt-override-class=\"{}\"><div class=\"bt_bb_column_content\"><div class=\"bt_bb_counter_holder bt_bb_size_xlarge\" style=\"font-weight: 900;color:rgb(255,255,255);\"><span class=\"bt_bb_counter animate animated\" data-digit-length=\"3\"><span class=\"onedigit p3 d1\" data-digit=\"1\" style=\"transform: translateY(-60px);\"><span class=\"n0\">0</span><span class=\"n1\">1</span><span class=\"n2\">2</span><span class=\"n3\">3</span><span class=\"n4\">4</span><span class=\"n5\">5</span><span class=\"n6\">6</span><span class=\"n7\">7</span><span class=\"n8\">8</span><span class=\"n9\">9</span><span class=\"n0\">0</span></span><span class=\"onedigit p2 d0\" data-digit=\"0\" style=\"transform: translateY(-600px);\"><span class=\"n0\">0</span><span class=\"n1\">1</span><span class=\"n2\">2</span><span class=\"n3\">3</span><span class=\"n4\">4</span><span class=\"n5\">5</span><span class=\"n6\">6</span><span class=\"n7\">7</span><span class=\"n8\">8</span><span class=\"n9\">9</span><span class=\"n0\">0</span></span><span class=\"onedigit p1 d+\" data-digit=\"+\" style=\"transform: translateY(-600px);\"><span class=\"t\">+</span></span></span></div><header class=\"bt_bb_headline bt_bb_font_weight_normal bt_bb_dash_bottom bt_bb_size_small bt_bb_align_inherit\" data-bt-override-class=\"{&quot;bt_bb_size_&quot;:{&quot;current_class&quot;:&quot;bt_bb_size_small&quot;,&quot;xxl&quot;:&quot;small&quot;,&quot;xl&quot;:&quot;small&quot;},&quot;bt_bb_align_&quot;:{&quot;current_class&quot;:&quot;bt_bb_align_inherit&quot;,&quot;xxl&quot;:&quot;inherit&quot;,&quot;xl&quot;:&quot;inherit&quot;}}\"><h4 class=\"bt_bb_headline_tag\"><span class=\"bt_bb_headline_content\"><span>Sektörel Tecrübe</span></span></h4></header><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_bottom_spacing_normal bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_hidden_md bt_bb_hidden_lg\" data-bt-override-class=\"null\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div></div></div></div></div></div></div></div></section><section id=\"bt_bb_section656cedda6e590\" class=\"bt_bb_section bt_bb_layout_boxed_1200\"><div class=\"bt_bb_port\"><div class=\"bt_bb_cell\"><div class=\"bt_bb_cell_inner\"><div class=\"bt_bb_row_wrapper\"><div class=\"bt_bb_row\" data-bt-override-class=\"{}\" data-structure=\"12\"><div class=\"bt_bb_column col-xl-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal\" data-width=\"12\" data-bt-override-class=\"{}\"><div class=\"bt_bb_column_content\"><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><header class=\"bt_bb_headline bt_bb_dash_none bt_bb_size_inherit bt_bb_align_inherit\" data-bt-override-class=\"{&quot;bt_bb_size_&quot;:{&quot;current_class&quot;:&quot;bt_bb_size_inherit&quot;,&quot;xxl&quot;:&quot;inherit&quot;,&quot;xl&quot;:&quot;inherit&quot;},&quot;bt_bb_align_&quot;:{&quot;current_class&quot;:&quot;bt_bb_align_inherit&quot;,&quot;xxl&quot;:&quot;inherit&quot;,&quot;xl&quot;:&quot;inherit&quot;}}\"><h1 class=\"bt_bb_headline_tag\"><span class=\"bt_bb_headline_content\"><span>Ürün Takip Sistemi Projesi Nedir?</span></span></h1></header><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_text\"><p>Ürün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır. Bu proje ile; ülkemizde üretilen ya da ithal edilen tüm tıbbi cihazların ve kozmetik ürünlerinin üretim bandından, satılıp kullanıldığı yere ve hastaya kadar takip edilebilmesi için altyapı sağlayacak bir sistemin geliştirilmesi hedeflenmektedir. Bilindiği gibi kullanılan ilaçların ve kozmetik ürünlerin orijinal olması insan sağlığı açısından büyük öneme sahiptir. Bu nedenle ürünlerin takip edilmesi ve ürünlerin kayıt edilmesi orijinal ürünlere erişim için uygulanabilecek işlemlerdir.</p>\n<p>Projenin amaçları;</p>\n<p>•&nbsp;&nbsp;&nbsp;Hasta güvenliğinin sağlanmasına katkıda bulunmak,</p>\n<p>•&nbsp;&nbsp;&nbsp;Tıbbi cihazların ve kozmetik ürünlerin izlenebilirliğini sağlamak,</p>\n<p>•&nbsp;&nbsp;&nbsp;Denetim hizmetlerinin sağlıklı ve etkili şekilde yürütülmesini sağlayacak bir altyapı oluşturmak,</p>\n<p>•&nbsp;&nbsp;&nbsp;Tıbbi cihazların ve kozmetik ürünlerin kullanımı sırasında ortaya çıkabilecek tehlikelere karşı, idarenin hızlı önlem almasını sağlayacak bir altyapı oluşturmak,</p>\n<p>•&nbsp;&nbsp;&nbsp;Tıbbi cihazların ve kozmetik ürünlerinin takibinin yapılması ile kayıt dışı ekonominin önlenmesine katkıda bulunmak,</p>\n<p>olarak belirtilmiştir.</p>\n<p>Ürün Takip Sistemi (ÜTS) Projesi’nin çalışmaya başlamasıyla elde edilmesi beklenen kazanımlar;</p>\n<p>•&nbsp;&nbsp;&nbsp;Mevcut envanter üzerinden Türkiye’nin tıbbi cihaz haritası çıkarılarak ihtiyaçların belirlenmesi, tedarik edilmesi ve ürünlerin transfer edilmesi işlemlerinde kolaylık sağlanması,</p>\n<p>•&nbsp;&nbsp;&nbsp;Ülke genelindeki tüm tıbbi cihazlara ait kalibrasyon ve bakım/onarım işlemlerinin tek bir sistem üzerinden izlenmesi,</p>\n<p>•&nbsp;&nbsp;&nbsp;Eski ve kusurlu ürünlerin tespit edilmesi ve geri çağrılması,</p>\n<p>•&nbsp;&nbsp;&nbsp;Tıbbi cihaz ve kozmetik ürünlerin ülkeye girişleri ve hareketlerinin denetim altına alınması,</p>\n<p>•&nbsp;&nbsp;&nbsp;Ülke genelinde talep ve tüketim düzeylerinin izlenebilmesi,</p>\n<p>•&nbsp;&nbsp;&nbsp;Marka güvenliğinin teminat altına alınması,</p>\n<p>•&nbsp;&nbsp;&nbsp;Bayi ve şube ilişkileri bakımından imtiyaz ve ticari hakların korunması,</p>\n<p>•&nbsp;&nbsp;&nbsp;Niteliksiz ve sahte ürünlerin haksız rekabetinin önlenmesi,olarak belirtilmiştir.</p>\n</div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><header class=\"bt_bb_headline bt_bb_dash_none bt_bb_size_inherit bt_bb_align_inherit\" data-bt-override-class=\"{&quot;bt_bb_size_&quot;:{&quot;current_class&quot;:&quot;bt_bb_size_inherit&quot;,&quot;xxl&quot;:&quot;inherit&quot;,&quot;xl&quot;:&quot;inherit&quot;},&quot;bt_bb_align_&quot;:{&quot;current_class&quot;:&quot;bt_bb_align_inherit&quot;,&quot;xxl&quot;:&quot;inherit&quot;,&quot;xl&quot;:&quot;inherit&quot;}}\"><h1 class=\"bt_bb_headline_tag\"><span class=\"bt_bb_headline_content\"><span>Ürün Takip Sistemi (ÜTS) Projesi’nin Modülleri</span></span></h1></header><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_text\"><p>Ürün Takip Sistemi (ÜTS) Projesi’nin modülleri;</p>\n<p>•&nbsp;&nbsp;&nbsp;Takip ve İzleme (Ürün hareketleri ve ürün geri çağırma modülü),</p>\n<p>•&nbsp;&nbsp;&nbsp;Ürün Yönetimi (Ürün ağacı yönetimi ve ürün yönetimi modülü),</p>\n<p>•&nbsp;&nbsp;&nbsp;Kullanıcı, Kurum ve Yetki Yönetimi (kullanıcı yönetimi, kurum yönetimi ve yetki yönetimi modülü),</p>\n<p>•&nbsp;&nbsp;&nbsp;Klinik Mühendislik Yönetimi (Bakım ve onarım yönetimi, kalibrasyon yönetimi, teknik personel sertifikasyon modülü vb.),</p>\n<p>•&nbsp;&nbsp;&nbsp;İş Zekası (Ön tanımlı raporlama, harita destekli raporlama modülü),</p>\n<p>•&nbsp;&nbsp;&nbsp;Piyasa Gözetim ve Denetimi (PGD) ve Uyarı (Denetim faaliyetleri ve uyarı modülü),</p>\n<p>•&nbsp;&nbsp;&nbsp;Destekleyici İşlevler (Belge ve sertifika yönetimi, referans alanlar yönetimi, log yönetimi, duyuru, zamanlanmış görevler modülü),</p>\n<p>•&nbsp;&nbsp;&nbsp;Vatandaş Odaklı Hizmetler (Ürün sorgulama, kişi üzerine kayıtlı ürün sorgulama, şikayet bildirimi, bakım ve kalibrasyon sorgulama modülü),olarak belirtilmiştir.</p>\n</div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><header class=\"bt_bb_headline bt_bb_dash_none bt_bb_size_inherit bt_bb_align_inherit\" data-bt-override-class=\"{&quot;bt_bb_size_&quot;:{&quot;current_class&quot;:&quot;bt_bb_size_inherit&quot;,&quot;xxl&quot;:&quot;inherit&quot;,&quot;xl&quot;:&quot;inherit&quot;},&quot;bt_bb_align_&quot;:{&quot;current_class&quot;:&quot;bt_bb_align_inherit&quot;,&quot;xxl&quot;:&quot;inherit&quot;,&quot;xl&quot;:&quot;inherit&quot;}}\"><h1 class=\"bt_bb_headline_tag\"><span class=\"bt_bb_headline_content\"><span>ÜTS Kayıt Danışmanlığı</span></span></h1></header><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_text\"><p>12 Haziran 2017 itibarıyla tıbbi cihaz kayıt/bildirim işlemleri, ürün hareketleri ve ilgili diğer iş ve işlemler ÜTS üzerinden takip edilmektedir. Ülkemizdeki bazı danışmanlık firmaları tarafından Ürün Takip Sistemi ile ilgili işlemlerde danışmanlık hizmeti verilmektedir. Bu işlemler ÜTS Kayıt Danışmanlığı olarak ifade edilebilir. Danışmanlık kapsamında verilen hizmetler;</p>\n<p>•&nbsp;&nbsp;&nbsp;<strong>Tıbbi Cihaz Satış Merkezi Yetki Belgesi:&nbsp;</strong>15 Mayıs 2014’te yürürlüğe giren Tıbbi Cihaz Satış, Reklam ve Tanıtım Yönetmeliği ile tıbbi cihaz satışı yapan işletmelerin faaliyetlerini sürdürmek için yetki belgesi almaları zorunlu hale getirilmiştir. Yetki belgesi almak isteyen işletmeler bazı koşulları yerine getirmelidirler. Bu yetki belgesini almayan firmaların ÜTS firma kayıt işlemleri gerçekleştirilememektedir. Ayrıca; tıbbi cihaz işletmelerinde sorumlu müdür, satış ve tanıtım elemanı ve klinik destek elemanı olarak çalışabilmek için TCESİS içinde yer alan eğitimleri almak, sınavdan başarıyla geçmek ve Türkiye İlaç ve Tıbbi Cihaz Kurumu’na başvurarak yeterlilik belgesini almak gerekmektedir.</p>\n<p>•&nbsp;&nbsp;&nbsp;<strong>Firma Kaydı:</strong>&nbsp;Tıbbi Cihaz imalatçısı firmalar (yerel üretici), ithalatçı firmalar ve bayi firmaları için ÜTS sistemine kayıt yapılması gerekmektedir. Firmanın kaydının yapılabilmesi için tıbbi cihaz yetki belgesinin alınmış olması gerekmektedir.</p>\n<p>•&nbsp;&nbsp;&nbsp;Belge Kaydı: Firma sistemde onaylandıktan sonra sisteme kaydı yapılacak tıbbi cihazlarla ilgili ÜTS’ye kaydı yapılması gerekli belgeler;</p>\n<p>o&nbsp;&nbsp;&nbsp;Uygunluk Beyanı (Üretici tarafından hazırlanan bir belgedir.),</p>\n<p>o&nbsp;&nbsp;&nbsp;EC Belgesi (Onaylanmış bir kuruluş tarafından verilen bir belgedir.),</p>\n<p>o&nbsp;&nbsp;&nbsp;Kullanma Kılavuzu (Ürünün kullanımını anlatan kılavuzdur.)’dur.</p>\n<p>•&nbsp;&nbsp;&nbsp;<strong>Ürün Kaydı:</strong>&nbsp;Belgelerin onaylanmasından sonra piyasaya sürülen her tıbbi cihazın ÜTS’ye kaydı yapılması gerekmektedir. Online (çevrimiçi) kayıt işlemi sırasında ürün ile ilgili bilgilerin sisteme girişinin yapılmasına ek olarak, ürünün Türkçe etiketlerinin PDF formatında veri tabanına yüklenmesi gerekmektedir.</p>\n<p>•&nbsp;&nbsp;&nbsp;<strong>Serbest Satış Sertifikası:</strong>&nbsp;İhracatının yapılmak istendiği veya ithalattan ihraç edilmek istenen ürünler için ÜTS’den serbest satış sertifikası başvurusu yapılmalıdır.</p>\n<p>•&nbsp;&nbsp;&nbsp;<strong>Sosyal Güvenlik Kurumu (SGK) Kaydı:</strong>&nbsp;SGK geri ödeme kapsamında olan ürünlerin, ÜTS’de onaylanmasının ardından SUT eşleştirmesi yapılarak SGK kayıtlarının tamamlanması gerekmektedir.olarak sıralanabilir. Yukarıda bahsedilen hizmetleri almak için bize hemen başvurabilirsiniz.</p>\n</div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div><div class=\"bt_bb_separator_v2 bt_bb_border_style_none bt_bb_icon_size_normal bt_bb_text_size_normal bt_bb_separator_v2_without_content bt_bb_top_spacing_none bt_bb_bottom_spacing_none\" data-bt-override-class=\"{&quot;bt_bb_top_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_top_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;},&quot;bt_bb_bottom_spacing_&quot;:{&quot;current_class&quot;:&quot;bt_bb_bottom_spacing_none&quot;,&quot;xxl&quot;:&quot;none&quot;,&quot;xl&quot;:&quot;none&quot;}}\"><div class=\"bt_bb_separator_v2_inner\"><span class=\"bt_bb_separator_v2_inner_before\"></span><span class=\"bt_bb_separator_v2_inner_content\"><span data-ico-=\"&amp;#x;\" class=\"bt_bb_icon_holder\"></span></span><span class=\"bt_bb_separator_v2_inner_after\"></span></div></div></div></div></div></div></div></div></div></section></div>\t\t</div><!-- /boldthemes_content -->\n</div><!-- /contentHolder -->\n",
+  "headerText": "Anasayfa\nKurumsal\nHakkımızda\nHizmet Politikamız\nKalite Politikamız\nKariyer\nHizmetler\nArıza ve Onarım\nPeriyodik Bakım\nKalibrasyon\nDanışmanlık\nÜTS\nKozmetik Firma Kaydı\nSorumlu Teknik Eleman\nKozmetik Ürün Bildirimi\nÜTS Bilgi Güncelleme\nTıbbi Cihaz\nFirma Kaydı\nFirma Bilgileri Güncelleme\nUBB E-İmza\nTıbbi Cihaz Belge Kaydı\nEtiket Düzenleme\nSağlık Bakanlığı İşlemleri\nİlaç Ruhsatlandırma\nİlaç Varyasyon\nİlaç Fiyatlandırma\nBiyosidal Ruhsatlandırma\nGMP Başvurusu\nKÜB/KT\nOkunabilirlik Testi\nDiğer Hizmetler\nPermi Belgesi\nCE Teknik Dosya Hazırlanması\nTakviye Edici Gıda\nKontrol Belgesi\nMağaza\nBlog\nİletişim",
+  "counters": [
+    {
+      "value": "100+",
+      "ctx": "+ Kurumsal Müşteri"
+    },
+    {
+      "value": "10+",
+      "ctx": "+ Sektörel Tecrübe"
+    }
+  ],
+  "pageHead": "Anasayfa\nTıbbi Cihaz\nPhosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric thinking.",
+  "postMeta": [],
+  "footerText": "",
+  "bodyText": "Anasayfa\nKurumsal\nHakkımızda\nHizmet Politikamız\nKalite Politikamız\nKariyer\nHizmetler\nArıza ve Onarım\nPeriyodik Bakım\nKalibrasyon\nDanışmanlık\nÜTS\nKozmetik Firma Kaydı\nSorumlu Teknik Eleman\nKozmetik Ürün Bildirimi\nÜTS Bilgi Güncelleme\nTıbbi Cihaz\nFirma Kaydı\nFirma Bilgileri Güncelleme\nUBB E-İmza\nTıbbi Cihaz Belge Kaydı\nEtiket Düzenleme\nSağlık Bakanlığı İşlemleri\nİlaç Ruhsatlandırma\nİlaç Varyasyon\nİlaç Fiyatlandırma\nBiyosidal Ruhsatlandırma\nGMP Başvurusu\nKÜB/KT\nOkunabilirlik Testi\nDiğer Hizmetler\nPermi Belgesi\nCE Teknik Dosya Hazırlanması\nTakviye Edici Gıda\nKontrol Belgesi\nMağaza\nBlog\nİletişim\nAnasayfa\nTıbbi Cihaz\nPhosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric thinking.\nÜTS Nedir\nÜrün Takip Sistemi\n\nÜTS, Ürün Takip Sistemi anlamına gelen bir kısaltmadır. Bu kısaltma; 7 Ocak 2014 tarihinde T.C. Sağlık Bakanlığı Türkiye İlaç ve Tıbbi Cihaz Kurumu (TİTCK) ile TÜBİTAK-BİLGEM-YTE (Yazılım Teknolojileri Araştırma Enstitüsü) arasında imzalanan Ürün Takip Sistemi Projesi için kullanılmaktadır.\n\nÜrün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır.\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n+\nKurumsal Müşteri\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0\n+\nSektörel Tecrübe\nÜrün Takip Sistemi Projesi Nedir?\n\nÜrün Takip Sistemi (ÜTS) Projesi; vatandaş odaklı hizmetler sunan ve yüz binlerce kullanıcısı olan bir e-devlet uygulamasıdır. Bu proje ile; ülkemizde üretilen ya da ithal edilen tüm tıbbi cihazların ve kozmetik ürünlerinin üretim bandından, satılıp kullanıldığı yere ve hastaya kadar takip edilebilmesi için altyapı sağlayacak bir sistemin geliştirilmesi hedeflenmektedir. Bilindiği gibi kullanılan ilaçların ve kozmetik ürünlerin orijinal olması insan sağlığı açısından büyük öneme sahiptir. Bu nedenle ürünlerin takip edilmesi ve ürünlerin kayıt edilmesi orijinal ürünlere erişim için uygulanabilecek işlemlerdir.\n\nProjenin amaçları;\n\n•   Hasta güvenliğinin sağlanmasına katkıda bulunmak,\n\n•   Tıbbi cihazların ve kozmetik ürünlerin izlenebilirliğini sağlamak,\n\n•   Denetim hizmetlerinin sağlıklı ve etkili şekilde yürütülmesini sağlayacak bir altyapı oluşturmak,\n\n•   Tıbbi cihazların ve kozmetik ürünlerin kullanımı sırasında ortaya çıkabilecek tehlikelere karşı, idarenin hızlı önlem almasını sağlayacak bir altyapı oluşturmak,\n\n•   Tıbbi cihazların ve kozmetik ürünlerinin takibinin yapılması ile kayıt dışı ekonominin önlenmesine katkıda bulunmak,\n\nolarak belirtilmiştir.\n\nÜrün Takip Sistemi (ÜTS) Projesi’nin çalışmaya başlamasıyla elde edilmesi beklenen kazanımlar;\n\n•   Mevcut envanter üzerinden Türkiye’nin tıbbi cihaz haritası çıkarılarak ihtiyaçların belirlenmesi, tedarik edilmesi ve ürünlerin transfer edilmesi işlemlerinde kolaylık sağlanması,\n\n•   Ülke genelindeki tüm tıbbi cihazlara ait kalibrasyon ve bakım/onarım işlemlerinin tek bir sistem üzerinden izlenmesi,\n\n•   Eski ve kusurlu ürünlerin tespit edilmesi ve geri çağrılması,\n\n•   Tıbbi cihaz ve kozmetik ürünlerin ülkeye girişleri ve hareketlerinin denetim altına alınması,\n\n•   Ülke genelinde talep ve tüketim düzeylerinin izlenebilmesi,\n\n•   Marka güvenliğinin teminat altına alınması,\n\n•   Bayi ve şube ilişkileri bakımından imtiyaz ve ticari hakların korunması,\n\n•   Niteliksiz ve sahte ürünlerin haksız rekabetinin önlenmesi,olarak belirtilmiştir.\n\nÜrün Takip Sistemi (ÜTS) Projesi’nin Modülleri\n\nÜrün Takip Sistemi (ÜTS) Projesi’nin modülleri;\n\n•   Takip ve İzleme (Ürün hareketleri ve ürün geri çağırma modülü),\n\n•   Ürün Yönetimi (Ürün ağacı yönetimi ve ürün yönetimi modülü),\n\n•   Kullanıcı, Kurum ve Yetki Yönetimi (kullanıcı yönetimi, kurum yönetimi ve yetki yönetimi modülü),\n\n•   Klinik Mühendislik Yönetimi (Bakım ve onarım yönetimi, kalibrasyon yönetimi, teknik personel sertifikasyon modülü vb.),\n\n•   İş Zekası (Ön tanımlı raporlama, harita destekli raporlama modülü),\n\n•   Piyasa Gözetim ve Denetimi (PGD) ve Uyarı (Denetim faaliyetleri ve uyarı modülü),\n\n•   Destekleyici İşlevler (Belge ve sertifika yönetimi, referans alanlar yönetimi, log yönetimi, duyuru, zamanlanmış görevler modülü),\n\n•   Vatandaş Odaklı Hizmetler (Ürün sorgulama, kişi üzerine kayıtlı ürün sorgulama, şikayet bildirimi, bakım ve kalibrasyon sorgulama modülü),olarak belirtilmiştir.\n\nÜTS Kayıt Danışmanlığı\n\n12 Haziran 2017 itibarıyla tıbbi cihaz kayıt/bildirim işlemleri, ürün hareketleri ve ilgili diğer iş ve işlemler ÜTS üzerinden takip edilmektedir. Ülkemizdeki bazı danışmanlık firmaları tarafından Ürün Takip Sistemi ile ilgili işlemlerde danışmanlık hizmeti verilmektedir. Bu işlemler ÜTS Kayıt Danışmanlığı olarak ifade edilebilir. Danışmanlık kapsamında verilen hizmetler;\n\n•   Tıbbi Cihaz Satış Merkezi Yetki Belgesi: 15 Mayıs 2014’te yürürlüğe giren Tıbbi Cihaz Satış, Reklam ve Tanıtım Yönetmeliği ile tıbbi cihaz satışı yapan işletmelerin faaliyetlerini sürdürmek için yetki belgesi almaları zorunlu hale getirilmiştir. Yetki belgesi almak isteyen işletmeler bazı koşulları yerine getirmelidirler. Bu yetki belgesini almayan firmaların ÜTS firma kayıt işlemleri gerçekleştirilememektedir. Ayrıca; tıbbi cihaz işletmelerinde sorumlu müdür, satış ve tanıtım elemanı ve klinik destek elemanı olarak çalışabilmek için TCESİS içinde yer alan eğitimleri almak, sınavdan başarıyla geçmek ve Türkiye İlaç ve Tıbbi Cihaz Kurumu’na başvurarak yeterlilik belgesini almak gerekmektedir.\n\n•   Firma Kaydı: Tıbbi Cihaz imalatçısı firmalar (yerel üretici), ithalatçı firmalar ve bayi firmaları için ÜTS sistemine kayıt yapılması gerekmektedir. Firmanın kaydının yapılabilmesi için tıbbi cihaz yetki belgesinin alınmış olması gerekmektedir.\n\n•   Belge Kaydı: Firma sistemde onaylandıktan sonra sisteme kaydı yapılacak tıbbi cihazlarla ilgili ÜTS’ye kaydı yapılması gerekli belgeler;\n\no   Uygunluk Beyanı (Üretici tarafından hazırlanan bir belgedir.),\n\no   EC Belgesi (Onaylanmış bir kuruluş tarafından verilen bir belgedir.),\n\no   Kullanma Kılavuzu (Ürünün kullanımını anlatan kılavuzdur.)’dur.\n\n•   Ürün Kaydı: Belgelerin onaylanmasından sonra piyasaya sürülen her tıbbi cihazın ÜTS’ye kaydı yapılması gerekmektedir. Online (çevrimiçi) kayıt işlemi sırasında ürün ile ilgili bilgilerin sisteme girişinin yapılmasına ek olarak, ürünün Türkçe etiketlerinin PDF formatında veri tabanına yüklenmesi gerekmektedir.\n\n•   Serbest Satış Sertifikası: İhracatının yapılmak istendiği veya ithalattan ihraç edilmek istenen ürünler için ÜTS’den serbest satış sertifikası başvurusu yapılmalıdır.\n\n•   Sosyal Güvenlik Kurumu (SGK) Kaydı: SGK geri ödeme kapsamında olan ürünlerin, ÜTS’de onaylanmasının ardından SUT eşleştirmesi yapılarak SGK kayıtlarının tamamlanması gerekmektedir.olarak sıralanabilir. Yukarıda bahsedilen hizmetleri almak için bize hemen başvurabilirsiniz.\n\nEGEFE Bilişim Sağlık\nSağlık sektöründe yaptığı inovatif çözümler ile güven, kalite ve memnuniyetin öncüsü...\n+90 312 482 54 51\ninfo@ege-fe.com\nege-fe.com\nMüşteri Hizmetleri\nHesabım\nSiparişlerim\nSipariş Takip\nOnline Mağaza\nTeknik Servis Takip\nBilgi & Sözleşmeler\nGizlilik Sözleşmesi\nMesafeli Satış Sözleşmesi\nÖdeme, İade ve Garanti\nKVKK\nİletişim\nBizi takip edin\nGelişmelerden ve farkındalık dünyamızdan haberdar olmak için bizi sosyal kanallardan takip edin\n\nCopyright by Egefe. All rights reserved.\n\nAnasayfa Kurumsal Hizmetler Danışmanlık Mağaza Blog İletişim",
+  "status": 200,
+  "finalUrl": "https://ege-fe.com/tibbi-cihaz/",
+  "attempt": 0
+}

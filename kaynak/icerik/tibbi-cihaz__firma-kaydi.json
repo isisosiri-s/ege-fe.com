@@ -1,0 +1,52 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "UBB firma kaydı nasıl yapılır?"
+ },
+ {
+  "t": "p",
+  "html": "Türkiye Cumhuriyeti sınırları içinde, ilaç ve/veya tıbbi cihaz üretimi, ithalatı, ihracatı yapan veya bir yabancı firmanın Türkiye yetkili temsilcisi olarak faaliyet gösteren her türlü tüzel kişilerle, bu kişilerin ürünlerinin dağıtımını yetki ile üstlenmiş diğer tüzel kişilerdir."
+ },
+ {
+  "t": "p",
+  "html": "Danışmanlık ve bilgi için lütfen bizimle <a href=\"/iletisim\">iletişime</a> geçin."
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "Tedarikçi Firma nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Türkiye’de ilaç ve/veya tıbbi cihaz alanında, üretici (imalatçı), ithalatçı veya yetkili temsilci olarak faaliyet gösteren tüzel kişidir. Tıbbi cihaz üretici ve ithalatçı firmaların TİTUBB sistemi üzerinden firma kayıt işlemleri tamamlanmadan belge (uygunluk beyanı, CE belgesi, kullanım kılavuzu vs) / ürün (TITUBB sisteminde firmanın satışını gerçekleştirdiği tıbbi cihaza ‘ürün’ denilmektedir.) / bayi kayıtları yapılmamaktadır."
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "Firma Faaliyet Alanı nasıl seçilir?"
+ },
+ {
+  "t": "p",
+  "html": "TITUBB’da faaliyet gösterecek firmaların,Türkiye’de ticari faaliyetini sürdürdükleri alan seçimidir. Firma kayıdı sırasında açılan faaliyet menüsünden bir veya birden fazla alan seçilerek kayıt yapılmaktadır."
+ },
+ {
+  "t": "h",
+  "lv": 1,
+  "text": "Firma Tanımlayıcı Numarası nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Firmalara sistem tarafından verilen ve firmanın TİTUBB içerisinde tek olarak tanımlanmasında anahtar olarak kullanılan veri alanıdır. TITUBB sisteminde firmalara, firma tanımlayıcı numarası tanımlaması yapılmaktadır."
+ },
+ {
+  "t": "p",
+  "html": "29.10.2018 tarih itibariyle TİTUBB tamamen kapatılacak olup bu tarihe kadar yapılmış ÜTS başvurularının incelenmesini müteakip, ihale ve geri ödeme gibi tüm süreçler ÜTS esas alınarak devam edecektir."
+ }
+]

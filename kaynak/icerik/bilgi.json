@@ -1,0 +1,270 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/1282794-1280x1280.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/1282794-1280x1280.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Bakım Onarım"
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Kalibrasyon süresi ne kadardır?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "NAM-07 cihazlarının kalibrasyon süresi:"
+ },
+ {
+  "t": "p",
+  "html": "NAM-19 cihazlarının kalibrasyon süresi:"
+ },
+ {
+  "t": "p",
+  "html": "Süreler kargonun tarafımıza ulaşarak, işlemlerin bittiği gün kargoya verilmesine göre belirtilmiştir."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Periyodik bakım hizmetleri nasıl verilmektedir?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Periyodik bakım hizmetlerinde 3-6-12-24 ve 36 ay şeklinde imzalanan sözleşmeler ile birlikte; cihazlarınızın bakım periyotlarından 1 hafta öncesinde tarafınıza bilgilendirme yapılarak tarafımıza gönderilmesi sağlanır. Cihazın bakımları yapıldıktan sonra tarafınıza hızlı şekilde kargolanması yapılır."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Kalibrasyon ücreti ne kadardır?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Kalibrasyon ücret tarifesi aşağıdaki gibidir.<br> NAM-07:"
+ },
+ {
+  "t": "p",
+  "html": "NAM-19:"
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Teknik servise gönderdiğim cihazın durumunu nasıl öğrenebilirim?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Tarafımıza ulaşan cihazların seri numarası ve kurum iletişim bilgilerine göre destek.ege-fe.com adresine kayıtları yapılarak cihazınızın sürecini ve faturalarınızı anlık olarak görebilirsiniz."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Cihaz yedek parçası temini yapıyor musunuz?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "NAM-07 ve NAM-19 cihazlarının orjinal yedek parçalarının temini yapılmaktadır. Lütfen online mağazamıza giriş yaparak görüntüleyebilir ve sipariş verebilirsiniz."
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Cihazlar"
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Cihazı yeni aldım neler yapmam gerekiyor?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Cihazı aldığınız andan itibaren garanti süreciniz başlamaktadır. Cihazı çalıştırmak için öncelikle 6 saatlik bir şarjdan sonra kullanıma başlamalısınız."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Cihaz nasıl açılır nasıl kapanır?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Cihaz power tuşuna 5 saniye basılı tuttuktan sonra açılmaktadır."
+ },
+ {
+  "t": "p",
+  "html": "Bunun yanında 5 saniye power tuşuna basılı tutarak cihazınızı güvenli bir şekilde kapatabilirsiniz."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "NAM-07 ve NAM-19 cihazları arasındaki farklar nelerdir?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Cihazlar arasındaki farklar aşağıdaki gibidir."
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Fark-1.",
+   "Fark-2.",
+   "Fark-3.",
+   "Fark-4."
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Cihazı nasıl temin edebilirim?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Cihaz temini için info@ege-fe.com adresine mail göndererek veya 0312 482 5451 telefon numarasından bize ulaşarak teklif alabilir ve sipariş verebilirsiniz."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Cihazım açılmıyor ne yapmalıyım?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Cihazınızın pili bitmiş olabilir. Cihazınızı şarj ettikten sonra yine açılmıyorsa lütfen tarafımıza arıza kaydı oluşturarak cihazınızı teknik servisimize ulaştırın."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Cihazların CE uygunluğu bulunuyor mu?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Bulunmaktadır."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Cihazlardan veri transferi yapılıyor mu?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "NAM-DATA Alkolmetreden bilgisayara veri transfer yazılımında iki seviyeli yetkilendirme mümkündür. Yetkisiz kullanıcılar alkometre içerisindeki verileri bilgisayara aktarma, aktarılan verileri arşivleme, veri tarama, sonuçları yazdırma ve farklı ortamlara (CD, hafıza kartı gibi) kaydetme işlemlerini yapabilir. Yetkili kişiler ise ek olarak cihaz hafızasını temizleme, program ayarlarını yapma, yetkilendirme gibi üst düzey işlemler yapabilir."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Ölçüm modları nelerdir?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "NAM-07 de bulunan Otomatik ölçüm modunda yeterli nefes üfleyebilen kişilerde ölçüm yapılabildiği gibi, Manuel ve Pasif ölçüm modlarında yeterli nefes üfleyemeyen hasta ve baygın durumdaki kişilerde de ölçüm yapılabilme imkanı sunulmaktadır."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Hafızası yeterli mi?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Yüksek kapasiteli hafızası ile uzun süreli kullanım için veri kaydı sağlanmaktadır. NAM-07 tuşlarıyla hafızasındaki tüm verilerde çeşitli kriterlere göre tarama yapma imkanı sunulmaktadır. Bulunan veri ekranda görüntülenebilir ve istenirse opsiyonel sunulan yazıcı aracılığıyla geçmiş kayıtlardan rapor alınabilmektedir. Hafızasındaki veriler arşiv amaçlı, istenirse bir PC’ye aktarılabilmektedir."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Kullanımı kolay mı? Dil Seçeneği var mı?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "3-tuş kullanım ile kolay kullanım imkanı sunulmaktadır. Ayrıca ülkelere uygun dil seçeneği, ekranda tuş simgeleriyle kullanıcı yönlendirme, cümlelerle ifade edilen ikaz ve hata mesajları ile tam bir kullanıcı dostudur."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Ölçüm modları nelerdir?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "NAM-07 de bulunan Otomatik ölçüm modunda yeterli nefes üfleyebilen kişilerde ölçüm yapılabildiği gibi, Manuel ve Pasif ölçüm modlarında yeterli nefes üfleyemeyen hasta ve baygın durumdaki kişilerde de ölçüm yapılabilme imkanı sunulmaktadır."
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/05/img-blue-corner-bottom-right.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/05/img-blue-corner-bottom-right.png",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Uyuşturucu Test Kiti"
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Uyuşturucu tespit kiti nedir?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "UTK Uyuşturucu Tespit Kiti, Uyuşturucu Test Sisteminin bir parçası olarak alkol dışında bağımlılık yaratan her türlü uyuşturucu maddelerin ve/veya metabolitlerinin kullanan kişilerin ağız sıvısından(tükürükten) alınan örnekle tespit edilmelerine olanak sağlamaktadır. Bu yöntem, ön tespit amaçlı olup pozitif sonuçlara uygulanacak yaptırımlardan önce teyide ihtiyaç duyulmaktadır."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "UTK kaç kullanımlıktır?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "UTK Tespit kiti tek kullanımlıktır ve test stripleri ile ağız sıvısı toplama setinden oluşur. Bazı modellerde ağız sıvısı toplama pedi tespit kiti ile tümleşik iken bazı modellerde ağız sıvısı toplama pedi ayrıdır."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Kaç çeşit uyuşturucu tespit edebilir?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "UTK Test Kiti aynı anda 9 çeşit uyuşturucu madde tespiti yapabilme imkanı sağlamaktadır. Talebe göre madde sayısı ve maddelerin eşik değerleri değişiklik gösterebilmektedir."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "UTK ürününü tek alma şansımız var mı?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Evet. Web sitemizden online olarak sipariş verebilirsiniz."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "UTK için cihaz zorunluluğu var mı?",
+  "faq": true
+ },
+ {
+  "t": "p",
+  "html": "Uyuşturucu tespit kiti için cihaz zorunluluğu bulunmamaktadır."
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/utk-uyusturucu-test-kiti-1280x1280.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/utk-uyusturucu-test-kiti-1280x1280.jpg",
+  "deco": true
+ }
+]

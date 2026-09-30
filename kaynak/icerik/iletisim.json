@@ -1,0 +1,65 @@
+[
+ {
+  "t": "table",
+  "rows": [
+   [
+    "←",
+    "Move left"
+   ],
+   [
+    "→",
+    "Move right"
+   ],
+   [
+    "↑",
+    "Move up"
+   ],
+   [
+    "↓",
+    "Move down"
+   ],
+   [
+    "+",
+    "Zoom in"
+   ],
+   [
+    "-",
+    "Zoom out"
+   ],
+   [
+    "Home",
+    "Jump left by 75%"
+   ],
+   [
+    "End",
+    "Jump right by 75%"
+   ],
+   [
+    "Page Up",
+    "Jump up by 75%"
+   ],
+   [
+    "Page Down",
+    "Jump down by 75%"
+   ]
+  ]
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Terrain"
+  ]
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Labels"
+  ]
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/05/img-white-corner-bottom-left.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/05/img-white-corner-bottom-left.png",
+  "deco": true
+ }
+]

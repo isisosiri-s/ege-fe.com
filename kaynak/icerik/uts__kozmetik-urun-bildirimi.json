@@ -1,0 +1,38 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Kozmetik Ürünlerin Bildirilmesi"
+ },
+ {
+  "t": "p",
+  "html": "Bir kozmetik ürün üretip satışa sunacaksanız ya da bir kozmetik ürün ithal edip Türkiye pazarına arz edecekseniz, öncesinde kozmetik kapsamında değerlendirilen tüm ürünleriniz için Sağlık Bakanlığı’na ürün bildirimi başvurusu yapmalısınız."
+ },
+ {
+  "t": "p",
+  "html": "İthalatını veya üretimini yapacağınız tüm kozmetik ürünler (parfüm, şampuan, makyaj malzemeleri, cilt bakım ürünleri vb.) için sağlık bakanlığı’na, kozmetik bildirim başvurusunun yapılarak firmanız adına <em>kozmetik ürün bildirim kabul belgesi</em> düzenlenmesi gerekmektedir."
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Kozmetik Ürün Bildirim Sürecinde Hizmetlerimiz"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Kozmetik Kanunu ve Yönetmeliği’ne uygun ürün arz etmeniz için tarafınıza bilgilendirmede bulunmak. Risklerinizi ve süreçlerinizi analiz etmek.",
+   "<em>Ürün Takip Sistemi</em> uygulamasına firmanızı kaydetmek. E-imza alım sürecinde destek sağlamak.",
+   "Konusunda uzman <em>Sorumlu Teknik Eleman (STE)</em> portföyümüz ile firmanıza en uygun personelin bulunması konusunda yardımcı olmak. STE’nin sistem üzerinde yetkilendirmesini yapmak.",
+   "Piyasaya süreceğiniz ürünlerin mevzuat doğrultusunda incelemesini yapmak, ürün içeriklerini mevzuata göre kontrol etmek. Varsa riskler, yasaklı/limitli maddeleri başvuru öncesinde bildirmek.",
+   "Türkçe etiket/sticker formatlarını Bakanlık mevzuat ve kılavuzlarına göre hazırlamak.",
+   "Ürünlerinizi ve formülleri ÜTS’ye kaydetmek ve başvuru dosyanızı hazırlamak.",
+   "Ve daha fazlası."
+  ]
+ }
+]

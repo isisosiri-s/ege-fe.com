@@ -1,0 +1,47 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/Basliksiz-1.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/Basliksiz-1.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "GMP Sertifika Başvuruları"
+ },
+ {
+  "t": "p",
+  "html": "Bilindiği üzere 01.03.2010 tarihinden itibaren yapılan CTD ruhsat başvurularında ön inceleme sırasında Bakanlığımızca denetlenerek verilmiş olan <em>GMP belgesi</em> veya ülkemizle karşılıklı tanıma anlaşması olan ülkelerin resmi otoritelerince verilmiş olan <em>GMP</em> belgeleri sunulmak zorundadır. Bu kapsamda Kurumumuzca gerçekleştirilen yurtdışı <em>GMP</em> denetimleri 06.03.2015 tarihinde Kurumumuz internet sayfasında yayımlanan “Yurt Dışı Üretim Tesislerinin <em>GMP</em> Denetimleri İçin Yapılacak Müracaatlara Dair Kılavuz” doğrultusunda gerçekleştirilmektedir."
+ },
+ {
+  "t": "p",
+  "html": "Bununla birlikte; Beşeri Tıbbi Ürünlerin İmalathaneleri Hakkında Yönetmeliğin 13. Maddesinin 2. Fıkrasında “Kurum, ithal edilen ürünlerin imalat yerlerini de denetleyebilir.” hükmü bulunmaktadır. Bu çerçevede;"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "01.03.2010 tarihinden önce ruhsat almış tüm ithal beşeri tıbbi ürünlerin,",
+   "01.03.2010 tarihinden sonra ruhsat almış ancak devir, varyasyon, tesis ilavesi vb. nedenlerle ilgili kılavuzda belirtilen üretim aşamalarının bir kısmı ya da tamamı denetlenmemiş tüm ithal beşeri tıbbi ürünlerin,",
+   "İmal ruhsatlı ürünlerden üretimi aşamalarından bir kısmının yurtdışında bulunan tesislerde gerçekleştirilen ürünlerin,<br> ilgili kılavuza göre denetime tabi tüm üretim aşamalarının denetimlerinin gerçekleştirilebilmesi için 01.09.2016 ila 30.11.2016 tarihleri arasında Kurumumuz İlaç Denetim Dairesi Başkanlığına başvurmaları gerekmektedir. Söz konusu başvuruların; 06.03.2015 tarihinde Kurumumuz internet sayfasında yayımlanan “Yurt Dışı Üretim Tesislerinin <em>GMP</em> Denetimleri İçin Yapılacak Müracaatlara Dair Kılavuz” kapsamında denetimi gerektirir üretim aşamaları için -kılavuzda belirtilen usul ve esaslara riayet edilerek- yerinde <em>GMP</em> denetim başvurusu (kılavuzun A bölümü) ya da dosya üzerinden denetim başvurusu (kılavuzun B bölümü) olarak yapılması gerekmektedir."
+  ]
+ },
+ {
+  "t": "p",
+  "html": "Yukarıda belirtilen başvurularda ve ilgili kılavuz kapsamında yapılan tüm başvurularda aşağıda belirtilen hususlara da titizlikle riayet edilmesi önemlidir."
+ },
+ {
+  "t": "ol",
+  "items": [
+   "Yapılacak tüm denetim başvurularında, başvuruya esas ürünlerin önceliklendirme kararları varsa, kararın bir örneği başvuru dosyasında sunulmalı ve başvuru üst yazısında bu husus belirtilmelidir.",
+   "İlgili kılavuz kapsamında yapılan tüm başvurularda, ruhsatlı ürünlerin güncel ruhsat fotokopisi başvuru dosyasında sunulmalıdır.",
+   "Kılavuzda da belirtildiği üzere başvurular tesis bazlı yapılmalı, bununla birlikte aynı tesisteki birden fazla ürün için ayrı ayrı başvuru yapılmamalıdır. Benzer şekilde denetimler sonrası sertifika talebi için <em>“GMP sertifika ücreti”</em> doküman tipi ile yapılan başvurularda da aynı tesisteki birden fazla ürün için ayrı ayrı başvuru yapılmamalı, tek bir başvuru yapılmalıdır.",
+   "Başvuruların kılavuzda belirtilen; Yurt dışı üretim yerine ait yerinde <em>GMP denetim</em> başvurusunda/dosya üzerinden denetim başvurusunda/risk bazlı denetim başvurusunda yer alan üst yazı ve her bir ürün, her bir üretim yeri ve her bir farmasötik form için Ek 1, Ek 2 ve Ek 3’de yer alan başvuru formlarının eksiksiz olarak ayrı ayrı doldurularak imzalanması, ayrıca başvuru ücretinin ödendiğine dair ıslak imzalı banka dekont aslının hem basılı hem de elektronik olarak gönderilmesi, diğer bilgi ve belgelerin ise sadece elektronik olarak gönderilmesi” hususuna riayet edilmemesi halinde başvuru incelenmeden iade edilecektir. Benzer şekilde, denetim sonrası tespit edilen eksikliklere yönelik düzeltici-önleyici faaliyetlerin sunulmasında da sadece ıslak/elektronik imzalı üst yazı ve varsa CD., flash disk vb. dokümanlar dışında diğer bilgi ve belgelerin ise sadece elektronik olarak gönderilmesine riayet edilmelidir.",
+   "Yurtdışı üretici firma tarafından doğrudan Kurumumuza gönderilecek dokümanlar varsa önce ithalatçı firma tarafından gerekli başvuru yapılarak e-takip alınmalı, ardından üretici firma üst yazısında söz konusu e-takip numarasını, firma adını ve ürün adını belirterek dokümanları göndermelidir. Aksi durumlarda gelen evraklarla ilgili başvurular ilişkilendirilememektedir.",
+   "Süresi dolan veya dolmak üzere olan tesisler için yapılan dosya üzerinden denetim başvuruları, ilgili tesisin risk bazlı denetiminin sonuçlanmasından sonra değerlendirilecektir. Bu nedenle, yapılacak başvurularda bu hususun göz önünde bulundurulması gerekmektedir.",
+   "Yerinde denetim planlanan tesislere yapılacak ürün ilavelerinde denetim tarihinden en az 15 gün önce başvurunun eksiksiz olarak yapılması gerekmektedir.",
+   "Kılavuzun C Bölümü kapsamında yapılan Risk Bazlı Denetim (Yenileme) başvurularında, sertifika veya uygunluk almamış ürünlerin yer almaması gerekmekte olup, aksi halde bu başvuru incelenmeden iade edilecektir.",
+   "Gerçekleştirilen denetimler sonrasında ürün ismi, tesis ismi ve ithalatçı firma unvan değişikliklerinde Kurumumuzun ilgili birimlerinden gerekli onaylar alındıktan sonra İlaç Denetim Dairesi’ne kanıtlayıcı dokümanlarla bildirimde bulunulması gerekmektedir."
+  ]
+ }
+]

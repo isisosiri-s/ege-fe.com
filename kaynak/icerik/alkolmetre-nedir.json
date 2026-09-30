@@ -1,0 +1,67 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Alkolmetre Nedir?"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/02/Man_in_Car_Next_to_Cop_with_Breath.2e16d0ba.fill-847x400-1-640x302.jpg",
+  "alt": "Alkolmetre Nedir?",
+  "cap": "Alkolmetre Nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Kandaki alkol oranını ölçen cihazlara alkolmetre adı verilir. Kandaki alkol miktarını belirten ölçü birime ise ‘promil’ adı verilmektedir. Ayrıca promil insan nefesindeki hava miktarı ile de tespit edilmektedir. Bunun belirlemeyi yapmak için gereken ilk kıstas verilen havanın diyaframdan gelmesi gerekmetedir."
+ },
+ {
+  "t": "p",
+  "html": "Alkolmetre kandaki alkol miktarını tespit edemez fakat nefesteki alkol oranı ile kandaki alkol oranlarının ortalama tahminini alarak bir sonuç çıkarır. Alkolmetre cihazlarının araştırması ve geliştirmelerinin yapılmasındaki birinci hedef alkollü olarak direksiyon başına geçmeyi engellemek ve bu sayede trafik kazalarının önüne geçmek için üretilmiştir. Bu sebeple karayollarını kullanarak bir sürüş gerçekleştiren sürücünün kanındaki alkol değeri belirli bir seviyenin üstüne çıkmamaladır. Eğer sürücü bu seviyenin üstünde ise çeşitli cezalarla karşı karşıya gelecektir."
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "ALKOLMETRE ÇALIŞMA MANTIĞI"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/02/TorontoDUI__Apr_17_post_upd.jpg.500x333_q85_crop-640x360.jpg",
+  "alt": "Alkolmetre Nedir?",
+  "cap": "Alkolmetre Nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Alkolmetre cihazı şu kimyasalları ve parçaları içermektedir;"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Işık kaynağı",
+   "Potasyum Dikromat Solüsyonu",
+   "Filtre",
+   "Fotoselli Dedektör",
+   "Gösterge",
+   "Ölçüm birimi gibi öğeleri içermektedir"
+  ]
+ },
+ {
+  "t": "p",
+  "html": "Alkolmetrelerin kimyasal temeli indirgenme ve yükseltgenme yani redoks reaksiyon olarak bilinmektedir. Alkol testi sırasında nefes ile verilecek olan hava, alkalin çözücünün içne asikdik potasyum dikromat solüsyonu ile temas ettiğinde çekilmelidir. Bu sayede alkol testi yapılan kişi cihaza üflediğinde havadaki alkol veya etanol asetik asite dönüşür. Bundan sonra etanol, asetik asit ile tepkimeye girerek oksitlenir."
+ },
+ {
+  "t": "p",
+  "html": "Bunun sonucunda Turuncu – sarı renkte olan dikromat iyonundaki krom, yeşil kromunua indirgenir. Kandaki alkol seviyesi ise bu renk değişimine bağlı olarak belirlenmektedir. Renk değişiminin derecesi ölçülerek kişinin alkol miktarı ortaya çıkar. Başka tip alkolmetrelerin ise çalışma presipleri şöyledir; Kişi alkol testi için alkolmetreye üflendiğinde cihazdaki elektrik devrelerinden geçen elektrik akımı nefeste bulunana alkol miktarına göre değişmektedir. Bu elektrik akımı, cihazdaki algoritmalara göre değerlendirilerek ölçülür. Bu sayede kandaki alkol oranı ortaya çıkmış olur."
+ },
+ {
+  "t": "p",
+  "html": "Alkolmetre kullanılmadan önce elinize sürdüğünüz kolonya mendil ile cihazı tutma, alkolmetreye üflemeden önce ağzınızı sildiğiniz kolonyalı ıslak mendiller görülen alkol miktarını etkilemektedir."
+ },
+ {
+  "t": "p",
+  "html": "Alkolmetre Nedir? Gibi Birçok Bilgilendirme İçeriği İçin Lütfen <a href=\"http://ege-fe.com/promil-nedir\">Tıklayın</a>…"
+ },
+ {
+  "t": "p",
+  "html": "Alkollü Araç Kullanımı İle İlgili Cezaları İçin Lütfen <a href=\"https://www.egm.gov.tr/alkollu-arac-kullanimi\">Tıklayın</a>…"
+ }
+]

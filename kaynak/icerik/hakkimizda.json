@@ -1,0 +1,120 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Hakkımızda"
+ },
+ {
+  "t": "p",
+  "html": "Yenilikçi vizyonu ile teknolojinin trendlerini sağlık sektöründe öne çıkaran Egefe Bilişim Sağlık, sektörde farklılık oluşturmak ve daha kaliteli ürün, hizmet sunmak için çalışmalarını hızla sürdürmektedir.",
+  "sub": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/05/img-about-us.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/05/img-about-us.jpg",
+  "deco": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "deco": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/hakkimizda.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/hakkimizda.jpg",
+  "deco": true
+ },
+ {
+  "t": "p",
+  "html": "EGEFE; sektörde 20 yıllık tecrübesi ile birlikte, 2015 yılında kurulmuştur. Türkiye’nin neredeyse her il ve ilçesine hizmet vermekle kalmayıp yurtdışında da faaliyetlerini sürdürmektedir."
+ },
+ {
+  "t": "p",
+  "html": "Çeşitli ürün ve hizmet kolları ile birlikte özelden kamuya birçok kurum ve kuruluşa hizmet vermekte olup, sağlık sektörü için ortaya çıkardığı inovatif ürünler ile müşteri ihtiyaçlarını fazlası ile karşılamaktadır."
+ },
+ {
+  "t": "p",
+  "html": "Uzman kadrosu ve memnuniyet odaklı hizmet anlayışı ile birlikte sektörde isminden fazlaca söz ettiren Egefe Bilişim Sağlık A.Ş. bulunduğu ürün gruplarının yanında farklı AR-GE çalışmalarıyla da kaliteden taviz vermeden her geçen gün ürün çeşitliliğini artırmaktadır."
+ },
+ {
+  "t": "p",
+  "html": "Hizmet kalitesini üst seviyeye yükselterek ve müşteri memnuniyetini ön planda tutarak, ilişkilerimizi saygı, adalet, vicdan, dürüstlük temelleri üzerine kuran ve bunu yürüten; sağlık alanında yapacağı çalışmalar ile ülkemizde ve dünyada örnek olabilecek bir şirket olmayı misyon edindik…"
+ },
+ {
+  "t": "p",
+  "html": "Sağlık sektöründe gelişen teknolojileri takip ederek; beklentileri karşılayıp hizmetlerin sürekli geliştirilmesi ve kusursuzlaştırılmasını sağlamayı vizyon edindik…"
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Neler Yaparız?"
+ },
+ {
+  "t": "card",
+  "title": "Bakım Onarım",
+  "text": "Bakım Onarım",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Kalibrasyon",
+  "text": "Kalibrasyon",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Yedek Parça",
+  "text": "Yedek Parça",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Eğitim Danışmanlık",
+  "text": "Eğitim Danışmanlık",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "ÜTS, Tıbbi Cihaz, İlaç",
+  "text": "ÜTS, Tıbbi Cihaz, İlaç",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "AR-GE Çözümleri",
+  "text": "AR-GE Çözümleri",
+  "href": ""
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Bize Ulaşın"
+ },
+ {
+  "t": "card",
+  "title": "Merkez",
+  "text": "Harbiye Mahallesi Hürriyet Caddesi No:7/12 Çankaya/Ankara",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "AR-GE Ofis",
+  "text": "Kırıkkale Teknopark No:17 Kırıkkale",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "E-posta",
+  "text": "info",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Telefon",
+  "text": "+90 312 482 5451",
+  "href": ""
+ }
+]

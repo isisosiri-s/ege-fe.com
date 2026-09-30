@@ -1,0 +1,28 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2022/01/uts-1.jpg",
+  "deco": true
+ },
+ {
+  "t": "p",
+  "html": "5324 sayılı <em>Kozmetik Kanunu</em> gereğince kozmetik ürünlerin piyasaya arz edilmeden önce Bakanlığa bildiriminin yapılması zorunludur."
+ },
+ {
+  "t": "p",
+  "html": "<em>Kozmetik Yönetmeliğinin</em>, 14. maddesi kapsamında ilgili mevzuatta yer alan üretici vasfı ile Kurumumuza bildirim yapan firmaların, bildirim formlarında yer alan unvanları ile Ürün Takip Sistemi (ÜTS) ve Elektronik Başvuru Sistemi (EBS)’ nde yer alan firma unvanlarının aynı olması gerekmektedir."
+ },
+ {
+  "t": "p",
+  "html": "Ayrıca, Kozmetik Kanun Bildirim ve Denetim başlıklı 3’üncü maddesi kapsamında <em>Kozmetik ürünün</em> piyasaya ilk kez arz edilmesinden önce Sağlık Bakanlığı’na bildirimde bulunulması zorunlu olup, bildirimden sonra üründe veya üreticide meydana gelen değişikliklerin de bildirilmesi zorunludur."
+ },
+ {
+  "t": "p",
+  "html": "Kozmetik Yönetmeliği kapsamında ürünün piyasaya arzı sırasında ürünün orijinal ambalajı ve okunabilir ambalaj görseli ile Türkçe etiket örneklerinin Kurumun belirlediği elektronik sistemler üzerinden Kuruma sunulması gerekmektedir."
+ },
+ {
+  "t": "p",
+  "html": "İlgili firma unvan değişiklikleri için Kozmetik Faaliyetleri Elektronik İşlem Süreçlerine İlişkin Kılavuz doğrultusunda, başvuruda bulunulması gerekmektedir."
+ }
+]

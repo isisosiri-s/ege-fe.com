@@ -1,0 +1,1250 @@
+{
+  "report": [
+    {
+      "name": "alkol-bagimliligi",
+      "path": "/alkol-bagimliligi/",
+      "title": "ALKOL BAĞIMLILIĞI - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3547,
+      "h1": "ALKOL BAĞIMLILIĞI",
+      "flags": [],
+      "imgs": 12
+    },
+    {
+      "name": "alkollu-arac-kullanmak",
+      "path": "/alkollu-arac-kullanmak/",
+      "title": "Alkollü Araç Kullanmak - Egefe Sağlık Bilişim A.Ş.",
+      "len": 4388,
+      "h1": "Alkollü Araç Kullanmak",
+      "flags": [],
+      "imgs": 13
+    },
+    {
+      "name": "alkolmetre-nedir",
+      "path": "/alkolmetre-nedir/",
+      "title": "Alkolmetre Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2528,
+      "h1": "Alkolmetre Nedir?",
+      "flags": [],
+      "imgs": 11
+    },
+    {
+      "name": "amfetamin-nedir",
+      "path": "/amfetamin-nedir/",
+      "title": "Amfetamin Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1892,
+      "h1": "Amfetamin Nedir?",
+      "flags": [],
+      "imgs": 9
+    },
+    {
+      "name": "anasayfa",
+      "path": "/",
+      "title": "Anasayfa - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1493,
+      "h1": "",
+      "flags": [
+        "Yazım hatası (\"Uyuşturu\"): \"…iz ile hizmetinizdeyiz... ÜRÜNLERİMİZ 9 Uyuşturu Madde Tespiti Kısa Sürede Kesin Sonuçlar TEST KİTİ …\"",
+        "Yazım hatası (\"birimkimlerini\"): \"…ektörde bulunan Egefe, tecrübe ve bilgi birimkimlerini sizlere aktarıyor. Sağlık sektöründeki öncü d…\"",
+        "H1 yok"
+      ],
+      "imgs": 16
+    },
+    {
+      "name": "ariza-ve-onarim",
+      "path": "/ariza-ve-onarim/",
+      "title": "Arıza ve Onarım - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2255,
+      "h1": "Arıza ve Onarım",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "bilgi",
+      "path": "/bilgi/",
+      "title": "Bilgi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 5088,
+      "h1": "Bilgi",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Interactively procrastinate high-payoff content without back…\""
+      ],
+      "imgs": 10
+    },
+    {
+      "name": "blog",
+      "path": "/blog/",
+      "title": "Blog - Egefe Sağlık Bilişim A.Ş.",
+      "len": 5312,
+      "h1": "Blog",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Credibly reintermediate backend ideas for cross-platform mod…\"",
+        "\"Kategorisiz\" kategori etiketi: \"…und intellectual capital. Mart 26, 2022 Kategorisiz Eroin Bağımlılığı  Eroin Bağımlılığı Bağımlılık,…\""
+      ],
+      "imgs": 13
+    },
+    {
+      "name": "category__saglik",
+      "path": "/category/saglik/",
+      "title": "Sağlık - Egefe Sağlık Bilişim A.Ş.",
+      "len": 5084,
+      "h1": "Sağlık - Egefe Sağlık Bilişim A.Ş.",
+      "flags": [
+        "Kısa/yanlış firma ünvanı varyantı: \"… Anasayfa Kategori Sağlık - Egefe Sağlık Bilişim A.Ş. Mart 15, 2022 Sağlık Kokain Bağıml…\"",
+        "Meta description yok"
+      ],
+      "imgs": 18
+    },
+    {
+      "name": "danismanlik",
+      "path": "/danismanlik/",
+      "title": "Danışmanlık - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2100,
+      "h1": "Danışmanlık",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Interactively procrastinate high-payoff content without back…\""
+      ],
+      "imgs": 8
+    },
+    {
+      "name": "diger-hizmetler",
+      "path": "/diger-hizmetler/",
+      "title": "Diğer Hizmetler - Egefe Sağlık Bilişim A.Ş.",
+      "len": 6126,
+      "h1": "Diğer Hizmetler | Ürün Takip Sistemi Projesi Nedir? | Ürün Takip Sistemi (ÜTS) Projesi’nin Modülleri | ÜTS Kayıt Danışmanlığı",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "4 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "diger-hizmetler__ce-teknik-dosya-hazirlanmasi",
+      "path": "/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/",
+      "title": "CE Teknik Dosya Hazırlanması - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1857,
+      "h1": "CE Teknik Dosya Hazırlanması",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "diger-hizmetler__kontrol-belgesi",
+      "path": "/diger-hizmetler/kontrol-belgesi/",
+      "title": "Kontrol Belgesi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 6239,
+      "h1": "Kontrol Belgesi | Kontrol Belgesi Başvurusu İçin Gerekli Belgeler | KONTROL BELGESİ BAŞVURUSU İÇİN GEREKLİ BELGELER: | Kontrole Tabi Maddelerin İthaline Mahsus Ruhsatname: | Kapsam Dışı Yazısı:",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "5 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "diger-hizmetler__permi-belgesi",
+      "path": "/diger-hizmetler/permi-belgesi/",
+      "title": "Permi Belgesi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1734,
+      "h1": "Permi Belgesi",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "diger-hizmetler__takviye-edici-gida",
+      "path": "/diger-hizmetler/takviye-edici-gida/",
+      "title": "Takviye Edici Gıda - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1759,
+      "h1": "Takviye Edici Gıda",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "diger",
+      "path": "/diger/",
+      "title": "Diğer - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3168,
+      "h1": "Diğer",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 9
+    },
+    {
+      "name": "ekstazi-nedir",
+      "path": "/ekstazi-nedir/",
+      "title": "Ekstazi Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 9193,
+      "h1": "Ekstazi Nedir?",
+      "flags": [],
+      "imgs": 10
+    },
+    {
+      "name": "ergenlerde-uyusturucu-kullanimi",
+      "path": "/ergenlerde-uyusturucu-kullanimi/",
+      "title": "Ergenlerde Uyuşturucu Kullanımı - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3383,
+      "h1": "Ergenlerde Uyuşturucu Kullanımı",
+      "flags": [],
+      "imgs": 12
+    },
+    {
+      "name": "eroin-bagimliligi",
+      "path": "/eroin-bagimliligi/",
+      "title": "Eroin Bağımlılığı - Egefe Sağlık Bilişim A.Ş.",
+      "len": 4261,
+      "h1": "Eroin Bağımlılığı",
+      "flags": [
+        "Kısa/yanlış firma ünvanı varyantı: \"…eği, kan testi, tırnak testidir. Ayrıca Egefe Bilişim Sağlık ürünü olan Uyuşturucu Test Kiti ve Uyuş…\"",
+        "\"Kategorisiz\" kategori etiketi: \"…en vazgeçememesi olarak tanımlanabilir. Kategorisiz Eroin Bağımlılığı Mart 26, 20220 Eroin Bağımlılı…\""
+      ],
+      "imgs": 10
+    },
+    {
+      "name": "eroin-nedir",
+      "path": "/eroin-nedir/",
+      "title": "Eroin Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 4313,
+      "h1": "Eroin Nedir?",
+      "flags": [
+        "\"Kategorisiz\" kategori etiketi: \"…erek çeşitli deneyler yapılmaktaydı.... Kategorisiz Eroin Nedir? Mart 26, 20220 Eroin Nedir? Eroin N…\""
+      ],
+      "imgs": 10
+    },
+    {
+      "name": "esrar-bagimliligi-tedavisi",
+      "path": "/esrar-bagimliligi-tedavisi/",
+      "title": "Esrar Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 4113,
+      "h1": "Esrar Bağımlılığı Tedavisi",
+      "flags": [],
+      "imgs": 11
+    },
+    {
+      "name": "esrar-bagimliligi",
+      "path": "/esrar-bagimliligi/",
+      "title": "Esrar Bağımlılığı - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2910,
+      "h1": "Esrar Bağımlılığı",
+      "flags": [],
+      "imgs": 12
+    },
+    {
+      "name": "esrar-nedir",
+      "path": "/esrar-nedir/",
+      "title": "Esrar Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2827,
+      "h1": "Esrar Nedir?",
+      "flags": [],
+      "imgs": 12
+    },
+    {
+      "name": "hakkimizda",
+      "path": "/hakkimizda/",
+      "title": "Hakkımızda - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1456,
+      "h1": "",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Completely synergize resource taxing relationships via premi…\"",
+        "Kısa/yanlış firma ünvanı varyantı: \"…endlerini sağlık sektöründe öne çıkaran Egefe Bilişim Sağlık, sektörde farklılık oluşturmak ve daha …\"",
+        "H1 yok"
+      ],
+      "imgs": 9
+    },
+    {
+      "name": "hizmet-politikamiz",
+      "path": "/hizmet-politikamiz/",
+      "title": "Hizmet Politikamız - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1812,
+      "h1": "",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Efficiently unleash cross-media information without cross-me…\"",
+        "H1 yok"
+      ],
+      "imgs": 8
+    },
+    {
+      "name": "hizmetler",
+      "path": "/hizmetler/",
+      "title": "Hizmetler - Egefe Sağlık Bilişim A.Ş.",
+      "len": 401,
+      "h1": "Hizmetler",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Interactively procrastinate high-payoff content without back…\""
+      ],
+      "imgs": 9
+    },
+    {
+      "name": "ilac",
+      "path": "/ilac/",
+      "title": "İlaç - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3167,
+      "h1": "İlaç",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 9
+    },
+    {
+      "name": "iletisim",
+      "path": "/iletisim/",
+      "title": "İletişim - Egefe Sağlık Bilişim A.Ş.",
+      "len": 454,
+      "h1": "İletişim",
+      "flags": [],
+      "imgs": 5
+    },
+    {
+      "name": "kalibrasyon",
+      "path": "/kalibrasyon/",
+      "title": "Kalibrasyon - Egefe Sağlık Bilişim A.Ş.",
+      "len": 567,
+      "h1": "Kalibrasyon",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "kalite-politikamiz",
+      "path": "/kalite-politikamiz/",
+      "title": "Kalite Politikamız - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1487,
+      "h1": "",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Efficiently unleash cross-media information without cross-me…\"",
+        "H1 yok"
+      ],
+      "imgs": 8
+    },
+    {
+      "name": "kariyer",
+      "path": "/kariyer/",
+      "title": "Kariyer - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1643,
+      "h1": "Kariyer",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…adership skills after business portals. Globally myocardinate interactive supply chains with distinc…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "kokain-bagimliligi-tedavisi",
+      "path": "/kokain-bagimliligi-tedavisi/",
+      "title": "Kokain Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3829,
+      "h1": "Kokain Bağımlılığı Tedavisi",
+      "flags": [
+        "\"Kategorisiz\" kategori etiketi: \"…ni durduramaması olarak tanımlanabilir. Kategorisiz Kokain Bağımlılığı Tedavisi Mart 26, 20220 Kokai…\""
+      ],
+      "imgs": 10
+    },
+    {
+      "name": "kokain-bagimliligi",
+      "path": "/kokain-bagimliligi/",
+      "title": "Kokain Bağımlılığı - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3415,
+      "h1": "Kokain Bağımlılığı",
+      "flags": [],
+      "imgs": 11
+    },
+    {
+      "name": "kokain-nedir",
+      "path": "/kokain-nedir/",
+      "title": "Kokain Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3686,
+      "h1": "Kokain Nedir?",
+      "flags": [],
+      "imgs": 12
+    },
+    {
+      "name": "madde-bagimliligi-nedir",
+      "path": "/madde-bagimliligi-nedir/",
+      "title": "Madde Bağımlılığı Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 4260,
+      "h1": "Madde Bağımlılığı Nedir?",
+      "flags": [],
+      "imgs": 11
+    },
+    {
+      "name": "madde-bagimliligi-tedavisi",
+      "path": "/madde-bagimliligi-tedavisi/",
+      "title": "Madde Bağımlılığı Tedavisi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 5018,
+      "h1": "Madde Bağımlılığı Tedavisi",
+      "flags": [],
+      "imgs": 11
+    },
+    {
+      "name": "metamfetamin-nedir",
+      "path": "/metamfetamin-nedir/",
+      "title": "Metamfetamin Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1992,
+      "h1": "Metamfetamin Nedir?",
+      "flags": [],
+      "imgs": 10
+    },
+    {
+      "name": "opiatlar-nedir",
+      "path": "/opiatlar-nedir/",
+      "title": "Opiatlar Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3977,
+      "h1": "Opiatlar Nedir?",
+      "flags": [
+        "\"Kategorisiz\" kategori etiketi: \"…Opiatlar Nedir? Kategorisiz Opiatlar Nedir? Mart 26, 20220 Opiatlar Nedir? O…\""
+      ],
+      "imgs": 10
+    },
+    {
+      "name": "periyodik-bakim",
+      "path": "/periyodik-bakim/",
+      "title": "Periyodik Bakım - Egefe Sağlık Bilişim A.Ş.",
+      "len": 776,
+      "h1": "Periyodik Bakım",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "promil-nedir",
+      "path": "/promil-nedir/",
+      "title": "Promil Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2416,
+      "h1": "Promil Nedir?",
+      "flags": [],
+      "imgs": 11
+    },
+    {
+      "name": "saglik-bakanligi-islemleri",
+      "path": "/saglik-bakanligi-islemleri/",
+      "title": "Sağlık Bakanlığı İşlemleri - Egefe Sağlık Bilişim A.Ş.",
+      "len": 6137,
+      "h1": "Sağlık Bakanlığı İşlemleri | Ürün Takip Sistemi Projesi Nedir? | Ürün Takip Sistemi (ÜTS) Projesi’nin Modülleri | ÜTS Kayıt Danışmanlığı",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "4 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "saglik-bakanligi-islemleri__biyosidal-ruhsatlandirma",
+      "path": "/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/",
+      "title": "Biyosidal Ruhsatlandırma - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1641,
+      "h1": "Biyosidal Ruhsatlandırma | Biyosidal Ürün | Biyosidal Ürün Yönetmeliği",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "3 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "saglik-bakanligi-islemleri__gmp-basvurusu",
+      "path": "/saglik-bakanligi-islemleri/gmp-basvurusu/",
+      "title": "GMP Başvurusu - Egefe Sağlık Bilişim A.Ş.",
+      "len": 5099,
+      "h1": "GMP Başvurusu",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "saglik-bakanligi-islemleri__ilac-fiyatlandirma",
+      "path": "/saglik-bakanligi-islemleri/ilac-fiyatlandirma/",
+      "title": "İlaç Fiyatlandırma - Egefe Sağlık Bilişim A.Ş.",
+      "len": 6933,
+      "h1": "İlaç Fiyatlandırma",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "saglik-bakanligi-islemleri__ilac-ruhsatlandirma",
+      "path": "/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/",
+      "title": "İlaç Ruhsatlandırma - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2449,
+      "h1": "İlaç Ruhsatlandırma | Genel İlaç Ruhsatlandırma Süreci | İlaç Ruhsat alım ve İlaç Varyasyon Başvuru Prosedürü",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "3 adet H1 var"
+      ],
+      "imgs": 7
+    },
+    {
+      "name": "saglik-bakanligi-islemleri__ilac-varyasyon",
+      "path": "/saglik-bakanligi-islemleri/ilac-varyasyon/",
+      "title": "İlaç Varyasyon - Egefe Sağlık Bilişim A.Ş.",
+      "len": 541,
+      "h1": "İlaç Varyasyon",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "saglik-bakanligi-islemleri__kub-kt",
+      "path": "/saglik-bakanligi-islemleri/kub-kt/",
+      "title": "KÜB/KT - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2917,
+      "h1": "KÜB/KT",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "saglik-bakanligi-islemleri__okunabilirlik-testi",
+      "path": "/saglik-bakanligi-islemleri/okunabilirlik-testi/",
+      "title": "Okunabilirlik Testi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1848,
+      "h1": "Okunabilirlik Testi",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "tibbi-cihaz",
+      "path": "/tibbi-cihaz/",
+      "title": "Tıbbi Cihaz - Egefe Sağlık Bilişim A.Ş.",
+      "len": 6122,
+      "h1": "Tıbbi Cihaz | Ürün Takip Sistemi Projesi Nedir? | Ürün Takip Sistemi (ÜTS) Projesi’nin Modülleri | ÜTS Kayıt Danışmanlığı",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "4 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "tibbi-cihaz__etiket-duzenleme",
+      "path": "/tibbi-cihaz/etiket-duzenleme/",
+      "title": "Etiket Düzenleme - Egefe Sağlık Bilişim A.Ş.",
+      "len": 4422,
+      "h1": "Etiket Düzenleme | Mevzuata uygun etiket düzenleme",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "2 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "tibbi-cihaz__firma-bilgileri-guncelleme",
+      "path": "/tibbi-cihaz/firma-bilgileri-guncelleme/",
+      "title": "Firma Bilgileri Güncelleme - Egefe Sağlık Bilişim A.Ş.",
+      "len": 953,
+      "h1": "Firma Bilgileri Güncelleme",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "tibbi-cihaz__firma-kaydi",
+      "path": "/tibbi-cihaz/firma-kaydi/",
+      "title": "Firma Kaydı - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1752,
+      "h1": "Firma Kaydı | Tedarikçi Firma nedir? | Firma Faaliyet Alanı nasıl seçilir? | Firma Tanımlayıcı Numarası nedir?",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "4 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "tibbi-cihaz__tibbi-cihaz-belge-kaydi",
+      "path": "/tibbi-cihaz/tibbi-cihaz-belge-kaydi/",
+      "title": "Tıbbi Cihaz Belge Kaydı - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1357,
+      "h1": "Tıbbi Cihaz Belge Kaydı | Kayıt için hangi evraklar gönderilecektir?",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "2 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "tibbi-cihaz__ubb-e-imza",
+      "path": "/tibbi-cihaz/ubb-e-imza/",
+      "title": "UBB E-İmza - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2209,
+      "h1": "UBB E-İmza | Elektronik imzanın kullanım alanları nelerdir? | UBB işlemlerinde E-imza zorunlu mu?",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "3 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "trafik-guvenligini-tehlikeye-sokma-sucu",
+      "path": "/trafik-guvenligini-tehlikeye-sokma-sucu/",
+      "title": "Trafik Güvenliğini Tehlikeye Sokma Suçu - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1928,
+      "h1": "Trafik Güvenliğini Tehlikeye Sokma Suçu",
+      "flags": [],
+      "imgs": 11
+    },
+    {
+      "name": "uts",
+      "path": "/uts/",
+      "title": "ÜTS - Egefe Sağlık Bilişim A.Ş.",
+      "len": 6114,
+      "h1": "ÜTS | Ürün Takip Sistemi Projesi Nedir? | Ürün Takip Sistemi (ÜTS) Projesi’nin Modülleri | ÜTS Kayıt Danışmanlığı",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\"",
+        "4 adet H1 var"
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "uts__kozmetik-firma-kaydi",
+      "path": "/uts/kozmetik-firma-kaydi/",
+      "title": "Kozmetik Firma Kaydı - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1295,
+      "h1": "Kozmetik Firma Kaydı",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "uts__kozmetik-urun-bildirimi",
+      "path": "/uts/kozmetik-urun-bildirimi/",
+      "title": "Kozmetik Ürün Bildirimi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1563,
+      "h1": "Kozmetik Ürün Bildirimi",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "uts__sorumlu-teknik-eleman",
+      "path": "/uts/sorumlu-teknik-eleman/",
+      "title": "Sorumlu Teknik Eleman - Egefe Sağlık Bilişim A.Ş.",
+      "len": 768,
+      "h1": "Sorumlu Teknik Eleman",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "uts__tibbi-cihaz-uts-gecisi",
+      "path": "/uts/tibbi-cihaz-uts-gecisi/",
+      "title": "Tıbbi Cihaz ÜTS Geçişi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1563,
+      "h1": "Tıbbi Cihaz ÜTS Geçişi",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "uts__uts-bilgi-guncelleme",
+      "path": "/uts/uts-bilgi-guncelleme/",
+      "title": "ÜTS Bilgi Güncelleme - Egefe Sağlık Bilişim A.Ş.",
+      "len": 1002,
+      "h1": "ÜTS Bilgi Güncelleme",
+      "flags": [
+        "İngilizce lorem/şablon metni: \"…Phosfluorescently engage worldwide methodologies with web-en…\""
+      ],
+      "imgs": 5
+    },
+    {
+      "name": "uyarici-madde-nedir",
+      "path": "/uyarici-madde-nedir/",
+      "title": "Uyarıcı Madde Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 3503,
+      "h1": "Uyarıcı Madde Nedir?",
+      "flags": [],
+      "imgs": 12
+    },
+    {
+      "name": "uyusturucu-madde-testi",
+      "path": "/uyusturucu-madde-testi/",
+      "title": "Uyuşturucu Madde Testi - Egefe Sağlık Bilişim A.Ş.",
+      "len": 2982,
+      "h1": "Uyuşturucu Madde Testi",
+      "flags": [],
+      "imgs": 11
+    },
+    {
+      "name": "uyusturucu-testi-nedir",
+      "path": "/uyusturucu-testi-nedir/",
+      "title": "Uyuşturucu Testi Nedir? - Egefe Sağlık Bilişim A.Ş.",
+      "len": 5196,
+      "h1": "Uyuşturucu Testi Nedir?",
+      "flags": [
+        "\"Kategorisiz\" kategori etiketi: \"…Uyuşturucu Testi Nedir? Kategorisiz Uyuşturucu Testi Nedir? Mart 19, 20220 Uyuşturuc…\""
+      ],
+      "imgs": 10
+    }
+  ],
+  "extraLinks": [
+    {
+      "path": "https://www.facebook.com/",
+      "text": "",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "https://twitter.com/",
+      "text": "",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "/magaza/",
+      "text": "Mağaza",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "http://ik.gov.tr/TR-247863/amatem--alkol-ve-madde-tedavi-merkezi-.html",
+      "text": "AMATEM",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi"
+      ],
+      "count": 1
+    },
+    {
+      "path": "/blog",
+      "text": "Tıklayın",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "ergenlerde-uyusturucu-kullanimi",
+        "eroin-nedir",
+        "esrar-bagimliligi-tedavisi",
+        "esrar-bagimliligi"
+      ],
+      "count": 16
+    },
+    {
+      "path": "https://www.facebook.com/sharer/sharer.php",
+      "text": "",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "blog"
+      ],
+      "count": 25
+    },
+    {
+      "path": "https://twitter.com/intent/tweet",
+      "text": "",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "blog"
+      ],
+      "count": 25
+    },
+    {
+      "path": "https://www.linkedin.com/shareArticle",
+      "text": "",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "blog"
+      ],
+      "count": 25
+    },
+    {
+      "path": "https://api.whatsapp.com/send",
+      "text": "",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "blog"
+      ],
+      "count": 25
+    },
+    {
+      "path": "https://egefe.provega.com.tr/",
+      "text": "tarafından admin",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "ekstazi-nedir"
+      ],
+      "count": 23
+    },
+    {
+      "path": "/2022/03/",
+      "text": "Mart 2022",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "blog"
+      ],
+      "count": 25
+    },
+    {
+      "path": "/2022/02/",
+      "text": "Şubat 2022",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "blog"
+      ],
+      "count": 25
+    },
+    {
+      "path": "/2022/01/",
+      "text": "Ocak 2022",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "blog"
+      ],
+      "count": 25
+    },
+    {
+      "path": "/category/kategorisiz/",
+      "text": "Kategorisiz",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "blog"
+      ],
+      "count": 25
+    },
+    {
+      "path": "/hesabim",
+      "text": "Hesabım",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "/hesabim/siparisler/",
+      "text": "Siparişlerim",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "/siparis-takip",
+      "text": "Sipariş Takip",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "/magaza",
+      "text": "Online Mağaza",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "https://ege-fedestek.com/",
+      "text": "Teknik Servis Takip",
+      "ext": true,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "/gizlilik-sozlesmesi",
+      "text": "Gizlilik Sözleşmesi",
+      "ext": false,
+      "from": [
+        "alkol-bagimliligi",
+        "alkollu-arac-kullanmak",
+        "alkolmetre-nedir",
+        "amfetamin-nedir",
+        "anasayfa"
+      ],
+      "count": 64
+    },
+    {
+      "path": "http://turkiye.gov.tr/",
+      "text": "E-Devlet",
+      "ext": true,
+      "from": [
+        "alkollu-arac-kullanmak"
+      ],
+      "count": 1
+    },
+    {
+      "path": "http://egm.gov.tr/",
+      "text": "Emniyet Genel Müdürlüğü",
+      "ext": true,
+      "from": [
+        "alkollu-arac-kullanmak",
+        "uyusturucu-testi-nedir"
+      ],
+      "count": 2
+    },
+    {
+      "path": "http://vib.gov.tr/",
+      "text": "Gelir İdaresi Başkanlığı",
+      "ext": true,
+      "from": [
+        "alkollu-arac-kullanmak"
+      ],
+      "count": 1
+    },
+    {
+      "path": "/urun-kategori/cihazlar/",
+      "text": "Alkolmetreye",
+      "ext": false,
+      "from": [
+        "alkollu-arac-kullanmak"
+      ],
+      "count": 1
+    },
+    {
+      "path": "/promil-nedir",
+      "text": "Tıklayın",
+      "ext": false,
+      "from": [
+        "alkolmetre-nedir"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://www.egm.gov.tr/alkollu-arac-kullanimi",
+      "text": "Tıklayın",
+      "ext": true,
+      "from": [
+        "alkolmetre-nedir"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://www.google.com/search",
+      "text": "tıklayın",
+      "ext": true,
+      "from": [
+        "amfetamin-nedir",
+        "ekstazi-nedir",
+        "metamfetamin-nedir"
+      ],
+      "count": 3
+    },
+    {
+      "path": "/urun/utk-uyusturucu-test-kiti/",
+      "text": "TEST KİTİ",
+      "ext": false,
+      "from": [
+        "anasayfa",
+        "uyusturucu-madde-testi"
+      ],
+      "count": 2
+    },
+    {
+      "path": "/hizmetler",
+      "text": "HİZMETLERİMİZ",
+      "ext": false,
+      "from": [
+        "anasayfa"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://maps.google.com/maps",
+      "text": "",
+      "ext": true,
+      "from": [
+        "anasayfa",
+        "iletisim"
+      ],
+      "count": 2
+    },
+    {
+      "path": "https://www.google.com/intl/en-US_US/help/terms_maps.html",
+      "text": "Terms",
+      "ext": true,
+      "from": [
+        "anasayfa",
+        "iletisim"
+      ],
+      "count": 2
+    },
+    {
+      "path": "https://www.google.com/maps/@39.8958817,32.8368344,15z/data=!10m1!1e1!12b1",
+      "text": "Report a map error",
+      "ext": true,
+      "from": [
+        "anasayfa"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://www.linkedin.com/company/egefe-bili%C5%9Fim-sa%C4%9Fl%C4%B1k-a-%C5%9F/about/",
+      "text": "Linkedin",
+      "ext": true,
+      "from": [
+        "ariza-ve-onarim"
+      ],
+      "count": 1
+    },
+    {
+      "path": "/author/admin/",
+      "text": "",
+      "ext": false,
+      "from": [
+        "blog",
+        "category__saglik"
+      ],
+      "count": 2
+    },
+    {
+      "path": "/blog/page/2/",
+      "text": "Eski Mesajlar",
+      "ext": false,
+      "from": [
+        "blog"
+      ],
+      "count": 1
+    },
+    {
+      "path": "/category/saglik/page/2/",
+      "text": "Eski Mesajlar",
+      "ext": false,
+      "from": [
+        "category__saglik"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://bakirkoyruhsinireah.saglik.gov.tr/TR,346325/cematem.html",
+      "text": "ÇEMATEM",
+      "ext": true,
+      "from": [
+        "ergenlerde-uyusturucu-kullanimi",
+        "esrar-bagimliligi-tedavisi",
+        "kokain-bagimliligi-tedavisi",
+        "uyarici-madde-nedir"
+      ],
+      "count": 4
+    },
+    {
+      "path": "https://tr.wikipedia.org/wiki/Opioid",
+      "text": "opioid",
+      "ext": true,
+      "from": [
+        "eroin-bagimliligi"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://tr.wikipedia.org/wiki/Methadon",
+      "text": "metadon",
+      "ext": true,
+      "from": [
+        "eroin-nedir"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5237.pdf",
+      "text": "Türk Ceza Kanunu",
+      "ext": true,
+      "from": [
+        "esrar-nedir",
+        "trafik-guvenligini-tehlikeye-sokma-sucu"
+      ],
+      "count": 2
+    },
+    {
+      "path": "https://egefe.provega.com.tr/ariza-ve-onarim/",
+      "text": "Detaylar",
+      "ext": true,
+      "from": [
+        "hizmetler"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://egefe.provega.com.tr/uts/kozmetik-firma-kaydi/",
+      "text": "Detaylar",
+      "ext": true,
+      "from": [
+        "hizmetler"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://egefe.provega.com.tr/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/",
+      "text": "Detaylar",
+      "ext": true,
+      "from": [
+        "hizmetler"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://egefe.provega.com.tr/tibbi-cihaz/firma-kaydi/",
+      "text": "Tıbbi Cihaz",
+      "ext": true,
+      "from": [
+        "hizmetler"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://www.google.com/maps/@39.8312813,32.7397393,15z/data=!10m1!1e1!12b1",
+      "text": "Report a map error",
+      "ext": true,
+      "from": [
+        "iletisim"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://erenkoyruhsinireah.saglik.gov.tr/TR-247863/amatem--alkol-ve-madde-tedavi-merkezi-.html",
+      "text": "AMATEM",
+      "ext": true,
+      "from": [
+        "kokain-bagimliligi",
+        "madde-bagimliligi-tedavisi",
+        "opiatlar-nedir"
+      ],
+      "count": 3
+    },
+    {
+      "path": "https://en.wikipedia.org/wiki/Karl_von_Scherzer",
+      "text": "Carl Von Scherzer",
+      "ext": true,
+      "from": [
+        "kokain-nedir"
+      ],
+      "count": 1
+    },
+    {
+      "path": "http://sozluk.gov.tr/",
+      "text": "TDK",
+      "ext": true,
+      "from": [
+        "madde-bagimliligi-nedir",
+        "promil-nedir"
+      ],
+      "count": 2
+    },
+    {
+      "path": "https://www.who.int/",
+      "text": "Dünya Sağlık Örgütü",
+      "ext": true,
+      "from": [
+        "madde-bagimliligi-tedavisi"
+      ],
+      "count": 1
+    },
+    {
+      "path": "/iletisim",
+      "text": "iletişime",
+      "ext": false,
+      "from": [
+        "tibbi-cihaz__firma-kaydi"
+      ],
+      "count": 1
+    },
+    {
+      "path": "https://saglik.gov.tr/",
+      "text": "sağlık kuruluşları",
+      "ext": true,
+      "from": [
+        "uyusturucu-madde-testi"
+      ],
+      "count": 1
+    },
+    {
+      "path": "/urun/utc-uyusturucu-tespit-cihazi/",
+      "text": "UTC – Uyuşturucu Tespit Cihazı",
+      "ext": false,
+      "from": [
+        "uyusturucu-madde-testi"
+      ],
+      "count": 1
+    }
+  ]
+}

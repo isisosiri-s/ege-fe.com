@@ -1,0 +1,104 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Uyarıcı Madde Nedir?"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/03/amfetamin-640x360.jpg",
+  "alt": "Uyarıcı Madde Nedir?",
+  "cap": "Uyarıcı Madde Nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Uyuşturucu kullanımı günümüzün en büyük sorunlarından biri haline gelmiştir. Her geçen gün artarak devam eden bu sorun yetişkin bireyleri, gençleri ve çocukları içine çekmektedir. Her geçen gün yeni uyuşturucu madde isimleri duymakta ve öğrenmekteyiz. Birleşmiş Milletler tarafından yayınlanan 2010 Dünya Uyuşturucu Raporunda gelişmekte olan ülkelerde amfetamin tipi uyarıcı maddelerin kullanımının oldukça arttığı belirtilmiştir. Yine aynı raporda bulunan bir başka sonuç ise; amfetamin ve benzeri uyarıcı maddelerin kullanım oranı dünya çapında 30-40 milyon kişiye ulaşmıştır."
+ },
+ {
+  "t": "p",
+  "html": "Uyarıcı maddeler dikkat eksikliği, hiperaktivite bozukluğu, depresyon, parkinson ve kilo kaybı tedavi etmek amacıyla uzun yıllar boyunca kullanılmıştır. Hatta 2. Dünya savaşında bazı ülkeler askerlerinin depresyonunu gidermek ve dayanıklılığı arttırmak için bu ilacın askerlerine verildiğine dair açıklama yayınlamıştırdır. Uyarıcı maddeler kullanan kişinin merkezi sinir sistemini uyaran uyarıcılardır. Belirli hastalıklarda tıbbi amaçlı kullanılan bu madde, kötüye kullanım konusunda oldukça riskli ve tehlikelidir. Bu sonuçlar bize uyarıcı madde nedir? sorusunun cevabını vermektedir."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Uyarıcı Maddelerin Etkileri"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/03/DrugAbuse-iStock616882794-New-Study-Amphetamine-Abuse-and-This-Old-Heart-640x360.jpg",
+  "alt": "Uyarıcı Madde Nedir?",
+  "cap": "Uyarıcı Madde Nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Uyarıcı maddeler burundaki kan damarlarının şişmesini azaltır. Bu sebeple amfetaminler 1933’den 1950’li yılların başına kadar burun tıkanıklığı tedavisinde kullanılmıştır. Amfetamin normalde reçetesiz ulaşılacak bir ilaç iken metafetamin üretmek amacıyla kullanıldığından dolayı reçetesiz satışı birçok ülkede yasaklanmıştır."
+ },
+ {
+  "t": "p",
+  "html": "Uyarıcı maddelerin etkileri ise şu şekildedir;"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Ruh halinde yükselme",
+   "Fiziksel aktivitelerin artması ve aşırı uyanıklılık hali",
+   "Solunumun artması",
+   "Uykusuzluk",
+   "Kalp hızı ve kan basıncında artış",
+   "İştahsızlık",
+   "Cinsel dürtünün aşırı artması ve aşırı azalması",
+   "Hipertemi",
+   "Kalıcı zihinsel hasarlar",
+   "Hafıza kaybı, paranoya ve halüsinasyonlar",
+   "Algı bozuklukları"
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Uyarıcı Maddelerin Yoksunluk Belirtileri"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Mutsuzluk",
+   "Terleme",
+   "Baş Ağrısı",
+   "Ağızda kuruluk",
+   "Mide krampları",
+   "Kabuslar",
+   "Kaygılı ve endişeli ruh hali",
+   "Ruh hali bozuklukları"
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 4,
+  "text": "Uyarıcı ve Uyuşturucu Madde Tedavisi"
+ },
+ {
+  "t": "p",
+  "html": "2010 Dünya Uyuşturucu raporuna göre; zengin ülkelerde yaşayan veya zengin insanların, fakir ülkeler veya fakir insanlara göre bağımlılık tedavisine çok daha rahat ulaşıldığı belirtilmiştir. Yoksul ülkeler veya yoksul insanlar dünyanın pek çok yerinde tedavi olanağına sahip olamayarak, büyük sağlık problemleri ile karşı karşıya kalmaktadır. Ülkemizde ise bu tarz uyarıcı ve uyuşturucu madde bağımlılığı tedavisi oldukça kolaydır. Çeşitli sağlık kuruluşları bu sadece uyarıcı madde veya uyuşturucu madde kullanan insanlar ile ilgilenmektedir."
+ },
+ {
+  "t": "p",
+  "html": "Uyarıcı ve uyuşturucu bağımlılığı tedavisi için bağımlı kişinin başvurabileceği yerler ise:"
+ },
+ {
+  "t": "ul",
+  "items": [
+   "<a href=\"https://bakirkoyruhsinireah.saglik.gov.tr/TR,346325/cematem.html\">ÇEMATEM</a> (Çocuk Ergen Alkol Madde Tedavi Merkezi)",
+   "AMATEM (Alkol ve Madde Tedavi Merkezi)",
+   "ALO 191 Uyuşturucu ile Mücadele Danışma ve Destek Hattı",
+   "Çeşitli Psikolojik Yardım Merkezleri"
+  ]
+ },
+ {
+  "t": "p",
+  "html": "Unutulmamalıdır ki uyuşturucu bağımlılığı bir suç değil bir sağlık sorunudur ve tedavi süreci oldukça meşakkatlidir. Bir uzman desteği almak bağımlılık tedavisinde bir gerekliliktir. Uyuşturucu veya uyarıcı madde bağımlısı kişinin sosyal çevresi ve ailesi tedavi sürecinde bağımlı kişiye destek olma koşunda büyük rol sahibidir. Tedavi sürecinde bağımlı kişinin motivasyonunu en üst düzeyde tutarak tedavide yardımcı olmaları gerekmektedir."
+ },
+ {
+  "t": "p",
+  "html": "Uyarıcı Madde Nedir? Gibi Birçok Bilgi İçeriği İçin <a href=\"http://ege-fe.com/blog\">Tıklayın</a>…"
+ }
+]

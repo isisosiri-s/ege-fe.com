@@ -1,0 +1,82 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Garanti Dahilinde Yetkili Servis Arıza Hizmeti"
+ },
+ {
+  "t": "p",
+  "html": "UTS, NAM-07 ve NAM-17 cihazların ve yedek parçalarının arızi bakımlarını üstleniyoruz."
+ },
+ {
+  "t": "p",
+  "html": "Ürününüzün garantisi devam ederken; ürününüzde herhangi bir arıza oluşması durumunda, Egefe’ye cihazınızın gönderimini yaparak teknik servis işlemlerinizi başlatabilirsiniz."
+ },
+ {
+  "t": "p",
+  "html": "Uzman teknik servis kadromuz ve orjinal yedek parça hizmetimiz ile garanti ve garanti sonrasında arıza, onarım için tecrübeli ve yetkili servisimize müracaat edebilirsiniz."
+ },
+ {
+  "t": "card",
+  "title": "Uzman Kadro",
+  "text": "Alanında uzman teknik kadromuz ile sizlere nitelikli çözümler geliştiriyoruz.",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Orjinallik Garantisi",
+  "text": "Tüm yedek parça değişimlerinde, orjinal ürün ile çalışmalarımızı tamamlamaktayız.",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Hızlı Teslimat",
+  "text": "Teknik servis olarak tüm cihazlarınızın en hızlı şekilde arızalarının giderilmesini sağlıyoruz.",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Garantili Teknik Servis",
+  "text": "Yaptığımız tüm arızi bakımlarda garantili hizmeti sizlere sunuyor.",
+  "href": ""
+ },
+ {
+  "t": "card",
+  "title": "Minimum Maliyet",
+  "text": "Tüm teknik servis işlemlerinde minimum maliyeti hedefliyoruz.",
+  "href": ""
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Garanti Sonrası Onarım Hizmeti"
+ },
+ {
+  "t": "p",
+  "html": "Cihazlarınızın ve yedek parçalarının garanti öncesinde ve sonrasında tüm arıza onarım çalışmalarını yürütmekteyiz."
+ },
+ {
+  "t": "p",
+  "html": "Uzman kadromuz ile birlikte çağrı merkezimizi arayarak kaydınızın oluşturulmasını sağlayıp cihazınızı tarafımıza göndererek süreci hızlı bir şekilde başlatabilirsiniz."
+ },
+ {
+  "t": "p",
+  "html": "Bize hemen <a href=\"https://ege-fe.com/iletisim/\">ulaşın</a>."
+ },
+ {
+  "t": "p",
+  "html": "Bizi <a href=\"https://www.linkedin.com/company/egefe-bili%C5%9Fim-sa%C4%9Fl%C4%B1k-a-%C5%9F/about/\">Linkedin</a> de takip edin."
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "deco": true
+ }
+]

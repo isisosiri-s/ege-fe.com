@@ -1,0 +1,21 @@
+[
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Cihaz Kalibrasyonu"
+ },
+ {
+  "t": "p",
+  "html": "<strong>Kalibrasyon</strong> işleminde, ölçmede kullanılan test-ölçü aleti veya cihazlarının sapmaları belirlenir, hataları düzeltilir. Böylece ölçme zinciri içinde yer alan tüm <strong>cihazların</strong> doğruluğu kesinleştiğinden ölçüm sonuçlarının güvenilirliği sağlanmış olur."
+ },
+ {
+  "t": "p",
+  "html": "Belirli periyotlara göre hazırlanan cihazlarınız için kalibrasyon işlemlerine hemen başlamak için bizimle iletişime geçin."
+ }
+]

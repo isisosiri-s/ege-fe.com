@@ -1,0 +1,231 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Kısa sürede Kesin sonuçlar"
+ },
+ {
+  "t": "p",
+  "html": "Egefe, siz değerli müşterilerimiz için 2015 yılından beri her an her yerde en kısa sürede kesin sonuçlar alabilmenizi sağlayabilmek, Sağlığınız ve huzurunuz için adli ve yerinde test üretim çözümlerimiz ile hizmetinizdeyiz...",
+  "sub": true
+ },
+ {
+  "t": "btn",
+  "text": "ÜRÜNLERİMİZ",
+  "href": "#"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "deco": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "deco": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/floater-gold-dots.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/floater-gold-dots.png",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "9 Uyuşturu Madde Tespiti"
+ },
+ {
+  "t": "p",
+  "html": "Kısa Sürede Kesin Sonuçlar",
+  "sub": true
+ },
+ {
+  "t": "btn",
+  "text": "TEST KİTİ",
+  "href": "/urun/utk-uyusturucu-test-kiti/"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "deco": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Sorunsuz Teknik Destek"
+ },
+ {
+  "t": "p",
+  "html": "Egefe 10 yılı aşkın süredir; Uyuşturucu tespit cihazı, tespit kiti ve alkolmetrelerin hem satışını hem de yetkili servis hizmetini sizlere sunuyor...",
+  "sub": true
+ },
+ {
+  "t": "btn",
+  "text": "HİZMETLERİMİZ",
+  "href": "/hizmetler"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "alt": "https://ege-fe.com/wp-content/uploads/2023/08/egefeback.jpg",
+  "deco": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/bgn-slider-blue-corner-left.png",
+  "deco": true
+ },
+ {
+  "t": "ul",
+  "items": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "İnovatif Sağlık"
+ },
+ {
+  "t": "p",
+  "html": "Daha iyi bir gelecek için sürekli geliştiriyoruz... AR-GE ofisimiz ve birimimizin yanında tecrübeli akademik danışmanlarımız ile birlikte en iyisi için sürekli mücadele ediyoruz...",
+  "sub": true
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/img-consultancy-excellence.png",
+  "deco": true
+ },
+ {
+  "t": "card",
+  "title": "Bakım, Onarım, Kalibrasyon",
+  "text": "Bakım, Onarım, Kalibrasyon",
+  "href": ""
+ },
+ {
+  "t": "p",
+  "html": "Cihazlarınızın bakım, onarım ve kalibrasyon hizmetlerinin yanında doğrudan cihaz temin edebeceğiniz yetkili kuruluştur."
+ },
+ {
+  "t": "btn",
+  "text": "Devamını oku",
+  "href": "#"
+ },
+ {
+  "t": "card",
+  "title": "AR-GE Çözümleri",
+  "text": "AR-GE Çözümleri",
+  "href": ""
+ },
+ {
+  "t": "p",
+  "html": "Teknopark bünyesinde açmış olduğumuz AR-GE ofisimiz ile yeni teknolojiler ve yeni hizmetleri sizlere sunmanın gayretindeyiz."
+ },
+ {
+  "t": "btn",
+  "text": "Devamını oku",
+  "href": "#"
+ },
+ {
+  "t": "card",
+  "title": "Sektörel Danışmanlık",
+  "text": "Sektörel Danışmanlık",
+  "href": ""
+ },
+ {
+  "t": "p",
+  "html": "10 yılı aşkın süredir sektörde bulunan Egefe, tecrübe ve bilgi birimkimlerini sizlere aktarıyor. Sağlık sektöründeki öncü danışmanınız…"
+ },
+ {
+  "t": "btn",
+  "text": "Devamını oku",
+  "href": "#"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2020/04/img-blue-corner-top-right.png",
+  "alt": "https://ege-fe.com/wp-content/uploads/2020/04/img-blue-corner-top-right.png",
+  "deco": true
+ },
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "1. Sınıf Hizmet"
+ },
+ {
+  "t": "p",
+  "html": "Sunduğumuz ürünlerin yanında, verdiğimiz tüm hizmetlerimizde öncelikli noktamız \"Kalite\". Başladığımız günden bu zamana kadar yüzde 99 müşteri memnuniyeti ve hizmet kalitemiz ile sizinle tanışmaktan onur duyarız...",
+  "sub": true
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "←",
+    "Move left"
+   ],
+   [
+    "→",
+    "Move right"
+   ],
+   [
+    "↑",
+    "Move up"
+   ],
+   [
+    "↓",
+    "Move down"
+   ],
+   [
+    "+",
+    "Zoom in"
+   ],
+   [
+    "-",
+    "Zoom out"
+   ],
+   [
+    "Home",
+    "Jump left by 75%"
+   ],
+   [
+    "End",
+    "Jump right by 75%"
+   ],
+   [
+    "Page Up",
+    "Jump up by 75%"
+   ],
+   [
+    "Page Down",
+    "Jump down by 75%"
+   ]
+  ]
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Terrain"
+  ]
+ },
+ {
+  "t": "ul",
+  "items": [
+   "Labels"
+  ]
+ }
+]

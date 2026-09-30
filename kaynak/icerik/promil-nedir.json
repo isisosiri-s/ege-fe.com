@@ -1,0 +1,245 @@
+[
+ {
+  "t": "h",
+  "lv": 2,
+  "text": "Promil Nedir?"
+ },
+ {
+  "t": "img",
+  "src": "https://ege-fe.com/wp-content/uploads/2022/02/alkollu-arac-kullanma2-1599560276-640x425.jpg",
+  "alt": "Promil Nedir?",
+  "cap": "Promil Nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Promil, latince kökenli bir kelime olup promille kelimesinden gelmektedir ve dilimizde Promil olarak nitelendirilmektedir. <a href=\"http://sozluk.gov.tr\">Türk Dil Kurumu</a>‘na göre ‘Kandaki alkol miktarını gösteren birim’ olarak tanımlanmıştır. Trafik kurallarında ise bu terim 100 mililitre kandaki alkol miktarı olarak kullanılmaktadır( miligram/100 mililitre)"
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Trafikte Promil Yasal Sınırı Nedir?"
+ },
+ {
+  "t": "p",
+  "html": "Günümüzde Emniyet tarafından belirlenen yasal sınır 0.5 Promil, yani 1 litre kanda 0.5 gram alkol olarak belirlenmiştir."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Promil Tablosu"
+ },
+ {
+  "t": "p",
+  "html": "Promil tablosunda kaç kadeh alkol kullanmanız promil sınırını aşmanıza sebep olur. Bunları görebilirsiniz… Ölçü birimi olarak 1 Standart bardak alınmıştır yani – 2cl sert içki kullanımında herhangi bir sakınca yoktur."
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Kadınlar İçin Promil Değerleri"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "<strong>Bardak</strong>",
+    "<strong>40kg</strong>",
+    "<strong>45kg</strong>",
+    "<strong>50kg</strong>",
+    "<strong>60kg</strong>",
+    "<strong>70kg</strong>",
+    "<strong>80kg</strong>"
+   ],
+   [
+    "<strong>1</strong>",
+    "0,45",
+    "0,40",
+    "0,30",
+    "0,35",
+    "0,30",
+    "0,25"
+   ],
+   [
+    "<strong>2</strong>",
+    "0,90",
+    "0,80",
+    "0,75",
+    "0,60",
+    "0,50",
+    "0,45"
+   ],
+   [
+    "<strong>3</strong>",
+    "1,40",
+    "1,25",
+    "1,10",
+    "0,95",
+    "0,75",
+    "0,65"
+   ],
+   [
+    "<strong>4</strong>",
+    "1,85",
+    "1,65",
+    "1,50",
+    "1,25",
+    "1,00",
+    "0,90"
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "t": "h",
+  "lv": 3,
+  "text": "Erkekler İçin Promil Değerleri"
+ },
+ {
+  "t": "table",
+  "rows": [
+   [
+    "<strong>Bardak</strong>",
+    "<strong>50kg</strong>",
+    "<strong>60kg</strong>",
+    "<strong>70kg</strong>",
+    "<strong>80kg</strong>",
+    "<strong>90kg</strong>",
+    "<strong>100kg</strong>"
+   ],
+   [
+    "<strong>1</strong>",
+    "0,30",
+    "0,25",
+    "0,25",
+    "0,20",
+    "0,15",
+    "0,15"
+   ],
+   [
+    "<strong>2</strong>",
+    "0,60",
+    "0,50",
+    "0,45",
+    "0,40",
+    "0,30",
+    "0,25"
+   ],
+   [
+    "<strong>3</strong>",
+    "0,95",
+    "0,75",
+    "0,65",
+    "0,55",
+    "0,50",
+    "0,45"
+   ],
+   [
+    "<strong>4</strong>",
+    "1,25",
+    "1,00",
+    "0,90",
+    "0,75",
+    "0,65",
+    "0,60"
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "t": "p",
+  "html": "Alkol Miktarlarına Göre Fiziksel Davranışlar"
+ },
+ {
+  "t": "p",
+  "html": "0.2 Promil"
+ },
+ {
+  "t": "p",
+  "html": "Bu seviyede alkollü oran bir kişinin ruh hali yavaşça değişebilir ve vücut ısısı yavaş yavaş artabilir. Ayrıca refleksleri de zayıflar"
+ },
+ {
+  "t": "p",
+  "html": "0.5 Promil"
+ },
+ {
+  "t": "p",
+  "html": "Bu seviyede alkol yasal sınır olarak tanımlanmaktadır. Kişide belirgin bir gevşeme ve belirgin bir muhakeme kaybına sebep olmaktadır."
+ },
+ {
+  "t": "p",
+  "html": "0.8 Promil"
+ },
+ {
+  "t": "p",
+  "html": "Bu seviye alkol yasal sınırın üstündedir ve koordinasyon ve refleksler iyice zayıflayarak, tepki süresi uzar ve kendini kontrol etme becerisi belirgin düzeyde görülür."
+ },
+ {
+  "t": "p",
+  "html": "1 Promil"
+ },
+ {
+  "t": "p",
+  "html": "Genel sarhoşluk belirtileri görülmeye başlar, kişinin davranışlarını kontrol edememesi gibi sebepler doğurur."
+ },
+ {
+  "t": "p",
+  "html": "1.5 Promil"
+ },
+ {
+  "t": "p",
+  "html": "Kişinin gündelik hayatta yaptığı hareketler yürümek, ayakta durmak gibi belirgin nitelikler zarar görerek, alkollü birey için bu davranışları yerine getirmek oldukça güç duruma gelir."
+ },
+ {
+  "t": "p",
+  "html": "2 Promil"
+ },
+ {
+  "t": "p",
+  "html": "Ağrı ve fiziksel yetilerde çeşitlik kayıplar, aşırı duygusal değişimler ve duygusal tutarsızlıklar görülmeye başlanır."
+ },
+ {
+  "t": "p",
+  "html": "3 Promil"
+ },
+ {
+  "t": "p",
+  "html": "Çoğu kişide bilinç kaybı."
+ },
+ {
+  "t": "p",
+  "html": "Makalemizde sizler için Promil Nedir? ve Promil Yasal Sınırları Nelerdir? Sorularının cevaplarını vermeye çalıştık daha fazla bilgi içeriği için lütfen <a href=\"http://ege-fe.com/blog\">tıklayın</a>…"
+ }
+]

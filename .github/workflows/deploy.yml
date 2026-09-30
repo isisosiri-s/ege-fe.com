@@ -27,7 +27,7 @@ jobs:
           port:       21
           protocol:   ftp
           local-dir:  ./site/
-          server-dir: ${{ vars.FTP_SERVER_DIR || '/public_html/' }}
+          server-dir: ${{ vars.FTP_SERVER_DIR || '/' }}
           exclude: |
             **/.git*
             **/.git*/**

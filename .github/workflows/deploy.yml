@@ -1,0 +1,35 @@
+name: Deploy to Hosting
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ftp-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: FTP Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu indir
+        uses: actions/checkout@v4
+
+      # site/ derlenmiş halde repoda (node tools/build.mjs) — yalnızca o gönderilir.
+      - name: site/ klasörünü FTP ile gönder
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server:     ${{ secrets.FTP_SERVER || secrets.FTP_HOST }}
+          username:   ${{ secrets.FTP_USERNAME }}
+          password:   ${{ secrets.FTP_PASSWORD }}
+          port:       21
+          protocol:   ftp
+          local-dir:  ./site/
+          server-dir: ${{ vars.FTP_SERVER_DIR || '/public_html/' }}
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.DS_Store
+            **/Thumbs.db

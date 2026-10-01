@@ -65,7 +65,9 @@ if ($tur === 'iletisim') {
 }
 $govde .= "\n--\nGönderim: " . date('d.m.Y H:i') . " · IP: " . ($_SERVER['REMOTE_ADDR'] ?? '-') . "\n" . ['iletisim' => 'KVKK Aydınlatma Metni onayı verildi.', 'kariyer' => 'Özgeçmiş verileri için açık rıza verildi.'][$tur] . "\n";
 
-don(eposta_gonder($alici, $baslik, $govde, $eposta, $ek) ? 'ok' : 'gonderim');
+// Gönderim hatası (ör. hostingte mail() kapalı) sayfayı çökertmez → ziyaretçiye "gönderilemedi" uyarısı
+try { $gitti = eposta_gonder($alici, $baslik, $govde, $eposta, $ek); } catch (Throwable $h) { error_log('Form e-postası: ' . $h->getMessage()); $gitti = false; }
+don($gitti ? 'ok' : 'gonderim');
 
 // ---- Gönderim: SMTP (ayarlıysa) veya mail() ----
 function eposta_gonder($alici, $konu, $metin, $yanitla, $ek = null) {
@@ -89,6 +91,7 @@ function eposta_gonder($alici, $konu, $metin, $yanitla, $ek = null) {
     $govde = chunk_split(base64_encode($metin));
   }
   if (!empty($FORM['smtp']['host'])) return smtp_gonder($alici, $konuEnc, $basliklar, $govde);
+  if (!function_exists('mail')) { error_log('Form e-postası: mail() kapalı ve SMTP ayarı yok (inc/smtp-gizli.php)'); return false; }
   return @mail($alici, $konuEnc, $govde, implode("\r\n", $basliklar), '-f' . $FORM['gonderen']);
 }
 

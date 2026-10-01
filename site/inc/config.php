@@ -58,6 +58,9 @@ $FORM = [
     'sifre' => '',
   ],
 ];
+// SMTP bilgileri GitHub'a GİTMEZ: yalnız sunucuda duran inc/smtp-gizli.php dosyasından okunur (.gitignore'da).
+// Örnek içerik: <?php return ['host' => 'mail.ege-fe.com', 'port' => 465, 'kullanici' => 'info@ege-fe.com', 'sifre' => '...'];
+if (is_file(__DIR__ . '/smtp-gizli.php')) $FORM['smtp'] = array_merge($FORM['smtp'], (array)(include __DIR__ . '/smtp-gizli.php'));
 
 // Form zaman damgası imzası için gizli anahtar (spam koruması). Yayında değiştirilebilir.
 define('FORM_GIZLI', '70eb7b660ea7d01d0d81efae906dd513437878cdaaf30e08');

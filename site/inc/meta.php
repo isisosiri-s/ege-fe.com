@@ -651,7 +651,7 @@ return [
   ],
   '/urunler/' => [
     'title' => 'Ürünler - Egefe Sağlık Bilişim A.Ş.',
-    'desc' => 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler, NAM-DATA yazılımı, UTK uyuşturucu tespit kiti ve UTC uyuşturucu tespit cihazı. Armas Elektronik yetkili bayi ve servisi.',
+    'desc' => 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler, NAM-DATA ve NAM-DATAPro yazılımları, UTK uyuşturucu tespit kiti ve UTC uyuşturucu tespit cihazı. Armas Elektronik yetkili bayi ve servisi.',
     'h1' => 'Ürünler',
     'ust' => null,
     'og' => '/img/urun/nam19-saha.webp',

@@ -200,3 +200,9 @@ Kullanıcı kararları: Egefe = Armas Elektronik yetkili bayi ve servisi (NAM-07
 - Armas'ın sattığı diğer modeller (NAM-E30, NAM-19S, NAM-C20 vb.) Egefe'de de var mı?
 - Hakkımızda: "sektörde 20 yıllık tecrübesi ile birlikte, 2017 yılında kurulmuş" ifadesi korunuyor.
 - Güven unsurları: ISO/yetkili servis belgeleri, referans kurumlar (izinli), gerçek ekip/cihaz fotoğrafları.
+
+## Revizyon 5 (2026-10-01) — Armas teknik bilgileri
+Kullanıcı kararı: Armas ürün sayfalarındaki teknik bilgiler kullanılabilir; diğer Armas modelleri (NAM-E30, NAM-19S, NAM-C20 vb.) eklenmeyecek.
+- /urunler/: NAM-07 ve NAM-19 özellik maddeleri + açılır "Teknik özellikler" tablosu (Armas ürün sayfalarından); UTK ve UTC maddeleri Armas metinleriyle tamamlandı (RFID etiket, kullanım alanları). NAM-19'un yazılımı NAM-DATAPro olarak düzeltildi.
+- "7 mi 9 mu" çözüldü: UTK tek ağız sıvısı örneğiyle 9 maddeye kadar test eder, standart kitte 7 madde vardır (Armas). Blogdaki "7 farklı madde" standart kiti anlatıyor — değişiklik yok. Anasayfa vitrini: "9 maddeye kadar".
+- Açık: 10 danışmanlık kartı için kısa açıklama (hâlâ "…" ile kısalıyor) — kullanıcı cevabı bekleniyor.

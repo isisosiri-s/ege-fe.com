@@ -66,7 +66,7 @@ require __DIR__ . '/inc/header.php';
     <ul class="urun-vitrin">
       <li><a href="/urunler/#nam-07"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam07.png" alt="NAM-07 alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-07</span><span class="urun-vitrin-tur">Delil sınıfı alkolmetre</span></a></li>
       <li><a href="/urunler/#nam-19"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam19.jpg" alt="NAM-19 alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-19</span><span class="urun-vitrin-tur">Delil sınıfı alkolmetre</span></a></li>
-      <li><a href="/urunler/#utk"><span class="urun-vitrin-gorsel"><img src="/img/urun/utk.webp" alt="UTK uyuşturucu tespit kiti" width="300" height="240" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">UTK</span><span class="urun-vitrin-tur">Uyuşturucu tespit kiti · 9 madde</span></a></li>
+      <li><a href="/urunler/#utk"><span class="urun-vitrin-gorsel"><img src="/img/urun/utk.webp" alt="UTK uyuşturucu tespit kiti" width="300" height="240" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">UTK</span><span class="urun-vitrin-tur">Uyuşturucu tespit kiti · 9 maddeye kadar</span></a></li>
       <li><a href="/urunler/#utc"><span class="urun-vitrin-gorsel"><img src="/img/urun/utc.webp" alt="UTC uyuşturucu tespit cihazı" width="300" height="240" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">UTC</span><span class="urun-vitrin-tur">Uyuşturucu tespit cihazı</span></a></li>
     </ul>
   </div>

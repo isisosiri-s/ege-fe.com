@@ -499,6 +499,21 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .urun-ozellik .ikon { color: var(--teal-dark); margin-top: .15rem; }
 .urun-not { font-size: .8rem; color: var(--mid); padding: var(--b-2) var(--b-3); border-left: 3px solid var(--warn); background: var(--off-white); border-radius: 0 var(--yaricap-kucuk) var(--yaricap-kucuk) 0; }
 .urun .dugme-grubu { margin-top: auto; padding-top: var(--b-3); }
+.urun-teknik { margin: 0 0 var(--b-4); border-top: 1px solid var(--slate-light); border-bottom: 1px solid var(--slate-light); }
+.urun-teknik summary {
+  cursor: pointer; list-style: none; position: relative; padding: var(--b-3) var(--b-8) var(--b-3) 0;
+  font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--teal-dark); border-radius: var(--yaricap-kucuk);
+}
+.urun-teknik summary::-webkit-details-marker { display: none; }
+.urun-teknik summary::after { content: ""; position: absolute; right: 0; top: 50%; width: 18px; height: 18px; margin-top: -9px; background: currentColor; -webkit-mask: var(--ikon-plus) center / contain no-repeat; mask: var(--ikon-plus) center / contain no-repeat; transition: transform var(--sure) var(--yay); }
+.urun-teknik[open] summary::after { -webkit-mask-image: var(--ikon-minus); mask-image: var(--ikon-minus); transform: rotate(180deg); }
+.urun-teknik summary:hover { color: var(--teal-deep); }
+.urun-teknik summary:active { color: var(--ink); }
+.urun-teknik .tablo { margin: 0 0 var(--b-4); }
+.urun-teknik table { font-size: .82rem; }
+.urun-teknik th { text-align: left; vertical-align: top; font-weight: 700; color: var(--slate-dark); width: 38%; padding: .5rem .7rem; border: 1px solid var(--slate-light); }
+.urun-teknik td { color: var(--mid); font-weight: 300; }
+.urun-teknik tr:nth-child(odd) th { background: var(--teal-pale); }
 .urun-ek { background: var(--teal-pale); border: 1px solid rgba(29, 125, 149, .15); border-radius: var(--yaricap); padding: var(--b-6) var(--b-7); margin: 0 0 var(--b-10); }
 .urun-ek h3 { font-style: normal; color: var(--slate-dark); font-size: 1.3rem; }
 .urun-ek p { margin: 0; color: var(--mid); font-weight: 300; font-size: .95rem; }

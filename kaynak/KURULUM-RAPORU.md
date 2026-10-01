@@ -208,3 +208,17 @@ Kullanıcı kararı: Armas ürün sayfalarındaki teknik bilgiler kullanılabili
 - Açık: 10 danışmanlık kartı için kısa açıklama (hâlâ "…" ile kısalıyor) — kullanıcı cevabı bekleniyor.
 
 - 2026-10-01: "2017 / Kuruluş" rakam kutusu kaldırıldı (anasayfa "Neden Egefe" + CTA bandı) — kullanıcı kararı.
+
+## Revizyon 6 (2026-10-01) — CROM TEST (markamız) ve uyuşturucu bölümü
+Kullanıcı kararları: CROM TEST (cromtest.com) Egefe'nin yerli üretim uyuşturucu test kiti markası; uyuşturucu testinde yalnız CROM TEST (Armas UTK/UTC kaldırıldı, Armas yalnız alkolmetrelerde); bağlantı ürünler + anasayfa + uyuşturucu blog yazıları + footer/Hakkımızda/JSON-LD; Ticaret Sicil No eklenmeyecek.
+- Tek kaynak: `inc/config.php` → `$MARKA`; ortak blok `inc/marka-crom.php` (bant / kutu).
+- /urunler/: "Uyuşturucu Test Kitleri" bölümü — çok panelli, tekli panel, numune saflık, özel panel → cromtest.com (products.html#coklu|#tekli, idrar-butunluk-testi, ozel-panel-talebi). Görseller cromtest.com'dan (`img/crom-test/`, küçültülmüş WebP).
+- Anasayfa: açılış etiketi/metni, ürün giriş kartı, vitrinde 2 CROM TEST ürünü, "Markamız" bandı, "Neden Egefe"de CROM TEST kutusu.
+- Hakkımızda: "Markamız" bandı. Footer: "Markamız" + beyaz CROM TEST logosu. JSON-LD Organization.brand = CROM TEST.
+- 18 uyuşturucu/madde blog yazısının sonunda CROM TEST kutusu (alkol yazılarında yok).
+- Blog düzeltmeleri (build.mjs FIXES): uyusturucu-madde-testi ve uyusturucu-testi-nedir'deki UTC/UTK cümleleri CROM TEST'e çevrildi; "tükürük testi cihazları yüksek oranda hata payı içermektedir" cümlesi kaldırıldı; "fiyatları 2022" → "fiyatları".
+
+### Açık (Revizyon 6)
+- /bilgi/ SSS'de "Uyuşturucu Test Kiti" (UTK) bölümü duruyor — kaldırılsın mı / CROM TEST'e göre mi yazılsın?
+- /hizmetler/ girişi: "uyuşturucu tespit cihazı, tespit kiti ve alkolmetrelerin satışı ve yetkili servisi" — UTC servisi devam ediyor mu?
+- cromtest.com "15+ yıllık deneyim" ve "%99,6 doğruluk" yazıyor; ege-fe.com'da kuruluş 2017 ve %99 iddiaları kaldırıldı — iki site tutarsız.

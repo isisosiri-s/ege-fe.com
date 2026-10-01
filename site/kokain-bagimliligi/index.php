@@ -22,6 +22,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Kokainin davranışsal etkileri kısa olmasına rağmen vücuttan kolay atılamaz. Belirli kan ve idrar testlerinde kişinin kokain kullanıp kullanmadığı on güne kadar saptanabilir. Bu testleri yaptırmak ve tedavi almak için <a href="https://erenkoyruhsinireah.saglik.gov.tr/TR-247863/amatem--alkol-ve-madde-tedavi-merkezi-.html" target="_blank" rel="noopener">AMATEM</a> veya ÇEMATEM merkezlerine başvurabilirsiniz.</p>
 <p>Kokain Bağımlılığı gibi daha fazla bilgi içeriği için lütfen <a href="/blog/">tıklayın</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/kokain-nedir/"><span>Önceki yazı</span>Kokain Nedir?</a>
     <a class="sonraki" href="/uyusturucu-testi-nedir/"><span>Sonraki yazı</span>Uyuşturucu Testi Nedir?</a>

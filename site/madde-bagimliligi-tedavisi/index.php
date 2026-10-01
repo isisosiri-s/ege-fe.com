@@ -38,6 +38,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Özel Psikologlar gibi birçok uzmandan madde bağımlılığı tedavisi için destek alabilirsiniz.</p>
 <p>Yazımızda sizler için madde bağımlılı tedavisini anlattık daha fazla bilgi içerikli yazı için lütfen <a href="/blog/">tıklayın</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/promil-nedir/"><span>Önceki yazı</span>Promil Nedir?</a>
     <a class="sonraki" href="/alkollu-arac-kullanmak/"><span>Sonraki yazı</span>Alkollü Araç Kullanmak</a>

@@ -46,6 +46,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Özel Psikologlar gibi birçok uzmandan madde bağımlılığı tedavisi için destek alabilirsiniz.</p>
 <p>Opiatlar Nedir? Gibi Birçok Bilgi İçeriği İçin <a href="/blog/">Tıklayınız</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/kokain-bagimliligi-tedavisi/"><span>Önceki yazı</span>Kokain Bağımlılığı Tedavisi</a>
     <a class="sonraki" href="/eroin-nedir/"><span>Sonraki yazı</span>Eroin Nedir?</a>

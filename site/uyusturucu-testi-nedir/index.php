@@ -38,9 +38,10 @@ require __DIR__ . '/../inc/header.php';
 <h4>Kan Testi</h4>
 <p>Kan testinde hata payı idrar testine göre daha azdır. Fakat madde kullanımından kısa bir süre yapılması gerekmektedir. Kan testinde dikkat edilmesi gereken en önemli nokta uyuşturucuyu damar yoluyla alan bireylerdir. Uyuşturucu damar yoluyla alındığında damar zedelenmeleri oluşması muhtemeldir. Bu sebeple kan alımının uzman kişiler tarafından yapılması gerekmektedir.</p>
 <h4>Tükürük Testi</h4>
-<p>Ege-fe bünyesinde bulunan Uyuşturucu Tespit Cihazı(UTC) ve Uyuşturucu Tespit Kiti (UTK) ile tükürük ile uyuşturucu madde testi yapılmaktadır. Genel olarak trafikte <a href="http://egm.gov.tr/" target="_blank" rel="noopener">kolluk kuvvetleri</a> tarafından tercih edilen bu cihazlar yüksek oranda hata payı içermektedir. Oldukça kısa süre içinde sonuç veren bu sistemde sonuç pozitif çıkması durumunda tıbbi ortamda bir başka test istenmektedir. Bünyesinde çeşitli birçok özellik bulunan uyuşturucu tespit cihazı, 7 farklı uyuşturucu maddenin tespitini yapmaktadır. Bu rakam opsiyonel olarak 9 çeşit olarak da sunulmaktadır.</p>
+<p>Tükürük (ağız sıvısı) ile yapılan uyuşturucu testleri genel olarak trafikte <a href="http://egm.gov.tr/" target="_blank" rel="noopener">kolluk kuvvetleri</a> tarafından tercih edilir. Oldukça kısa süre içinde sonuç veren bu sistemde sonuç pozitif çıkması durumunda tıbbi ortamda bir başka test istenmektedir. Egefe'nin yerli üretim markası <a href="https://www.cromtest.com/products.html" target="_blank" rel="noopener">CROM TEST</a>, ağız sıvısı numunesiyle de çalışan çok panelli uyuşturucu tarama test kitleri sunmaktadır.</p>
 <p>Uyuşturucu Testi Nedir? Gibi Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/kokain-bagimliligi/"><span>Önceki yazı</span>Kokain Bağımlılığı</a>
     <a class="sonraki" href="/kokain-bagimliligi-tedavisi/"><span>Sonraki yazı</span>Kokain Bağımlılığı Tedavisi</a>

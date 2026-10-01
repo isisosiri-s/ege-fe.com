@@ -28,6 +28,17 @@ $FIRMA = [
   'slogan'      => 'Sağlık sektöründe yaptığı inovatif çözümler ile güven, kalite ve memnuniyetin öncüsü.',
 ];
 
+// Markamız: CROM TEST — Egefe'nin yerli üretim uyuşturucu madde tarama test kitleri markası (kullanıcı, 2026-10-01).
+// Metinler cromtest.com'daki kendi tanımından; adresler canlı sitede doğrulandı (products.html#coklu|tekli|tam filtreleri).
+$MARKA = [
+  'ad'      => 'CROM TEST',
+  'url'     => 'https://www.cromtest.com/',
+  'urunler' => 'https://www.cromtest.com/products.html',
+  'tanim'   => 'CROM TEST, Egefe Bilişim Sağlık San. ve Tic. A.Ş. çatısı altında, Türkiye\'de uyuşturucu madde tarama teknolojileri alanında hizmet veren yerli üretim markamızdır.',
+  'detay'   => 'İdrar, ağız sıvısı ve yüzey numunelerinde tek panelden 16 panele kadar uyuşturucu madde tarama test kitleri sunar; laboratuvar, iş yeri ve bireysel kullanım için tasarlanmıştır.',
+  'ozellik' => ['CE işaretli, ISO 13485 kalite yönetimi', 'Ek ekipman gerektirmez', 'Dakikalar içinde sonuç'],
+];
+
 // Form ayarları
 $FORM = [
   'alici'        => 'info@ege-fe.com',   // iletişim, anasayfa

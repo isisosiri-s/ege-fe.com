@@ -19,6 +19,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Amfetamin Test Cihazı için tıklayın.</p>
 <p>Diğer bilgiler için <a href="https://www.google.com/search?q=Metamfetamin&amp;source=lmns&amp;bih=568&amp;biw=1366&amp;hl=tr&amp;sa=X&amp;ved=2ahUKEwjvgd_h1Nv1AhXKwLsIHdurA3cQ_AUoAHoECAEQAA" target="_blank" rel="noopener">tıklayın</a>.</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/amfetamin-nedir/"><span>Önceki yazı</span>Amfetamin Nedir?</a>
     <a class="sonraki" href="/ekstazi-nedir/"><span>Sonraki yazı</span>Ekstazi Nedir?</a>

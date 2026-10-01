@@ -16,5 +16,6 @@ require __DIR__ . '/../inc/header.php';
 <div class="kartlar"><div class="kart"><h3>Bakım Onarım</h3></div><div class="kart"><h3>Kalibrasyon</h3></div><div class="kart"><h3>Yedek Parça</h3></div><div class="kart"><h3>Eğitim Danışmanlık</h3></div><div class="kart"><h3>ÜTS, Tıbbi Cihaz, İlaç</h3></div><div class="kart"><h3>AR-GE Çözümleri</h3></div></div>
   </article>
 </div>
+<?php $markaTur = 'bant'; require __DIR__ . '/../inc/marka-crom.php'; ?>
 <?php require __DIR__ . '/../inc/bize-ulasin.php'; ?>
 <?php require __DIR__ . '/../inc/footer.php'; ?>

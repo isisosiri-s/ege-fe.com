@@ -20,9 +20,10 @@ require __DIR__ . '/../inc/header.php';
 <div class="tablo"><table><tr><td>MADDE</td><td>EŞİK DEĞER (ng/ml)</td></tr><tr><td>Amfetamin (AMP)</td><td>50</td></tr><tr><td>Metamfetamin (MET)</td><td>50</td></tr><tr><td><a href="/ekstazi-nedir/">Ekstazi</a></td><td>50</td></tr><tr><td>Benzodiazepinler (BZD)</td><td>20</td></tr><tr><td>Kokain (COC)</td><td>30</td></tr><tr><td>Opiatlar (OPI)</td><td>40</td></tr><tr><td>Esrar (THC)</td><td>25</td></tr></table></div>
 <h2>Uyuşturucu Testi Fiyatları 2022</h2>
 <p>Günümüzde her hastane ve <a href="https://saglik.gov.tr/" target="_blank" rel="noopener">sağlık kuruluşları</a> için herhangi bir fiyat vermek mümkün değildir. Hemen hemen her hastane ve sağlık kuruluşunda uyuşturucu testleri yapılmaktadır.</p>
-<p>Özel alanlarda kullanılan uyuşturucu testlerini ise EGEFE sizlere sağlamaktadır. Ege-fe ürün listesinde bulunan UTC – Uyuşturucu Tespit Cihazı – UTK – Uyuşturucu Tespit Kiti ile sizlere bu alanda hizmet sunmaktadır.</p>
-<p>Uyuşturucu Tespit Kiti ve Uyuşturucu Tespit Cihazı ile hızlı ve doğru sonuçlar alabilirsiniz. Uyuşturucu testi fiyatları 2022 hakkında bilgi almak için bizlere hemen ulaşabilirsiniz.</p>
+<p>Özel alanlarda kullanılan uyuşturucu testlerini ise EGEFE sizlere sağlamaktadır. Egefe'nin yerli üretim markası <a href="https://www.cromtest.com/products.html" target="_blank" rel="noopener">CROM TEST</a>, idrar, ağız sıvısı ve yüzey numuneleri için uyuşturucu madde tarama test kitleri sunmaktadır.</p>
+<p>CROM TEST test kitleri ile dakikalar içinde sonuç alabilirsiniz. Uyuşturucu testi fiyatları hakkında bilgi almak için bizlere hemen ulaşabilirsiniz.</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/ergenlerde-uyusturucu-kullanimi/"><span>Önceki yazı</span>Ergenlerde Uyuşturucu Kullanımı</a>
     <a class="sonraki" href="/alkolmetre-nedir/"><span>Sonraki yazı</span>Alkolmetre Nedir?</a>

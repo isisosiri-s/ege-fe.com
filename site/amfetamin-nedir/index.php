@@ -18,6 +18,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Amfetamin Test Cihazı için tıklayın.</p>
 <p>Diğer bilgiler için <a href="https://www.google.com/search?q=Amfetamin&amp;bih=568&amp;biw=1366&amp;hl=tr&amp;sxsrf=APq-WBsNaXg0TYDvKqRrtp80V9-Pr_V0Aw%3A1643620563386&amp;source=hp&amp;ei=06j3YanUE4iFxc8Pm_ii0A0&amp;iflsig=AHkkrS4AAAAAYfe245QUeR_0r7udBAxjP3hxCMyvwGvQ&amp;ved=0ahUKEwjpicre09v1AhWIQvEDHRu8CNoQ4dUDCAc&amp;uact=5&amp;oq=Amfetamin&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgAEEM6CwgAEIAEELEDEIMBOggIABCABBCxAzoOCC4QgAQQsQMQxwEQowI6CAgAELEDEIMBOg4ILhCABBCxAxDHARDRAzoLCC4QgAQQsQMQgwE6CAguEIAEELEDUABYvQdgzgloAHAAeACAAYYBiAHWApIBAzEuMpgBAKABAaABAg&amp;sclient=gws-wiz" target="_blank" rel="noopener">tıklayın</a>.</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <span></span>
     <a class="sonraki" href="/metamfetamin-nedir/"><span>Sonraki yazı</span>Metamfetamin Nedir?</a>

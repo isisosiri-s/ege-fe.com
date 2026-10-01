@@ -23,6 +23,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Eroin etkisini, kullanan kişide etkisini yaklaşık 20 dakika içinde göstermektedir. Yaklaşık olarak 40 ila 90 dakika arası eroinin verdiği haz yüksek seviyeye ulaşır ve bu etki yaklaşık olarak 4 ila 6 saat aralığında sürmektedir. Damar yolu ile enjeksiyon yönteminde ise etki yaklaşık 1 ila 2 dakika arasında başlayıp, 10 ila 20 dakika arası yüksek seviyeye erişmektedir. Damar yoluyla kullanımda etki diğerlerine göre daha kısa sürmektedir. Buda bizlere eroin nedir? Sorusunun cevabını vermektedir.</p>
 <p>Eroin Nedir? Gibi Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>….</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/opiatlar-nedir/"><span>Önceki yazı</span>Opiatlar Nedir?</a>
     <a class="sonraki" href="/eroin-bagimliligi/"><span>Sonraki yazı</span>Eroin Bağımlılığı</a>

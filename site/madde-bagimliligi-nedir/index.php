@@ -27,6 +27,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Bu sebeple madde bağımlısı olan kişinin ailesi bu konuda ona destek olmalı, yargılamamalı ve kesinlikle eleştirmemelidir. Aile olarak duygularınızı kontrol altına almalı ve olayları gerçekçi bir şekilde yaklaşmalısınız ve tedavi sürecinde yardımcı olmalısınız…</p>
 <p>Yazımızda sizler için madde bağımlılığı nedir? sorusunun cevabını vermeye çalıştık. Sitemizin <a href="/blog/">Blog</a> sayfasını ziyaret ederek çeşitli makalelere ulaşabilirsiniz.</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/ekstazi-nedir/"><span>Önceki yazı</span>Ekstazi Nedir?</a>
     <a class="sonraki" href="/promil-nedir/"><span>Sonraki yazı</span>Promil Nedir?</a>

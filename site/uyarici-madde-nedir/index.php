@@ -24,6 +24,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Unutulmamalıdır ki uyuşturucu bağımlılığı bir suç değil bir sağlık sorunudur ve tedavi süreci oldukça meşakkatlidir. Bir uzman desteği almak bağımlılık tedavisinde bir gerekliliktir. Uyuşturucu veya uyarıcı madde bağımlısı kişinin sosyal çevresi ve ailesi tedavi sürecinde bağımlı kişiye destek olma koşunda büyük rol sahibidir. Tedavi sürecinde bağımlı kişinin motivasyonunu en üst düzeyde tutarak tedavide yardımcı olmaları gerekmektedir.</p>
 <p>Uyarıcı Madde Nedir? Gibi Birçok Bilgi İçeriği İçin <a href="/blog/">Tıklayın</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/esrar-bagimliligi-tedavisi/"><span>Önceki yazı</span>Esrar Bağımlılığı Tedavisi</a>
     <a class="sonraki" href="/kokain-nedir/"><span>Sonraki yazı</span>Kokain Nedir?</a>

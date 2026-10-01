@@ -27,6 +27,8 @@ $org = [
   'address' => ['@type' => 'PostalAddress', 'streetAddress' => $FIRMA['adres_sokak'], 'postalCode' => $FIRMA['posta_kodu'], 'addressLocality' => $FIRMA['ilce'], 'addressRegion' => $FIRMA['il'], 'addressCountry' => 'TR'],
   'department' => [['@type' => 'Organization', 'name' => 'Egefe AR-GE Ofisi', 'address' => ['@type' => 'PostalAddress', 'streetAddress' => 'Kırıkkale Teknopark No: 3', 'addressLocality' => 'Yahşihan', 'addressRegion' => 'Kırıkkale', 'addressCountry' => 'TR']]],
   'sameAs' => [$FIRMA['linkedin']],
+  // Markamız: CROM TEST (cromtest.com Egefe'yi legalName olarak gösteriyor → iki yönlü ilişki)
+  'brand' => ['@type' => 'Brand', 'name' => $MARKA['ad'], 'url' => $MARKA['url'], 'logo' => SITE_URL . '/img/crom-test/crom-test-logo.svg'],
 ];
 if ($FIRMA['harita_koordinat']) $org['location'] = ['@type' => 'Place', 'geo' => ['@type' => 'GeoCoordinates', 'latitude' => $FIRMA['harita_koordinat'][0], 'longitude' => $FIRMA['harita_koordinat'][1]]];
 $tipler = ['/iletisim/' => 'ContactPage', '/hakkimizda/' => 'AboutPage', '/blog/' => 'CollectionPage', '/category/saglik/' => 'CollectionPage'];

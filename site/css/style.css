@@ -401,8 +401,8 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .urun-vitrin a:hover::after { opacity: 1; }
 .urun-vitrin a:active { transform: translateY(-1px) scale(.99); transition-duration: .1s; }
 .urun-vitrin a:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
-.urun-vitrin-gorsel { display: grid; place-items: center; aspect-ratio: 4 / 3; margin-bottom: var(--b-3); border-radius: var(--yaricap-kucuk); background: var(--white); overflow: hidden; }
-.urun-vitrin-gorsel img { width: 100%; height: 100%; object-fit: contain; transition: transform .8s var(--yumusak); }
+.urun-vitrin-gorsel { position: relative; display: grid; place-items: center; aspect-ratio: 4 / 3; margin-bottom: var(--b-3); border-radius: var(--yaricap-kucuk); background: var(--white); overflow: hidden; }
+.urun-vitrin-gorsel img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; transition: transform .8s var(--yumusak); }
 .urun-vitrin a:hover img { transform: scale(1.05); }
 .urun-vitrin-ad { padding: 0 var(--b-2); font-family: var(--ff-display); font-size: 1.5rem; line-height: 1.1; color: var(--slate-dark); letter-spacing: var(--izleme-orta); }
 .urun-vitrin-tur { padding: 0 var(--b-2); font-size: .85rem; color: var(--mid); font-weight: 300; }
@@ -424,6 +424,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08), 0 18px 40px -20px rgba(0, 0, 0, .45);
 }
 .sayaclar-buyuk strong { font-size: clamp(2.4rem, 4vw, 3.2rem); color: var(--teal); letter-spacing: var(--izleme-buyuk); }
+.sayaclar-buyuk li:nth-child(4) strong { font-size: clamp(1.9rem, 3vw, 2.4rem); } /* "CROM TEST" uzun kelime */
 /* Tek sayıda kutu kalırsa sonuncusu satırı doldurur (boş hücre kalmaz) */
 .sayaclar-buyuk li:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
@@ -519,6 +520,39 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .urun-ek { background: var(--teal-pale); border: 1px solid rgba(29, 125, 149, .15); border-radius: var(--yaricap); padding: var(--b-6) var(--b-7); margin: 0 0 var(--b-10); }
 .urun-ek h3 { font-style: normal; color: var(--slate-dark); font-size: 1.3rem; }
 .urun-ek p { margin: 0; color: var(--mid); font-weight: 300; font-size: .95rem; }
+/* CROM TEST (markamız) — ürünler sayfası bölümü */
+.crom-bolum { margin: 0 0 var(--b-10); padding-top: var(--b-4); }
+.crom-bolum-ust { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--b-8); align-items: center; margin-bottom: var(--b-6); }
+.crom-bolum-ust p { color: var(--mid); font-weight: 300; max-width: 72ch; margin: 0; }
+.crom-bolum-logo { display: block; line-height: 0; padding: var(--b-3) var(--b-4); border-radius: var(--yaricap-kucuk); transition: transform var(--sure) var(--yay); }
+.crom-bolum-logo img { width: 180px; height: auto; }
+.crom-bolum-logo:hover { transform: translateY(-2px); }
+.crom-bolum-logo:active { transform: scale(.97); }
+.crom-kitler { margin-bottom: var(--b-6); }
+.crom-kitler .urun-vitrin-ad { font-size: 1.25rem; }
+.crom-kitler .urun-vitrin-tur { line-height: 1.55; }
+.crom-kitler .ok-link { margin-top: auto; padding: var(--b-3) var(--b-2) 0; font-size: .7rem; }
+.crom-kitler .ok-link::after { display: none; }
+.crom-numune { padding: 0 var(--b-2); font-size: .65rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--teal-dark); }
+.crom-ozel-ikon { display: grid; place-items: center; width: 96px; height: 96px; border-radius: 50%; background: var(--teal-light); color: var(--teal-deep); }
+.marka-ozellik { display: flex; flex-wrap: wrap; gap: var(--b-2) var(--b-6); }
+
+/* Markamız bandı (anasayfa, Hakkımızda) ve blog kutusu */
+.marka-bant { background: var(--white); border-top: 1px solid var(--slate-light); border-bottom: 1px solid var(--slate-light); }
+.marka-bant-ic { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.4fr); gap: var(--izgara-bosluk); align-items: center; }
+.marka-bant-logo { display: grid; place-items: center; padding: var(--b-9); border-radius: var(--yaricap-buyuk); background: radial-gradient(ellipse 80% 70% at 50% 40%, var(--white) 0%, var(--teal-pale) 100%); border: 1px solid rgba(29, 125, 149, .12); box-shadow: var(--golge-1); }
+.marka-bant-logo .marka-logo { width: min(100%, 300px); height: auto; }
+.marka-bant p { color: var(--mid); font-weight: 300; }
+.marka-kutu {
+  display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: var(--b-6); align-items: center;
+  margin: 0 0 var(--b-8); padding: var(--b-6) var(--b-7); background: var(--teal-pale); border: 1px solid rgba(29, 125, 149, .15); border-radius: var(--yaricap); box-shadow: var(--golge-1);
+}
+.marka-kutu .marka-logo { width: 140px; height: auto; }
+.marka-kutu-baslik { font-family: var(--ff-display); font-size: 1.25rem; line-height: 1.25; color: var(--slate-dark); margin: 0 0 var(--b-2); letter-spacing: var(--izleme-orta); }
+.marka-kutu p { color: var(--mid); font-weight: 300; font-size: .92rem; }
+.marka-kutu .dugme-grubu { margin-top: var(--b-3); }
+.dugme .ikon { margin-left: -.1rem; }
+
 .urun-servis {
   display: grid; grid-template-columns: 1.4fr 1fr; gap: var(--b-8); align-items: center;
   background: var(--white); border: 1px solid rgba(194, 208, 216, .8); border-radius: var(--yaricap); padding: var(--b-8); box-shadow: var(--golge-1);
@@ -657,6 +691,12 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .site-alt .site-alt-sosyal { display: inline-grid; place-items: center; width: 40px; height: 40px; border: 1px solid rgba(255, 255, 255, .2); border-radius: 50%; color: rgba(255, 255, 255, .85); transition: transform var(--sure) var(--yay); }
 .site-alt .site-alt-sosyal:hover { background: var(--teal); border-color: var(--teal); color: var(--white); transform: translateY(-2px); text-decoration: none; }
 .site-alt .site-alt-sosyal:active { background: var(--teal-dark); transform: scale(.92); }
+.site-alt-marka-kutu { display: flex; flex-direction: column; gap: var(--b-2); margin-top: var(--b-2); }
+.site-alt-marka-kutu span { font-size: .65rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--teal); }
+.site-alt .site-alt-marka-kutu a { display: inline-block; line-height: 0; opacity: .85; transition: opacity var(--sure) var(--yumusak), transform var(--sure) var(--yay); }
+.site-alt-marka-kutu img { width: 120px; height: auto; }
+.site-alt .site-alt-marka-kutu a:hover { opacity: 1; transform: translateY(-2px); }
+.site-alt .site-alt-marka-kutu a:active { transform: scale(.96); }
 
 .site-alt-taban { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--b-4); padding-top: var(--b-6); padding-bottom: var(--b-6); border-top: 1px solid rgba(255, 255, 255, .1); font-size: .8rem; color: rgba(255, 255, 255, .55); }
 .site-alt-taban p { margin: 0; }
@@ -677,6 +717,10 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
   .site-alt-ic { grid-template-columns: 1fr 1fr 1fr; }
   .site-alt-marka, .site-alt-ic > :last-child { grid-column: 1 / -1; }
   .urun-servis { grid-template-columns: 1fr; gap: var(--b-5); }
+  .marka-bant-ic { grid-template-columns: 1fr; }
+  .marka-bant-logo { padding: var(--b-7); }
+  .crom-bolum-ust { grid-template-columns: 1fr; gap: var(--b-4); }
+  .crom-bolum-ust .crom-bolum-logo { order: -1; justify-self: start; padding-left: 0; }
 }
 @media (max-width: 640px) {
   .kartlar-3, .yazi-kartlari, .form-izgara { grid-template-columns: 1fr; }
@@ -689,6 +733,9 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
   .urun-vitrin-ad { font-size: 1.25rem; }
   .urunler { grid-template-columns: 1fr; }
   .urun-gorsel { height: 200px; }
+  .marka-kutu { grid-template-columns: 1fr; padding: var(--b-6); gap: var(--b-4); }
+  .marka-kutu .marka-logo { width: 120px; }
+  .marka-bant-logo .marka-logo { width: 200px; }
   .urun-servis { padding: var(--b-6); }
   /* Footer: bağlantı sütunları ikili, marka ve iletişim tam genişlik → daha kısa footer */
   .site-alt-ic { grid-template-columns: 1fr 1fr; gap: var(--b-7) var(--b-5); }

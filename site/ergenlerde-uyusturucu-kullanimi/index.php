@@ -20,6 +20,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Unutulmamalıdır ki, bağımlılık bir hastalıktır. Özellikte erken yaşta kullanım büyük sorunlara yol açabilir. Aileler ergen bireylerde uyuşturucu madde tespitini yapması sonrası yıkıcı değil yapıcı olmalıdır. Evlatlarıyla konuşarak onları doğruya sevk etmeli. Ergenlerde uyuşturucu kullanımından kurtulmak beraber çözüm aramalıdırlar. <a href="https://bakirkoyruhsinireah.saglik.gov.tr/TR,346325/cematem.html" target="_blank" rel="noopener">ÇEMATEM</a> (Çocuk Ergen Madde Bağımlılığı Tedavi ve Araştırma Merkezi) bu noktoda çocuk ve ergenler için madde kullanımında profesyonel destek sağlamaktadır.</p>
 <p>Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/alkol-bagimliligi/"><span>Önceki yazı</span>ALKOL BAĞIMLILIĞI</a>
     <a class="sonraki" href="/uyusturucu-madde-testi/"><span>Sonraki yazı</span>Uyuşturucu Madde Testi</a>

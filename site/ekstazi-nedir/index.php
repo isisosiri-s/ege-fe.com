@@ -31,6 +31,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Ekstazi Test Cihazı için tıklayın.</p>
 <p>Diğer bilgiler için <a href="https://www.google.com/search?q=Ekstazi&amp;source=lmns&amp;bih=568&amp;biw=1366&amp;hl=tr&amp;sa=X&amp;ved=2ahUKEwiMjLT81dv1AhVeiP0HHaI0CpUQ_AUoAHoECAEQAA" target="_blank" rel="noopener">tıklayın</a>.</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/metamfetamin-nedir/"><span>Önceki yazı</span>Metamfetamin Nedir?</a>
     <a class="sonraki" href="/madde-bagimliligi-nedir/"><span>Sonraki yazı</span>Madde Bağımlılığı Nedir?</a>

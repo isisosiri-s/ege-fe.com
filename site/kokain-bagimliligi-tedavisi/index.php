@@ -25,6 +25,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Kokain bağımlılığı tedavisi diğer bağımlılık türleri gibi tedavisi oldukça zordur. Kişi tedavi döneminde çeşitli klinikler veya psikolojik merkezlerden de yardım alabilir. Bununla beraber aile bireylerinin ve sosyal çevrenin bağımlı kişiye bu konuda destek olması ve motive etmesi gerekmektedir.</p>
 <p>Kokain bağımlılığı tedavisi gibi pek çok bilgi içeriği için <a href="/blog/">tıklayın</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/uyusturucu-testi-nedir/"><span>Önceki yazı</span>Uyuşturucu Testi Nedir?</a>
     <a class="sonraki" href="/opiatlar-nedir/"><span>Sonraki yazı</span>Opiatlar Nedir?</a>

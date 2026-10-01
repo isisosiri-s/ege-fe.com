@@ -1,5 +1,5 @@
 <?php
-// Anasayfa (2026-10-01 düzeni): açılış → üç ziyaretçi grubu için giriş kartları → ürün vitrini → Neden Egefe → Bize Ulaşın
+// Anasayfa (2026-10-01 düzeni): açılış → üç ziyaretçi grubu için giriş kartları → ürün vitrini → Markamız CROM TEST → Neden Egefe → Bize Ulaşın
 // Rakamlar kullanıcı kararıyla: "200+ anlaşmalı kurum", "2017'den beri"; %99 iddiaları kaldırıldı.
 $yol = '/';
 $sayfa = ['ozelBaslik' => true, 'govdeSinif' => 'anasayfa'];
@@ -8,9 +8,9 @@ require __DIR__ . '/inc/header.php';
 <section class="acilis">
   <div class="kap acilis-ic">
     <div class="acilis-metin">
-      <p class="etiket">Armas Elektronik Yetkili Bayi ve Servisi</p>
+      <p class="etiket">Armas Yetkili Bayi · CROM TEST Markası</p>
       <h1>Alkolmetre, uyuşturucu testi ve <em>sağlık danışmanlığı</em></h1>
-      <p class="giris">Armas Elektronik'in yetkili bayi ve servisi olarak alkolmetre ve uyuşturucu tespit ürünlerinin satışını, bakımını ve kalibrasyonunu yapıyoruz. Tıbbi cihaz, ÜTS ve Sağlık Bakanlığı işlemlerinde de danışmanlık veriyoruz.</p>
+      <p class="giris">Armas Elektronik'in yetkili bayi ve servisi olarak alkolmetrelerin satışını, bakımını ve kalibrasyonunu yapıyoruz. Uyuşturucu madde taramasında kendi markamız CROM TEST'in yerli üretim test kitlerini sunuyor; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı işlemlerinde danışmanlık veriyoruz.</p>
       <div class="dugme-grubu">
         <a class="dugme dugme-birincil" href="/urunler/">Ürünleri İncele</a>
         <a class="dugme dugme-cizgi" href="/iletisim/#form">Teklif Al</a>
@@ -28,7 +28,7 @@ require __DIR__ . '/inc/header.php';
           <span class="giris-karti-ikon"><?= ikon('device-mobile-check', 24) ?></span>
           <span class="giris-karti-etiket">Ürünler</span>
           <h3>Alkolmetre ve uyuşturucu testi</h3>
-          <p>NAM-07 ve NAM-19 delil sınıfı alkolmetreler, UTK uyuşturucu tespit kiti ve UTC uyuşturucu tespit cihazı.</p>
+          <p>NAM-07 ve NAM-19 delil sınıfı alkolmetreler ve kendi markamız CROM TEST uyuşturucu madde tarama test kitleri.</p>
           <span class="ok-link">Ürünleri incele</span>
         </a>
       </li>
@@ -66,11 +66,13 @@ require __DIR__ . '/inc/header.php';
     <ul class="urun-vitrin">
       <li><a href="/urunler/#nam-07"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam07.png" alt="NAM-07 alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-07</span><span class="urun-vitrin-tur">Delil sınıfı alkolmetre</span></a></li>
       <li><a href="/urunler/#nam-19"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam19.jpg" alt="NAM-19 alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-19</span><span class="urun-vitrin-tur">Delil sınıfı alkolmetre</span></a></li>
-      <li><a href="/urunler/#utk"><span class="urun-vitrin-gorsel"><img src="/img/urun/utk.webp" alt="UTK uyuşturucu tespit kiti" width="300" height="240" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">UTK</span><span class="urun-vitrin-tur">Uyuşturucu tespit kiti · 9 maddeye kadar</span></a></li>
-      <li><a href="/urunler/#utc"><span class="urun-vitrin-gorsel"><img src="/img/urun/utc.webp" alt="UTC uyuşturucu tespit cihazı" width="300" height="240" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">UTC</span><span class="urun-vitrin-tur">Uyuşturucu tespit cihazı</span></a></li>
+      <li><a href="/urunler/#crom-test"><span class="urun-vitrin-gorsel"><img src="/img/crom-test/coklu-panel.webp" alt="CROM TEST çok panelli uyuşturucu test kiti" width="640" height="640" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">CROM TEST Çok Panelli</span><span class="urun-vitrin-tur">Uyuşturucu test kiti · 16 panele kadar</span></a></li>
+      <li><a href="/urunler/#crom-test"><span class="urun-vitrin-gorsel"><img src="/img/crom-test/numune-saflik.webp" alt="CROM TEST numune saflık testi" width="640" height="640" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">CROM TEST Numune Saflık</span><span class="urun-vitrin-tur">İdrar numunesi doğrulama testi</span></a></li>
     </ul>
   </div>
 </section>
+
+<?php $markaTur = 'bant'; require __DIR__ . '/inc/marka-crom.php'; ?>
 
 <section class="bolum bolum-koyu">
   <div class="kap kalite-izgara">
@@ -84,6 +86,7 @@ require __DIR__ . '/inc/header.php';
       <li><strong>200+</strong><span>Anlaşmalı Kurum</span></li>
       <li><strong>Armas</strong><span>Yetkili Bayi ve Servis</span></li>
       <li><strong>CE</strong><span>Uygunluklu Cihazlar</span></li>
+      <li><strong>CROM TEST</strong><span>Yerli Üretim Test Kiti Markamız</span></li>
     </ul>
   </div>
 </section>

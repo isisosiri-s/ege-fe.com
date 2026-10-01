@@ -19,6 +19,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Esrar kullanımı ülkemizde oldukça yaygınlaşmıştır. Kullanım oranının oldukça düşmesi ile gençlerimiz büyük tehdit olmaktadır. Bu sebeple gençlerin bu tarz uyuşturucu madde kullanılmasının önüne geçmek için, ailelere büyük iş düşmektedir.</p>
 <p>Esrar Nedir? İçeriği gibi birçok içerik bilgi içeriği için <a href="/blog/">tıklayınız</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/trafik-guvenligini-tehlikeye-sokma-sucu/"><span>Önceki yazı</span>Trafik Güvenliğini Tehlikeye Sokma Suçu</a>
     <a class="sonraki" href="/esrar-bagimliligi/"><span>Sonraki yazı</span>Esrar Bağımlılığı</a>

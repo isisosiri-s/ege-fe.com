@@ -1,11 +1,12 @@
 <?php
 // Ürünler (elle yazılan sayfa). Kaynaklar: sitedeki /bilgi/ SSS + Armas Elektronik ürün sayfalarındaki teknik bilgiler
 // (Egefe Armas yetkili bayi ve servisi; görsel ve teknik bilgi kullanım izni kullanıcıdan, 2026-10-01).
-// Yalnız Egefe'nin sattığı modeller: NAM-07, NAM-19, UTK, UTC (diğer Armas modelleri eklenmeyecek — kullanıcı kararı).
+// Alkolmetre: yalnız NAM-07 ve NAM-19 (diğer Armas modelleri eklenmeyecek — kullanıcı kararı).
+// Uyuşturucu testi: yalnız kendi markamız CROM TEST (Armas UTK/UTC kaldırıldı — kullanıcı kararı, 2026-10-01).
 $yol = '/urunler/';
 $sayfa = [
-  'etiket' => 'Armas Elektronik Yetkili Bayi ve Servisi',
-  'altBaslik' => 'Armas Elektronik\'in yetkili bayi ve servisi olarak alkolmetre ve uyuşturucu tespit ürünlerinin satışını, bakımını ve kalibrasyonunu yapıyoruz.',
+  'etiket' => 'Alkolmetreler · Uyuşturucu Test Kitleri',
+  'altBaslik' => 'Armas Elektronik\'in yetkili bayi ve servisi olarak alkolmetrelerin satışını, bakımını ve kalibrasyonunu yapıyoruz. Uyuşturucu madde taramasında kendi markamız CROM TEST\'in yerli üretim test kitlerini sunuyoruz.',
 ];
 require __DIR__ . '/../inc/header.php';
 $teklif = '/iletisim/?konu=' . rawurlencode('Ürünler') . '#form';
@@ -72,30 +73,6 @@ $urunler = [
       ],
     ],
   ],
-  'Uyuşturucu Test Sistemi' => [
-    [
-      'id' => 'utk', 'ad' => 'UTK', 'tur' => 'Uyuşturucu tespit kiti',
-      'gorsel' => ['/img/urun/utk.webp', 300, 240],
-      'ozellik' => [
-        'Tek bir ağız sıvısı (tükürük) örneğiyle aynı anda 9 çeşide kadar uyuşturucu madde (standart kitte 7)',
-        'Test edilecek madde sayısı ve eşik değerleri talebe göre değiştirilebilir',
-        'Tek kullanımlık; ağız sıvısı toplama pedi kit üzerinde tümleşik veya ayrı ünite',
-        'Opsiyonel RFID kimlik etiketi: madde türleri, eşik değerleri, kullanım durumu, lot ve seri numarası; UTC cihazı kiti otomatik tanır',
-        'Kullanımı için cihaz zorunluluğu yoktur',
-      ],
-      'not' => 'Ön tespit amaçlıdır; pozitif sonuçlara yaptırım uygulanmadan önce teyit gerekir.',
-    ],
-    [
-      'id' => 'utc', 'ad' => 'UTC', 'tur' => 'Uyuşturucu tespit cihazı',
-      'gorsel' => ['/img/urun/utc.webp', 300, 240],
-      'ozellik' => [
-        'Tek bir ağız sıvısı örneğiyle aynı anda 9 çeşit uyuşturucu madde tespiti',
-        'UTK uyuşturucu tespit kitiyle çalışır; RFID etiketli kitleri otomatik tanıyarak kullanıcı hatalarını önler',
-        'İş yerleri, hastaneler, polis kontrol noktaları ve trafik denetimlerinde kullanım',
-        'Bakım, onarım ve teknik servis hizmeti',
-      ],
-    ],
-  ],
 ];
 ?>
 <section class="bolum bolum-ince">
@@ -138,6 +115,47 @@ $urunler = [
     </div>
     <?php endif; ?>
     <?php endforeach; ?>
+
+    <?php
+    $dis = ' target="_blank" rel="noopener"';
+    $kitler = [
+      ['ad' => 'Çok Panelli Test Kitleri', 'gorsel' => '/img/crom-test/coklu-panel.webp', 'url' => $MARKA['urunler'] . '#coklu',
+       'metin' => 'Tek bir numuneden aynı anda birden fazla maddeyi tespit eder: klasik 6\'lı ve 12\'li panel, 3\'lü sentetik panel.', 'numune' => 'İdrar · Ağız sıvısı · Yüzey'],
+      ['ad' => 'Tekli Panel Test Şeritleri', 'gorsel' => '/img/crom-test/tekli-panel.webp', 'url' => $MARKA['urunler'] . '#tekli',
+       'metin' => 'Yalnız belirli bir madde veya madde grubunu test etmek için ekonomik çözüm.', 'numune' => 'İdrar · Yüzey'],
+      ['ad' => 'Numune Saflık Testi', 'gorsel' => '/img/crom-test/numune-saflik.webp', 'url' => 'https://www.cromtest.com/Products/idrar-butunluk-testi.html',
+       'metin' => 'Toplanan numunenin seyreltilmemiş, katkısız ve manipüle edilmemiş olduğunu doğrular.', 'numune' => 'İdrar'],
+      ['ad' => 'Özel Panel', 'gorsel' => null, 'url' => 'https://www.cromtest.com/ozel-panel-talebi.html',
+       'metin' => 'Madde seçimi, panel genişliği ve numune tipi kurumunuzun ihtiyacına göre yapılandırılır.', 'numune' => 'Kuruma özel'],
+    ];
+    ?>
+    <div class="crom-bolum" id="crom-test">
+      <div class="crom-bolum-ust">
+        <div>
+          <h2 class="bolum-baslik bolum-baslik-kucuk">Uyuşturucu Test Kitleri</h2>
+          <p><?= e($MARKA['tanim']) ?> <?= e($MARKA['detay']) ?></p>
+        </div>
+        <a class="crom-bolum-logo" href="<?= e($MARKA['url']) ?>"<?= $dis ?> aria-label="CROM TEST web sitesi (yeni sekmede açılır)"><img src="/img/crom-test/crom-test-logo.svg" alt="CROM TEST" width="362" height="152" loading="lazy"></a>
+      </div>
+      <ul class="urun-vitrin crom-kitler">
+        <?php foreach ($kitler as $k): ?>
+        <li><a href="<?= e($k['url']) ?>"<?= $dis ?>>
+          <span class="urun-vitrin-gorsel"><?php if ($k['gorsel']): ?><img src="<?= e($k['gorsel']) ?>" alt="CROM TEST <?= e(mb_strtolower($k['ad'], 'UTF-8')) ?>" width="640" height="640" loading="lazy" decoding="async"><?php else: ?><span class="crom-ozel-ikon"><?= ikon('adjustments-horizontal', 40) ?></span><?php endif; ?></span>
+          <span class="urun-vitrin-ad"><?= e($k['ad']) ?></span>
+          <span class="urun-vitrin-tur"><?= e($k['metin']) ?></span>
+          <span class="crom-numune"><?= e($k['numune']) ?></span>
+          <span class="ok-link">cromtest.com'da incele <?= ikon('external-link', 14) ?></span>
+        </a></li>
+        <?php endforeach; ?>
+      </ul>
+      <ul class="urun-ozellik marka-ozellik">
+        <?php foreach ($MARKA['ozellik'] as $o): ?><li><?= ikon('check', 18) ?><span><?= e($o) ?></span></li><?php endforeach; ?>
+      </ul>
+      <div class="dugme-grubu">
+        <a class="dugme dugme-birincil" href="<?= e($MARKA['urunler']) ?>"<?= $dis ?>>Tüm CROM TEST Ürünleri <?= ikon('external-link', 16) ?></a>
+        <a class="dugme dugme-cizgi" href="<?= e($teklif) ?>">Kurumsal Teklif Al</a>
+      </div>
+    </div>
 
     <div class="urun-servis">
       <div>

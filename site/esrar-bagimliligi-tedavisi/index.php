@@ -26,6 +26,7 @@ require __DIR__ . '/../inc/header.php';
 <ul><li>Metadon</li><li>Suboxone</li><li>Naltrexone</li></ul>
 <p>Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/esrar-bagimliligi/"><span>Önceki yazı</span>Esrar Bağımlılığı</a>
     <a class="sonraki" href="/uyarici-madde-nedir/"><span>Sonraki yazı</span>Uyarıcı Madde Nedir?</a>

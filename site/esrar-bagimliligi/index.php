@@ -19,6 +19,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Unutulmamalıdır ki esrar içmek beyin fonksiyonlarına kısa süre içerisinde büyük hasarlar vermektedir ve yavaşlatmaktadır. Esrar toplumda bir ot olarak görülmekte ve zararsız olduğu düşünülmektedir. Bu sebeple esrar bağımlılığı diğer bağımlılıklara göre daha kolay oluşmaktadır. Çünkü insanlar diğer uyuşturucu maddeleri ilk kez deneyimleyecek olduklarında çekingen yapıda olurlar fakat esrarın zararsız olduğu düşünüldüğü için daha çabuk bağımlı olmaktadırlar.</p>
 <p>Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayınız</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/esrar-nedir/"><span>Önceki yazı</span>Esrar Nedir?</a>
     <a class="sonraki" href="/esrar-bagimliligi-tedavisi/"><span>Sonraki yazı</span>Esrar Bağımlılığı Tedavisi</a>

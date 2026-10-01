@@ -22,6 +22,7 @@ require __DIR__ . '/../inc/header.php';
 <ul><li>Kokain Kullanıcıları kokaini genellikle burun yoluyla çekerek kullanırlar. Bu sebeple kişi kokain kullanırken burnunda, kıyafetlerinde, masada veya eşyalarının üstünde beyaz iz bulunabilir.</li><li>Kokain kullanıcılarının burnunu zarar verdiğinden dolayı bağımlı kişiler sürekli burunlarına dokunmak ve burunlarını silmek gibi alışkanlıklara sahiptirler. Ayrıca çeşitli burun kanamaları ve burun iç hasarı da yaşayabilir.</li><li>Kokain güçlü bir uyarıcı olduğundan dolayı kişinin gözlerinin kızarmasına ve göz bebeklerinin büyümesi sebep olur.</li><li>Ciddi kokain kullanıcıları kokaini çözündürüp iğne ile vücutlarına enjekte ederler. Bu sebeple kişinin çeşitli bölgelerinde iğne izleri görülebilir.</li><li>Kokain genellikle toz halinde burundan çekilir veya sigara gibi içilebilir. Bu sebeple çeşitli kullanım araçları vardır. Cd kutuları, rulo haline getirilmiş banknotlar, klasik küçük plastik poşetler.</li><li>Kokain etkisinin fazla olması için limon suyu ve sirkeyle de karıştırılıp içilebilir.</li></ul>
 <p>Kokain Nedir? Gibi Birçok Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>…</p>
   </article>
+  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/uyarici-madde-nedir/"><span>Önceki yazı</span>Uyarıcı Madde Nedir?</a>
     <a class="sonraki" href="/kokain-bagimliligi/"><span>Sonraki yazı</span>Kokain Bağımlılığı</a>

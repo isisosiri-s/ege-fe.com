@@ -81,7 +81,6 @@ require __DIR__ . '/inc/header.php';
       <a class="ok-link ok-link-acik" href="/hakkimizda/">Hakkımızda</a>
     </div>
     <ul class="sayaclar sayaclar-buyuk" aria-label="Egefe rakamlarla">
-      <li><strong>2017</strong><span>Kuruluş</span></li>
       <li><strong>200+</strong><span>Anlaşmalı Kurum</span></li>
       <li><strong>Armas</strong><span>Yetkili Bayi ve Servis</span></li>
       <li><strong>CE</strong><span>Uygunluklu Cihazlar</span></li>

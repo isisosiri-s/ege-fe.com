@@ -424,6 +424,8 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08), 0 18px 40px -20px rgba(0, 0, 0, .45);
 }
 .sayaclar-buyuk strong { font-size: clamp(2.4rem, 4vw, 3.2rem); color: var(--teal); letter-spacing: var(--izleme-buyuk); }
+/* Tek sayıda kutu kalırsa sonuncusu satırı doldurur (boş hücre kalmaz) */
+.sayaclar-buyuk li:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
 /* ---------- 9. İçerik (metin) ---------- */
 .icerik-duzen { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: var(--izgara-bosluk); padding-top: var(--bolum-y-ince); padding-bottom: var(--bolum-y-ince); align-items: start; }

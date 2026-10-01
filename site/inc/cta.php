@@ -5,7 +5,6 @@
       <h2>Danışmanlık ve bilgi için lütfen bizimle iletişime geçin.</h2>
       <ul class="sayaclar" aria-label="Egefe rakamlarla">
         <li><strong>200+</strong><span>Anlaşmalı Kurum</span></li>
-        <li><strong>2017</strong><span>Kuruluş</span></li>
       </ul>
     </div>
     <div class="cta-dugmeler">

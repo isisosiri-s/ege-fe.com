@@ -206,3 +206,5 @@ Kullanıcı kararı: Armas ürün sayfalarındaki teknik bilgiler kullanılabili
 - /urunler/: NAM-07 ve NAM-19 özellik maddeleri + açılır "Teknik özellikler" tablosu (Armas ürün sayfalarından); UTK ve UTC maddeleri Armas metinleriyle tamamlandı (RFID etiket, kullanım alanları). NAM-19'un yazılımı NAM-DATAPro olarak düzeltildi.
 - "7 mi 9 mu" çözüldü: UTK tek ağız sıvısı örneğiyle 9 maddeye kadar test eder, standart kitte 7 madde vardır (Armas). Blogdaki "7 farklı madde" standart kiti anlatıyor — değişiklik yok. Anasayfa vitrini: "9 maddeye kadar".
 - Açık: 10 danışmanlık kartı için kısa açıklama (hâlâ "…" ile kısalıyor) — kullanıcı cevabı bekleniyor.
+
+- 2026-10-01: "2017 / Kuruluş" rakam kutusu kaldırıldı (anasayfa "Neden Egefe" + CTA bandı) — kullanıcı kararı.

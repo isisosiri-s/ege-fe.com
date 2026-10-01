@@ -1,13 +1,13 @@
 {
   "/hizmetler/": {
-    "kaynak": "mevcut metin (anasayfa 'Sorunsuz Teknik Destek' ve 'Bakım, Onarım, Kalibrasyon' kartı)",
-    "giris": "Egefe 10 yılı aşkın süredir; Uyuşturucu tespit cihazı, tespit kiti ve alkolmetrelerin hem satışını hem de yetkili servis hizmetini sizlere sunuyor... Cihazlarınızın bakım, onarım ve kalibrasyon hizmetlerinin yanında doğrudan cihaz temin edebileceğiniz yetkili kuruluştur.",
+    "kaynak": "mevcut metin — '10 yılı aşkın' → '2017'den beri', sondaki '...' kaldırıldı (kullanıcı kararı 2026-10-01)",
+    "giris": "Egefe 2017'den beri uyuşturucu tespit cihazı, tespit kiti ve alkolmetrelerin hem satışını hem de yetkili servis hizmetini sizlere sunuyor. Cihazlarınızın bakım, onarım ve kalibrasyon hizmetlerinin yanında doğrudan cihaz temin edebileceğiniz yetkili kuruluştur.",
     "kisa": "Arıza ve onarım, periyodik bakım ve kalibrasyon hizmetleri.",
     "aciklama": "Uyuşturucu tespit cihazı, tespit kiti ve alkolmetreler için yetkili servis: arıza ve onarım, periyodik bakım ve kalibrasyon hizmetleri."
   },
   "/danismanlik/": {
-    "kaynak": "mevcut metin (anasayfa 'Sektörel Danışmanlık' kartı)",
-    "giris": "10 yılı aşkın süredir sektörde bulunan Egefe, tecrübe ve bilgi birikimlerini sizlere aktarıyor. Sağlık sektöründeki öncü danışmanınız…",
+    "kaynak": "mevcut metin — '10 yılı aşkın' → '2017'den beri', sondaki '…' kaldırıldı (kullanıcı kararı 2026-10-01)",
+    "giris": "2017'den beri sektörde bulunan Egefe, tecrübe ve bilgi birikimlerini sizlere aktarıyor. Sağlık sektöründeki öncü danışmanınız.",
     "kisa": "",
     "aciklama": "ÜTS, tıbbi cihaz, Sağlık Bakanlığı işlemleri, permi, CE teknik dosya, takviye edici gıda ve kontrol belgesi süreçlerinde sektörel danışmanlık."
   },

@@ -174,3 +174,29 @@ Hub kartlarındaki özetler, ilgili alt sayfanın ilk paragrafından kısaltılm
 - Ticaret Sicil No sitede yok (TTK md. 39) — numara gelince © satırına eklenecek.
 - Bilgi Toplumu Hizmetleri sayfası yok (TTK md. 1524) — sicil no, sermaye, yönetim kurulu bilgileri gerekiyor.
 - Sıradaki: mega menü ve /bilgi/ tasarımı.
+
+---
+## Revizyon 4 (2026-10-01) — Kullanıcı deneyimi (öneri 1. bölüm)
+Kullanıcı kararları: Egefe = Armas Elektronik yetkili bayi ve servisi (NAM-07/NAM-19 dahil, görsel kullanım izni var); kurum sayısı her yerde "200+ anlaşmalı kurum"; "10+ yıl / 10 yılı aşkın" → "2017'den beri"; iki "%99" iddiası kaldırıldı; form başarı mesajında süre yok (değişmedi).
+
+- **Anasayfa:** yeni açılış metni + NAM-19 saha fotoğrafı (Armas); üç giriş kartı (Ürünler / Servis / Danışmanlık); "Öne Çıkan Ürünler" vitrini; "Neden Egefe" rakamları: 2017 · 200+ · Armas · CE. Eski "9 Uyuşturucu Madde Tespiti" / "Sorunsuz Teknik Destek" şeritleri ve "İnovatif Sağlık" kartları kaldırıldı (içerikleri giriş kartlarına ve "Neden Egefe" metnine taşındı).
+- **Yeni sayfa /urunler/:** NAM-07, NAM-19, NAM-DATA, UTK, UTC. Metinler yalnız /bilgi/ SSS ve blogdaki mevcut bilgilerden; görseller Armas'tan (`site/img/urun/`). Teklif Al → /iletisim/?konu=Ürünler#form (form konusu otomatik seçilir).
+- **Menü:** Ürünler · Servis · Danışmanlık · Kurumsal · Blog · İletişim ("Hizmetler" → "Servis"; /hizmetler/ H1 "Servis Hizmetleri", URL aynı). **Footer** aynı yapıda: Ürünler ve Servis / Danışmanlık / Kurumsal / İletişim.
+- **Kesik metinler:** anasayfa, /hizmetler/ ve /danismanlik/ girişleri, footer sloganı ("…" kaldırıldı); hizmet kartı özetleri artık tam cümle (15 kart). 10 kartta ilk cümle çok uzun mevzuat cümlesi olduğu için hâlâ "…" ile kısalıyor — kısa açıklama yazılması onaya bağlı.
+- **CTA bandı:** 100+ Kurumsal Müşteri / 10+ Sektörel Tecrübe → 200+ Anlaşmalı Kurum / 2017 Kuruluş.
+- **Mobil:** altta sabit "Ara / Teklif Al" çubuğu; rakamlar 2×2; footer bağlantıları iki sütun.
+- Anasayfa meta description yenilendi (canlıdaki "10 yılı aşkın…" yarım cümleydi).
+
+### Onayınıza sunulan YENİ metinler (Revizyon 4)
+1. Açılış etiketi: "Armas Elektronik Yetkili Bayi ve Servisi"
+2. Açılış başlığı: "Alkolmetre, uyuşturucu testi ve sağlık danışmanlığı"
+3. Açılış metni: "Armas Elektronik'in yetkili bayi ve servisi olarak alkolmetre ve uyuşturucu tespit ürünlerinin satışını, bakımını ve kalibrasyonunu yapıyoruz. Tıbbi cihaz, ÜTS ve Sağlık Bakanlığı işlemlerinde de danışmanlık veriyoruz."
+4. Giriş kartları: "Alkolmetre ve uyuşturucu testi" / "Bakım, onarım ve kalibrasyon" / "Tıbbi cihaz, ÜTS ve Bakanlık işlemleri" + birer cümle açıklama
+5. /urunler/ ürün özellik maddeleri ve NAM-DATA açıklaması (mevcut SSS cevaplarından yeniden yazıldı)
+6. Anasayfa ve /urunler/ meta description'ları
+
+### Açık (Revizyon 4)
+- NAM-19 ve UTC için özellik bilgisi yok (sitede yalnız NAM-07 ve UTK anlatılıyor). Blogda "uyuşturucu tespit cihazı 7 farklı madde" geçiyor, UTK için "9 madde" — hangisi hangi ürüne ait?
+- Armas'ın sattığı diğer modeller (NAM-E30, NAM-19S, NAM-C20 vb.) Egefe'de de var mı?
+- Hakkımızda: "sektörde 20 yıllık tecrübesi ile birlikte, 2017 yılında kurulmuş" ifadesi korunuyor.
+- Güven unsurları: ISO/yetkili servis belgeleri, referans kurumlar (izinli), gerçek ekip/cihaz fotoğrafları.

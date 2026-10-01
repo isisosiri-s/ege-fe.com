@@ -104,19 +104,10 @@ $blogAktif = $yol === '/blog/' || $yol === '/category/saglik/' || ($m['ogType'] 
     </button>
     <nav class="ana-menu" id="ana-menu" aria-label="Ana menü">
       <ul class="menu">
-        <li class="alt-var<?= $kurumsalAktif ? ' aktif' : '' ?>">
-          <a href="/hakkimizda/">Kurumsal</a>
-          <button class="alt-ac" type="button" aria-expanded="false" aria-label="Kurumsal alt menüsü"></button>
-          <ul class="alt-menu">
-            <li><a href="/hakkimizda/"<?= aktif('/hakkimizda/', $yol) ?>>Hakkımızda</a></li>
-            <li><a href="/hizmet-politikamiz/"<?= aktif('/hizmet-politikamiz/', $yol) ?>>Hizmet Politikamız</a></li>
-            <li><a href="/kalite-politikamiz/"<?= aktif('/kalite-politikamiz/', $yol) ?>>Kalite Politikamız</a></li>
-            <li><a href="/kariyer/"<?= aktif('/kariyer/', $yol) ?>>Kariyer</a></li>
-          </ul>
-        </li>
+        <li><a href="/urunler/"<?= aktif('/urunler/', $yol) ?>>Ürünler</a></li>
         <li class="alt-var<?= $hizmetAktif ? ' aktif' : '' ?>">
-          <a href="/hizmetler/">Hizmetler</a>
-          <button class="alt-ac" type="button" aria-expanded="false" aria-label="Hizmetler alt menüsü"></button>
+          <a href="/hizmetler/">Servis</a>
+          <button class="alt-ac" type="button" aria-expanded="false" aria-label="Servis alt menüsü"></button>
           <ul class="alt-menu">
             <?php foreach ($HIZMET['servis']['alt'] as $h): ?>
             <li><a href="<?= e($h['yol']) ?>"<?= aktif($h['yol'], $yol) ?>><?= e($h['ad']) ?></a></li>
@@ -139,6 +130,16 @@ $blogAktif = $yol === '/blog/' || $yol === '/category/saglik/' || ($m['ogType'] 
             </div>
             <?php endforeach; ?>
           </div>
+        </li>
+        <li class="alt-var<?= $kurumsalAktif ? ' aktif' : '' ?>">
+          <a href="/hakkimizda/">Kurumsal</a>
+          <button class="alt-ac" type="button" aria-expanded="false" aria-label="Kurumsal alt menüsü"></button>
+          <ul class="alt-menu">
+            <li><a href="/hakkimizda/"<?= aktif('/hakkimizda/', $yol) ?>>Hakkımızda</a></li>
+            <li><a href="/hizmet-politikamiz/"<?= aktif('/hizmet-politikamiz/', $yol) ?>>Hizmet Politikamız</a></li>
+            <li><a href="/kalite-politikamiz/"<?= aktif('/kalite-politikamiz/', $yol) ?>>Kalite Politikamız</a></li>
+            <li><a href="/kariyer/"<?= aktif('/kariyer/', $yol) ?>>Kariyer</a></li>
+          </ul>
         </li>
         <li><a href="/blog/"<?= $blogAktif ? ' aria-current="page"' : '' ?>>Blog</a></li>
         <li><a href="/iletisim/"<?= aktif('/iletisim/', $yol) ?>>İletişim</a></li>

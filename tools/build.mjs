@@ -190,6 +190,17 @@ function ozet(blocks, max = 155) {
   if (dot > 90) return cut.slice(0, dot + 1);
   return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:(\-–]+$/, '') + '…';
 }
+// Kart özeti: yalnız tam cümleler (ortadan kesilmez, "…" yok). İlk cümle bile çok uzunsa eski kısaltmaya düşer.
+function ozetCumle(blocks, max = 190, sinir = 240) {
+  const metin = ozet(blocks, 2000).replace(/…$/, '').replace(/\.{2,}$/, '.');
+  // Cümle sonu: . ! ? ardından boşluk + büyük harf / tırnak (tarihlerdeki "02.11.2011" bölünmez)
+  const cumleler = metin.split(/(?<=[.!?])\s+(?=[A-ZÇĞİÖŞÜ“"])/u);
+  let s = '';
+  for (const c of cumleler) { if (s && (s + ' ' + c).length > max) break; s = s ? s + ' ' + c : c; }
+  if (s.length > sinir) return ozet(blocks, 150);
+  s = s.replace(/\.{2,}$/, '.');
+  return /[.!?]$/.test(s) ? s : s + '.';
+}
 
 // ---------- Meta verisi ----------
 const TR_AY = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
@@ -205,9 +216,12 @@ for (const p of ALL) {
   const h1raw = d.headings.find((h) => h.inMain && h.tag === 'h1')?.text;
   let h1 = stripTitle(d.title);
   if (p === '/category/saglik/') h1 = 'Sağlık';
+  if (p === '/hizmetler/') h1 = 'Servis Hizmetleri'; // menüde "Servis" (2026-10-01)
   if (BLOG.includes(p) && h1raw) h1 = h1raw.replace(/\s+/g, ' ').trim();
   let desc = applyFixes(d.description || '');
   let descKaynak = 'canlı';
+  // Anasayfa: canlıdaki açıklama "10 yılı aşkın…" ile başlıyordu (kullanıcı kararı 2026-10-01: "2017'den beri", yarım cümle yok)
+  if (p === '/') desc = 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre ve uyuşturucu tespit ürünlerinde satış, bakım ve kalibrasyon; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.';
   if (LOREM.test(desc) || /[A-Za-z]+ly [a-z]+ [a-z]+/.test(desc) && !/[ğüşıöçĞÜŞİÖÇ]/.test(desc)) {
     if (DESC_DUZELT[p]) { desc = DESC_DUZELT[p].aciklama; descKaynak = DESC_DUZELT[p].kaynak; }
     else if (HUB_GIRIS[p]) { desc = HUB_GIRIS[p].aciklama; descKaynak = HUB_GIRIS[p].kaynak; }
@@ -226,6 +240,8 @@ for (const p of ALL) {
 usedImgs.add('/wp-content/uploads/2022/01/faceb.jpg');
 meta['/kvkk/'] = { title: 'KVKK Aydınlatma Metni - Egefe Sağlık Bilişim A.Ş.', desc: '6698 sayılı KVKK kapsamında Egefe Bilişim Sağlık San. ve Tic. A.Ş. tarafından web sitesi formları aracılığıyla işlenen kişisel verilere ilişkin aydınlatma metni.', h1: 'KVKK Aydınlatma Metni', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', yasal: true };
 meta['/gizlilik-politikasi/'] = { title: 'Gizlilik ve Çerez Politikası - Egefe Sağlık Bilişim A.Ş.', desc: 'ege-fe.com gizlilik ve çerez politikası: toplanan veriler, kullanım amaçları, çerezler, saklama, üçüncü taraflar ve haklarınız.', h1: 'Gizlilik ve Çerez Politikası', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', yasal: true };
+// Ürünler: elle yazılan yeni sayfa (canlıda karşılığı yok; içerik /bilgi/ SSS'sinden + Armas yetkili bayilik bilgisi, 2026-10-01)
+meta['/urunler/'] = { title: 'Ürünler - Egefe Sağlık Bilişim A.Ş.', desc: 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler, NAM-DATA yazılımı, UTK uyuşturucu tespit kiti ve UTC uyuşturucu tespit cihazı. Armas Elektronik yetkili bayi ve servisi.', h1: 'Ürünler', ust: null, og: '/img/urun/nam19-saha.webp', ogType: 'website' };
 meta['/404/'] = { title: 'Sayfa Bulunamadı - Egefe Sağlık Bilişim A.Ş.', desc: '', h1: 'Sayfa bulunamadı', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', noindex: true };
 
 // ---------- PHP veri dosyaları ----------
@@ -242,7 +258,7 @@ await fs.mkdir(path.join(S, 'inc'), { recursive: true });
 await fs.writeFile(path.join(S, 'inc', 'meta.php'), hdr + 'return ' + phpArr(meta) + ';\n');
 
 // Hizmet verisi (menü, hub kartları, kenar çubuğu)
-const hizmetOzet = (p) => ozet(B(nameOf(p)), 150);
+const hizmetOzet = (p) => ozetCumle(B(nameOf(p)));
 const hizmetler = {
   servis: { yol: SERVIS.yol, ad: 'Hizmetler', alt: SERVIS.alt.map((a) => ({ yol: a, ad: MENU_AD[a], ozet: hizmetOzet(a) })) },
   danismanlik: HUBS.map((h) => ({ yol: h.yol, ad: h.ad, giris: HUB_GIRIS[h.yol]?.kisa || '', alt: h.alt.map((a) => ({ yol: a, ad: MENU_AD[a], ozet: hizmetOzet(a) })) })),
@@ -330,7 +346,7 @@ for (const li of usedImgs) {
 
 // ---------- sitemap.xml ----------
 const lastmod = (p) => (meta[p].guncel || meta[p].yayin || new Date().toISOString()).slice(0, 10);
-const smPaths = [...ALL.filter((p) => !meta[p].noindex), '/kvkk/', '/gizlilik-politikasi/'];
+const smPaths = [...ALL.filter((p) => !meta[p].noindex), '/urunler/', '/kvkk/', '/gizlilik-politikasi/'];
 const sm = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
   smPaths.map((p) => `  <url><loc>https://ege-fe.com${p}</loc><lastmod>${lastmod(p)}</lastmod></url>`).join('\n') + '\n</urlset>\n';
 await fs.writeFile(path.join(S, 'sitemap.xml'), sm);

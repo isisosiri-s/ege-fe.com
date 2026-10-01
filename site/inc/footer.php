@@ -10,6 +10,24 @@
       </a>
     </div>
     <div>
+      <h2 class="site-alt-baslik">Ürünler ve Servis</h2>
+      <ul>
+        <li><a href="/urunler/">Ürünler</a></li>
+        <?php foreach ($HIZMET['servis']['alt'] as $h): ?>
+        <li><a href="<?= e($h['yol']) ?>"><?= e($h['ad']) ?></a></li>
+        <?php endforeach; ?>
+        <li><a href="/bilgi/">Bilgi</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="site-alt-baslik">Danışmanlık</h2>
+      <ul>
+        <?php foreach ($HIZMET['danismanlik'] as $hub): ?>
+        <li><a href="<?= e($hub['yol']) ?>"><?= e($hub['ad']) ?></a></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+    <div>
       <h2 class="site-alt-baslik">Kurumsal</h2>
       <ul>
         <li><a href="/hakkimizda/">Hakkımızda</a></li>
@@ -18,16 +36,6 @@
         <li><a href="/kariyer/">Kariyer</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/iletisim/">İletişim</a></li>
-      </ul>
-    </div>
-    <div>
-      <h2 class="site-alt-baslik">Hizmetler</h2>
-      <ul>
-        <li><a href="/hizmetler/">Bakım, Onarım, Kalibrasyon</a></li>
-        <?php foreach ($HIZMET['danismanlik'] as $hub): ?>
-        <li><a href="<?= e($hub['yol']) ?>"><?= e($hub['ad']) ?></a></li>
-        <?php endforeach; ?>
-        <li><a href="/bilgi/">Bilgi</a></li>
       </ul>
     </div>
     <div>
@@ -47,6 +55,10 @@
     </ul>
   </div>
 </footer>
+<nav class="mobil-cubuk" aria-label="Hızlı iletişim">
+  <a class="mobil-cubuk-ara" href="tel:<?= e($FIRMA['telefon_uri']) ?>"><?= ikon('phone', 20) ?><span>Ara</span></a>
+  <a class="mobil-cubuk-teklif" href="/iletisim/#form"><?= ikon('message-2', 20) ?><span>Teklif Al</span></a>
+</nav>
 <script src="/js/site.js?v=<?= filemtime(KOK . '/js/site.js') ?>" defer></script>
 </body>
 </html>

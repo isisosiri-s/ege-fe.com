@@ -3,7 +3,7 @@
 return [
   '/' => [
     'title' => 'Anasayfa - Egefe Sağlık Bilişim A.Ş.',
-    'desc' => '10 yılı aşkın süredir sektörde bulunan Egefe, tecrübe ve bilgi birikimlerini sizlere aktarıyor. Sağlık sektöründeki öncü danışmanınız…',
+    'desc' => 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre ve uyuşturucu tespit ürünlerinde satış, bakım ve kalibrasyon; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.',
     'h1' => 'Anasayfa',
     'ust' => null,
     'og' => '/wp-content/uploads/2022/01/faceb.jpg',
@@ -24,7 +24,7 @@ return [
   '/hizmetler/' => [
     'title' => 'Hizmetler - Egefe Sağlık Bilişim A.Ş.',
     'desc' => 'Uyuşturucu tespit cihazı, tespit kiti ve alkolmetreler için yetkili servis: arıza ve onarım, periyodik bakım ve kalibrasyon hizmetleri.',
-    'h1' => 'Hizmetler',
+    'h1' => 'Servis Hizmetleri',
     'ust' => null,
     'og' => '/wp-content/uploads/2022/01/kapakfoto-3.jpg',
     'ogType' => 'website',
@@ -648,6 +648,14 @@ return [
     'og' => '/wp-content/uploads/2022/01/faceb.jpg',
     'ogType' => 'website',
     'yasal' => true,
+  ],
+  '/urunler/' => [
+    'title' => 'Ürünler - Egefe Sağlık Bilişim A.Ş.',
+    'desc' => 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler, NAM-DATA yazılımı, UTK uyuşturucu tespit kiti ve UTC uyuşturucu tespit cihazı. Armas Elektronik yetkili bayi ve servisi.',
+    'h1' => 'Ürünler',
+    'ust' => null,
+    'og' => '/img/urun/nam19-saha.webp',
+    'ogType' => 'website',
   ],
   '/404/' => [
     'title' => 'Sayfa Bulunamadı - Egefe Sağlık Bilişim A.Ş.',

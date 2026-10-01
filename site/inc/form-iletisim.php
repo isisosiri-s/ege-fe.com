@@ -1,4 +1,9 @@
-<?php require_once __DIR__ . '/form.php'; ?>
+<?php
+require_once __DIR__ . '/form.php';
+// Konu: bağlantıdan gelebilir (ör. /iletisim/?konu=Ürünler#form); yoksa "Hizmetler"
+$konular = ['Teknik Destek', 'Muhasebe', 'Ürünler', 'Hizmetler', 'İnsan Kaynakları', 'Diğer'];
+$seciliKonu = in_array($_GET['konu'] ?? '', $konular, true) ? $_GET['konu'] : 'Hizmetler';
+?>
 <form class="form" id="form" action="/form/gonder.php" method="post">
   <?= form_durum('iletisim') ?>
   <?= form_gizli_alanlar('iletisim') ?>
@@ -8,7 +13,7 @@
     <label>Telefon<input type="tel" name="telefon" maxlength="40" autocomplete="tel"></label>
     <label>Sormak istediğiniz nedir?
       <select name="konu">
-        <option>Teknik Destek</option><option>Muhasebe</option><option>Ürünler</option><option selected>Hizmetler</option><option>İnsan Kaynakları</option><option>Diğer</option>
+        <?php foreach ($konular as $k): ?><option<?= $k === $seciliKonu ? ' selected' : '' ?>><?= e($k) ?></option><?php endforeach; ?>
       </select>
     </label>
     <label class="tam">Nasıl yardımcı olabiliriz? *<textarea name="mesaj" rows="5" required maxlength="5000"></textarea></label>

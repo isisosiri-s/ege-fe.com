@@ -25,7 +25,7 @@ $FIRMA = [
   'linkedin'    => 'https://www.linkedin.com/company/egefe-bili%C5%9Fim-sa%C4%9Fl%C4%B1k-a-%C5%9F/',
   // Harita: koordinat teyit edilene kadar adres sorgusuyla gösterilir, JSON-LD'ye geo yazılmaz.
   'harita_koordinat' => null, // ör. [39.90, 32.80]
-  'slogan'      => 'Sağlık sektöründe yaptığı inovatif çözümler ile güven, kalite ve memnuniyetin öncüsü...',
+  'slogan'      => 'Sağlık sektöründe yaptığı inovatif çözümler ile güven, kalite ve memnuniyetin öncüsü.',
 ];
 
 // Form ayarları

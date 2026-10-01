@@ -7,7 +7,7 @@ return [
     'alt' => [[
         'yol' => '/ariza-ve-onarim/',
         'ad' => 'Arıza ve Onarım',
-        'ozet' => 'UTS, NAM-07 ve NAM-19 cihazların ve yedek parçalarının arızi bakımlarını üstleniyoruz. Ürününüzün garantisi devam ederken; ürününüzde herhangi bir…',
+        'ozet' => 'UTS, NAM-07 ve NAM-19 cihazların ve yedek parçalarının arızi bakımlarını üstleniyoruz.',
       ], [
         'yol' => '/periyodik-bakim/',
         'ad' => 'Periyodik Bakım',
@@ -29,19 +29,19 @@ return [
         ], [
           'yol' => '/uts/sorumlu-teknik-eleman/',
           'ad' => 'Sorumlu Teknik Eleman',
-          'ozet' => 'Eczacı veya kozmetik alanında iki yıl fiilen çalışmış olduğunu belgelemek kaydıyla kimyager, biyokimyager, kimya mühendisi, biyolog veya mikrobiyolog…',
+          'ozet' => 'Eczacı veya kozmetik alanında iki yıl fiilen çalışmış olduğunu belgelemek kaydıyla kimyager, biyokimyager, kimya mühendisi, biyolog veya mikrobiyolog sorumlu teknik eleman olarak görevlendirilebilir.',
         ], [
           'yol' => '/uts/kozmetik-urun-bildirimi/',
           'ad' => 'Kozmetik Ürün Bildirimi',
-          'ozet' => 'Bir kozmetik ürün üretip satışa sunacaksanız ya da bir kozmetik ürün ithal edip Türkiye pazarına arz edecekseniz, öncesinde kozmetik kapsamında…',
+          'ozet' => 'Bir kozmetik ürün üretip satışa sunacaksanız ya da bir kozmetik ürün ithal edip Türkiye pazarına arz edecekseniz, öncesinde kozmetik kapsamında değerlendirilen tüm ürünleriniz için Sağlık Bakanlığı’na ürün bildirimi başvurusu yapmalısınız.',
         ], [
           'yol' => '/uts/uts-bilgi-guncelleme/',
           'ad' => 'ÜTS Bilgi Güncelleme',
-          'ozet' => 'Özellikle CE sertifikaları (EC certificate) tahditli validasyona sahiptir. Yani belli bir süre sonra geçerliğini yitirir ve yenilenmesi gerekir…',
+          'ozet' => 'Özellikle CE sertifikaları (EC certificate) tahditli validasyona sahiptir. Yani belli bir süre sonra geçerliğini yitirir ve yenilenmesi gerekir (expiration / validation date).',
         ], [
           'yol' => '/uts/tibbi-cihaz-uts-gecisi/',
           'ad' => 'Tıbbi Cihaz ÜTS Geçişi',
-          'ozet' => 'Türkiye İlaç ve Tıbbi Cihaz Kurumu tarafından yayımlanan duyuru gereğince, 01.10.2018 tarihi itibariyle de sınıf III ürün gruplarında tekil ürün…',
+          'ozet' => 'Türkiye İlaç ve Tıbbi Cihaz Kurumu tarafından yayımlanan duyuru gereğince, 01.10.2018 tarihi itibariyle de sınıf III ürün gruplarında tekil ürün hareketleri başlayacaktır.',
         ]],
     ], [
       'yol' => '/tibbi-cihaz/',
@@ -54,15 +54,15 @@ return [
         ], [
           'yol' => '/tibbi-cihaz/firma-bilgileri-guncelleme/',
           'ad' => 'Firma Bilgileri Güncelleme',
-          'ozet' => 'TİTUBB firma kayıt işlemlerinde verilen taahhütname gereği, TİTUBB’daki bilgi-belge değişiklikleri firma veya kurumlar tarafından gecikmeksizin…',
+          'ozet' => 'TİTUBB firma kayıt işlemlerinde verilen taahhütname gereği, TİTUBB’daki bilgi-belge değişiklikleri firma veya kurumlar tarafından gecikmeksizin sisteme yansıtılmalıdır.',
         ], [
           'yol' => '/tibbi-cihaz/ubb-e-imza/',
           'ad' => 'UBB E-İmza',
-          'ozet' => 'Nitelikli Elektronik Sertifika’ya(NES) dayanılarak oluşturulan elektronik imza (e-İmza) güvenli elektronik imzadır.',
+          'ozet' => 'Nitelikli Elektronik Sertifika’ya(NES) dayanılarak oluşturulan elektronik imza (e-İmza) güvenli elektronik imzadır. 5070 sayılı Elektronik İmza Kanunu uyarınca, “güvenli elektronik imza, elle atılan imzayla aynı hukuki sonucu doğurur”.',
         ], [
           'yol' => '/tibbi-cihaz/tibbi-cihaz-belge-kaydi/',
           'ad' => 'Tıbbi Cihaz Belge Kaydı',
-          'ozet' => 'CE Sertifikası. Uygunluk Beyanı. Kullanım Kılavuzu Etiket Örneği. Ürün Kataloğu. Yetki Belgesi Firmaların sisteme kaydının onaylanması için aşağıdaki…',
+          'ozet' => 'CE Sertifikası. Uygunluk Beyanı. Kullanım Kılavuzu Etiket Örneği. Ürün Kataloğu. Yetki Belgesi Firmaların sisteme kaydının onaylanması için aşağıdaki evrakların gönderilmesi gerekmektedir.',
         ], [
           'yol' => '/tibbi-cihaz/etiket-duzenleme/',
           'ad' => 'Etiket Düzenleme',
@@ -79,7 +79,7 @@ return [
         ], [
           'yol' => '/saglik-bakanligi-islemleri/ilac-varyasyon/',
           'ad' => 'İlaç Varyasyon',
-          'ozet' => 'Güncel varyasyon kılavuzu doğrultusunda varyasyon kapsamının (Tip IA, Tip IB, Tip II) belirlenmesi ve varyasyon dosyasının hazırlanması',
+          'ozet' => 'Güncel varyasyon kılavuzu doğrultusunda varyasyon kapsamının (Tip IA, Tip IB, Tip II) belirlenmesi ve varyasyon dosyasının hazırlanması.',
         ], [
           'yol' => '/saglik-bakanligi-islemleri/ilac-fiyatlandirma/',
           'ad' => 'İlaç Fiyatlandırma',
@@ -87,7 +87,7 @@ return [
         ], [
           'yol' => '/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/',
           'ad' => 'Biyosidal Ruhsatlandırma',
-          'ozet' => 'Kimyasal veya biyolojik açıdan herhangi bir zararlı organizma üzerinde kontrol edici etki gösteren veya hareketini kısıtlayan, zararsız kılan, yok…',
+          'ozet' => 'Kimyasal veya biyolojik açıdan herhangi bir zararlı organizma üzerinde kontrol edici etki gösteren veya hareketini kısıtlayan, zararsız kılan, yok eden aktif madde ve preparatlardır.',
         ], [
           'yol' => '/saglik-bakanligi-islemleri/gmp-basvurusu/',
           'ad' => 'GMP Başvurusu',
@@ -112,7 +112,7 @@ return [
         ], [
           'yol' => '/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/',
           'ad' => 'CE Teknik Dosya Hazırlanması',
-          'ozet' => 'CE belgesi almak için başvuruda bulunan firmalar CE teknik dosyası hazırlamak zorundadır. Süreç içerisinde danışmanlık hizmetinin alındığı firma, bu…',
+          'ozet' => 'CE belgesi almak için başvuruda bulunan firmalar CE teknik dosyası hazırlamak zorundadır.',
         ], [
           'yol' => '/diger-hizmetler/takviye-edici-gida/',
           'ad' => 'Takviye Edici Gıda',

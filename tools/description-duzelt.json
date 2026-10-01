@@ -4,8 +4,8 @@
     "aciklama": "Egefe iletişim bilgileri: Çankaya/Ankara merkez ofis adresi, telefon, e-posta ve iletişim formu. Formumuz ile bize 7/24 ulaşabilirsiniz."
   },
   "/bilgi/": {
-    "kaynak": "sayfadaki soru başlıklarından derlendi (kalibrasyon süre/ücret soruları kaldırıldıktan sonra güncellendi)",
-    "aciklama": "Periyodik bakım, teknik servisteki cihazın durumu, yedek parça temini, NAM-07/NAM-19 cihazları ve uyuşturucu test kiti hakkında sık sorulan sorular."
+    "kaynak": "sayfadaki soru başlıklarından derlendi (kalibrasyon süre/ücret soruları kaldırıldıktan sonra güncellendi) — uyuşturucu test kiti bölümü kaldırıldı (2026-10-01)",
+    "aciklama": "Periyodik bakım, teknik servisteki cihazın durumu, yedek parça temini ve NAM-07/NAM-19 cihazları hakkında sık sorulan sorular."
   },
   "/tibbi-cihaz/tibbi-cihaz-belge-kaydi/": {
     "kaynak": "sayfa metninden",

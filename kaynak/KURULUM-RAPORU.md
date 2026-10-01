@@ -222,3 +222,11 @@ Kullanıcı kararları: CROM TEST (cromtest.com) Egefe'nin yerli üretim uyuştu
 - /bilgi/ SSS'de "Uyuşturucu Test Kiti" (UTK) bölümü duruyor — kaldırılsın mı / CROM TEST'e göre mi yazılsın?
 - /hizmetler/ girişi: "uyuşturucu tespit cihazı, tespit kiti ve alkolmetrelerin satışı ve yetkili servisi" — UTC servisi devam ediyor mu?
 - cromtest.com "15+ yıllık deneyim" ve "%99,6 doğruluk" yazıyor; ege-fe.com'da kuruluş 2017 ve %99 iddiaları kaldırıldı — iki site tutarsız.
+
+## Revizyon 7 (2026-10-01) — Armas UTC/UTK sitede hiç geçmez
+Kullanıcı kararı: Armas'ın UTC cihazı ve UTK kitiyle ilgili her şey kaldırılsın.
+- /bilgi/: "Uyuşturucu Test Kiti" SSS bölümü (5 soru + görsel) ve sayfa başındaki UTC fotoğrafı (1282794.jpg) kaldırıldı; description güncellendi.
+- /hizmetler/: giriş metni ve description'dan "uyuşturucu tespit cihazı, tespit kiti" çıkarıldı; paylaşım görseli UTC fotoğrafıydı (kapakfoto-3.jpg) → NAM-19 saha fotoğrafı.
+- /ariza-ve-onarim/: "UTS, NAM-07 ve NAM-19 cihazların" → "NAM-07 ve NAM-19 cihazlarının" (kart özeti ve description dahil).
+- Dosyalar silindi: utk-uyusturucu-test-kiti.jpg, 1282794.jpg, kapakfoto-3.jpg, img/urun/utk.webp, utc.webp. build.mjs: YASAK_GORSEL filtresi.
+- Kontrol: site/ altında UTC/UTK/"tespit cihazı"/"test sistemi" geçen metin, görsel veya dosya yok.

@@ -43,6 +43,8 @@ UST['/category/saglik/'] = '/blog/'; UST['/ilac/'] = '/danismanlik/'; // /diger/
 // ---------- Metin yardımcıları ----------
 const LOREM = /Phosfluorescently|Interactively|Completely synergize|Efficiently unleash|Appropriately empower|Distinctively re-engineer|Credibly reintermediate/;
 const DECO = /bgn-|floater-|white-curve|blue-curve|corner|\/2017\/04\/|logs\.png|img-consultancy-excellence|img-first-class|img-about-us|egefeback|provega/;
+// Armas uyuşturucu ürünlerini (UTC cihazı / UTK kiti) gösteren görseller — sitede hiç kullanılmaz (kullanıcı kararı 2026-10-01)
+const YASAK_GORSEL = /1282794|kapakfoto-3|utk|utc\.|\/UTK\./i;
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const phpq = (s) => "'" + String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'") + "'";
 const bigVariant = (u) => u.replace(/-\d{2,4}x\d{2,4}(?=\.(jpe?g|png|webp|gif)$)/i, '');
@@ -82,7 +84,8 @@ const FIXES = [
   [/^Evet\. Web sitemizden online olarak sipariş verebilirsiniz\.$/g, 'Evet. Teklif almak için <a href="/iletisim/#form">bizimle iletişime geçebilirsiniz</a>.'],
   [/^Tarafımıza ulaşan cihazların seri numarası ve kurum iletişim bilgilerine göre destek\.ege-fe\.com adresine kayıtları yapılarak cihazınızın sürecini ve faturalarınızı anlık olarak görebilirsiniz\.$/g,
     'Teknik servise gönderdiğiniz cihazın durumunu öğrenmek için cihazın seri numarası ve kurum iletişim bilgilerinizle <a href="mailto:servis@ege-fe.com">servis@ege-fe.com</a> adresine e-posta gönderebilirsiniz.'],
-  // Revizyon 6 (kullanıcı kararı, 2026-10-01): uyuşturucu testinde yalnız kendi markamız CROM TEST — UTC/UTK anlatımları değişti
+  // Revizyon 6 (kullanıcı kararı, 2026-10-01): uyuşturucu testinde yalnız kendi markamız CROM TEST — Armas uyuşturucu ürünleri hiç geçmez
+  [/UTS, NAM-07 ve NAM-19 cihazların/g, 'NAM-07 ve NAM-19 cihazlarının'],
   [/Ege-fe ürün listesinde bulunan [\s\S]*?hizmet sunmaktadır\./g,
     'Egefe\'nin yerli üretim markası <a href="https://www.cromtest.com/products.html">CROM TEST</a>, idrar, ağız sıvısı ve yüzey numuneleri için uyuşturucu madde tarama test kitleri sunmaktadır.'],
   [/Uyuşturucu Tespit Kiti ve Uyuşturucu Tespit Cihazı ile hızlı ve doğru sonuçlar alabilirsiniz\. Uyuşturucu testi fiyatları 2022 hakkında/g,
@@ -164,7 +167,7 @@ function render(blocks, { h1, from, firstImgSkip }) {
       const rows = b.rows.filter((r) => r.some((c) => plain(c)));
       if (rows.length) out.push('<div class="tablo"><table>' + rows.map((r) => '<tr>' + r.map((c) => `<td>${fixLinks(c, from)}</td>`).join('') + '</tr>').join('') + '</table></div>');
     } else if (b.t === 'img') {
-      if (!b.src || DECO.test(b.src)) continue;
+      if (!b.src || DECO.test(b.src) || YASAK_GORSEL.test(b.src)) continue;
       const li = localImg(b.src); if (!li || seenImg.has(li)) continue; seenImg.add(li); usedImgs.add(li);
       out.push(`<figure class="gorsel"><img src="${imgUrl(li)}" alt="${esc(b.alt || h1)}" loading="lazy" decoding="async"${dims(li)}>${b.cap ? `<figcaption>${esc(b.cap)}</figcaption>` : ''}</figure>`);
     } else if (b.t === 'card') {
@@ -239,8 +242,9 @@ for (const p of ALL) {
     else { desc = ozet(blocks); descKaynak = 'sayfa metninden'; }
     descLog.push({ yol: p, eski: d.description, yeni: desc, kaynak: descKaynak });
   }
-  const og = localImg(d.og['og:image'] || '') ;
-  if (og) usedImgs.add(og);
+  let og = localImg(d.og['og:image'] || '') ;
+  if (og && YASAK_GORSEL.test(og)) og = '/img/urun/nam19-saha.webp'; // sitenin kendi görseli (img/), kopyalanmaz
+  else if (og) usedImgs.add(og);
   meta[p] = {
     title: d.title, desc, h1, ust: UST[p] || null,
     og: og || '/wp-content/uploads/2022/01/faceb.jpg',
@@ -299,10 +303,12 @@ async function writePage(p, body, extra = {}) {
 
 // Kurumsal + hizmet alt sayfaları
 for (const p of [...KURUMSAL, ...SERVIS.alt, ...HUBS.flatMap((h) => h.alt)]) {
-  const blocks = B(nameOf(p));
+  let blocks = B(nameOf(p));
+  // Armas uyuşturucu ürünleri sitede hiç geçmeyecek (kullanıcı kararı 2026-10-01): /bilgi/ "Uyuşturucu Test Kiti" bölümü sonuna kadar atılır
+  if (p === '/bilgi/') { const i = blocks.findIndex((b) => b.t === 'h' && /^Uyuşturucu Test Kiti$/i.test(b.text.replace(/\s+/g, ' ').trim())); if (i >= 0) blocks = blocks.slice(0, i); }
   const isHizmet = !KURUMSAL.includes(p);
   // hizmet sayfalarında banner görseli ayrı gösterilir
-  const banner = isHizmet ? blocks.find((b) => b.t === 'img' && b.src && !DECO.test(b.src)) : null;
+  const banner = isHizmet ? blocks.find((b) => b.t === 'img' && b.src && !DECO.test(b.src) && !YASAK_GORSEL.test(b.src)) : null;
   const bannerLocal = banner ? localImg(banner.src) : null;
   if (bannerLocal) usedImgs.add(bannerLocal);
   const html = render(blocks, { h1: meta[p].h1, from: p, firstImgSkip: bannerLocal });

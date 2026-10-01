@@ -7,7 +7,7 @@ return [
     'alt' => [[
         'yol' => '/ariza-ve-onarim/',
         'ad' => 'Arıza ve Onarım',
-        'ozet' => 'UTS, NAM-07 ve NAM-19 cihazların ve yedek parçalarının arızi bakımlarını üstleniyoruz.',
+        'ozet' => 'NAM-07 ve NAM-19 cihazlarının ve yedek parçalarının arızi bakımlarını üstleniyoruz.',
       ], [
         'yol' => '/periyodik-bakim/',
         'ad' => 'Periyodik Bakım',

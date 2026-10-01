@@ -23,10 +23,10 @@ return [
   ],
   '/hizmetler/' => [
     'title' => 'Hizmetler - Egefe Sağlık Bilişim A.Ş.',
-    'desc' => 'Uyuşturucu tespit cihazı, tespit kiti ve alkolmetreler için yetkili servis: arıza ve onarım, periyodik bakım ve kalibrasyon hizmetleri.',
+    'desc' => 'Alkolmetreler için yetkili servis: arıza ve onarım, periyodik bakım ve kalibrasyon hizmetleri.',
     'h1' => 'Servis Hizmetleri',
     'ust' => null,
-    'og' => '/wp-content/uploads/2022/01/kapakfoto-3.jpg',
+    'og' => '/img/urun/nam19-saha.webp',
     'ogType' => 'website',
     'yayin' => '2019-04-01T10:25:28+00:00',
     'guncel' => '2022-01-21T10:56:21+00:00',
@@ -153,7 +153,7 @@ return [
   ],
   '/bilgi/' => [
     'title' => 'Bilgi - Egefe Sağlık Bilişim A.Ş.',
-    'desc' => 'Periyodik bakım, teknik servisteki cihazın durumu, yedek parça temini, NAM-07/NAM-19 cihazları ve uyuşturucu test kiti hakkında sık sorulan sorular.',
+    'desc' => 'Periyodik bakım, teknik servisteki cihazın durumu, yedek parça temini ve NAM-07/NAM-19 cihazları hakkında sık sorulan sorular.',
     'h1' => 'Bilgi',
     'ust' => null,
     'og' => '/wp-content/uploads/2017/04/blog-post-04.jpg',
@@ -163,7 +163,7 @@ return [
   ],
   '/ariza-ve-onarim/' => [
     'title' => 'Arıza ve Onarım - Egefe Sağlık Bilişim A.Ş.',
-    'desc' => 'UTS, NAM-07 ve NAM-19 cihazların ve yedek parçalarının arızi bakımlarını üstleniyoruz. Ürününüzün garantisi devam ederken; ürününüzde herhangi bir arıza…',
+    'desc' => 'NAM-07 ve NAM-19 cihazlarının ve yedek parçalarının arızi bakımlarını üstleniyoruz. Ürününüzün garantisi devam ederken; ürününüzde herhangi bir arıza…',
     'h1' => 'Arıza ve Onarım',
     'ust' => '/hizmetler/',
     'og' => '/wp-content/uploads/2023/08/egefeback1.jpg',

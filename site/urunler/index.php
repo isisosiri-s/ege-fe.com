@@ -2,7 +2,7 @@
 // Ürünler (elle yazılan sayfa). Kaynaklar: sitedeki /bilgi/ SSS + Armas Elektronik ürün sayfalarındaki teknik bilgiler
 // (Egefe Armas yetkili bayi ve servisi; görsel ve teknik bilgi kullanım izni kullanıcıdan, 2026-10-01).
 // Alkolmetre: yalnız NAM-07 ve NAM-19 (diğer Armas modelleri eklenmeyecek — kullanıcı kararı).
-// Uyuşturucu testi: yalnız kendi markamız CROM TEST (Armas UTK/UTC kaldırıldı — kullanıcı kararı, 2026-10-01).
+// Uyuşturucu testi: yalnız kendi markamız CROM TEST (kullanıcı kararı, 2026-10-01).
 $yol = '/urunler/';
 $sayfa = [
   'etiket' => 'Alkolmetreler · Uyuşturucu Test Kitleri',

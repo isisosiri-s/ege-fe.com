@@ -5,9 +5,9 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-03-01">1 Mart 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/03/Incidente-stradale-sotto-effetto-di-stupefacenti.jpg" alt="Trafik Güvenliğini Tehlikeye Sokma Suçu" width="1920" height="1080" decoding="async"></figure>
-<figure class="gorsel"><img src="/wp-content/uploads/2022/03/94-impaired-driving.jpg" alt="Trafik Güvenliğini Tehlikeye Sokma Suçu" loading="lazy" decoding="async" width="1920" height="1080"><figcaption>Trafik Güvenliğini Tehlikeye Sokma Suçu</figcaption></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/03/Incidente-stradale-sotto-effetto-di-stupefacenti.webp" alt="Trafik Güvenliğini Tehlikeye Sokma Suçu" width="1920" height="1080" decoding="async"></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/03/94-impaired-driving.webp" alt="Trafik Güvenliğini Tehlikeye Sokma Suçu" loading="lazy" decoding="async" width="1920" height="1080"></figure>
 <p>Günümüzde araç kullanımının yaygınlaşması ile birlikte pek çok kaza meydana gelmektedir. Bu kazaların büyük bir çoğunluğu alkollü araç kullanmaktan kaynaklanmaktadır. Alkollü ve uyuşturucu madde kullanıp direksiyon başına geçen sürücüler hem kendi hem de başka insanların can ve mal güvenliğini tehlikeye atmaktadır. Türk Ceza Kanunun 179. Maddesi alkol veya madde kullanarak direksiyon başına geçen sürücüler için düzenlenmiştir.</p>
 <h3>Trafik Güvenliğini Tehlikeye Sokma Suçu Cezai Yaptırımı TCK. 179</h3>
 <p><a href="https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5237.pdf" target="_blank" rel="noopener">Türk Ceza Kanunu</a>n 179. Madde 3. Fıkrasına göre ‘alkol veya herhangi bir uyuşturucu madde etkisiyle ya da başka bir sebepten dolayı emniyetli bir şekilde araç sevk ve idare edemeyecek halde olmasına rağmen araç kullanan kişi 179. Madde 2. Fıkraya göre cezalandırılır.’</p>

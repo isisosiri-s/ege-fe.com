@@ -5,7 +5,6 @@ require __DIR__ . '/../../inc/header.php';
 ?>
 <div class="kap icerik-duzen">
   <article class="metin">
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/uts-1.jpg" alt="Etiket Düzenleme" width="1000" height="666" decoding="async"></figure>
 <h2>Mevzuata uygun etiket düzenleme</h2>
 <p>Tıbbi Cihaz Yönetmeliğinin (93/42/EEC), Vücuda Yerleştirilebilir Aktif Tıbbi Cihazlar Yönetmeliğinin (90/385/EEC) ve Vücut Dışında Kullanılan Tıbbi Tanı Cihazları Yönetmeliğinin (98/79/EC) ilgili kısımlarında belirtildiği üzere “imalatçı tarafından hastalara, kullanıcılara ve uygulayıcılara yönelik olarak tıbbi cihazla birlikte verilmesi gereken bilgiler, kullanım kılavuzları, etiketler, bakım-onarım kitapçığı ve diğer açıklamalar tıbbi cihaz piyasaya arz edildiğinde Türkçe olmalıdır.</p>
 <p>Bu çerçevede, TİTUBB sistemine, üretici/ithalatçı firmalarca kayıt bildirimi yapılan tıbbi cihazların etiketlerinde bulunması gereken bilgiler aşağıda belirtilmektedir.</p>

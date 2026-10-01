@@ -5,7 +5,6 @@ require __DIR__ . '/../../inc/header.php';
 ?>
 <div class="kap icerik-duzen">
   <article class="metin">
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/uts-1.jpg" alt="Tıbbi Cihaz ÜTS Geçişi" width="1000" height="666" decoding="async"></figure>
 <p>Sayın Yetkili,</p>
 <p>Türkiye İlaç ve Tıbbi Cihaz Kurumu tarafından yayımlanan duyuru gereğince,</p>
 <p><strong>01.10.2018 tarihi itibariyle de sınıf III ürün gruplarında tekil ürün hareketleri başlayacaktır.</strong></p>

@@ -5,10 +5,10 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-02-22">22 Şubat 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/02/closeup-shot-white-pills-glass-dish-lab.jpg" alt="Uyuşturucu Madde Testi" width="1920" height="1080" decoding="async"></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/02/closeup-shot-white-pills-glass-dish-lab.webp" alt="Uyuşturucu Madde Testi" width="1920" height="1080" decoding="async"></figure>
 <h2>Uyuşturucu Madde Testi Nedir?</h2>
-<figure class="gorsel"><img src="/wp-content/uploads/2022/02/GettyImages-938938858-7b656e6317ab4e2797556bdddce9595d.jpg" alt="Uyuşturucu Madde Testi" loading="lazy" decoding="async" width="1920" height="1080"><figcaption>Uyuşturucu Madde Testi</figcaption></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/02/GettyImages-938938858-7b656e6317ab4e2797556bdddce9595d.webp" alt="Uyuşturucu Madde Testi" loading="lazy" decoding="async" width="1920" height="1080"></figure>
 <p>Uyuşturucu madde testi bir diğer adıyla drug test olarak bilinmektedir. Uyuşturucu madde testleri kişinin yeşil reçeteli bir ilaca veya uyuşturucu bir madde alıp almadığını tespit etmektedir. Uyuşturucu madde testleri günümüzde teknolojinin ilerlemesi ile birçok şekilde gerçekleştirilmektedir. Uyuşturucu testleri ağızdan, idrardan, kandan, tırnakdan veya saç teli ile yapılabilmektedir. Bu testlerden en güvenilir ve hızlı olanı idrar testi ve ağızdan alınan testlerdir. Yaklaşık yarım saat veya daha kısa sürede sonuç alınabilmektedir. Uyuşturucu maddeler vücutta en son tırnak ve saçtan atılır. Tırnak ve saçtan alınan örnekler ile uyuşturucu testi de mümkündür. Bu testlerin sonuç süresi 4-6 ay sürebilmektedir.</p>
 <h3>Uyuşturucu Vücuttan Kaç Günde ve Nasıl Atılır?</h3>
 <p>Uyuşturucu maddelerin herbirinin vücuttaki etkisi ve kalıcığı farklı sürelerdedir. Bu maddelerin etki süresi ise yarım saatle, 3 saat arasında değişiklik göstermektedir. Örneğin esrarı ele alacak olursak, bu madde vücuttan 30 gün içerisinde atılır. Bu süreç içerisinde herhangi bir uyuşturucu testi yapıldığında sonuç pozitif olacaktır. Bu durum bonzai için daha farklıdır. Bonzai İdrardan 72 saat, saçtan 90 saat, kandan ve tükürükten 48 saat sonra atılmaktadır.</p>

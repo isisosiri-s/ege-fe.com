@@ -5,8 +5,8 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-01-31">31 Ocak 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/60894852_2113963838716411_3978326419854852096_n.jpg" alt="Ekstazi Nedir?" width="731" height="420" decoding="async"></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/01/60894852_2113963838716411_3978326419854852096_n.webp" alt="Ekstazi Nedir?" width="731" height="420" decoding="async"></figure>
 <p>3,4-metilenedioksi-N-metilamfetamin (MDMA) veya bilinen adlarıyla ekstazi, XTC, X, bir tür psikoaktif madde. Kimyasal formülü C11H15NO2 şeklindedir.</p>
 <p>Ekstazi genellikle üzerinde bir resim ya da logo basılı tablet veya kapsüller halinde bulunur. Çok nadiren toz halde olabilir. Tabletler sürekli değişmekte ve yaygın olarak sahte ya da taklit tabletler satılmaktadır. Böylece marka ismi ve açıklamaları kısa sürede değersiz hale gelmektedir. Analizlere göre tüm ekstazi tabletlerinin yarısı hiç MDMA içermemektedir. Bazı tabletlerin efedrin, amfetamin, ketamin, DXM ve MDMA türevi olan MDA ya da MDEA gibi maddeler içerdiği, diğer bir grubun ise herhangi bir ilaç ya da aktif ajan içermediği bulgulanmıştır.</p>
 <h3>Ekstazi Tarihçesi</h3>

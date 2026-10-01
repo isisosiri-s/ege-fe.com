@@ -5,9 +5,9 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-02-15">15 Şubat 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/02/flat-lay-pills-jar.jpg" alt="Madde Bağımlılığı Tedavisi" width="1920" height="1079" decoding="async"></figure>
-<figure class="gorsel"><img src="/wp-content/uploads/2022/02/colorful-capsules-pills.jpg" alt="Madde Bağımlılığı Tedavisi" loading="lazy" decoding="async" width="1920" height="1080"><figcaption>Madde Bağımlılığı Tedavisi</figcaption></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/02/flat-lay-pills-jar.webp" alt="Madde Bağımlılığı Tedavisi" width="1920" height="1079" decoding="async"></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/02/colorful-capsules-pills.webp" alt="Madde Bağımlılığı Tedavisi" loading="lazy" decoding="async" width="1920" height="1080"></figure>
 <p>Uyuşturucu maddeler<a href="https://www.who.int/" target="_blank" rel="noopener"> Dünya Sağlık Örgütü</a> Tarafından ‘sağlık için kullanılanlar dışında, yaşayan organizmada kullanıldığında, organizmanın bir veya birden fazla yetisini farklılaştırabilen maddeler’ olarak tanımlanmıştır. Madde bağımlılığı bilindiği üzere ruhsal, fiziksel, ekonomik, sosyal ve birçok yönleri ile karmaşık bir olgudur.</p>
 <p>Uyuşturucu maddelerin pek çok çeşidi bulunmaktadır. Bazı uyuşturucu maddeler uyarıcı olarak kullanılırken bazıları ise seratonin yükseltici etkileri sayesinde insanları sakinleştirmekte ve, kişiye belirli duyguları hissetmesine engel olarak geçici olarak uyuşturmaktadır.</p>
 <p>Uyuşturucu maddelerin sokak isimleri oldukça farklıdır. Bunların en çok bilinenleri esrar, eroin, kokain ve ekstazi’dir.</p>
@@ -36,7 +36,7 @@ require __DIR__ . '/../inc/header.php';
 <p><a href="https://erenkoyruhsinireah.saglik.gov.tr/TR-247863/amatem--alkol-ve-madde-tedavi-merkezi-.html" target="_blank" rel="noopener">AMATEM</a></p>
 <p>Özel Klinikler</p>
 <p>Özel Psikologlar gibi birçok uzmandan madde bağımlılığı tedavisi için destek alabilirsiniz.</p>
-<p>Yazımızda sizler için madde bağımlılı tedavisini anlattık daha fazla bilgi içerikli yazı için lütfen <a href="/blog/">tıklayın</a>…</p>
+<p>Yazımızda sizler için madde bağımlılı tedavisini anlattık daha fazla bilgi içerikli yazı için lütfen <a href="/blog/">tıklayın</a>.</p>
   </article>
   <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">

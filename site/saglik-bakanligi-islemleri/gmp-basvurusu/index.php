@@ -5,7 +5,6 @@ require __DIR__ . '/../../inc/header.php';
 ?>
 <div class="kap icerik-duzen">
   <article class="metin">
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/Basliksiz-1.jpg" alt="GMP Başvurusu" width="1000" height="666" decoding="async"></figure>
 <h2>GMP Sertifika Başvuruları</h2>
 <p>Bilindiği üzere 01.03.2010 tarihinden itibaren yapılan CTD ruhsat başvurularında ön inceleme sırasında Bakanlığımızca denetlenerek verilmiş olan <em>GMP belgesi</em> veya ülkemizle karşılıklı tanıma anlaşması olan ülkelerin resmi otoritelerince verilmiş olan <em>GMP</em> belgeleri sunulmak zorundadır. Bu kapsamda Kurumumuzca gerçekleştirilen yurtdışı <em>GMP</em> denetimleri 06.03.2015 tarihinde Kurumumuz internet sayfasında yayımlanan “Yurt Dışı Üretim Tesislerinin <em>GMP</em> Denetimleri İçin Yapılacak Müracaatlara Dair Kılavuz” doğrultusunda gerçekleştirilmektedir.</p>
 <p>Bununla birlikte; Beşeri Tıbbi Ürünlerin İmalathaneleri Hakkında Yönetmeliğin 13. Maddesinin 2. Fıkrasında “Kurum, ithal edilen ürünlerin imalat yerlerini de denetleyebilir.” hükmü bulunmaktadır. Bu çerçevede;</p>

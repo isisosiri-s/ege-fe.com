@@ -250,3 +250,18 @@ Açık: hizmet sayfalarına süreç / gerekli belgeler / süre / SSS — içerik
 - 2026-10-01: SSS akordiyon — bir soru açılınca diğer açık sorular kapanır (site.js).
 - 2026-10-01: SSS akordiyon animasyonu — açılış 0,42 sn (solarak + kayarak), kapanış 0,26 sn; yalnız opacity/transform; hareket azaltma tercihinde animasyonsuz.
 - 2026-10-01: SSS kutusu da yumuşak açılır/kapanır (yükseklik animasyonu 380 ms, Web Animations) — "yalnız transform/opacity" kuralına kullanıcı isteğiyle istisna, yalnız SSS.
+
+## Revizyon 10 (2026-10-01) — UI revizeleri (kullanıcı: "hepsini yap")
+1. Gövde yazısı 300 → 400 (tüm ince metinler).
+2. Hakkımızda "Neler Yaparız?": tıklanmayan kutular → bağlantılı liste (Bakım Onarım → /ariza-ve-onarim/, Kalibrasyon → /kalibrasyon/, Yedek Parça → /bilgi/, Eğitim Danışmanlık ve ÜTS/Tıbbi Cihaz/İlaç → /danismanlik/; AR-GE Çözümleri düz metin).
+3. Paragraf/madde sonundaki "…" / "..." → nokta (Hakkımızda misyon/vizyon, blog "tıklayınız…" cümleleri vb.).
+4. Blog fotoğraf altyazısı yazı başlığını tekrar ediyorsa gösterilmez.
+5. Blog: Tümü / Alkol (5) / Uyuşturucu ve Madde (18) filtresi; "ALKOL BAĞIMLILIĞI" → "Alkol Bağımlılığı"; blog kart özetleri tam cümle.
+6. Mobil menü: Danışmanlık grupları ayrı ayrı açılır.
+7. Hizmet sayfalarında soru biçimli başlıklar akordiyon. Hata düzeltmesi: soru olmayan başlık önceki cevabın içine düşüyordu (/bilgi/ "Cihazlar" görünmüyordu).
+8. Sayfada gösterilen 65 fotoğraf WebP (en çok 1600 px): 9,1 MB → 3,3 MB. og:image JPEG kaldı.
+9. Hizmet sayfalarında ÜTS logosu ve T.C. Sağlık Bakanlığı amblemi üst görsel olarak kullanılmıyor (20 sayfa); paylaşım görseli → faceb.jpg.
+10. 10 hizmet kartına kısa açıklama (`tools/kart-ozet.json`, YENİ METİN — onaya sunuldu).
+11. Blog yayın tarihleri görünmüyor (JSON-LD'de duruyor); kartlarda tarih yerine konu etiketi.
+- /bilgi/ sonundaki "Danışmanlık ve bilgi için…" başlığı kaldırıldı (CTA bandıyla aynı cümle).
+Açık: 12 — hizmet sayfalarına süreç / belgeler / süre / SSS içeriği (kullanıcıdan).

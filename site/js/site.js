@@ -56,6 +56,25 @@
     document.querySelectorAll('details.sss[open]').forEach(sssKapat);
     sssAc(d);
   });
+  // Blog konu filtresi (JS yoksa filtre gizli kalır, tüm yazılar görünür)
+  var filtre = document.querySelector('.blog-filtre');
+  if (filtre) {
+    filtre.hidden = false;
+    filtre.addEventListener('click', function (e) {
+      var b = e.target.closest('.blog-filtre-dugme'); if (!b) return;
+      var k = b.getAttribute('data-filtre');
+      filtre.querySelectorAll('.blog-filtre-dugme').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      document.querySelectorAll('.yazi-karti[data-konu]').forEach(function (y) { y.hidden = k !== 'tumu' && y.getAttribute('data-konu') !== k; });
+    });
+  }
+  // Mobil menü: Danışmanlık grupları ayrı ayrı açılır (masaüstünde düğme gizli, liste hep açık)
+  document.querySelectorAll('.grup-ac').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var k = b.closest('.mega-kolon');
+      var acik = k.classList.toggle('acik');
+      b.setAttribute('aria-expanded', String(acik));
+    });
+  });
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Escape') return;
     document.querySelectorAll('.alt-var.acik').forEach(function (li) {

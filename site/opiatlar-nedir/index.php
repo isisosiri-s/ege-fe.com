@@ -5,9 +5,9 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-03-26">26 Mart 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/03/61fa241ad265a211742e9f29.jpg" alt="Opiatlar Nedir?" width="1920" height="1080" decoding="async"></figure>
-<figure class="gorsel"><img src="/wp-content/uploads/2022/03/opiat-opiat-bagimliligi_compressed.jpg" alt="Opiatlar Nedir?" loading="lazy" decoding="async" width="610" height="380"><figcaption>Opiatlar Nedir?</figcaption></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/03/61fa241ad265a211742e9f29.webp" alt="Opiatlar Nedir?" width="1920" height="1080" decoding="async"></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/03/opiat-opiat-bagimliligi_compressed.webp" alt="Opiatlar Nedir?" loading="lazy" decoding="async" width="610" height="380"></figure>
 <p>Opiatlar dilimizde Opiyatlar olarak da adlandırılmaktadır. Opiyatlar merkezi sinir sistemini üzerinde depresan olarak etki gösteren narkotik ilaçlardır. Opiyatlar haşhaş bitkisinden üretilen veya sentetik alkoloidlerden afyondan meydana gelmektedir.</p>
 <p>Opiatların birçok çeşidi bulunmaktadır. Bunlar;</p>
 <p>Bazı ağrı kesiciler</p>
@@ -28,13 +28,13 @@ require __DIR__ . '/../inc/header.php';
 <p>Yarı Sentetik Olanlar: Eroin, Hidromorfon, Oksikodon, Hidrokodon, Oksimorfon</p>
 <p>Sentetik Olanlar: Fentanil, Petidin, Tramadol, Buprenorfin, Metadon, LAAM</p>
 <h4>OPİYATLARIN ETKİSİ</h4>
-<figure class="gorsel"><img src="/wp-content/uploads/2022/03/Morfinden-100-kat-daha-etkili-ve-bagimlilik-yapmayan-bir-agri-kesici-1808.jpg" alt="Opiatlar Nedir?" loading="lazy" decoding="async" width="645" height="380"><figcaption>Opiatlar Nedir?</figcaption></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/03/Morfinden-100-kat-daha-etkili-ve-bagimlilik-yapmayan-bir-agri-kesici-1808.webp" alt="Opiatlar Nedir?" loading="lazy" decoding="async" width="645" height="380"></figure>
 <ul><li>Kullanımı sonrasında vücutta kızarmalar</li><li>Öfori hissiyatının ardından sedasyon dönemleri</li><li>Hareketsel yavaşlamalar</li><li>Konuşma bozuklukları</li><li>Dikkat bozukluğu</li><li>Hafızasal Sıkıntılar</li><li>Solunumda yavaşlama</li><li>Göz bebeklerinde küçülme</li><li>Ağrı hissiyatının kaybolması</li><li>Kan basıncında azalma</li><li>Sürekli vücut ısısı değişiklikleri</li><li>Kalp hızında yavaşlama</li></ul>
 <h3>Opiatların Yoksunluk Belirtileri</h3>
 <p>Opiyatların yoksunluk belirtileri bu maddenin yarı ömrüne bağıdır. Kullanımı en yaygın olan eroinin yoksunluk belirtileri 6-8 saat sonra başlar. Bu belirtiler 2-3 gün süre içerisinde şiddetli şekilde yaşanmaktadır ve bu yoksunluk belirtileri 8-10 gün aralığında devam etmektedir. Bu süre sonunda yoksunluk belirtileri yavaş yavaş bittiği görülmektedir. Opiyatların yoksunluk belirtileri ise şunlardır;</p>
 <ul><li>Bulantı</li><li>Kusma</li><li>Esneme</li><li>İshal</li><li>Halsizlik</li><li>Depresyon</li><li>Uyku Problemleri</li><li>Kas Rahatsızlıkları</li><li>Kemik Ağrıları</li></ul>
 <h3>Opiat Bağımlılığının Tedavisi</h3>
-<figure class="gorsel"><img src="/wp-content/uploads/2022/03/ko%CC%88sem-amatem.jpg" alt="Opiatlar Nedir?" loading="lazy" decoding="async" width="647" height="368"><figcaption>Opiatlar Nedir?</figcaption></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/03/ko%CC%88sem-amatem.webp" alt="Opiatlar Nedir?" loading="lazy" decoding="async" width="647" height="368"></figure>
 <p>Opiat bağımlılığında kişinin tedavi olmak istemesi en önemli etmenlerden biridir. Bu bağımlılık türünde ilk olarak opiat bağımlılığını netleştirmek için çeşitli nöropsikiyatrik ve psikolojik testler yapılmaktadır.</p>
 <p>Bu bağımlılık türü belirlendiği anda bağımlı olan kişi psikososyal açıdan değerlendirilmeye alınarak hem ailesi ile hem de birey ile çeşitli görüşmeler yapılır. Bu değerlendirmeler sonucu tedavi türü belirlenmiş olur. Tedavi türleri ayaktan tedavi ve yatarak tedavi olarak ikiye ayrılmıştır.</p>
 <p>Optiat bağımlılığından kurtulmak için başvurulabilecek çeşitli kuruluşlar aşağıda yer almaktadır. Bunlar;</p>
@@ -44,7 +44,7 @@ require __DIR__ . '/../inc/header.php';
 <p><a href="https://erenkoyruhsinireah.saglik.gov.tr/TR-247863/amatem--alkol-ve-madde-tedavi-merkezi-.html" target="_blank" rel="noopener">AMATEM</a></p>
 <p>Özel Klinikler</p>
 <p>Özel Psikologlar gibi birçok uzmandan madde bağımlılığı tedavisi için destek alabilirsiniz.</p>
-<p>Opiatlar Nedir? Gibi Birçok Bilgi İçeriği İçin <a href="/blog/">Tıklayınız</a>…</p>
+<p>Opiatlar Nedir? Gibi Birçok Bilgi İçeriği İçin <a href="/blog/">Tıklayınız</a>.</p>
   </article>
   <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">

@@ -124,6 +124,7 @@ $blogAktif = $yol === '/blog/' || $yol === '/category/saglik/' || ($m['ogType'] 
             <?php foreach ($HIZMET['danismanlik'] as $hub): ?>
             <div class="mega-kolon">
               <a class="mega-baslik" href="<?= e($hub['yol']) ?>"<?= aktif($hub['yol'], $yol) ?>><?= e($hub['ad']) ?></a>
+              <button class="grup-ac" type="button" aria-expanded="false" aria-label="<?= e($hub['ad']) ?> hizmetleri"></button>
               <ul>
                 <?php foreach ($hub['alt'] as $h): ?>
                 <li><a href="<?= e($h['yol']) ?>"<?= aktif($h['yol'], $yol) ?>><?= e($h['ad']) ?></a></li>

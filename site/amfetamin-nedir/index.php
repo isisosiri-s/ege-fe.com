@@ -5,8 +5,8 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-01-31">31 Ocak 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/amfetamin-nedir-amdetamin-ne-icin-kullanilir-amfetamin-kullanmak-suc-mu.jpg" alt="Amfetamin Nedir?" width="650" height="360" decoding="async"></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/01/amfetamin-nedir-amdetamin-ne-icin-kullanilir-amfetamin-kullanmak-suc-mu.webp" alt="Amfetamin Nedir?" width="650" height="360" decoding="async"></figure>
 <p>Amfetamin (alfa-metil-fenetilamin) narkolepsi ve dikkat eksikliği ve hiperaktivite bozukluğu dahil çeşitli bozuklukların tedavisinde, kilo kontrolünde, iştah azaltıcı olarak kullanılan sentetik bir uyarıcıdır (stimülan). Özellikle DEHB tedavisinde ilaç olarak yaygın kullanımları sebebiyle rahatlıkla elde edilebilir. Bu sebeple yasa dışı olarak en sık kullanılan uyarıcı maddelerden biridir. Yan etki olarak şizofreni benzeri psikozlara neden olur. Yaklaşık 20 günlük kullanım sonunda tolerans gelişir. Zayıf olarak MAO enzimini de inhibe ettiğinden MAO inhibitörleri ve SSRI lar ile beraber kullanılırsa serotonin sendromuna sebep olabilir. Bu durum siproheptadin ile tedavi edilebilir. DEHB tedavisinde kullanılan ticari ilaçlardan Dexedrine, Elvanse ve Adderall amfetamin içeren ilaçlar arasında sayılabilir.</p>
 <p>Amfetamin, genellikle uzun yol araç kullananlarca uyku kaçırmak ve konsantrasyon gerektiren sporlarda (atıcılık, okçuluk, vb) doping amacıyla da kullanılabilmektedir (amfetamin istismarı).</p>
 <h3>Amfetamin Etki mekanizmaları</h3>

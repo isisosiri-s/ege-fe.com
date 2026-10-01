@@ -5,7 +5,6 @@ require __DIR__ . '/../../inc/header.php';
 ?>
 <div class="kap icerik-duzen">
   <article class="metin">
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/Basliksiz-1.jpg" alt="Biyosidal Ruhsatlandırma" width="1000" height="666" decoding="async"></figure>
 <h2>Biyosidal Ürün</h2>
 <p>Kimyasal veya biyolojik açıdan herhangi bir zararlı organizma üzerinde kontrol edici etki gösteren veya hareketini kısıtlayan, zararsız kılan, yok eden aktif madde ve preparatlardır.<br> <em>Biyosidal ürün</em> bir ya da birden fazla aktif maddeden oluşabilir ya da bir ya da birden fazla aktif maddeden hazırlanmış olabilir, kullanıcıya sunulduğu şekli sulu bir aktif madde çözeltisi halinde olabilir.<br> Bu zararlılar halk sağlığını olumsuz etkileyen haşereler, fareler, hamam böcekleri, sivrisinekler, akarlar vb. olabilir. Ayrıca içme suyu dezenfektanları, hastanelerde ve gıda sektörü de dahil birçok sektörde kullanılan birçok yüzey dezenfektan maddeleri de Biyosidal ürünler kapsamındadır.</p>
 <h2>Biyosidal Ürün Yönetmeliği</h2>

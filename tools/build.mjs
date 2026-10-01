@@ -52,6 +52,12 @@ const phpq = (s) => "'" + String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'") 
 const bigVariant = (u) => u.replace(/-\d{2,4}x\d{2,4}(?=\.(jpe?g|png|webp|gif)$)/i, '');
 const localImg = (u) => { const m = bigVariant(u || '').match(/wp-content\/uploads\/(.+)$/); if (!m) return null; let r = m[1]; try { r = decodeURIComponent(r); } catch {} return '/wp-content/uploads/' + r.normalize('NFD'); };
 const imgUrl = (li) => encodeURI(li); // HTML'de yüzde kodlu (canlıdaki URL ile birebir)
+// Sayfada gösterilen fotoğraflar WebP (en çok 1600 px) — dönüştürme build sonunda; og:image JPEG kalır (sosyal ağ uyumu)
+const WEBP = new Set();
+const webpYol = (li) => li.replace(/\.(jpe?g|png)$/i, '.webp');
+const resimUrl = (li) => { if (!/\.(jpe?g|png)$/i.test(li)) return imgUrl(li); WEBP.add(li); return imgUrl(webpYol(li)); };
+// Resmî kurum logoları (ÜTS, T.C. Sağlık Bakanlığı) hizmet sayfası üst görseli olarak kullanılmaz (kullanıcı onayı 2026-10-01)
+const LOGO_BANNER = /uts-1\.jpg|Basliksiz-1\.jpg/i;
 const srcFile = (li) => { const rel = li.replace('/wp-content/uploads/', ''); for (const c of [rel, rel.normalize('NFC'), encodeURI(rel)]) { const f = path.join(K, 'img', 'uploads', c); if (fss.existsSync(f)) return f; } return null; };
 const usedImgs = new Set();
 const known = new Set(ALL);
@@ -122,13 +128,25 @@ function fixLinks(html, from) {
 }
 
 // ---------- Blok → HTML ----------
-function render(blocks, { h1, from, firstImgSkip }) {
+// Hakkımızda "Neler Yaparız?" kartları → ilgili sayfalara bağlı liste (sayfası olmayan madde düz metin) — 2026-10-01
+const NELER_LINK = { 'Bakım Onarım': '/ariza-ve-onarim/', 'Kalibrasyon': '/kalibrasyon/', 'Yedek Parça': '/bilgi/', 'Eğitim Danışmanlık': '/danismanlik/', 'ÜTS, Tıbbi Cihaz, İlaç': '/danismanlik/' };
+// Paragraf/madde sonundaki yarım "…" / "..." → nokta (kullanıcı kararı: yarım cümle bırakılmaz)
+const noktala = (h) => h.replace(/\s*(…|\.{3,})(\s*)$/, '.$2');
+
+function render(blocks, { h1, from, firstImgSkip, soruBaslik = false }) {
   const out = [];
   const seenImg = new Set(firstImgSkip ? [firstImgSkip] : []);
   let cards = [];
   let faqOpen = false;
   const flushCards = () => {
     if (!cards.length) return;
+    if (from === '/hakkimizda/') {
+      out.push('<ul class="neler-liste">' + cards.map((c) => {
+        const t = esc(applyFixes(c.title)); const u = NELER_LINK[c.title];
+        return `<li>${u ? `<a href="${u}">${t}</a>` : `<span>${t}</span>`}</li>`;
+      }).join('') + '</ul>');
+      cards = []; return;
+    }
     out.push('<div class="kartlar">' + cards.map((c) => {
       const href = c.href && !/^#?$/.test(c.href) ? fixLinks(`<a href="${c.href}">x</a>`, from).match(/href="([^"]*)"/)?.[1] : null;
       const body = c.text && c.text !== c.title ? `<p>${esc(applyFixes(c.text.replace(c.title, '').trim()))}</p>` : '';
@@ -151,19 +169,23 @@ function render(blocks, { h1, from, firstImgSkip }) {
     if (b.t !== 'card') flushCards();
     if (b.t === 'h') {
       const text = b.text.replace(/\s+/g, ' ').trim();
-      if (b.faq) { closeFaq(); out.push(`<details class="sss"><summary>${esc(text)}</summary><div class="sss-icerik">`); faqOpen = true; continue; }
+      // Hizmet sayfalarında soru biçimli başlıklar da akordiyon olur (SSS gibi) — 2026-10-01
+      const soru = b.faq || (soruBaslik && b.lv <= 3 && /\?$/.test(text));
+      if (soru) { closeFaq(); out.push(`<details class="sss"><summary>${esc(applyFixes(text))}</summary><div class="sss-icerik">`); faqOpen = true; continue; }
+      closeFaq(); // soru olmayan başlık önceki cevabın içine düşmesin (ör. /bilgi/ "Cihazlar")
       if (norm(text) === norm(h1) && out.length < 3) continue; // sayfa adıyla aynı ilk başlık → H1 zaten var
       if (/^Bize Ulaşın$/i.test(text)) continue;
+      if (/^Danışmanlık ve bilgi için lütfen bizimle iletişime geçin\.?$/i.test(text)) continue; // altındaki CTA bandıyla aynı cümle
       if (norm(text) === lastH) continue;
       lastH = norm(text);
       const lv = b.lv <= 2 ? 2 : b.lv === 3 ? 3 : 4;
       out.push(`<h${lv}>${esc(applyFixes(text))}</h${lv}>`);
     } else if (b.t === 'p') {
-      const h = fixLinks(applyFixes(b.html), from);
+      const h = noktala(fixLinks(applyFixes(b.html), from));
       out.push(b.sub ? `<p class="giris">${h}</p>` : `<p>${h}</p>`);
     } else if (b.t === 'ul' || b.t === 'ol') {
       const items = b.items.filter((i) => plain(i) && !/^\d+$/.test(plain(i)) && !/^(Terrain|Labels|Satellite|Map)$/.test(plain(i)));
-      if (items.length) out.push(`<${b.t}>${items.map((i) => `<li>${fixLinks(applyFixes(i), from)}</li>`).join('')}</${b.t}>`);
+      if (items.length) out.push(`<${b.t}>${items.map((i) => `<li>${noktala(fixLinks(applyFixes(i), from))}</li>`).join('')}</${b.t}>`);
     } else if (b.t === 'quote') out.push(`<blockquote><p>${fixLinks(b.html, from)}</p></blockquote>`);
     else if (b.t === 'table') {
       if (b.rows.flat().some((c) => /Move left|Zoom in/.test(c))) continue; // Google Maps kısayol tablosu
@@ -172,7 +194,8 @@ function render(blocks, { h1, from, firstImgSkip }) {
     } else if (b.t === 'img') {
       if (!b.src || DECO.test(b.src) || YASAK_GORSEL.test(b.src)) continue;
       const li = localImg(b.src); if (!li || seenImg.has(li)) continue; seenImg.add(li); usedImgs.add(li);
-      out.push(`<figure class="gorsel"><img src="${imgUrl(li)}" alt="${esc(b.alt || h1)}" loading="lazy" decoding="async"${dims(li)}>${b.cap ? `<figcaption>${esc(b.cap)}</figcaption>` : ''}</figure>`);
+      const cap = b.cap && norm(b.cap) !== norm(h1) ? b.cap : ''; // başlığı tekrar eden altyazı bilgi vermez
+      out.push(`<figure class="gorsel"><img src="${resimUrl(li)}" alt="${esc(b.alt || h1)}" loading="lazy" decoding="async"${dims(li)}>${cap ? `<figcaption>${esc(cap)}</figcaption>` : ''}</figure>`);
     } else if (b.t === 'card') {
       if (/^(Merkez|AR-GE Ofis|E-?posta|Telefon|Adres)$/i.test(b.title) || /info@|^\+90|Teknopark|Mahallesi/.test(b.title + ' ' + b.text)) continue; // eski iletişim kartları (güncel bilgi footer/iletişimde)
       cards.push(b);
@@ -235,6 +258,8 @@ for (const p of ALL) {
   if (p === '/category/saglik/') h1 = 'Sağlık';
   if (p === '/hizmetler/') h1 = 'Servis Hizmetleri'; // menüde "Servis" (2026-10-01)
   if (BLOG.includes(p) && h1raw) h1 = h1raw.replace(/\s+/g, ' ').trim();
+  // TAMAMI BÜYÜK HARF başlık (ör. "ALKOL BAĞIMLILIĞI") → diğer başlıklarla uyumlu yazım
+  if (/[A-ZÇĞİÖŞÜ]{4}/.test(h1) && h1 === h1.toLocaleUpperCase('tr')) h1 = h1.toLocaleLowerCase('tr').replace(/(^|\s)(\p{L})/gu, (m, s, k) => s + k.toLocaleUpperCase('tr'));
   let desc = applyFixes(d.description || '');
   let descKaynak = 'canlı';
   // Anasayfa: canlıdaki açıklama "10 yılı aşkın…" ile başlıyordu (kullanıcı kararı 2026-10-01: "2017'den beri", yarım cümle yok)
@@ -249,6 +274,7 @@ for (const p of ALL) {
   }
   let og = localImg(d.og['og:image'] || '') ;
   if (og && YASAK_GORSEL.test(og)) og = '/img/urun/nam19-saha.webp'; // sitenin kendi görseli (img/), kopyalanmaz
+  else if (og && LOGO_BANNER.test(og)) og = '/wp-content/uploads/2022/01/faceb.jpg'; // kurum logosu paylaşım görseli olmaz
   else if (og) usedImgs.add(og);
   meta[p] = {
     title: d.title, desc, h1, ust: UST[p] || null,
@@ -280,7 +306,8 @@ await fs.mkdir(path.join(S, 'inc'), { recursive: true });
 await fs.writeFile(path.join(S, 'inc', 'meta.php'), hdr + 'return ' + phpArr(meta) + ';\n');
 
 // Hizmet verisi (menü, hub kartları, kenar çubuğu)
-const hizmetOzet = (p) => ozetCumle(B(nameOf(p)));
+const KART_OZET = JSON.parse(fss.readFileSync(path.resolve('tools/kart-ozet.json'), 'utf8'));
+const hizmetOzet = (p) => KART_OZET[p] || ozetCumle(B(nameOf(p)));
 const hizmetler = {
   servis: { yol: SERVIS.yol, ad: 'Hizmetler', alt: SERVIS.alt.map((a) => ({ yol: a, ad: MENU_AD[a], ozet: hizmetOzet(a) })) },
   danismanlik: HUBS.map((h) => ({ yol: h.yol, ad: h.ad, giris: HUB_GIRIS[h.yol]?.kisa || '', alt: h.alt.map((a) => ({ yol: a, ad: MENU_AD[a], ozet: hizmetOzet(a) })) })),
@@ -293,7 +320,7 @@ await fs.writeFile(path.join(S, 'inc', 'hub-giris.php'), hdr + 'return ' + phpAr
 // Blog verisi (yeniden eskiye)
 const posts = BLOG.map((p) => {
   const d = J(nameOf(p));
-  return { yol: p, baslik: meta[p].h1, tarih: d.og['article:published_time'], tarihTr: trDate(d.og['article:published_time']), gorsel: meta[p].og, ozet: ozet(B(nameOf(p)), 170), kategori: 'Sağlık' };
+  return { yol: p, baslik: meta[p].h1, tarih: d.og['article:published_time'], tarihTr: trDate(d.og['article:published_time']), gorsel: meta[p].og, gorselWebp: resimUrl(meta[p].og), ozet: ozetCumle(B(nameOf(p)), 170, 230), kategori: 'Sağlık', konu: ALKOL_YAZI.includes(p) ? 'alkol' : 'uyusturucu' };
 }).sort((a, b) => b.tarih.localeCompare(a.tarih));
 await fs.writeFile(path.join(S, 'inc', 'blog.php'), hdr + 'return ' + phpArr(posts) + ';\n');
 
@@ -316,15 +343,16 @@ for (const p of [...KURUMSAL, ...SERVIS.alt, ...HUBS.flatMap((h) => h.alt)]) {
   const isHizmet = !KURUMSAL.includes(p);
   // hizmet sayfalarında banner görseli ayrı gösterilir
   const banner = isHizmet ? blocks.find((b) => b.t === 'img' && b.src && !DECO.test(b.src) && !YASAK_GORSEL.test(b.src)) : null;
-  const bannerLocal = banner ? localImg(banner.src) : null;
+  const ilkGorsel = banner ? localImg(banner.src) : null;
+  const bannerLocal = ilkGorsel && !LOGO_BANNER.test(ilkGorsel) ? ilkGorsel : null; // kurum logosu → üst görsel yok
   if (bannerLocal) usedImgs.add(bannerLocal);
-  const html = render(blocks, { h1: meta[p].h1, from: p, firstImgSkip: bannerLocal });
+  const html = render(blocks, { h1: meta[p].h1, from: p, firstImgSkip: ilkGorsel, soruBaslik: isHizmet });
   let body;
   if (isHizmet) {
     const hub = HUBS.find((h) => h.alt.includes(p)) || SERVIS;
     body = `<div class="kap icerik-duzen">
   <article class="metin">
-${bannerLocal ? `    <figure class="banner"><img src="${imgUrl(bannerLocal)}" alt="${esc(meta[p].h1)}"${dims(bannerLocal)} decoding="async"></figure>\n` : ''}${html}
+${bannerLocal ? `    <figure class="banner"><img src="${resimUrl(bannerLocal)}" alt="${esc(meta[p].h1)}"${dims(bannerLocal)} decoding="async"></figure>\n` : ''}${html}
   </article>
   <?php $hub = ${phpq(hub.yol)}; require __DIR__ . '${'/..'.repeat(depth(p))}/inc/kenar-hizmet.php'; ?>
 </div>
@@ -345,8 +373,8 @@ for (let i = 0; i < posts.length; i++) {
   const onceki = posts[i + 1], sonraki = posts[i - 1];
   const body = `<div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="${post.tarih.slice(0, 10)}">${post.tarihTr}</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="${imgUrl(post.gorsel)}" alt="${esc(post.baslik)}"${dims(post.gorsel)} decoding="async"></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="${resimUrl(post.gorsel)}" alt="${esc(post.baslik)}"${dims(post.gorsel)} decoding="async"></figure>
 ${html}
   </article>
 ${ALKOL_YAZI.includes(p) ? `  <?php require __DIR__ . '/../inc/urun-kutu.php'; ?>\n` : `  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>\n`}  <nav class="yazi-gezinme" aria-label="Diğer yazılar">
@@ -368,6 +396,30 @@ for (const li of usedImgs) {
   await fs.copyFile(src, dst); kop++;
 }
 
+// ---------- WebP (sayfada gösterilen fotoğraflar; yalnız yeni/değişenler dönüştürülür) ----------
+let webpYeni = 0;
+{
+  const isler = [...WEBP].map((li) => ({ src: srcFile(li), dst: path.join(S, webpYol(li)) }))
+    .filter((j) => j.src && (!fss.existsSync(j.dst) || fss.statSync(j.dst).mtimeMs < fss.statSync(j.src).mtimeMs));
+  if (isler.length) {
+    const { chromium } = await import('playwright');
+    const tarayici = await chromium.launch(); const sekme = await tarayici.newPage();
+    for (const j of isler) {
+      const veri = `data:image/${/\.png$/i.test(j.src) ? 'png' : 'jpeg'};base64,` + fss.readFileSync(j.src).toString('base64');
+      const cikti = await sekme.evaluate(async ([d, enFazla]) => {
+        const r = new Image(); r.src = d; await r.decode();
+        const o = Math.min(1, enFazla / r.naturalWidth);
+        const c = document.createElement('canvas'); c.width = Math.round(r.naturalWidth * o); c.height = Math.round(r.naturalHeight * o);
+        c.getContext('2d').drawImage(r, 0, 0, c.width, c.height);
+        return c.toDataURL('image/webp', 0.8);
+      }, [veri, 1600]);
+      await fs.mkdir(path.dirname(j.dst), { recursive: true });
+      await fs.writeFile(j.dst, Buffer.from(cikti.split(',')[1], 'base64')); webpYeni++;
+    }
+    await tarayici.close();
+  }
+}
+
 // ---------- sitemap.xml ----------
 const lastmod = (p) => (meta[p].guncel || meta[p].yayin || new Date().toISOString()).slice(0, 10);
 const smPaths = [...ALL.filter((p) => !meta[p].noindex), '/urunler/', '/kvkk/', '/gizlilik-politikasi/'];
@@ -377,4 +429,4 @@ await fs.writeFile(path.join(S, 'sitemap.xml'), sm);
 
 await fs.writeFile(path.join(K, 'description-degisiklikleri.json'), JSON.stringify(descLog, null, 2));
 await fs.writeFile(path.join(K, 'link-degisiklikleri.json'), JSON.stringify(linkLog, null, 2));
-console.log(`meta ${Object.keys(meta).length} · sayfa üretildi ${KURUMSAL.length + SERVIS.alt.length + HUBS.flatMap((h) => h.alt).length + posts.length} · görsel ${kop} kopyalandı · eksik ${eksik.length} ${eksik.join(' ')} · yeni description ${descLog.length} · link değişikliği ${linkLog.length} · sitemap ${smPaths.length} URL`);
+console.log(`meta ${Object.keys(meta).length} · sayfa üretildi ${KURUMSAL.length + SERVIS.alt.length + HUBS.flatMap((h) => h.alt).length + posts.length} · görsel ${kop} kopyalandı · eksik ${eksik.length} ${eksik.join(' ')} · yeni description ${descLog.length} · link değişikliği ${linkLog.length} · sitemap ${smPaths.length} URL · webp yeni ${webpYeni}/${WEBP.size}`);

@@ -5,9 +5,9 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-02-15">15 Şubat 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/02/Aday-surucu-alkollu-arac-kullanma-cezasi-1-700x470-1.jpg" alt="Promil Nedir?" width="1920" height="1081" decoding="async"></figure>
-<figure class="gorsel"><img src="/wp-content/uploads/2022/02/alkollu-arac-kullanma2-1599560276.jpg" alt="Promil Nedir?" loading="lazy" decoding="async" width="727" height="483"><figcaption>Promil Nedir?</figcaption></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/02/Aday-surucu-alkollu-arac-kullanma-cezasi-1-700x470-1.webp" alt="Promil Nedir?" width="1920" height="1081" decoding="async"></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/02/alkollu-arac-kullanma2-1599560276.webp" alt="Promil Nedir?" loading="lazy" decoding="async" width="727" height="483"></figure>
 <p>Promil, latince kökenli bir kelime olup promille kelimesinden gelmektedir ve dilimizde Promil olarak nitelendirilmektedir. <a href="http://sozluk.gov.tr/" target="_blank" rel="noopener">Türk Dil Kurumu</a>‘na göre ‘Kandaki alkol miktarını gösteren birim’ olarak tanımlanmıştır. Trafik kurallarında ise bu terim 100 mililitre kandaki alkol miktarı olarak kullanılmaktadır( miligram/100 mililitre)</p>
 <h3>Trafikte Promil Yasal Sınırı Nedir?</h3>
 <p>Günümüzde Emniyet tarafından belirlenen yasal sınır 0.5 Promil, yani 1 litre kanda 0.5 gram alkol olarak belirlenmiştir.</p>
@@ -32,7 +32,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Ağrı ve fiziksel yetilerde çeşitlik kayıplar, aşırı duygusal değişimler ve duygusal tutarsızlıklar görülmeye başlanır.</p>
 <p>3 Promil</p>
 <p>Çoğu kişide bilinç kaybı.</p>
-<p>Makalemizde sizler için Promil Nedir? ve Promil Yasal Sınırları Nelerdir? Sorularının cevaplarını vermeye çalıştık daha fazla bilgi içeriği için lütfen <a href="/blog/">tıklayın</a>…</p>
+<p>Makalemizde sizler için Promil Nedir? ve Promil Yasal Sınırları Nelerdir? Sorularının cevaplarını vermeye çalıştık daha fazla bilgi içeriği için lütfen <a href="/blog/">tıklayın</a>.</p>
   </article>
   <?php require __DIR__ . '/../inc/urun-kutu.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">

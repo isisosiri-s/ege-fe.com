@@ -5,7 +5,6 @@ require __DIR__ . '/../../inc/header.php';
 ?>
 <div class="kap icerik-duzen">
   <article class="metin">
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/uts-1.jpg" alt="Kozmetik Ürün Bildirimi" width="1000" height="666" decoding="async"></figure>
 <h2>Kozmetik Ürünlerin Bildirilmesi</h2>
 <p>Bir kozmetik ürün üretip satışa sunacaksanız ya da bir kozmetik ürün ithal edip Türkiye pazarına arz edecekseniz, öncesinde kozmetik kapsamında değerlendirilen tüm ürünleriniz için Sağlık Bakanlığı’na ürün bildirimi başvurusu yapmalısınız.</p>
 <p>İthalatını veya üretimini yapacağınız tüm kozmetik ürünler (parfüm, şampuan, makyaj malzemeleri, cilt bakım ürünleri vb.) için sağlık bakanlığı’na, kozmetik bildirim başvurusunun yapılarak firmanız adına <em>kozmetik ürün bildirim kabul belgesi</em> düzenlenmesi gerekmektedir.</p>

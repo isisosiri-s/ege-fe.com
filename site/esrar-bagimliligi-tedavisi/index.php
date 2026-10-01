@@ -5,9 +5,9 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-03-02">2 Mart 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/03/ot.jpg" alt="Esrar Bağımlılığı Tedavisi" width="1920" height="1063" decoding="async"></figure>
-<figure class="gorsel"><img src="/wp-content/uploads/2022/03/91288525_035244403-1.jpg" alt="Esrar Bağımlılığı Tedavisi" loading="lazy" decoding="async" width="1920" height="1080"><figcaption>Esrar Bağımlılığı Tedavisi</figcaption></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/03/ot.webp" alt="Esrar Bağımlılığı Tedavisi" width="1920" height="1063" decoding="async"></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/03/91288525_035244403-1.webp" alt="Esrar Bağımlılığı Tedavisi" loading="lazy" decoding="async" width="1920" height="1080"></figure>
 <p>Esrar, kenevir bitkisinin kurutulmuş yaprak ve çiçeklerinden elde edilen bir uyuşturucu madde çeşididir. Etken maddesi THC (Tetrahidrokannabiol) olan esrar 400’ün üzerinde kimyasal madde içermektedir. İşleniş biçimlerine göre farklı türleri olan esrar, en çok marihuana, ganja ve ot olarak bilinmektedir. Esrar başlangıçta bir sigaranın eşdeğeri bir madde olarak görüldüğünden dolayı bağımlılık yapan bir madde olarak görülmemektedir. Bu sebeple esrar diğer uyuşturucuların kullanılmaya başlanmasında bir basamak görevi görmektedir. Yani insanlar diğer uyuşturucu maddelerin kullanımına başlamadan önce esrarı deneyimlemektedir.</p>
 <h3>Esrar Kullanımının Fiziksel Etkileri</h3>
 <ul><li>Ağız kuruluğu</li><li>Göz kızarıklığı</li><li>Göz bebeklerinin büyümesi</li><li>Kalp atış hızının artması</li><li>Hareketsel bozukluklar</li><li>Vücut ısısının değişmesi</li><li>Dolaşım problemleri ve kusmalar</li></ul>
@@ -24,7 +24,7 @@ require __DIR__ . '/../inc/header.php';
 <h4>Esrar Bağımlılığı Tedavisinde Kullanılan İlaçlar</h4>
 <p>Esrar bağımlılığında bilinen ve yaygın olarak kullanılan üç adet ilaç bulunmaktadır. Bu ilaçlar esrarın vücuttan atılmasında büyük rol oynamaktadır ve hekim gözetimi olmadan kullanılmamalıdır. Bu ilaçlar:</p>
 <ul><li>Metadon</li><li>Suboxone</li><li>Naltrexone</li></ul>
-<p>Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>…</p>
+<p>Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>.</p>
   </article>
   <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">

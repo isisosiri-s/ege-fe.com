@@ -50,7 +50,7 @@ return [
       'alt' => [[
           'yol' => '/tibbi-cihaz/firma-kaydi/',
           'ad' => 'Firma Kaydı',
-          'ozet' => 'Türkiye Cumhuriyeti sınırları içinde, ilaç ve/veya tıbbi cihaz üretimi, ithalatı, ihracatı yapan veya bir yabancı firmanın Türkiye yetkili temsilcisi…',
+          'ozet' => 'Tıbbi cihaz üreticisi, ithalatçısı veya yetkili temsilcisi firmaların UBB/ÜTS firma kaydı ve faaliyet alanı seçimi.',
         ], [
           'yol' => '/tibbi-cihaz/firma-bilgileri-guncelleme/',
           'ad' => 'Firma Bilgileri Güncelleme',
@@ -62,11 +62,11 @@ return [
         ], [
           'yol' => '/tibbi-cihaz/tibbi-cihaz-belge-kaydi/',
           'ad' => 'Tıbbi Cihaz Belge Kaydı',
-          'ozet' => 'CE Sertifikası. Uygunluk Beyanı. Kullanım Kılavuzu Etiket Örneği. Ürün Kataloğu. Yetki Belgesi Firmaların sisteme kaydının onaylanması için aşağıdaki evrakların gönderilmesi gerekmektedir.',
+          'ozet' => 'CE sertifikası, uygunluk beyanı, Türkçe etiket ve kullanım kılavuzu gibi belgelerle tıbbi cihaz belge kaydı.',
         ], [
           'yol' => '/tibbi-cihaz/etiket-duzenleme/',
           'ad' => 'Etiket Düzenleme',
-          'ozet' => 'Tıbbi Cihaz Yönetmeliğinin (93/42/EEC), Vücuda Yerleştirilebilir Aktif Tıbbi Cihazlar Yönetmeliğinin (90/385/EEC) ve Vücut Dışında Kullanılan Tıbbi…',
+          'ozet' => 'Tıbbi cihaz etiketi ve kullanım kılavuzunun yönetmeliklere uygun ve Türkçe olarak düzenlenmesi.',
         ]],
     ], [
       'yol' => '/saglik-bakanligi-islemleri/',
@@ -75,7 +75,7 @@ return [
       'alt' => [[
           'yol' => '/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/',
           'ad' => 'İlaç Ruhsatlandırma',
-          'ozet' => '02.11.2011 tarihli ve 28103 sayılı Resmi Gazetede yayımlanan “Sağlık Bakanlığı ve Bağlı Kuruluşlarının Teşkilat ve Görevleri Hakkında Kanun Hükmünde…',
+          'ozet' => 'Beşeri tıbbi ürünlerin pazara sunulabilmesi için Türkiye İlaç ve Tıbbi Cihaz Kurumu\'ndan (TİTCK) ruhsat alınması.',
         ], [
           'yol' => '/saglik-bakanligi-islemleri/ilac-varyasyon/',
           'ad' => 'İlaç Varyasyon',
@@ -91,15 +91,15 @@ return [
         ], [
           'yol' => '/saglik-bakanligi-islemleri/gmp-basvurusu/',
           'ad' => 'GMP Başvurusu',
-          'ozet' => 'Bilindiği üzere 01.03.2010 tarihinden itibaren yapılan CTD ruhsat başvurularında ön inceleme sırasında Bakanlığımızca denetlenerek verilmiş olan GMP…',
+          'ozet' => 'CTD ruhsat başvurularında sunulması zorunlu GMP belgesi için başvuru ve yurt dışı üretim tesisi denetim süreçleri.',
         ], [
           'yol' => '/saglik-bakanligi-islemleri/kub-kt/',
           'ad' => 'KÜB/KT',
-          'ozet' => 'Farmakolojik Değerlendirme Birimi’ne yapılacak tüm başvurularla ( ruhsatlı ürünler için ilk başvuru veya cevap) ilgili olarak; 03.04.2017 tarihinden…',
+          'ozet' => 'Kısa Ürün Bilgisi (KÜB) ve Kullanma Talimatı (KT) değerlendirme başvurularının hazırlanması.',
         ], [
           'yol' => '/saglik-bakanligi-islemleri/okunabilirlik-testi/',
           'ad' => 'Okunabilirlik Testi',
-          'ozet' => 'Bilindiği üzere; 25.04.2017 tarih ve 30048 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Beşeri Tıbbi Ürünlerin Ambalaj Bilgileri, Kullanma…',
+          'ozet' => 'Ruhsat sürecindeki beşeri tıbbi ürünlerin kullanma talimatı için istenen okunabilirlik testi.',
         ]],
     ], [
       'yol' => '/diger-hizmetler/',
@@ -108,7 +108,7 @@ return [
       'alt' => [[
           'yol' => '/diger-hizmetler/permi-belgesi/',
           'ad' => 'Permi Belgesi',
-          'ozet' => '2018/4 sayılı Sağlık Bakanlığının Özel İznine Tabi Maddelerin İthalat Denetimi Tebliği kapsamında yer alan; Uyuşturucu ve Psikotrop madde yapımında…',
+          'ozet' => 'Uyuşturucu ve psikotrop madde yapımında kullanılabilecek kimyasalların ithalatı için TİTCK\'den alınan permi belgesi.',
         ], [
           'yol' => '/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/',
           'ad' => 'CE Teknik Dosya Hazırlanması',
@@ -116,11 +116,11 @@ return [
         ], [
           'yol' => '/diger-hizmetler/takviye-edici-gida/',
           'ad' => 'Takviye Edici Gıda',
-          'ozet' => 'Takviye edici gıda normal beslenmeyi takviye etmek amacıyla; vitamin, mineral, protein, karbonhidrat, lif, yağ asidi, amino asit gibi besin…',
+          'ozet' => 'Takviye edici gıdaların bileşim, vitamin-mineral limitleri ve kullanılan maddeler yönünden mevzuata uygunluğu.',
         ], [
           'yol' => '/diger-hizmetler/kontrol-belgesi/',
           'ad' => 'Kontrol Belgesi',
-          'ozet' => 'İlgili tebliğde bulunan listelerde yer alan maddelerin, karşılarında belirtilen amaçlarla kullanılmak üzere ithal edilmeleri halinde, insan sağlığı…',
+          'ozet' => 'Sağlık Bakanlığınca denetlenen ürünlerin ithalatında istenen kontrol belgesi ve uygunluk yazısı.',
         ]],
     ]],
   'ilac' => ['/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/', '/saglik-bakanligi-islemleri/ilac-varyasyon/', '/saglik-bakanligi-islemleri/ilac-fiyatlandirma/', '/saglik-bakanligi-islemleri/kub-kt/', '/saglik-bakanligi-islemleri/okunabilirlik-testi/', '/saglik-bakanligi-islemleri/gmp-basvurusu/'],

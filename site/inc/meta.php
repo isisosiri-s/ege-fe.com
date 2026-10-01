@@ -564,7 +564,7 @@ return [
   '/alkol-bagimliligi/' => [
     'title' => 'ALKOL BAĞIMLILIĞI - Egefe Sağlık Bilişim A.Ş.',
     'desc' => 'ALKOL BAĞIMLILIĞI',
-    'h1' => 'ALKOL BAĞIMLILIĞI',
+    'h1' => 'Alkol Bağımlılığı',
     'ust' => '/blog/',
     'og' => '/wp-content/uploads/2022/02/tired-young-businessman-drinking.jpg',
     'ogType' => 'article',

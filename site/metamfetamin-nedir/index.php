@@ -5,8 +5,8 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin yazi">
-    <p class="yazi-bilgi"><time datetime="2022-01-31">31 Ocak 2022</time> · <a href="/category/saglik/">Sağlık</a></p>
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/kapak_103737.jpg" alt="Metamfetamin Nedir?" width="760" height="450" decoding="async"></figure>
+    <p class="yazi-bilgi"><a href="/category/saglik/">Sağlık</a></p><!-- yayın tarihi görünmez (kullanıcı kararı 2026-10-01); JSON-LD'de durur -->
+    <figure class="banner"><img src="/wp-content/uploads/2022/01/kapak_103737.webp" alt="Metamfetamin Nedir?" width="760" height="450" decoding="async"></figure>
 <p>Metamfetamin (kristal meth); uyarıcı ve halüsinasyon özelliği olan sentetik bir maddedir. Birçok uyarıcı gibi, 6-24 saat süren güçlü bir öfori; dolayısıyla bağımlılık yapma yeteneğine sahiptir. Yapı olarak amfetamine yakın psikoaktif bir maddedir.</p>
 <p>IUPAC ismi (S)-N-metil-1-fenil-propan-2-amin olan methamfetamin, jenerik ismi Desoxyn® olarak 5/10 mg tabletler halinde ABD piyasasında bulunmaktadır. Ancak madde suistimal edilmek üzere kaçak üretimi ile tanınmıştır. Efedrin ya da Psödoefedrin molekülü hidrojenize edilerek kolayca elde edilebildiğinden hemen her yerde üretilebilmektedir. “Meth lab” de denilen bu yerler, üretimi sırasında çıkan fosfattan ötürü kırmızı bir renge boyanır ve kedi idrarı kokusuna sahiptir.</p>
 <h3>Metamfetaminin Bulunuşu Tarihi</h3>

@@ -5,7 +5,6 @@ require __DIR__ . '/../../inc/header.php';
 ?>
 <div class="kap icerik-duzen">
   <article class="metin">
-    <figure class="banner"><img src="/wp-content/uploads/2022/01/uts-1.jpg" alt="Firma Bilgileri Güncelleme" width="1000" height="666" decoding="async"></figure>
 <h2>UBB firma bilgileri güncelleme</h2>
 <p>TİTUBB firma kayıt işlemlerinde verilen taahhütname gereği, TİTUBB’daki bilgi-belge değişiklikleri firma veya kurumlar tarafından gecikmeksizin sisteme yansıtılmalıdır.</p>
 <p>Ayrıca TİTUBB sistemine kayıtlı firmaların açılış sayfalarında bilgilerinin uyumsuzluğu konusunda uyarı varsa, bu firmalar güncelleme işlemi yapmalıdırlar.</p>

@@ -5,7 +5,7 @@ require __DIR__ . '/../inc/header.php';
 ?>
 <div class="kap kap-dar">
   <article class="metin">
-<figure class="gorsel"><img src="/wp-content/uploads/2022/01/hizmetpoltikamiz.jpg" alt="https://ege-fe.com/wp-content/uploads/2022/01/hizmetpoltikamiz.jpg" loading="lazy" decoding="async" width="2048" height="1366"></figure>
+<figure class="gorsel"><img src="/wp-content/uploads/2022/01/hizmetpoltikamiz.webp" alt="https://ege-fe.com/wp-content/uploads/2022/01/hizmetpoltikamiz.jpg" loading="lazy" decoding="async" width="2048" height="1366"></figure>
 <blockquote><p>Egefe olarak kalite ve müşteri memnuniyetini temel alıyor, sürekli olarak iyileştirme prensiplerini uyguluyoruz. Bu çerçevede ekip arkadaşlarımız, paydaşlarımız ve müşterilerimizle tüm süreçlerde uçtan uca kapsamlı bir hizmet politikası uygulamaktayız.</p></blockquote>
 <p><strong>Erişilebilirlik:</strong> Şirketimiz tarafından sunulan çeşitli iletişim kanallarıyla müşterilerimiz şikayetlerini, bilgi taleplerini, öneri ya da memnuniyetlerini kolay bir şekilde iletebiliyor ve şirketimize erişim sağlayabiliyor.</p>
 <p><strong>Bilgiye Ulaşılabilirlik:</strong> Müşterilerimiz talep ettikleri bilgiye en kısa zamanda ve en hızlı şekilde ulaşabiliyor.</p>

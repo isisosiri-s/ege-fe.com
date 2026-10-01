@@ -14,8 +14,8 @@ require __DIR__ . '/../inc/header.php';
 </div></details>
 <details class="sss"><summary>Cihaz yedek parçası temini yapıyor musunuz?</summary><div class="sss-icerik">
 <p>NAM-07 ve NAM-19 cihazlarının orijinal yedek parçalarının temini yapılmaktadır. Teklif almak için <a href="/iletisim/#form">bizimle iletişime geçebilirsiniz</a>.</p>
-<h2>Cihazlar</h2>
 </div></details>
+<h2>Cihazlar</h2>
 <details class="sss"><summary>Cihazı yeni aldım neler yapmam gerekiyor?</summary><div class="sss-icerik">
 <p>Cihazı aldığınız andan itibaren garanti süreciniz başlamaktadır. Cihazı çalıştırmak için öncelikle 6 saatlik bir şarjdan sonra kullanıma başlamalısınız.</p>
 </div></details>

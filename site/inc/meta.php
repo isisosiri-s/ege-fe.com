@@ -3,7 +3,7 @@
 return [
   '/' => [
     'title' => 'Anasayfa - Egefe Sağlık Bilişim A.Ş.',
-    'desc' => 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; CROM TEST uyuşturucu test kitleri; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.',
+    'desc' => 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.',
     'h1' => 'Anasayfa',
     'ust' => null,
     'og' => '/wp-content/uploads/2022/01/faceb.jpg',
@@ -651,7 +651,7 @@ return [
   ],
   '/urunler/' => [
     'title' => 'Ürünler - Egefe Sağlık Bilişim A.Ş.',
-    'desc' => 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler (Armas Elektronik yetkili bayi ve servisi) ve Egefe\'nin yerli üretim uyuşturucu test kiti markası CROM TEST.',
+    'desc' => 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler, NAM-DATA ve NAM-DATAPro veri transfer yazılımları. Armas Elektronik yetkili bayi ve servisi.',
     'h1' => 'Ürünler',
     'ust' => null,
     'og' => '/img/urun/nam19-saha.webp',

@@ -230,3 +230,11 @@ Kullanıcı kararı: Armas'ın UTC cihazı ve UTK kitiyle ilgili her şey kaldı
 - /ariza-ve-onarim/: "UTS, NAM-07 ve NAM-19 cihazların" → "NAM-07 ve NAM-19 cihazlarının" (kart özeti ve description dahil).
 - Dosyalar silindi: utk-uyusturucu-test-kiti.jpg, 1282794.jpg, kapakfoto-3.jpg, img/urun/utk.webp, utc.webp. build.mjs: YASAK_GORSEL filtresi.
 - Kontrol: site/ altında UTC/UTK/"tespit cihazı"/"test sistemi" geçen metin, görsel veya dosya yok.
+
+## Revizyon 8 (2026-10-01) — CROM TEST PASİF
+Kullanıcı kararı: konu netleşene kadar CROM TEST sitenin hiçbir yerinde görünmeyecek; kullanıcı "aktife al" diyene kadar pasif.
+- Tek anahtar: `site/inc/config.php` → `$MARKA['aktif'] = false`. `tools/build.mjs` aynı satırı okur (CROM_AKTIF).
+- Pasifken: anasayfa (etiket "Armas Elektronik Yetkili Bayi ve Servisi", başlık "Alkolmetre ve sağlık danışmanlığı", ürün kartı "Delil sınıfı alkolmetreler", vitrinde yalnız NAM-07/NAM-19, Markamız bandı ve CROM TEST kutusu yok), /urunler/ (CROM TEST bölümü yok), Hakkımızda bandı, 18 blog kutusu, footer logosu, JSON-LD brand, blog içi CROM TEST cümleleri ve meta açıklamalar — hiçbiri basılmaz.
+- Görseller (`img/crom-test/`) sunucuda duruyor ama hiçbir sayfadan bağlantı yok.
+- Aktife almak: `'aktif' => true` → `node tools/build.mjs` → commit + push.
+- Kontrol: sitemap'teki 66 sayfa + 404 tarandı, "crom" geçen sayfa yok.

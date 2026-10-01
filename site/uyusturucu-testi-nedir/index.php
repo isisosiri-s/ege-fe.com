@@ -38,7 +38,7 @@ require __DIR__ . '/../inc/header.php';
 <h4>Kan Testi</h4>
 <p>Kan testinde hata payı idrar testine göre daha azdır. Fakat madde kullanımından kısa bir süre yapılması gerekmektedir. Kan testinde dikkat edilmesi gereken en önemli nokta uyuşturucuyu damar yoluyla alan bireylerdir. Uyuşturucu damar yoluyla alındığında damar zedelenmeleri oluşması muhtemeldir. Bu sebeple kan alımının uzman kişiler tarafından yapılması gerekmektedir.</p>
 <h4>Tükürük Testi</h4>
-<p>Tükürük (ağız sıvısı) ile yapılan uyuşturucu testleri genel olarak trafikte <a href="http://egm.gov.tr/" target="_blank" rel="noopener">kolluk kuvvetleri</a> tarafından tercih edilir. Oldukça kısa süre içinde sonuç veren bu sistemde sonuç pozitif çıkması durumunda tıbbi ortamda bir başka test istenmektedir. Egefe'nin yerli üretim markası <a href="https://www.cromtest.com/products.html" target="_blank" rel="noopener">CROM TEST</a>, ağız sıvısı numunesiyle de çalışan çok panelli uyuşturucu tarama test kitleri sunmaktadır.</p>
+<p>Tükürük (ağız sıvısı) ile yapılan uyuşturucu testleri genel olarak trafikte <a href="http://egm.gov.tr/" target="_blank" rel="noopener">kolluk kuvvetleri</a> tarafından tercih edilir. Oldukça kısa süre içinde sonuç veren bu sistemde sonuç pozitif çıkması durumunda tıbbi ortamda bir başka test istenmektedir.</p>
 <p>Uyuşturucu Testi Nedir? Gibi Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>…</p>
   </article>
   <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>

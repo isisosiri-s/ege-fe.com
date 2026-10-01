@@ -8,10 +8,12 @@
       <a class="site-alt-sosyal" href="<?= e($FIRMA['linkedin']) ?>" target="_blank" rel="noopener" aria-label="LinkedIn">
         <?= ikon('brand-linkedin', 20) ?>
       </a>
+      <?php if (!empty($MARKA['aktif'])): ?>
       <div class="site-alt-marka-kutu">
         <span>Markamız</span>
         <a href="<?= e($MARKA['url']) ?>" target="_blank" rel="noopener" aria-label="CROM TEST — uyuşturucu test kitleri (yeni sekmede açılır)"><img src="/img/crom-test/crom-test-logo-beyaz.svg" alt="CROM TEST" width="362" height="152" loading="lazy"></a>
       </div>
+      <?php endif; ?>
     </div>
     <div>
       <h2 class="site-alt-baslik">Ürünler ve Servis</h2>

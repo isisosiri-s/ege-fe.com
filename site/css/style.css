@@ -407,6 +407,9 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .urun-vitrin-ad { padding: 0 var(--b-2); font-family: var(--ff-display); font-size: 1.5rem; line-height: 1.1; color: var(--slate-dark); letter-spacing: var(--izleme-orta); }
 .urun-vitrin-tur { padding: 0 var(--b-2); font-size: .85rem; color: var(--mid); font-weight: 300; }
 
+/* Yalnız iki ürün olduğunda (CROM TEST pasif) kutular yarım satırı geçmez */
+.urun-vitrin-2 { grid-template-columns: repeat(2, minmax(0, 300px)); }
+
 /* Koyu zeminde ok bağlantısı */
 .ok-link-acik { color: var(--teal); }
 .ok-link-acik:hover { color: var(--white); }

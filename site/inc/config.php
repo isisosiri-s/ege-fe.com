@@ -31,6 +31,10 @@ $FIRMA = [
 // Markamız: CROM TEST — Egefe'nin yerli üretim uyuşturucu madde tarama test kitleri markası (kullanıcı, 2026-10-01).
 // Metinler cromtest.com'daki kendi tanımından; adresler canlı sitede doğrulandı (products.html#coklu|tekli|tam filtreleri).
 $MARKA = [
+  // PASİF (kullanıcı kararı 2026-10-01): kullanıcı "aktife al" diyene kadar CROM TEST sitenin hiçbir yerinde görünmez.
+  // true yapınca: anasayfa, ürünler, Hakkımızda, blog kutuları, footer, JSON-LD geri gelir. Blog metinleri için
+  // tools/build.mjs bu satırı okur → değiştirdikten sonra `node tools/build.mjs` çalıştırın.
+  'aktif'   => false,
   'ad'      => 'CROM TEST',
   'url'     => 'https://www.cromtest.com/',
   'urunler' => 'https://www.cromtest.com/products.html',

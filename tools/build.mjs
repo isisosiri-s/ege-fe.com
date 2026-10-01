@@ -8,6 +8,8 @@ const K = path.resolve('kaynak');
 const S = path.resolve('site');
 const J = (n) => JSON.parse(fss.readFileSync(path.join(K, 'json', n + '.json'), 'utf8'));
 const B = (n) => JSON.parse(fss.readFileSync(path.join(K, 'icerik', n + '.json'), 'utf8'));
+// CROM TEST açık/kapalı: tek kaynak site/inc/config.php → $MARKA['aktif'] (kullanıcı "aktife al" diyene kadar false)
+const CROM_AKTIF = /'aktif'\s*=>\s*true/.test(fss.readFileSync(path.join(S, 'inc', 'config.php'), 'utf8'));
 const nameOf = (p) => (p === '/' ? 'anasayfa' : p.replace(/^\/|\/$/g, '').replace(/\//g, '__'));
 
 // ---------- Site yapısı ----------
@@ -84,16 +86,17 @@ const FIXES = [
   [/^Evet\. Web sitemizden online olarak sipariş verebilirsiniz\.$/g, 'Evet. Teklif almak için <a href="/iletisim/#form">bizimle iletişime geçebilirsiniz</a>.'],
   [/^Tarafımıza ulaşan cihazların seri numarası ve kurum iletişim bilgilerine göre destek\.ege-fe\.com adresine kayıtları yapılarak cihazınızın sürecini ve faturalarınızı anlık olarak görebilirsiniz\.$/g,
     'Teknik servise gönderdiğiniz cihazın durumunu öğrenmek için cihazın seri numarası ve kurum iletişim bilgilerinizle <a href="mailto:servis@ege-fe.com">servis@ege-fe.com</a> adresine e-posta gönderebilirsiniz.'],
-  // Revizyon 6 (kullanıcı kararı, 2026-10-01): uyuşturucu testinde yalnız kendi markamız CROM TEST — Armas uyuşturucu ürünleri hiç geçmez
+  // Revizyon 6 (kullanıcı kararı, 2026-10-01): Armas uyuşturucu ürünleri hiç geçmez; yerine CROM TEST cümleleri —
+  // CROM TEST pasifken (config.php $MARKA['aktif'] = false) bu cümleler hiç basılmaz.
   [/UTS, NAM-07 ve NAM-19 cihazların/g, 'NAM-07 ve NAM-19 cihazlarının'],
-  [/Ege-fe ürün listesinde bulunan [\s\S]*?hizmet sunmaktadır\./g,
-    'Egefe\'nin yerli üretim markası <a href="https://www.cromtest.com/products.html">CROM TEST</a>, idrar, ağız sıvısı ve yüzey numuneleri için uyuşturucu madde tarama test kitleri sunmaktadır.'],
+  [/\s?Ege-fe ürün listesinde bulunan [\s\S]*?hizmet sunmaktadır\./g,
+    CROM_AKTIF ? ' Egefe\'nin yerli üretim markası <a href="https://www.cromtest.com/products.html">CROM TEST</a>, idrar, ağız sıvısı ve yüzey numuneleri için uyuşturucu madde tarama test kitleri sunmaktadır.' : ''],
   [/Uyuşturucu Tespit Kiti ve Uyuşturucu Tespit Cihazı ile hızlı ve doğru sonuçlar alabilirsiniz\. Uyuşturucu testi fiyatları 2022 hakkında/g,
-    'CROM TEST test kitleri ile dakikalar içinde sonuç alabilirsiniz. Uyuşturucu testi fiyatları hakkında'],
+    CROM_AKTIF ? 'CROM TEST test kitleri ile dakikalar içinde sonuç alabilirsiniz. Uyuşturucu testi fiyatları hakkında' : 'Uyuşturucu testi fiyatları hakkında'],
   [/Ege-fe bünyesinde bulunan Uyuşturucu Tespit Cihazı\s?\(UTC\) ve Uyuşturucu Tespit Kiti \(UTK\) ile tükürük ile uyuşturucu madde testi yapılmaktadır\. Genel olarak trafikte (<a [^>]*>kolluk kuvvetleri<\/a>|kolluk kuvvetleri) tarafından tercih edilen bu cihazlar yüksek oranda hata payı içermektedir\./g,
     'Tükürük (ağız sıvısı) ile yapılan uyuşturucu testleri genel olarak trafikte $1 tarafından tercih edilir.'],
   [/\s?Bünyesinde çeşitli birçok özellik bulunan uyuşturucu tespit cihazı, 7 farklı uyuşturucu maddenin tespitini yapmaktadır\. Bu rakam opsiyonel olarak 9 çeşit olarak da sunulmaktadır\./g,
-    ' Egefe\'nin yerli üretim markası <a href="https://www.cromtest.com/products.html">CROM TEST</a>, ağız sıvısı numunesiyle de çalışan çok panelli uyuşturucu tarama test kitleri sunmaktadır.'],
+    CROM_AKTIF ? ' Egefe\'nin yerli üretim markası <a href="https://www.cromtest.com/products.html">CROM TEST</a>, ağız sıvısı numunesiyle de çalışan çok panelli uyuşturucu tarama test kitleri sunmaktadır.' : ''],
 ];
 // Alkolle ilgili blog yazıları — kalanlar (uyuşturucu/madde) yazı sonunda CROM TEST kutusu gösterir
 const ALKOL_YAZI = ['/alkol-bagimliligi/', '/alkollu-arac-kullanmak/', '/alkolmetre-nedir/', '/promil-nedir/', '/trafik-guvenligini-tehlikeye-sokma-sucu/'];
@@ -235,7 +238,9 @@ for (const p of ALL) {
   let desc = applyFixes(d.description || '');
   let descKaynak = 'canlı';
   // Anasayfa: canlıdaki açıklama "10 yılı aşkın…" ile başlıyordu (kullanıcı kararı 2026-10-01: "2017'den beri", yarım cümle yok)
-  if (p === '/') desc = 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; CROM TEST uyuşturucu test kitleri; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.';
+  if (p === '/') desc = CROM_AKTIF
+    ? 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; CROM TEST uyuşturucu test kitleri; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.'
+    : 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.';
   if (LOREM.test(desc) || /[A-Za-z]+ly [a-z]+ [a-z]+/.test(desc) && !/[ğüşıöçĞÜŞİÖÇ]/.test(desc)) {
     if (DESC_DUZELT[p]) { desc = DESC_DUZELT[p].aciklama; descKaynak = DESC_DUZELT[p].kaynak; }
     else if (HUB_GIRIS[p]) { desc = HUB_GIRIS[p].aciklama; descKaynak = HUB_GIRIS[p].kaynak; }
@@ -256,7 +261,9 @@ usedImgs.add('/wp-content/uploads/2022/01/faceb.jpg');
 meta['/kvkk/'] = { title: 'KVKK Aydınlatma Metni - Egefe Sağlık Bilişim A.Ş.', desc: '6698 sayılı KVKK kapsamında Egefe Bilişim Sağlık San. ve Tic. A.Ş. tarafından web sitesi formları aracılığıyla işlenen kişisel verilere ilişkin aydınlatma metni.', h1: 'KVKK Aydınlatma Metni', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', yasal: true };
 meta['/gizlilik-politikasi/'] = { title: 'Gizlilik ve Çerez Politikası - Egefe Sağlık Bilişim A.Ş.', desc: 'ege-fe.com gizlilik ve çerez politikası: toplanan veriler, kullanım amaçları, çerezler, saklama, üçüncü taraflar ve haklarınız.', h1: 'Gizlilik ve Çerez Politikası', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', yasal: true };
 // Ürünler: elle yazılan yeni sayfa (canlıda karşılığı yok; içerik /bilgi/ SSS'sinden + Armas yetkili bayilik bilgisi, 2026-10-01)
-meta['/urunler/'] = { title: 'Ürünler - Egefe Sağlık Bilişim A.Ş.', desc: 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler (Armas Elektronik yetkili bayi ve servisi) ve Egefe\'nin yerli üretim uyuşturucu test kiti markası CROM TEST.', h1: 'Ürünler', ust: null, og: '/img/urun/nam19-saha.webp', ogType: 'website' };
+meta['/urunler/'] = { title: 'Ürünler - Egefe Sağlık Bilişim A.Ş.', desc: CROM_AKTIF
+  ? 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler (Armas Elektronik yetkili bayi ve servisi) ve Egefe\'nin yerli üretim uyuşturucu test kiti markası CROM TEST.'
+  : 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler, NAM-DATA ve NAM-DATAPro veri transfer yazılımları. Armas Elektronik yetkili bayi ve servisi.', h1: 'Ürünler', ust: null, og: '/img/urun/nam19-saha.webp', ogType: 'website' };
 meta['/404/'] = { title: 'Sayfa Bulunamadı - Egefe Sağlık Bilişim A.Ş.', desc: '', h1: 'Sayfa bulunamadı', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', noindex: true };
 
 // ---------- PHP veri dosyaları ----------

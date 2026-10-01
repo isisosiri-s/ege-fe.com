@@ -1,6 +1,7 @@
 <?php
 // Markamız: CROM TEST bloğu. $markaTur = 'bant' (anasayfa, Hakkımızda — tam bölüm) | 'kutu' (blog yazısı sonu — kısa).
 // Metinler ve bağlantılar config.php → $MARKA.
+if (empty($MARKA['aktif'])) return; // marka pasif → hiçbir şey basılmaz
 $markaTur = $markaTur ?? 'bant';
 $dis = ' target="_blank" rel="noopener"';
 ?>

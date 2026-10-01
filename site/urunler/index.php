@@ -2,11 +2,16 @@
 // Ürünler (elle yazılan sayfa). Kaynaklar: sitedeki /bilgi/ SSS + Armas Elektronik ürün sayfalarındaki teknik bilgiler
 // (Egefe Armas yetkili bayi ve servisi; görsel ve teknik bilgi kullanım izni kullanıcıdan, 2026-10-01).
 // Alkolmetre: yalnız NAM-07 ve NAM-19 (diğer Armas modelleri eklenmeyecek — kullanıcı kararı).
-// Uyuşturucu testi: yalnız kendi markamız CROM TEST (kullanıcı kararı, 2026-10-01).
+// Uyuşturucu testi: yalnız kendi markamız CROM TEST — şu an PASİF (config.php $MARKA['aktif']); pasifken hiçbir yerde görünmez.
 $yol = '/urunler/';
-$sayfa = [
+require_once __DIR__ . '/../inc/config.php';
+$crom = !empty($MARKA['aktif']);
+$sayfa = $crom ? [
   'etiket' => 'Alkolmetreler · Uyuşturucu Test Kitleri',
   'altBaslik' => 'Armas Elektronik\'in yetkili bayi ve servisi olarak alkolmetrelerin satışını, bakımını ve kalibrasyonunu yapıyoruz. Uyuşturucu madde taramasında kendi markamız CROM TEST\'in yerli üretim test kitlerini sunuyoruz.',
+] : [
+  'etiket' => 'Armas Elektronik Yetkili Bayi ve Servisi',
+  'altBaslik' => 'Armas Elektronik\'in yetkili bayi ve servisi olarak alkolmetrelerin satışını, bakımını ve kalibrasyonunu yapıyoruz.',
 ];
 require __DIR__ . '/../inc/header.php';
 $teklif = '/iletisim/?konu=' . rawurlencode('Ürünler') . '#form';
@@ -116,6 +121,7 @@ $urunler = [
     <?php endif; ?>
     <?php endforeach; ?>
 
+    <?php if ($crom): ?>
     <?php
     $dis = ' target="_blank" rel="noopener"';
     $kitler = [
@@ -156,6 +162,7 @@ $urunler = [
         <a class="dugme dugme-cizgi" href="<?= e($teklif) ?>">Kurumsal Teklif Al</a>
       </div>
     </div>
+    <?php endif; ?>
 
     <div class="urun-servis">
       <div>

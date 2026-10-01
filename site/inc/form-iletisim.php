@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__ . '/form.php';
-// Konu: bağlantıdan gelebilir (ör. /iletisim/?konu=Ürünler#form); yoksa "Hizmetler"
+// Konu: bağlantıdan gelebilir (ör. /iletisim/?konu=Ürünler#form); yoksa boş "Seçiniz" (ziyaretçi kendisi seçer)
 $konular = ['Teknik Destek', 'Muhasebe', 'Ürünler', 'Hizmetler', 'İnsan Kaynakları', 'Diğer'];
-$seciliKonu = in_array($_GET['konu'] ?? '', $konular, true) ? $_GET['konu'] : 'Hizmetler';
+$seciliKonu = in_array($_GET['konu'] ?? '', $konular, true) ? $_GET['konu'] : '';
 ?>
 <form class="form" id="form" action="/form/gonder.php" method="post">
   <?= form_durum('iletisim') ?>
@@ -13,6 +13,7 @@ $seciliKonu = in_array($_GET['konu'] ?? '', $konular, true) ? $_GET['konu'] : 'H
     <label>Telefon<input type="tel" name="telefon" maxlength="40" autocomplete="tel"></label>
     <label>Sormak istediğiniz nedir?
       <select name="konu">
+        <option value=""<?= $seciliKonu === '' ? ' selected' : '' ?>>Seçiniz</option>
         <?php foreach ($konular as $k): ?><option<?= $k === $seciliKonu ? ' selected' : '' ?>><?= e($k) ?></option><?php endforeach; ?>
       </select>
     </label>

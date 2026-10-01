@@ -18,6 +18,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Bu kapsamda alkollü araç kullanan ve trafik güvenliğini tehlikeye sokan sürücülere minimum 6 ay, maksimum 2 yıl hapis cezası verilebilir.</p>
 <p>Daha fazla bilgi içeriği için lütfen <a href="/blog/">tıklayınız</a>.</p>
   </article>
+  <?php require __DIR__ . '/../inc/urun-kutu.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/alkolmetre-nedir/"><span>Önceki yazı</span>Alkolmetre Nedir?</a>
     <a class="sonraki" href="/esrar-nedir/"><span>Sonraki yazı</span>Esrar Nedir?</a>

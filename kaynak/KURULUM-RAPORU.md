@@ -238,3 +238,11 @@ Kullanıcı kararı: konu netleşene kadar CROM TEST sitenin hiçbir yerinde gö
 - Görseller (`img/crom-test/`) sunucuda duruyor ama hiçbir sayfadan bağlantı yok.
 - Aktife almak: `'aktif' => true` → `node tools/build.mjs` → commit + push.
 - Kontrol: sitemap'teki 66 sayfa + 404 tarandı, "crom" geçen sayfa yok.
+
+## Revizyon 9 (2026-10-01) — UI önerileri (2. bölüm, kullanıcı onaylı 5 madde)
+1. Kart başlıkları düz yazı (italik yalnız büyük başlıklarda kaldı) — `.kart h3`.
+2. "Detaylar" → "Hizmeti incele"; grup kartlarında "Hizmetleri incele"; Bilgi kartında "Soruları incele".
+3. Hub kartları ortalanmış satırlar (`.hub-kartlar`) → son satırda boş hücre yok; 3'lü satırda 2 kart artarsa "Aradığınız hizmeti bulamadınız mı? / İhtiyacınızı bize iletin, size dönüş yapalım. / Bize ulaşın" kartı (şu an Tıbbi Cihaz ve ÜTS).
+4. İletişim formu konu alanı boş "Seçiniz" ile açılır (boş gönderilirse e-posta konusu "Genel"); ?konu=Ürünler bağlantısı yine ön seçim yapar.
+5. Alkol konulu 5 blog yazısının sonunda alkolmetre kutusu (`inc/urun-kutu.php`): "Kurumunuz için alkolmetre mi arıyorsunuz?" → /urunler/#nam-19 + Teklif Al.
+Açık: hizmet sayfalarına süreç / gerekli belgeler / süre / SSS — içerik kullanıcıdan bekleniyor.

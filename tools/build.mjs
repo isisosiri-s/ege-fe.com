@@ -98,7 +98,7 @@ const FIXES = [
   [/\s?Bünyesinde çeşitli birçok özellik bulunan uyuşturucu tespit cihazı, 7 farklı uyuşturucu maddenin tespitini yapmaktadır\. Bu rakam opsiyonel olarak 9 çeşit olarak da sunulmaktadır\./g,
     CROM_AKTIF ? ' Egefe\'nin yerli üretim markası <a href="https://www.cromtest.com/products.html">CROM TEST</a>, ağız sıvısı numunesiyle de çalışan çok panelli uyuşturucu tarama test kitleri sunmaktadır.' : ''],
 ];
-// Alkolle ilgili blog yazıları — kalanlar (uyuşturucu/madde) yazı sonunda CROM TEST kutusu gösterir
+// Alkolle ilgili blog yazıları sonunda alkolmetre kutusu (inc/urun-kutu.php); kalanlar (uyuşturucu/madde) CROM TEST kutusu (marka pasifken görünmez)
 const ALKOL_YAZI = ['/alkol-bagimliligi/', '/alkollu-arac-kullanmak/', '/alkolmetre-nedir/', '/promil-nedir/', '/trafik-guvenligini-tehlikeye-sokma-sucu/'];
 // Kaldırılacak SSS maddeleri (kullanıcı kararı: NAM-07/NAM-19 kalibrasyon süre ve ücret bilgisi gösterilmeyecek)
 const SIL_SSS = /^(Kalibrasyon (süresi|ücreti) ne kadardır|NAM-07 ve NAM-19 cihazları arasındaki farklar nelerdir)\?$/;
@@ -349,7 +349,7 @@ for (let i = 0; i < posts.length; i++) {
     <figure class="banner"><img src="${imgUrl(post.gorsel)}" alt="${esc(post.baslik)}"${dims(post.gorsel)} decoding="async"></figure>
 ${html}
   </article>
-${ALKOL_YAZI.includes(p) ? '' : `  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>\n`}  <nav class="yazi-gezinme" aria-label="Diğer yazılar">
+${ALKOL_YAZI.includes(p) ? `  <?php require __DIR__ . '/../inc/urun-kutu.php'; ?>\n` : `  <?php $markaTur = 'kutu'; require __DIR__ . '/../inc/marka-crom.php'; ?>\n`}  <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     ${onceki ? `<a class="onceki" href="${onceki.yol}"><span>Önceki yazı</span>${esc(onceki.baslik)}</a>` : '<span></span>'}
     ${sonraki ? `<a class="sonraki" href="${sonraki.yol}"><span>Sonraki yazı</span>${esc(sonraki.baslik)}</a>` : '<span></span>'}
   </nav>

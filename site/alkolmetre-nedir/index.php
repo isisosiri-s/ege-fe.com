@@ -19,6 +19,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Alkolmetre Nedir? Gibi Birçok Bilgilendirme İçeriği İçin Lütfen <a href="/promil-nedir/">Tıklayın</a>…</p>
 <p>Alkollü Araç Kullanımı İle İlgili Cezaları İçin Lütfen <a href="https://www.egm.gov.tr/alkollu-arac-kullanimi" target="_blank" rel="noopener">Tıklayın</a>…</p>
   </article>
+  <?php require __DIR__ . '/../inc/urun-kutu.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/uyusturucu-madde-testi/"><span>Önceki yazı</span>Uyuşturucu Madde Testi</a>
     <a class="sonraki" href="/trafik-guvenligini-tehlikeye-sokma-sucu/"><span>Sonraki yazı</span>Trafik Güvenliğini Tehlikeye Sokma Suçu</a>

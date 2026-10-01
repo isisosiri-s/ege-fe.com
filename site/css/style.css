@@ -331,7 +331,13 @@ p { margin: 0 0 1.1em; }
   content: ""; position: absolute; inset: -1px; z-index: -1; border-radius: inherit; pointer-events: none;
   box-shadow: var(--golge-3); opacity: 0; transition: opacity var(--sure) var(--yumusak);
 }
-.kart h3 { margin: 0; letter-spacing: var(--izleme-orta); }
+/* Kart başlıkları düz (italik vurgu yalnız büyük başlıklarda) — küçük boyutta italik serif zor okunuyordu */
+.kart h3 { margin: 0; letter-spacing: var(--izleme-orta); font-style: normal; color: var(--slate-dark); }
+a.kart:hover h3 { color: var(--teal-dark); }
+/* Hub kartları: ortalanmış satırlar → son satırda boş hücre kalmaz */
+.hub-kartlar { display: flex; flex-wrap: wrap; justify-content: center; }
+.hub-kartlar > .kart { flex: 0 0 calc((100% - 2 * var(--b-5)) / 3); }
+.kart-iletisim { background: var(--teal-pale); border-style: dashed; border-color: rgba(29, 125, 149, .35); }
 .kart p { margin: 0; font-size: .92rem; line-height: var(--satir-govde); font-weight: 300; }
 .kart .ok-link { margin-top: auto; padding-top: var(--b-3); }
 a.kart:hover { transform: translateY(-4px); border-color: var(--teal); color: var(--mid); }
@@ -554,6 +560,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .marka-kutu-baslik { font-family: var(--ff-display); font-size: 1.25rem; line-height: 1.25; color: var(--slate-dark); margin: 0 0 var(--b-2); letter-spacing: var(--izleme-orta); }
 .marka-kutu p { color: var(--mid); font-weight: 300; font-size: .92rem; }
 .marka-kutu .dugme-grubu { margin-top: var(--b-3); }
+.urun-kutu-gorsel { width: 140px; height: 140px; object-fit: contain; background: var(--white); border-radius: var(--yaricap-kucuk); border: 1px solid rgba(29, 125, 149, .12); padding: var(--b-2); }
 .dugme .ikon { margin-left: -.1rem; }
 
 .urun-servis {
@@ -717,6 +724,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
   .icerik-duzen { grid-template-columns: 1fr; }
   .kenar { position: static; }
   .kartlar-3, .yazi-kartlari { grid-template-columns: repeat(2, 1fr); }
+  .hub-kartlar > .kart { flex-basis: calc((100% - var(--b-5)) / 2); }
   .site-alt-ic { grid-template-columns: 1fr 1fr 1fr; }
   .site-alt-marka, .site-alt-ic > :last-child { grid-column: 1 / -1; }
   .urun-servis { grid-template-columns: 1fr; gap: var(--b-5); }
@@ -727,6 +735,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 }
 @media (max-width: 640px) {
   .kartlar-3, .yazi-kartlari, .form-izgara { grid-template-columns: 1fr; }
+  .hub-kartlar > .kart { flex-basis: 100%; }
   /* Rakamlar 2×2 (alt alta 4 satır yerine) */
   .sayaclar-buyuk { gap: var(--b-3); }
   .sayaclar-buyuk li { padding: var(--b-5) var(--b-4); }

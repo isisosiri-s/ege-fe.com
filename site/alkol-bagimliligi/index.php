@@ -33,6 +33,7 @@ require __DIR__ . '/../inc/header.php';
 <p>-Özel psikiyatri servislerinden alkol bağımlılığı tedavisi alınabilmektedir.</p>
 <p>Daha Fazla Bilgi İçeriği İçin Lütfen <a href="/blog/">Tıklayın</a>…</p>
   </article>
+  <?php require __DIR__ . '/../inc/urun-kutu.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/alkollu-arac-kullanmak/"><span>Önceki yazı</span>Alkollü Araç Kullanmak</a>
     <a class="sonraki" href="/ergenlerde-uyusturucu-kullanimi/"><span>Sonraki yazı</span>Ergenlerde Uyuşturucu Kullanımı</a>

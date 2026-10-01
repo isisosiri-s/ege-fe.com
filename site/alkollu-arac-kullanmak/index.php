@@ -28,6 +28,7 @@ require __DIR__ . '/../inc/header.php';
 <h4>Alkollü Araç Kullanmakdan Dolayı El Konulan Ehliyet Nasıl Geri Alınır?</h4>
 <p>Alkollü araç kullanarak ceza yediği süreyi dolduran sürücülerin üzerlerine herhangi bir trafik borcu olmaması gerekmektedir. Bu nedenle ceza süresi biten sürücülerin bölgelerinde bulunan Trafik Denetleme Şubelerine borcu yoktur kağıdı ile müracet etmeleri gerekmektedir.</p>
   </article>
+  <?php require __DIR__ . '/../inc/urun-kutu.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/madde-bagimliligi-tedavisi/"><span>Önceki yazı</span>Madde Bağımlılığı Tedavisi</a>
     <a class="sonraki" href="/alkol-bagimliligi/"><span>Sonraki yazı</span>ALKOL BAĞIMLILIĞI</a>

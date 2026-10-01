@@ -34,6 +34,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Çoğu kişide bilinç kaybı.</p>
 <p>Makalemizde sizler için Promil Nedir? ve Promil Yasal Sınırları Nelerdir? Sorularının cevaplarını vermeye çalıştık daha fazla bilgi içeriği için lütfen <a href="/blog/">tıklayın</a>…</p>
   </article>
+  <?php require __DIR__ . '/../inc/urun-kutu.php'; ?>
   <nav class="yazi-gezinme" aria-label="Diğer yazılar">
     <a class="onceki" href="/madde-bagimliligi-nedir/"><span>Önceki yazı</span>Madde Bağımlılığı Nedir?</a>
     <a class="sonraki" href="/madde-bagimliligi-tedavisi/"><span>Sonraki yazı</span>Madde Bağımlılığı Tedavisi</a>

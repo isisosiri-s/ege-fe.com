@@ -3,7 +3,7 @@
 return [
   'servis' => [
     'yol' => '/hizmetler/',
-    'ad' => 'Hizmetler',
+    'ad' => 'Servis Hizmetleri',
     'alt' => [[
         'yol' => '/ariza-ve-onarim/',
         'ad' => 'Arıza ve Onarım',

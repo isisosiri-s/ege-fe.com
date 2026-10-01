@@ -309,7 +309,7 @@ await fs.writeFile(path.join(S, 'inc', 'meta.php'), hdr + 'return ' + phpArr(met
 const KART_OZET = JSON.parse(fss.readFileSync(path.resolve('tools/kart-ozet.json'), 'utf8'));
 const hizmetOzet = (p) => KART_OZET[p] || ozetCumle(B(nameOf(p)));
 const hizmetler = {
-  servis: { yol: SERVIS.yol, ad: 'Hizmetler', alt: SERVIS.alt.map((a) => ({ yol: a, ad: MENU_AD[a], ozet: hizmetOzet(a) })) },
+  servis: { yol: SERVIS.yol, ad: 'Servis Hizmetleri', alt: SERVIS.alt.map((a) => ({ yol: a, ad: MENU_AD[a], ozet: hizmetOzet(a) })) },
   danismanlik: HUBS.map((h) => ({ yol: h.yol, ad: h.ad, giris: HUB_GIRIS[h.yol]?.kisa || '', alt: h.alt.map((a) => ({ yol: a, ad: MENU_AD[a], ozet: hizmetOzet(a) })) })),
   ilac: ILAC_ALT,
 };

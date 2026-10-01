@@ -265,3 +265,4 @@ Açık: hizmet sayfalarına süreç / gerekli belgeler / süre / SSS — içerik
 11. Blog yayın tarihleri görünmüyor (JSON-LD'de duruyor); kartlarda tarih yerine konu etiketi.
 - /bilgi/ sonundaki "Danışmanlık ve bilgi için…" başlığı kaldırıldı (CTA bandıyla aynı cümle).
 Açık: 12 — hizmet sayfalarına süreç / belgeler / süre / SSS içeriği (kullanıcıdan).
+- 2026-10-01: Sayfa sonu bandı yeniden tasarlandı (B+C): açık zemin üzerinde teal kart, solda bölüme göre başlık/metin + Teklif Al, sağda Telefon / E-posta / Teklif formu kutuları; teklif formu bölüme göre konu seçili açılır (servis → Teknik Destek, ürünler → Ürünler, danışmanlık → Hizmetler). Yeni metinler: "Cihazınızın bakım ya da kalibrasyon zamanı mı geldi?", "Kurumunuz için alkolmetre mi arıyorsunuz?", "Başvurunuz için danışmanlık mı arıyorsunuz?", "Sorunuz mu var? Size yardımcı olalım." Servis yan menü başlığı → "Servis Hizmetleri".

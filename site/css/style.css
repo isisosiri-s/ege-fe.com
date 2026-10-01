@@ -476,6 +476,12 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .sss[open] summary::after { -webkit-mask-image: var(--ikon-minus); mask-image: var(--ikon-minus); transform: rotate(180deg); }
 .sss[open] summary { border-bottom: 1px solid var(--slate-light); border-radius: var(--yaricap-kucuk) var(--yaricap-kucuk) 0 0; }
 .sss-icerik { padding: var(--b-4) var(--b-5) var(--b-1); }
+/* Akordiyon animasyonu: yalnız opacity + transform (kapanış süresi site.js SSS_KAPANMA ile aynı) */
+.sss[open] .sss-icerik { animation: sss-ac .42s var(--yumusak) both; }
+.sss.kapaniyor .sss-icerik { animation: sss-kapa .26s var(--yumusak) both; }
+.sss.kapaniyor summary::after { -webkit-mask-image: var(--ikon-plus); mask-image: var(--ikon-plus); transform: rotate(0deg); }
+@keyframes sss-ac { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: none; } }
+@keyframes sss-kapa { from { opacity: 1; transform: none; } to { opacity: 0; transform: translateY(-8px); } }
 
 .uyari-kutu { padding: var(--b-4) var(--b-5); border-left: 3px solid var(--warn); background: var(--white); border-radius: 0 var(--yaricap-kucuk) var(--yaricap-kucuk) 0; box-shadow: var(--golge-1); }
 .yasal-kutu { color: var(--mid); font-size: .9rem; }
@@ -779,7 +785,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
 
 @media print {

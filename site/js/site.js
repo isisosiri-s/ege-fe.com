@@ -17,15 +17,26 @@
       b.setAttribute('aria-expanded', String(acik));
     });
   });
-  // SSS akordiyon: bir soru açılınca aynı sayfadaki diğer açık sorular kapanır
-  // ('toggle' olayı kabarcıklanmaz → yakalama aşamasında dinlenir)
-  document.addEventListener('toggle', function (e) {
-    var d = e.target;
-    if (!d.classList || !d.classList.contains('sss') || !d.open) return;
-    document.querySelectorAll('details.sss[open]').forEach(function (o) {
-      if (o !== d) o.open = false;
-    });
-  }, true);
+  // SSS akordiyon: aynı anda tek cevap açık. Açılış CSS animasyonuyla (opacity + transform);
+  // kapanışta önce .kapaniyor ile solup kayar, animasyon bitince details kapanır.
+  var SSS_KAPANMA = 260; // ms — style.css'teki sss-kapa süresiyle aynı
+  var hareketAz = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function sssKapat(d) {
+    if (!d.open || d.classList.contains('kapaniyor')) return;
+    if (hareketAz) { d.open = false; return; }
+    d.classList.add('kapaniyor');
+    setTimeout(function () { d.open = false; d.classList.remove('kapaniyor'); }, SSS_KAPANMA);
+  }
+  document.addEventListener('click', function (e) {
+    var ozet = e.target.closest && e.target.closest('details.sss > summary');
+    if (!ozet) return;
+    var d = ozet.parentElement;
+    e.preventDefault(); // aç/kapa kontrolü bizde (kapanış animasyonu için)
+    if (d.classList.contains('kapaniyor')) return;
+    if (d.open) { sssKapat(d); return; }
+    document.querySelectorAll('details.sss[open]').forEach(sssKapat);
+    d.open = true;
+  });
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Escape') return;
     document.querySelectorAll('.alt-var.acik').forEach(function (li) {

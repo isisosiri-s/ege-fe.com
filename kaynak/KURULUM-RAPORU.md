@@ -248,3 +248,4 @@ Kullanıcı kararı: konu netleşene kadar CROM TEST sitenin hiçbir yerinde gö
 Açık: hizmet sayfalarına süreç / gerekli belgeler / süre / SSS — içerik kullanıcıdan bekleniyor.
 
 - 2026-10-01: SSS akordiyon — bir soru açılınca diğer açık sorular kapanır (site.js).
+- 2026-10-01: SSS akordiyon animasyonu — açılış 0,42 sn (solarak + kayarak), kapanış 0,26 sn; yalnız opacity/transform; hareket azaltma tercihinde animasyonsuz.

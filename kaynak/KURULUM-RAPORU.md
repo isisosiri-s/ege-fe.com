@@ -246,3 +246,5 @@ Kullanıcı kararı: konu netleşene kadar CROM TEST sitenin hiçbir yerinde gö
 4. İletişim formu konu alanı boş "Seçiniz" ile açılır (boş gönderilirse e-posta konusu "Genel"); ?konu=Ürünler bağlantısı yine ön seçim yapar.
 5. Alkol konulu 5 blog yazısının sonunda alkolmetre kutusu (`inc/urun-kutu.php`): "Kurumunuz için alkolmetre mi arıyorsunuz?" → /urunler/#nam-19 + Teklif Al.
 Açık: hizmet sayfalarına süreç / gerekli belgeler / süre / SSS — içerik kullanıcıdan bekleniyor.
+
+- 2026-10-01: SSS akordiyon — bir soru açılınca diğer açık sorular kapanır (site.js).

@@ -17,6 +17,15 @@
       b.setAttribute('aria-expanded', String(acik));
     });
   });
+  // SSS akordiyon: bir soru açılınca aynı sayfadaki diğer açık sorular kapanır
+  // ('toggle' olayı kabarcıklanmaz → yakalama aşamasında dinlenir)
+  document.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d.classList || !d.classList.contains('sss') || !d.open) return;
+    document.querySelectorAll('details.sss[open]').forEach(function (o) {
+      if (o !== d) o.open = false;
+    });
+  }, true);
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Escape') return;
     document.querySelectorAll('.alt-var.acik').forEach(function (li) {

@@ -17,26 +17,31 @@ const html = `<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>
 @font-face { font-family: 'Nunito Sans'; font-weight: 200 1000; src: url(${dosya('fonts/nunito-sans-latin-5.woff2')}) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F; }
 @font-face { font-family: 'Nunito Sans'; font-weight: 200 1000; src: url(${dosya('fonts/nunito-sans-latin-ext-4.woff2')}) format('woff2'); unicode-range: U+0100-02BA, U+1E00-1EFF; }
 * { box-sizing: border-box; margin: 0; }
-/* Ortalı yerleşim: WhatsApp küçük önizlemede ortadan kare (630×630) kırpar → logo ve başlık ortadaki karede kalır */
-body { width: 1200px; height: 630px; overflow: hidden; font-family: 'Nunito Sans', sans-serif; color: #fff; position: relative;
-  background: url(${dosya('img/urun/nam19-saha.webp')}) 60% 40% / cover; }
-body::before { content: ""; position: absolute; inset: 0;
+body { width: 1200px; height: 630px; overflow: hidden; font-family: 'Nunito Sans', sans-serif; color: #fff;
   background:
-    radial-gradient(ellipse 34% 62% at 50% 50%, rgba(14,82,102,.94) 0%, rgba(14,82,102,.82) 55%, rgba(14,82,102,.55) 100%),
-    linear-gradient(150deg, rgba(14,82,102,.80) 0%, rgba(15,92,114,.62) 55%, rgba(29,125,149,.55) 100%); }
-.icerik { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 580px; text-align: center; }
-.logo { height: 128px; display: block; margin: 0 auto 24px; }
-h1 { font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 64px; line-height: 1.04; letter-spacing: -.03em; }
+    radial-gradient(ellipse 55% 80% at 0% 100%, rgba(58,168,193,.30) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 40% 0%, rgba(255,255,255,.06) 0%, transparent 60%),
+    linear-gradient(150deg, #0e5266 0%, #0f5c72 55%, #1d7d95 100%); }
+.foto { position: absolute; top: 0; right: 0; width: 560px; height: 630px; background: url(${dosya('img/urun/nam19-saha.webp')}) 38% center / cover; -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 42%); mask-image: linear-gradient(90deg, transparent 0%, #000 42%); }
+.foto::before { content: ""; position: absolute; inset: 0; background: #0e5266; mix-blend-mode: multiply; opacity: .25; }
+.metin { position: absolute; left: 72px; top: 64px; width: 660px; }
+.logo { height: 96px; display: block; margin-bottom: 40px; }
+.etiket { font-size: 17px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: #3aa8c1; display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+.etiket::before { content: ""; width: 36px; height: 3px; background: #3aa8c1; }
+h1 { font-family: 'DM Serif Display', serif; font-weight: 400; font-size: 70px; line-height: 1.04; letter-spacing: -.03em; }
 h1 em { color: #8fd3e2; }
-.etiket { margin-top: 24px; font-size: 18px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: #8fd3e2; }
-.adres { margin-top: 30px; display: inline-flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 800; padding: 10px 22px; border: 1.5px solid rgba(255,255,255,.45); border-radius: 999px; }
-.adres span { width: 9px; height: 9px; border-radius: 50%; background: #3aa8c1; }
+.alt { margin-top: 26px; font-size: 24px; line-height: 1.45; color: rgba(255,255,255,.86); }
+.adres { position: absolute; left: 72px; bottom: 52px; font-size: 22px; font-weight: 800; letter-spacing: .02em; color: #fff; display: flex; align-items: center; gap: 12px; }
+.adres span { width: 10px; height: 10px; border-radius: 50%; background: #3aa8c1; }
 </style></head><body>
-<div class="icerik">
+<div class="foto"></div>
+<div class="metin">
   <img class="logo" src="${dosya('img/logo-koyu.png')}" alt="">
-  <h1>Alkolmetre ve <em>sağlık danışmanlığı</em></h1>
   <p class="etiket">Armas Elektronik Yetkili Bayi ve Servisi</p>
+  <h1>Alkolmetre ve <em>sağlık danışmanlığı</em></h1>
+  <p class="alt">Satış, periyodik bakım ve kalibrasyon · ÜTS, tıbbi cihaz ve Sağlık Bakanlığı işlemleri</p>
 </div>
+<p class="adres"><span></span>ege-fe.com</p>
 </body></html>`;
 
 const gecici = path.join(S, '..', 'tools', '.paylasim-gecici.html');

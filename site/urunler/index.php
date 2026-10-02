@@ -161,7 +161,6 @@ $servisTalep = '/iletisim/?konu=' . rawurlencode('Teknik Destek') . '#form';
           <div class="dugme-grubu">
             <?php if (!empty($u['yalnizServis'])): ?>
             <a class="dugme dugme-birincil" href="<?= e($servisTalep) ?>">Bakım / Kalibrasyon Talebi</a>
-            <a class="dugme dugme-cizgi" href="/kalibrasyon/">Periyodik Bakım ve Kalibrasyon</a>
             <?php else: ?>
             <a class="dugme dugme-birincil" href="<?= e($teklif) ?>">Teklif Al</a>
             <a class="dugme dugme-cizgi" href="/bilgi/">Sık Sorulan Sorular</a>

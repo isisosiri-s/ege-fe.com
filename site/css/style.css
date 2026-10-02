@@ -380,6 +380,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .acilis-gorsel::after, .yazi .banner::after { background: linear-gradient(to top, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, .15) 35%, transparent 60%); }
 /* Giriş kartları: üç ziyaretçi grubu (ürün / servis / danışmanlık) — 1 tıkla doğru sayfa */
 .giris-kartlari { list-style: none; margin: clamp(2rem, 5vw, 3.5rem) 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--b-5); }
+.giris-kartlari-2 { grid-template-columns: repeat(2, 1fr); } /* Danışmanlık pasifken iki kart */
 .giris-kartlari li { display: flex; }
 .giris-karti {
   position: relative; z-index: var(--z-yukseltilmis); flex: 1;
@@ -740,6 +741,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
     radial-gradient(ellipse 40% 50% at 100% 100%, rgba(14, 82, 102, .45) 0%, transparent 60%),
     var(--slate-dark);
 }
+.site-alt-ic-4 { grid-template-columns: 1.3fr 1fr 1fr 1.3fr !important; } /* Danışmanlık sütunu pasifken */
 .site-alt-ic { display: grid; grid-template-columns: 1.3fr 1fr 1.1fr 1fr 1.3fr; gap: var(--b-8); padding-top: clamp(3rem, 6vw, 4.5rem); padding-bottom: var(--b-9); }
 .site-alt-marka { display: flex; flex-direction: column; align-items: flex-start; gap: var(--b-4); }
 /* Koyu zeminde rehberdeki onaylı beyaz (koyu zemin) logo varyantı */
@@ -780,7 +782,8 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
   .kenar { position: static; }
   .kartlar-3, .yazi-kartlari { grid-template-columns: repeat(2, 1fr); }
   .hub-kartlar > .kart { flex-basis: calc((100% - var(--b-5)) / 2); }
-  .site-alt-ic { grid-template-columns: 1fr 1fr 1fr; }
+  .site-alt-ic, .site-alt-ic-4 { grid-template-columns: 1fr 1fr 1fr !important; }
+  .site-alt-ic-4 { grid-template-columns: 1fr 1fr !important; }
   .site-alt-marka, .site-alt-ic > :last-child { grid-column: 1 / -1; }
   .urun-servis { grid-template-columns: 1fr; gap: var(--b-5); }
   .marka-bant-ic { grid-template-columns: 1fr; }
@@ -807,7 +810,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
   .marka-bant-logo .marka-logo { width: 200px; }
   .urun-servis { padding: var(--b-6); }
   /* Footer: bağlantı sütunları ikili, marka ve iletişim tam genişlik → daha kısa footer */
-  .site-alt-ic { grid-template-columns: 1fr 1fr; gap: var(--b-7) var(--b-5); }
+  .site-alt-ic { grid-template-columns: 1fr 1fr !important; gap: var(--b-7) var(--b-5); }
   .yazi-gezinme { grid-template-columns: 1fr; }
   .yazi-gezinme .sonraki { text-align: left; }
   .cta-kart .dugme { width: 100%; }

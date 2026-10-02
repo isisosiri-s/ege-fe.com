@@ -28,6 +28,12 @@ $FIRMA = [
   'slogan'      => 'Sağlık sektöründe yaptığı inovatif çözümler ile güven, kalite ve memnuniyetin öncüsü.',
 ];
 
+// DANIŞMANLIK — PASİF (kullanıcı kararı 2026-10-02): kullanıcı "aktife al" diyene kadar danışmanlık bölümü
+// (menü, footer, anasayfa kartı, hub ve alt sayfalar, paylaşım metinleri) hiçbir yerde görünmez; sayfalar 302 ile anasayfaya gider.
+// true yapınca: `node tools/build.mjs` + `node tools/paylasim.mjs` çalıştırın (ikisi de bu satırı okur).
+define('DANISMANLIK_AKTIF', false);
+const DANISMANLIK_YOLLARI = ['/danismanlik/', '/uts/', '/tibbi-cihaz/', '/saglik-bakanligi-islemleri/', '/diger-hizmetler/', '/ilac/'];
+
 // Markamız: CROM TEST — Egefe'nin yerli üretim uyuşturucu madde tarama test kitleri markası (kullanıcı, 2026-10-01).
 // Metinler cromtest.com'daki kendi tanımından; adresler canlı sitede doğrulandı (products.html#coklu|tekli|tam filtreleri).
 $MARKA = [

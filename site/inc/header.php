@@ -2,6 +2,8 @@
 // Ortak üst bölüm: <head>, SEO meta, JSON-LD, site başlığı/menü ve sayfa başlık alanı (tek H1).
 // Kullanım (sayfada): $yol = '/hakkimizda/'; [$sayfa = [...];] require .../inc/header.php;
 require_once __DIR__ . '/config.php';
+// Danışmanlık pasifken bu bölümün sayfaları geçici olarak (302) anasayfaya yönlenir
+if (!DANISMANLIK_AKTIF && isset($yol)) foreach (DANISMANLIK_YOLLARI as $dy) if (str_starts_with($yol, $dy)) { header('Location: /', true, 302); exit; }
 $META = require __DIR__ . '/meta.php';
 $HIZMET = require __DIR__ . '/hizmetler.php';
 $sayfa = $sayfa ?? [];
@@ -125,6 +127,7 @@ $blogAktif = $yol === '/blog/' || $yol === '/category/saglik/' || ($m['ogType'] 
             <li><a href="/bilgi/"<?= aktif('/bilgi/', $yol) ?>>Bilgi</a></li>
           </ul>
         </li>
+        <?php if (DANISMANLIK_AKTIF): ?>
         <li class="alt-var mega<?= $danismanlikAktif ? ' aktif' : '' ?>">
           <a href="/danismanlik/">Danışmanlık</a>
           <button class="alt-ac" type="button" aria-expanded="false" aria-label="Danışmanlık alt menüsü"></button>
@@ -142,6 +145,7 @@ $blogAktif = $yol === '/blog/' || $yol === '/category/saglik/' || ($m['ogType'] 
             <?php endforeach; ?>
           </div>
         </li>
+        <?php endif; ?>
         <li class="alt-var<?= $kurumsalAktif ? ' aktif' : '' ?>">
           <a href="/hakkimizda/">Kurumsal</a>
           <button class="alt-ac" type="button" aria-expanded="false" aria-label="Kurumsal alt menüsü"></button>

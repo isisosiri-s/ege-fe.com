@@ -5,6 +5,7 @@ $yol = '/';
 $sayfa = ['ozelBaslik' => true, 'govdeSinif' => 'anasayfa'];
 require __DIR__ . '/inc/header.php';
 $crom = !empty($MARKA['aktif']); // CROM TEST pasifken hiçbir yerde görünmez (config.php)
+$dan = DANISMANLIK_AKTIF; // Danışmanlık pasifken hiçbir yerde görünmez (config.php)
 ?>
 <section class="acilis">
   <div class="kap acilis-ic">
@@ -14,12 +15,12 @@ $crom = !empty($MARKA['aktif']); // CROM TEST pasifken hiçbir yerde görünmez 
       <h1>Alkolmetre, uyuşturucu testi ve <em>sağlık danışmanlığı</em></h1>
       <?php else: ?>
       <p class="etiket">Armas Elektronik Yetkili Bayi ve Servisi</p>
-      <h1>Alkolmetre ve <em>sağlık danışmanlığı</em></h1>
+      <?php if ($dan): ?><h1>Alkolmetre ve <em>sağlık danışmanlığı</em></h1><?php else: ?><h1>Alkolmetrede <em>yetkili satış ve servis</em></h1><?php endif; ?>
       <?php endif; ?>
       <?php if ($crom): ?>
       <p class="giris">Armas Elektronik'in yetkili bayi ve servisi olarak alkolmetrelerin satışını, bakımını ve kalibrasyonunu yapıyoruz. Uyuşturucu madde taramasında kendi markamız CROM TEST'in yerli üretim test kitlerini sunuyor; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı işlemlerinde danışmanlık veriyoruz.</p>
       <?php else: ?>
-      <p class="giris">Armas Elektronik'in yetkili bayi ve servisi olarak alkolmetrelerin satışını, bakımını ve kalibrasyonunu yapıyoruz. Tıbbi cihaz, ÜTS ve Sağlık Bakanlığı işlemlerinde de danışmanlık veriyoruz.</p>
+      <p class="giris">Armas Elektronik'in yetkili bayi ve servisi olarak alkolmetrelerin satışını, bakımını ve kalibrasyonunu yapıyoruz.<?php if ($dan): ?> Tıbbi cihaz, ÜTS ve Sağlık Bakanlığı işlemlerinde de danışmanlık veriyoruz.<?php endif; ?></p>
       <?php endif; ?>
       <div class="dugme-grubu">
         <a class="dugme dugme-birincil" href="/urunler/">Ürünleri İncele</a>
@@ -32,7 +33,7 @@ $crom = !empty($MARKA['aktif']); // CROM TEST pasifken hiçbir yerde görünmez 
   </div>
   <div class="kap">
     <h2 class="gizli">Ne arıyorsunuz?</h2>
-    <ul class="giris-kartlari">
+    <ul class="giris-kartlari<?= $dan ? '' : ' giris-kartlari-2' ?>">
       <li>
         <a class="giris-karti" href="/urunler/">
           <span class="giris-karti-ikon"><?= ikon('device-mobile-check', 24) ?></span>
@@ -56,6 +57,7 @@ $crom = !empty($MARKA['aktif']); // CROM TEST pasifken hiçbir yerde görünmez 
           <span class="ok-link">Servis hizmetleri</span>
         </a>
       </li>
+      <?php if ($dan): ?>
       <li>
         <a class="giris-karti" href="/danismanlik/">
           <span class="giris-karti-ikon"><?= ikon('briefcase', 24) ?></span>
@@ -65,6 +67,7 @@ $crom = !empty($MARKA['aktif']); // CROM TEST pasifken hiçbir yerde görünmez 
           <span class="ok-link">Danışmanlık alanları</span>
         </a>
       </li>
+      <?php endif; ?>
     </ul>
   </div>
 </section>

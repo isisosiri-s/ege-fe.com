@@ -10,6 +10,9 @@ const J = (n) => JSON.parse(fss.readFileSync(path.join(K, 'json', n + '.json'), 
 const B = (n) => JSON.parse(fss.readFileSync(path.join(K, 'icerik', n + '.json'), 'utf8'));
 // CROM TEST açık/kapalı: tek kaynak site/inc/config.php → $MARKA['aktif'] (kullanıcı "aktife al" diyene kadar false)
 const CROM_AKTIF = /'aktif'\s*=>\s*true/.test(fss.readFileSync(path.join(S, 'inc', 'config.php'), 'utf8'));
+// Danışmanlık açık/kapalı: tek kaynak site/inc/config.php → define('DANISMANLIK_AKTIF', …) (kullanıcı kararı 2026-10-02: pasif)
+const DAN_AKTIF = /define\('DANISMANLIK_AKTIF',\s*true\)/.test(fss.readFileSync(path.join(S, 'inc', 'config.php'), 'utf8'));
+const DAN_YOL = /^\/(danismanlik|uts|tibbi-cihaz|saglik-bakanligi-islemleri|diger-hizmetler|ilac)\//;
 const nameOf = (p) => (p === '/' ? 'anasayfa' : p.replace(/^\/|\/$/g, '').replace(/\//g, '__'));
 
 // ---------- Site yapısı ----------
@@ -152,6 +155,7 @@ function render(blocks, { h1, from, firstImgSkip, soruBaslik = false }) {
     if (from === '/hakkimizda/') {
       out.push('<ul class="neler-liste">' + cards.map((c) => {
         const t = esc(applyFixes(c.title)); const u = NELER_LINK[c.title];
+        if (!DAN_AKTIF && (/Danışmanlık/i.test(c.title) || u === '/danismanlik/')) return ''; // danışmanlık pasif
         return `<li>${u ? `<a href="${u}">${t}</a>` : `<span>${t}</span>`}</li>`;
       }).join('') + '</ul>');
       cards = []; return;
@@ -266,7 +270,7 @@ for (const p of ALL) {
   let h1 = stripTitle(d.title);
   if (p === '/category/saglik/') h1 = 'Sağlık';
   // Ana sayfa başlığı: canlıdaki 'Anasayfa - …' paylaşım önizlemesinde bir şey anlatmıyordu (2026-10-02)
-  if (p === '/') d.title = 'Egefe Sağlık Bilişim A.Ş. | Alkolmetre, Servis ve Sağlık Danışmanlığı';
+  if (p === '/') d.title = DAN_AKTIF ? 'Egefe Sağlık Bilişim A.Ş. | Alkolmetre, Servis ve Sağlık Danışmanlığı' : 'Egefe Sağlık Bilişim A.Ş. | Alkolmetre Satış, Servis ve Kalibrasyon';
   if (p === '/hizmetler/') h1 = 'Servis Hizmetleri'; // menüde "Servis" (2026-10-01)
   if (p === '/kalibrasyon/') h1 = 'Periyodik Bakım ve Kalibrasyon'; // Periyodik Bakım ile birleşti (2026-10-02)
   if (BLOG.includes(p) && h1raw) h1 = h1raw.replace(/\s+/g, ' ').trim();
@@ -278,6 +282,9 @@ for (const p of ALL) {
   if (p === '/') desc = CROM_AKTIF
     ? 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; CROM TEST uyuşturucu test kitleri; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.'
     : 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.';
+  if (p === '/' && !DAN_AKTIF) desc = CROM_AKTIF
+    ? 'Armas Elektronik yetkili bayi ve servisi Egefe: NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı, periyodik bakımı ve kalibrasyonu; CROM TEST uyuşturucu test kitleri.'
+    : 'Armas Elektronik yetkili bayi ve servisi Egefe: NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı, periyodik bakımı ve kalibrasyonu.';
   if (LOREM.test(desc) || /[A-Za-z]+ly [a-z]+ [a-z]+/.test(desc) && !/[ğüşıöçĞÜŞİÖÇ]/.test(desc)) {
     if (DESC_DUZELT[p]) { desc = DESC_DUZELT[p].aciklama; descKaynak = DESC_DUZELT[p].kaynak; }
     else if (HUB_GIRIS[p]) { desc = HUB_GIRIS[p].aciklama; descKaynak = HUB_GIRIS[p].kaynak; }
@@ -449,7 +456,7 @@ let webpYeni = 0;
 
 // ---------- sitemap.xml ----------
 const lastmod = (p) => (meta[p].guncel || meta[p].yayin || new Date().toISOString()).slice(0, 10);
-const smPaths = [...ALL.filter((p) => !meta[p].noindex), '/urunler/', '/kvkk/', '/gizlilik-politikasi/'];
+const smPaths = [...ALL.filter((p) => !meta[p].noindex && (DAN_AKTIF || !DAN_YOL.test(p))), '/urunler/', '/kvkk/', '/gizlilik-politikasi/'];
 const sm = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
   smPaths.map((p) => `  <url><loc>https://ege-fe.com${p}</loc><lastmod>${lastmod(p)}</lastmod></url>`).join('\n') + '\n</urlset>\n';
 await fs.writeFile(path.join(S, 'sitemap.xml'), sm);

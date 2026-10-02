@@ -286,3 +286,10 @@ Kullanıcı kararı: Armas profesyonel alkolmetrelerden NAM-E30 (yazıcılı) ve
 - Blog paylaşım açıklamaları: "… için tıklayınız…" / başlık tekrarı olanlar yazının ilk tam cümleleriyle değişti.
 - 2026-10-02: Paylaşım görseli ortalı yeniden tasarlandı (WhatsApp küçük önizlemede ortadan kare kırpar → logo + başlık ortadaki karede); og:image adresine sürüm eki (?v=dosya tarihi).
 - 2026-10-02: Kullanıcı tercihi — paylaşım görselinde önceki (solda yazı, sağda fotoğraf) tasarıma dönüldü; sürüm eki korunuyor.
+
+## Revizyon 14 (2026-10-02) — DANIŞMANLIK PASİF
+Kullanıcı kararı: danışmanlık bölümü kullanıcı "aktife al" diyene kadar hiçbir yerde görünmez.
+- Tek anahtar: site/inc/config.php → define('DANISMANLIK_AKTIF', false). tools/build.mjs (DAN_AKTIF) ve tools/paylasim.mjs aynı satırı okur.
+- Pasifken: menüde Danışmanlık (mega menü) yok; footer Danışmanlık sütunu yok (4 sütun); anasayfa başlığı "Alkolmetrede yetkili satış ve servis", Danışmanlık giriş kartı yok (2 kart); Servis sayfasında "Danışmanlık Hizmetleri" yok; Hakkımızda "Eğitim Danışmanlık" ve "ÜTS, Tıbbi Cihaz, İlaç" maddeleri yok; sayfa sonu bandı "Ürünlerimiz ve servis hizmetlerimiz"; anasayfa title/description ve paylaşım görseli danışmanlıksız.
+- /danismanlik/, /uts/, /tibbi-cihaz/, /saglik-bakanligi-islemleri/, /diger-hizmetler/, /ilac/ ve alt sayfaları → 302 anasayfa; site haritasından çıktı (65 → 38 URL). Dosyalar sunucuda duruyor.
+- Aktife almak: true yap → node tools/build.mjs → node tools/paylasim.mjs → commit + push.

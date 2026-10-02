@@ -1,7 +1,7 @@
 </main>
 
 <footer class="site-alt">
-  <div class="kap site-alt-ic">
+  <div class="kap site-alt-ic<?= DANISMANLIK_AKTIF ? '' : ' site-alt-ic-4' ?>">
     <div class="site-alt-marka">
       <a class="logo-alan" href="/" aria-label="Egefe — Anasayfa"><img src="/img/logo-koyu.png" alt="Egefe" width="1568" height="756"></a>
       <p class="site-alt-slogan"><?= e($FIRMA['slogan']) ?></p>
@@ -25,6 +25,7 @@
         <li><a href="/bilgi/">Bilgi</a></li>
       </ul>
     </div>
+    <?php if (DANISMANLIK_AKTIF): ?>
     <div>
       <h2 class="site-alt-baslik">Danışmanlık</h2>
       <ul>
@@ -33,6 +34,7 @@
         <?php endforeach; ?>
       </ul>
     </div>
+    <?php endif; ?>
     <div>
       <h2 class="site-alt-baslik">Kurumsal</h2>
       <ul>

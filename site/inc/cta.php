@@ -14,7 +14,7 @@ $ctaMetin = [
   'servis'      => ['Servis', 'Cihazınızın bakım ya da kalibrasyon zamanı mı geldi?', 'Arıza, periyodik bakım ve kalibrasyon için bize ulaşın; cihazınızın servis sürecini başlatalım.', 'Teknik Destek'],
   'urun'        => ['Ürünler', 'Kurumunuz için alkolmetre mi arıyorsunuz?', 'NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler için fiyat teklifi alın.', 'Ürünler'],
   'danismanlik' => ['Danışmanlık', 'Başvurunuz için danışmanlık mı arıyorsunuz?', 'ÜTS, tıbbi cihaz ve Sağlık Bakanlığı işlemlerinizle ilgili ihtiyacınızı bize iletin, size dönüş yapalım.', 'Hizmetler'],
-  'genel'       => ['Bize Ulaşın', 'Sorunuz mu var? Size yardımcı olalım.', 'Ürünler, servis ve danışmanlık hizmetlerimiz hakkında bilgi almak için bize ulaşın.', ''],
+  'genel'       => ['Bize Ulaşın', 'Sorunuz mu var? Size yardımcı olalım.', DANISMANLIK_AKTIF ? 'Ürünler, servis ve danışmanlık hizmetlerimiz hakkında bilgi almak için bize ulaşın.' : 'Ürünlerimiz ve servis hizmetlerimiz hakkında bilgi almak için bize ulaşın.', ''],
 ][$ctaBolum];
 [$ctaEtiket, $ctaBaslik, $ctaAciklama, $ctaKonu] = $ctaMetin;
 $ctaForm = '/iletisim/' . ($ctaKonu !== '' ? '?konu=' . rawurlencode($ctaKonu) : '') . '#form';

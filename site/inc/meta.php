@@ -2,8 +2,8 @@
 // ÜRETİLDİ: tools/build.mjs — elle düzenlemeler bir sonraki üretimde ezilir (açıklamalar hariç: bkz. inc/meta.php başı)
 return [
   '/' => [
-    'title' => 'Egefe Sağlık Bilişim A.Ş. | Alkolmetre, Servis ve Sağlık Danışmanlığı',
-    'desc' => 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.',
+    'title' => 'Egefe Sağlık Bilişim A.Ş. | Alkolmetre Satış, Servis ve Kalibrasyon',
+    'desc' => 'Armas Elektronik yetkili bayi ve servisi Egefe: NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı, periyodik bakımı ve kalibrasyonu.',
     'h1' => 'Anasayfa',
     'ust' => null,
     'og' => '/img/paylasim.jpg',

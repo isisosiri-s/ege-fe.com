@@ -13,7 +13,7 @@ require __DIR__ . '/../inc/header.php';
 <p>Hizmet kalitesini üst seviyeye yükselterek ve müşteri memnuniyetini ön planda tutarak, ilişkilerimizi saygı, adalet, vicdan, dürüstlük temelleri üzerine kuran ve bunu yürüten; sağlık alanında yapacağı çalışmalar ile ülkemizde ve dünyada örnek olabilecek bir şirket olmayı misyon edindik.</p>
 <p>Sağlık sektöründe gelişen teknolojileri takip ederek; beklentileri karşılayıp hizmetlerin sürekli geliştirilmesi ve kusursuzlaştırılmasını sağlamayı vizyon edindik.</p>
 <h2>Neler Yaparız?</h2>
-<ul class="neler-liste"><li><a href="/ariza-ve-onarim/">Bakım Onarım</a></li><li><a href="/kalibrasyon/">Kalibrasyon</a></li><li><a href="/bilgi/">Yedek Parça</a></li><li><a href="/danismanlik/">Eğitim Danışmanlık</a></li><li><a href="/danismanlik/">ÜTS, Tıbbi Cihaz, İlaç</a></li><li><span>AR-GE Çözümleri</span></li></ul>
+<ul class="neler-liste"><li><a href="/ariza-ve-onarim/">Bakım Onarım</a></li><li><a href="/kalibrasyon/">Kalibrasyon</a></li><li><a href="/bilgi/">Yedek Parça</a></li><li><span>AR-GE Çözümleri</span></li></ul>
   </article>
 </div>
 <?php $markaTur = 'bant'; require __DIR__ . '/../inc/marka-crom.php'; ?>

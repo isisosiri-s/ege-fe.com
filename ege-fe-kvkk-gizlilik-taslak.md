@@ -8,7 +8,7 @@
 
 Veri sorumlusu bilgileri (her iki metinde de kullanılacak):
 - **Unvan:** Egefe Bilişim Sağlık San. ve Tic. A.Ş.
-- **Merkez:** Yıldızevler Mah. Turan Güneş Blv. 708 Sok. No:14/1, Çankaya/Ankara
+- **Merkez:** Yıldızevler, 708 Sok. No:14/1, 06550 Çankaya/Ankara
 - **AR-GE:** Kırıkkale Teknopark No: 3 Yahşihan/Kırıkkale
 - **Telefon:** +90 312 482 54 51
 - **E-posta:** info@ege-fe.com  ·  **Web:** ege-fe.com

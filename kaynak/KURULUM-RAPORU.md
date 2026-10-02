@@ -302,3 +302,4 @@ Kullanıcı kararı: danışmanlık bölümü kullanıcı "aktife al" diyene kad
 - /urunler/ "Cihazları Karşılaştır" bölümü (alkolmetre kartlarının altında): NAM-19, NAM-E30, NAM-E30C; en fazla 3 cihaz (kullanıcı); NAM-07 satışta olmadığı için dahil değil.
 - Seçim çipleri + her kartta "Karşılaştır" kutucuğu (senkron), seçilmeyen sütunlar gizlenir, "Yalnızca farkları göster" süzgeci, sütun altında Teklif Al. JS yoksa tablo tam görünür.
 - Veri: site/inc/karsilastir-veri.php (Armas teknik bilgileri; kaynakta olmayan "—"). Bölüm: site/inc/karsilastir.php. Mobil: yatay kaydırma, sabit ilk sütun, ipucu.
+- 2026-10-02: Ürün kartlarındaki "Karşılaştır" kutucukları kaldırıldı; seçim yalnız karşılaştırma bölümündeki çiplerle (kullanıcı).

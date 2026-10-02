@@ -67,12 +67,12 @@
       document.querySelectorAll('.yazi-karti[data-konu]').forEach(function (y) { y.hidden = k !== 'tumu' && y.getAttribute('data-konu') !== k; });
     });
   }
-  // Cihaz karşılaştırma (ürünler): seçim çipleri ve kartlardaki "Karşılaştır" kutucukları aynı seçimi paylaşır;
+  // Cihaz karşılaştırma (ürünler): seçim çipleriyle cihaz seçilir;
   // en fazla N cihaz; seçilmeyen sütunlar gizlenir; "yalnızca farklar" eşit satırları gizler. JS yoksa tablo tam görünür.
   var karsi = document.getElementById('karsilastir');
   if (karsi) {
     var enFazla = parseInt(karsi.getAttribute('data-en-fazla'), 10) || 3;
-    var kutular = function () { return document.querySelectorAll('[data-karsi-sec], [data-karsi-kart]'); };
+    var kutular = function () { return document.querySelectorAll('[data-karsi-sec]'); };
     var secililer = function () {
       var s = []; karsi.querySelectorAll('[data-karsi-sec]').forEach(function (k) { if (k.checked) s.push(k.value); }); return s;
     };
@@ -97,7 +97,7 @@
     };
     document.addEventListener('change', function (e) {
       var k = e.target;
-      if (k.matches && k.matches('[data-karsi-sec], [data-karsi-kart]')) {
+      if (k.matches && k.matches('[data-karsi-sec]')) {
         karsi.querySelectorAll('[data-karsi-sec][value="' + k.value + '"]').forEach(function (x) { x.checked = k.checked; });
         guncelle();
       } else if (k === fark) guncelle();

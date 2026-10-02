@@ -530,7 +530,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .karsi-ust .bolum-baslik { margin: 0 0 var(--b-1); }
 .karsi-aciklama { margin: 0; color: var(--mid); font-size: .92rem; }
 .karsi-fark { display: inline-flex; align-items: center; gap: var(--b-2); font-size: .88rem; font-weight: 600; color: var(--slate-dark); cursor: pointer; }
-.karsi-fark input, .karsi-cip input, .karsi-kart input { width: 16px; height: 16px; accent-color: var(--teal-dark); cursor: pointer; margin: 0; }
+.karsi-fark input, .karsi-cip input { width: 16px; height: 16px; accent-color: var(--teal-dark); cursor: pointer; margin: 0; }
 .karsi-secim { display: flex; flex-wrap: wrap; gap: var(--b-2); margin-bottom: var(--b-5); }
 .karsi-cip {
   display: inline-flex; align-items: center; gap: var(--b-2); padding: .5rem var(--b-4); border-radius: 999px; cursor: pointer;
@@ -541,7 +541,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .karsi-cip:active { transform: scale(.97); }
 .karsi-cip.secili { border-color: var(--teal-dark); background: var(--teal-pale); color: var(--teal-deep); }
 .karsi-cip:has(input:disabled) { opacity: .5; cursor: not-allowed; transform: none; }
-.karsi-cip:has(input:focus-visible), .karsi-kart:has(input:focus-visible), .karsi-fark:has(input:focus-visible) { outline: 2px solid var(--teal); outline-offset: 3px; }
+.karsi-cip:has(input:focus-visible), .karsi-fark:has(input:focus-visible) { outline: 2px solid var(--teal); outline-offset: 3px; }
 .karsi-uyari { margin: 0 0 var(--b-4); padding: var(--b-3) var(--b-4); border-left: 3px solid var(--warn); background: var(--off-white); border-radius: 0 var(--yaricap-kucuk) var(--yaricap-kucuk) 0; font-size: .88rem; color: var(--mid); }
 .karsi-kaydir { overflow-x: auto; border: 1px solid var(--slate-light); border-radius: var(--yaricap); -webkit-overflow-scrolling: touch; }
 .karsi-tablo { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: .88rem; min-width: 560px; } /* eşit cihaz sütunları */
@@ -559,9 +559,6 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .karsi-tablo tfoot .dugme { width: 100%; max-width: 180px; }
 .karsi-not { margin: var(--b-3) 0 0; font-size: .78rem; color: var(--mist); }
 .karsi-ipucu { display: none; margin: 0 0 var(--b-2); font-size: .78rem; color: var(--mist); }
-.karsi-kart { display: inline-flex; align-items: center; gap: var(--b-2); align-self: flex-start; margin: 0 0 var(--b-3); font-size: .85rem; font-weight: 700; color: var(--teal-dark); cursor: pointer; }
-.karsi-kart:hover { color: var(--teal-deep); }
-.karsi-kart:has(input:disabled) { opacity: .5; cursor: not-allowed; }
 .urun-durum { margin: 0 0 var(--b-2); font-size: .82rem; font-weight: 400; color: var(--mist); } /* sade not (kullanıcı: vurgulu olmasın) */
 .urun h3 { font-style: normal; color: var(--slate-dark); font-size: 1.8rem; margin: 0 0 var(--b-4); letter-spacing: var(--izleme-orta); }
 .urun-ozellik { list-style: none; margin: 0 0 var(--b-4); padding: 0; display: grid; gap: var(--b-2); font-size: .9rem; font-weight: 400; color: var(--mid); line-height: 1.55; }

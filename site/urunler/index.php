@@ -159,7 +159,6 @@ require __DIR__ . '/../inc/karsilastir-veri.php'; // cihaz karşılaştırma (en
             </div>
           </details>
           <?php endif; ?>
-          <?php if (isset($karsiCihaz[$u['id']])): ?><label class="karsi-kart"><input type="checkbox" value="<?= e($u['id']) ?>" data-karsi-kart checked> Karşılaştır</label><?php endif; ?>
           <div class="dugme-grubu">
             <?php if (!empty($u['yalnizServis'])): ?>
             <a class="dugme dugme-birincil" href="<?= e($servisTalep) ?>">Bakım / Kalibrasyon Talebi</a>

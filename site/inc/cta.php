@@ -3,7 +3,7 @@
 // B: açık zemin üzerinde teal kart — solda kısa başlık + açıklama + Teklif Al, sağda 3 hızlı iletişim kutusu.
 // C: başlık/metin sayfanın bölümüne göre değişir ($yol). Teklif formu ilgili konu seçili açılır.
 $ctaYol = $yol ?? '/';
-$servisYollari = ['/hizmetler/', '/ariza-ve-onarim/', '/periyodik-bakim/', '/kalibrasyon/', '/bilgi/'];
+$servisYollari = ['/hizmetler/', '/ariza-ve-onarim/', '/kalibrasyon/', '/bilgi/'];
 $danismanlikOnekleri = ['/danismanlik/', '/uts/', '/tibbi-cihaz/', '/saglik-bakanligi-islemleri/', '/diger-hizmetler/', '/ilac/'];
 $ctaBolum = 'genel';
 if (in_array($ctaYol, $servisYollari, true)) $ctaBolum = 'servis';

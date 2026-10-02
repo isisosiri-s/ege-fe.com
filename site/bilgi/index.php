@@ -7,7 +7,7 @@ require __DIR__ . '/../inc/header.php';
   <article class="metin">
 <h2>Bakım Onarım</h2>
 <details class="sss"><summary>Periyodik bakım hizmetleri nasıl verilmektedir?</summary><div class="sss-icerik">
-<p>Periyodik bakım hizmetlerinde 3-6-12-24 ve 36 ay şeklinde imzalanan sözleşmeler ile birlikte; cihazlarınızın bakım periyotlarından 1 hafta öncesinde tarafınıza bilgilendirme yapılarak tarafımıza gönderilmesi sağlanır. Cihazın bakımları yapıldıktan sonra tarafınıza hızlı şekilde kargolanması yapılır.</p>
+<p>Periyodik bakım ve kalibrasyon 6 ayda bir yapılır. Cihazınızın bakım zamanından 1 hafta önce tarafınıza bilgilendirme yapılarak cihazın tarafımıza gönderilmesi sağlanır. Cihazın bakımları yapıldıktan sonra tarafınıza hızlı şekilde kargolanması yapılır.</p>
 </div></details>
 <details class="sss"><summary>Teknik servise gönderdiğim cihazın durumunu nasıl öğrenebilirim?</summary><div class="sss-icerik">
 <p>Teknik servise gönderdiğiniz cihazın durumunu öğrenmek için cihazın seri numarası ve kurum iletişim bilgilerinizle <a href="mailto:servis@ege-fe.com">servis@ege-fe.com</a> adresine e-posta gönderebilirsiniz.</p>

@@ -273,3 +273,8 @@ Kullanıcı kararı: Armas profesyonel alkolmetrelerden NAM-E30 (yazıcılı) ve
 - Anasayfa: vitrinde 4 alkolmetre; ürün giriş kartı metni 4 modeli sayıyor.
 - Sayfa sonu bandı (ürünler), alkol blog kutusu, /urunler/ meta description: 4 model.
 - Değişmedi (kullanıcıya soruldu): servis/SSS metinlerindeki "NAM-07 ve NAM-19" ifadeleri (Arıza ve Onarım, Bilgi).
+
+## Revizyon 12 (2026-10-02) — Periyodik Bakım + Kalibrasyon birleşti, periyot 6 ay
+- Tek sayfa: /kalibrasyon/ "Periyodik Bakım ve Kalibrasyon" (Cihaz Kalibrasyonu + Periyodik Bakım bölümleri). /periyodik-bakim/ → 301 /kalibrasyon/ (.htaccess + dev-router).
+- Bakım periyodu yalnız 6 ay: "3 aylık, 6 aylık ve 12 aylık" ve /bilgi/ "3-6-12-24 ve 36 ay … sözleşmeler" ifadeleri kaldırıldı → "6 ayda bir".
+- Menü, footer, Servis kartları, Ürünler "Satış Sonrası" bağlantıları tek madde; kart özeti ve meta yeni.

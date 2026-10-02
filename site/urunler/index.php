@@ -219,9 +219,8 @@ $urunler = [
         <p>Satışını yaptığımız cihazların periyodik bakımını, arıza onarımını ve kalibrasyonunu yapıyor, orijinal yedek parça temin ediyoruz.</p>
       </div>
       <ul class="urun-servis-linkler">
-        <li><a class="ok-link" href="/periyodik-bakim/">Periyodik Bakım</a></li>
         <li><a class="ok-link" href="/ariza-ve-onarim/">Arıza ve Onarım</a></li>
-        <li><a class="ok-link" href="/kalibrasyon/">Kalibrasyon</a></li>
+        <li><a class="ok-link" href="/kalibrasyon/">Periyodik Bakım ve Kalibrasyon</a></li>
       </ul>
     </div>
   </div>

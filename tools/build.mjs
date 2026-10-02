@@ -19,7 +19,8 @@ const HUBS = [
   { yol: '/saglik-bakanligi-islemleri/', ad: 'Sağlık Bakanlığı İşlemleri', alt: ['/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/', '/saglik-bakanligi-islemleri/ilac-varyasyon/', '/saglik-bakanligi-islemleri/ilac-fiyatlandirma/', '/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/', '/saglik-bakanligi-islemleri/gmp-basvurusu/', '/saglik-bakanligi-islemleri/kub-kt/', '/saglik-bakanligi-islemleri/okunabilirlik-testi/'] },
   { yol: '/diger-hizmetler/', ad: 'Diğer Hizmetler', alt: ['/diger-hizmetler/permi-belgesi/', '/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/', '/diger-hizmetler/takviye-edici-gida/', '/diger-hizmetler/kontrol-belgesi/'] },
 ];
-const SERVIS = { yol: '/hizmetler/', ad: 'Hizmetler', alt: ['/ariza-ve-onarim/', '/periyodik-bakim/', '/kalibrasyon/'] };
+// Periyodik Bakım + Kalibrasyon tek sayfa: /kalibrasyon/ (kullanıcı kararı 2026-10-02; /periyodik-bakim/ → 301, .htaccess)
+const SERVIS = { yol: '/hizmetler/', ad: 'Hizmetler', alt: ['/ariza-ve-onarim/', '/kalibrasyon/'] };
 const ILAC_ALT = ['/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/', '/saglik-bakanligi-islemleri/ilac-varyasyon/', '/saglik-bakanligi-islemleri/ilac-fiyatlandirma/', '/saglik-bakanligi-islemleri/kub-kt/', '/saglik-bakanligi-islemleri/okunabilirlik-testi/', '/saglik-bakanligi-islemleri/gmp-basvurusu/'];
 // Menüdeki kısa adlar (canlı menüden)
 const MENU_AD = {
@@ -27,7 +28,7 @@ const MENU_AD = {
   '/tibbi-cihaz/firma-kaydi/': 'Firma Kaydı', '/tibbi-cihaz/firma-bilgileri-guncelleme/': 'Firma Bilgileri Güncelleme', '/tibbi-cihaz/ubb-e-imza/': 'UBB E-İmza', '/tibbi-cihaz/tibbi-cihaz-belge-kaydi/': 'Tıbbi Cihaz Belge Kaydı', '/tibbi-cihaz/etiket-duzenleme/': 'Etiket Düzenleme',
   '/saglik-bakanligi-islemleri/ilac-ruhsatlandirma/': 'İlaç Ruhsatlandırma', '/saglik-bakanligi-islemleri/ilac-varyasyon/': 'İlaç Varyasyon', '/saglik-bakanligi-islemleri/ilac-fiyatlandirma/': 'İlaç Fiyatlandırma', '/saglik-bakanligi-islemleri/biyosidal-ruhsatlandirma/': 'Biyosidal Ruhsatlandırma', '/saglik-bakanligi-islemleri/gmp-basvurusu/': 'GMP Başvurusu', '/saglik-bakanligi-islemleri/kub-kt/': 'KÜB/KT', '/saglik-bakanligi-islemleri/okunabilirlik-testi/': 'Okunabilirlik Testi',
   '/diger-hizmetler/permi-belgesi/': 'Permi Belgesi', '/diger-hizmetler/ce-teknik-dosya-hazirlanmasi/': 'CE Teknik Dosya Hazırlanması', '/diger-hizmetler/takviye-edici-gida/': 'Takviye Edici Gıda', '/diger-hizmetler/kontrol-belgesi/': 'Kontrol Belgesi',
-  '/ariza-ve-onarim/': 'Arıza ve Onarım', '/periyodik-bakim/': 'Periyodik Bakım', '/kalibrasyon/': 'Kalibrasyon',
+  '/ariza-ve-onarim/': 'Arıza ve Onarım', '/kalibrasyon/': 'Periyodik Bakım ve Kalibrasyon',
 };
 const BLOG = ['/eroin-bagimliligi/', '/eroin-nedir/', '/opiatlar-nedir/', '/kokain-bagimliligi-tedavisi/', '/uyusturucu-testi-nedir/', '/kokain-bagimliligi/', '/uyarici-madde-nedir/', '/esrar-bagimliligi-tedavisi/', '/esrar-bagimliligi/', '/esrar-nedir/', '/trafik-guvenligini-tehlikeye-sokma-sucu/', '/alkolmetre-nedir/', '/uyusturucu-madde-testi/', '/promil-nedir/', '/kokain-nedir/', '/ergenlerde-uyusturucu-kullanimi/', '/alkol-bagimliligi/', '/madde-bagimliligi-nedir/', '/madde-bagimliligi-tedavisi/', '/alkollu-arac-kullanmak/', '/ekstazi-nedir/', '/metamfetamin-nedir/', '/amfetamin-nedir/'];
 const KURUMSAL = ['/hakkimizda/', '/hizmet-politikamiz/', '/kalite-politikamiz/', '/kariyer/', '/bilgi/'];
@@ -95,6 +96,12 @@ const FIXES = [
   // Revizyon 6 (kullanıcı kararı, 2026-10-01): Armas uyuşturucu ürünleri hiç geçmez; yerine CROM TEST cümleleri —
   // CROM TEST pasifken (config.php $MARKA['aktif'] = false) bu cümleler hiç basılmaz.
   [/UTS, NAM-07 ve NAM-19 cihazların/g, 'NAM-07 ve NAM-19 cihazlarının'],
+  // Revizyon 12 (kullanıcı kararı 2026-10-02): bakım/kalibrasyon periyodu yalnız 6 ay; periyodik bakım ve kalibrasyon tek hizmet
+  [/^Satışını ve bakımlarını yaptığımız Alkolmetrelerin belirlenmiş periyotlar dahilinde bakımları yapılmaktadır\. Bu bakımlar 3 aylık, 6 aylık ve 12 aylık süreçlerde düzenli olarak yapılmakta olup/,
+    'Satışını ve bakımlarını yaptığımız alkolmetrelerin periyodik bakımı ve kalibrasyonu 6 ayda bir düzenli olarak yapılmakta olup'],
+  [/Cihazınızın bakım periyodu içerisine alınması için/, 'Cihazınızın bakım ve kalibrasyon periyoduna alınması için'],
+  [/^Periyodik bakım hizmetlerinde 3-6-12-24 ve 36 ay şeklinde imzalanan sözleşmeler ile birlikte; cihazlarınızın bakım periyotlarından 1 hafta öncesinde tarafınıza bilgilendirme yapılarak tarafımıza gönderilmesi sağlanır\./,
+    'Periyodik bakım ve kalibrasyon 6 ayda bir yapılır. Cihazınızın bakım zamanından 1 hafta önce tarafınıza bilgilendirme yapılarak cihazın tarafımıza gönderilmesi sağlanır.'],
   [/\s?Ege-fe ürün listesinde bulunan [\s\S]*?hizmet sunmaktadır\./g,
     CROM_AKTIF ? ' Egefe\'nin yerli üretim markası <a href="https://www.cromtest.com/products.html">CROM TEST</a>, idrar, ağız sıvısı ve yüzey numuneleri için uyuşturucu madde tarama test kitleri sunmaktadır.' : ''],
   [/Uyuşturucu Tespit Kiti ve Uyuşturucu Tespit Cihazı ile hızlı ve doğru sonuçlar alabilirsiniz\. Uyuşturucu testi fiyatları 2022 hakkında/g,
@@ -257,6 +264,7 @@ for (const p of ALL) {
   let h1 = stripTitle(d.title);
   if (p === '/category/saglik/') h1 = 'Sağlık';
   if (p === '/hizmetler/') h1 = 'Servis Hizmetleri'; // menüde "Servis" (2026-10-01)
+  if (p === '/kalibrasyon/') h1 = 'Periyodik Bakım ve Kalibrasyon'; // Periyodik Bakım ile birleşti (2026-10-02)
   if (BLOG.includes(p) && h1raw) h1 = h1raw.replace(/\s+/g, ' ').trim();
   // TAMAMI BÜYÜK HARF başlık (ör. "ALKOL BAĞIMLILIĞI") → diğer başlıklarla uyumlu yazım
   if (/[A-ZÇĞİÖŞÜ]{4}/.test(h1) && h1 === h1.toLocaleUpperCase('tr')) h1 = h1.toLocaleLowerCase('tr').replace(/(^|\s)(\p{L})/gu, (m, s, k) => s + k.toLocaleUpperCase('tr'));
@@ -286,6 +294,9 @@ for (const p of ALL) {
 usedImgs.add('/wp-content/uploads/2022/01/faceb.jpg');
 meta['/kvkk/'] = { title: 'KVKK Aydınlatma Metni - Egefe Sağlık Bilişim A.Ş.', desc: '6698 sayılı KVKK kapsamında Egefe Bilişim Sağlık San. ve Tic. A.Ş. tarafından web sitesi formları aracılığıyla işlenen kişisel verilere ilişkin aydınlatma metni.', h1: 'KVKK Aydınlatma Metni', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', yasal: true };
 meta['/gizlilik-politikasi/'] = { title: 'Gizlilik ve Çerez Politikası - Egefe Sağlık Bilişim A.Ş.', desc: 'ege-fe.com gizlilik ve çerez politikası: toplanan veriler, kullanım amaçları, çerezler, saklama, üçüncü taraflar ve haklarınız.', h1: 'Gizlilik ve Çerez Politikası', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', yasal: true };
+// Periyodik Bakım ve Kalibrasyon (birleşik sayfa, 2026-10-02)
+meta['/kalibrasyon/'].title = 'Periyodik Bakım ve Kalibrasyon - Egefe Sağlık Bilişim A.Ş.';
+meta['/kalibrasyon/'].desc = 'Alkolmetrelerin 6 ayda bir periyodik bakımı ve kalibrasyonu: ölçüm sapmalarının belirlenip düzeltilmesi, bakım zamanı yaklaşınca bilgilendirme.';
 // Ürünler: elle yazılan yeni sayfa (canlıda karşılığı yok; içerik /bilgi/ SSS'sinden + Armas yetkili bayilik bilgisi, 2026-10-01)
 meta['/urunler/'] = { title: 'Ürünler - Egefe Sağlık Bilişim A.Ş.', desc: CROM_AKTIF
   ? 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler (Armas Elektronik yetkili bayi ve servisi) ve Egefe\'nin yerli üretim uyuşturucu test kiti markası CROM TEST.'
@@ -338,6 +349,8 @@ async function writePage(p, body, extra = {}) {
 // Kurumsal + hizmet alt sayfaları
 for (const p of [...KURUMSAL, ...SERVIS.alt, ...HUBS.flatMap((h) => h.alt)]) {
   let blocks = B(nameOf(p));
+  // Periyodik Bakım + Kalibrasyon birleşik sayfa: kalibrasyon tanımı + periyodik bakım metni (kalibrasyonun tekrar eden "iletişime geçin" cümlesi atılır)
+  if (p === '/kalibrasyon/') blocks = [...blocks.filter((b) => !(b.t === 'p' && /^Belirli periyotlara göre/.test(b.html))), ...B('periyodik-bakim').filter((b) => b.t !== 'img')];
   // Armas uyuşturucu ürünleri sitede hiç geçmeyecek (kullanıcı kararı 2026-10-01): /bilgi/ "Uyuşturucu Test Kiti" bölümü sonuna kadar atılır
   if (p === '/bilgi/') { const i = blocks.findIndex((b) => b.t === 'h' && /^Uyuşturucu Test Kiti$/i.test(b.text.replace(/\s+/g, ' ').trim())); if (i >= 0) blocks = blocks.slice(0, i); }
   const isHizmet = !KURUMSAL.includes(p);

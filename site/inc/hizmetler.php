@@ -9,13 +9,9 @@ return [
         'ad' => 'Arıza ve Onarım',
         'ozet' => 'NAM-07 ve NAM-19 cihazlarının ve yedek parçalarının arızi bakımlarını üstleniyoruz.',
       ], [
-        'yol' => '/periyodik-bakim/',
-        'ad' => 'Periyodik Bakım',
-        'ozet' => 'Satışını ve bakımlarını yaptığımız Alkolmetrelerin belirlenmiş periyotlar dahilinde bakımları yapılmaktadır.',
-      ], [
         'yol' => '/kalibrasyon/',
-        'ad' => 'Kalibrasyon',
-        'ozet' => 'Kalibrasyon işleminde, ölçmede kullanılan test-ölçü aleti veya cihazlarının sapmaları belirlenir, hataları düzeltilir.',
+        'ad' => 'Periyodik Bakım ve Kalibrasyon',
+        'ozet' => 'Alkolmetrelerin 6 ayda bir periyodik bakımı ve kalibrasyonu; bakım zamanı yaklaşınca bilgilendirme.',
       ]],
   ],
   'danismanlik' => [[

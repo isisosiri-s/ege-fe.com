@@ -4,6 +4,7 @@ $root = $_SERVER['DOCUMENT_ROOT'];
 $uri = rawurldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 if (preg_match('#^/(blog|category/saglik)/page/\d+/?$#', $uri)) { header('Location: /blog/', true, 301); return true; }
 if (preg_match('#^/diger/?$#', $uri)) { header('Location: /diger-hizmetler/', true, 301); return true; }
+if (preg_match('#^/periyodik-bakim/?$#', $uri)) { header('Location: /kalibrasyon/', true, 301); return true; }
 if (preg_match('#^/category/kategorisiz(/.*)?$#', $uri)) { header('Location: /category/saglik/', true, 301); return true; }
 if (str_starts_with($uri, '/inc/')) { http_response_code(403); return true; }
 if (preg_match('#^(.*/)index\.php$#', $uri, $m)) { header('Location: ' . $m[1], true, 301); return true; }

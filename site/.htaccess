@@ -28,6 +28,8 @@ RewriteRule ^category/kategorisiz(/.*)?$ /category/saglik/ [L,R=301]
 
 # /diger/ aynı içeriği taşıyordu → Diğer Hizmetler
 RewriteRule ^diger/?$ /diger-hizmetler/ [L,R=301]
+# Periyodik Bakım, Kalibrasyon sayfasıyla birleştirildi (kullanıcı kararı 2026-10-02)
+RewriteRule ^periyodik-bakim/?$ /kalibrasyon/ [L,R=301]
 
 # 5) Klasör adreslerinde sonda / zorunlu
 RewriteCond %{REQUEST_FILENAME} -d

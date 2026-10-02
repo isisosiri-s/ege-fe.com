@@ -39,10 +39,10 @@ $crom = !empty($MARKA['aktif']); // CROM TEST pasifken hiçbir yerde görünmez 
           <span class="giris-karti-etiket">Ürünler</span>
           <?php if ($crom): ?>
           <h3>Alkolmetre ve uyuşturucu testi</h3>
-          <p>NAM-07 ve NAM-19 delil sınıfı alkolmetreler ve kendi markamız CROM TEST uyuşturucu madde tarama test kitleri.</p>
+          <p>NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler ve kendi markamız CROM TEST uyuşturucu madde tarama test kitleri.</p>
           <?php else: ?>
           <h3>Delil sınıfı alkolmetreler</h3>
-          <p>NAM-07 ve NAM-19 alkolmetreler; satış, periyodik bakım ve kalibrasyon.</p>
+          <p>NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler; satış, periyodik bakım ve kalibrasyon.</p>
           <?php endif; ?>
           <span class="ok-link">Ürünleri incele</span>
         </a>
@@ -78,9 +78,11 @@ $crom = !empty($MARKA['aktif']); // CROM TEST pasifken hiçbir yerde görünmez 
       </div>
       <a class="ok-link" href="/urunler/">Tüm ürünler</a>
     </div>
-    <ul class="urun-vitrin<?= $crom ? '' : ' urun-vitrin-2' ?>">
+    <ul class="urun-vitrin<?= $crom ? ' urun-vitrin-3' : '' ?>">
       <li><a href="/urunler/#nam-07"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam07.png" alt="NAM-07 alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-07</span><span class="urun-vitrin-tur">Delil sınıfı alkolmetre</span></a></li>
       <li><a href="/urunler/#nam-19"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam19.jpg" alt="NAM-19 alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-19</span><span class="urun-vitrin-tur">Delil sınıfı alkolmetre</span></a></li>
+      <li><a href="/urunler/#nam-e30"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam-e30.jpg" alt="NAM-E30 yazıcılı alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-E30</span><span class="urun-vitrin-tur">Yazıcılı alkolmetre</span></a></li>
+      <li><a href="/urunler/#nam-e30c"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam-e30c.jpg" alt="NAM-E30C kameralı yazıcılı alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-E30C</span><span class="urun-vitrin-tur">Kameralı / yazıcılı alkolmetre</span></a></li>
       <?php if ($crom): ?>
       <li><a href="/urunler/#crom-test"><span class="urun-vitrin-gorsel"><img src="/img/crom-test/coklu-panel.webp" alt="CROM TEST çok panelli uyuşturucu test kiti" width="640" height="640" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">CROM TEST Çok Panelli</span><span class="urun-vitrin-tur">Uyuşturucu test kiti · 16 panele kadar</span></a></li>
       <li><a href="/urunler/#crom-test"><span class="urun-vitrin-gorsel"><img src="/img/crom-test/numune-saflik.webp" alt="CROM TEST numune saflık testi" width="640" height="640" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">CROM TEST Numune Saflık</span><span class="urun-vitrin-tur">İdrar numunesi doğrulama testi</span></a></li>

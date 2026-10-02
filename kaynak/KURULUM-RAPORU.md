@@ -266,3 +266,10 @@ Açık: hizmet sayfalarına süreç / gerekli belgeler / süre / SSS — içerik
 - /bilgi/ sonundaki "Danışmanlık ve bilgi için…" başlığı kaldırıldı (CTA bandıyla aynı cümle).
 Açık: 12 — hizmet sayfalarına süreç / belgeler / süre / SSS içeriği (kullanıcıdan).
 - 2026-10-01: Sayfa sonu bandı yeniden tasarlandı (B+C): açık zemin üzerinde teal kart, solda bölüme göre başlık/metin + Teklif Al, sağda Telefon / E-posta / Teklif formu kutuları; teklif formu bölüme göre konu seçili açılır (servis → Teknik Destek, ürünler → Ürünler, danışmanlık → Hizmetler). Yeni metinler: "Cihazınızın bakım ya da kalibrasyon zamanı mı geldi?", "Kurumunuz için alkolmetre mi arıyorsunuz?", "Başvurunuz için danışmanlık mı arıyorsunuz?", "Sorunuz mu var? Size yardımcı olalım." Servis yan menü başlığı → "Servis Hizmetleri".
+
+## Revizyon 11 (2026-10-02) — NAM-E30 ve NAM-E30C
+Kullanıcı kararı: Armas profesyonel alkolmetrelerden NAM-E30 (yazıcılı) ve NAM-E30C (kameralı/yazıcılı) eklendi; görseller ve teknik bilgiler armaselektronik.com ürün sayfalarından.
+- /urunler/: iki yeni ürün kartı (özellikler + açılır teknik tablo); NAM-DATAPro açıklaması güncellendi; teknik tablo açılınca yan kart uzamıyor.
+- Anasayfa: vitrinde 4 alkolmetre; ürün giriş kartı metni 4 modeli sayıyor.
+- Sayfa sonu bandı (ürünler), alkol blog kutusu, /urunler/ meta description: 4 model.
+- Değişmedi (kullanıcıya soruldu): servis/SSS metinlerindeki "NAM-07 ve NAM-19" ifadeleri (Arıza ve Onarım, Bilgi).

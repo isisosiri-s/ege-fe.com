@@ -1,7 +1,7 @@
 <?php
 // Ürünler (elle yazılan sayfa). Kaynaklar: sitedeki /bilgi/ SSS + Armas Elektronik ürün sayfalarındaki teknik bilgiler
 // (Egefe Armas yetkili bayi ve servisi; görsel ve teknik bilgi kullanım izni kullanıcıdan, 2026-10-01).
-// Alkolmetre: yalnız NAM-07 ve NAM-19 (diğer Armas modelleri eklenmeyecek — kullanıcı kararı).
+// Alkolmetre: NAM-07, NAM-19, NAM-E30, NAM-E30C (kullanıcı kararı 2026-10-02; başka Armas modeli kullanıcı söylemeden eklenmez).
 // Uyuşturucu testi: yalnız kendi markamız CROM TEST — şu an PASİF (config.php $MARKA['aktif']); pasifken hiçbir yerde görünmez.
 $yol = '/urunler/';
 require_once __DIR__ . '/../inc/config.php';
@@ -77,6 +77,54 @@ $urunler = [
         'Sertifikalar' => 'DOT/NHTSA Delil Sınıfı, EN 15964, EN 60068-2-2 (şok), EN 60068-2-27 (titreşim), CE (EMC, LVD)',
       ],
     ],
+    [
+      'id' => 'nam-e30', 'ad' => 'NAM-E30', 'tur' => 'Yazıcılı alkolmetre',
+      'gorsel' => ['/img/urun/nam-e30.jpg', 640, 480],
+      'ozellik' => [
+        'Yeni nesil ARMAS fuel cell sensör; delil niteliğinde ölçüm',
+        '3,5 inç dokunmatik renkli ekran ve darbelere dayanıklı yapı',
+        'Entegre termal yazıcı ile ölçüm sonucunu anında yazdırma',
+        'QR kod ve barkod okuyucu ile hızlı ve hatasız kimlik girişi',
+        'Otomatik, Manuel, Pasif ve Ölçüm Reddi modları',
+        'Opsiyonel GPS ile ölçüm konumu; GSM, Wi-Fi ve Bluetooth ile uzaktan veri aktarımı',
+        'NAM-DATAPro ile 100.000\'e kadar kaydı bilgisayara aktarma',
+      ],
+      'teknik' => $e30Teknik = [
+        'Sensör' => 'Elektrokimyasal fuel cell',
+        'Ölçüm modu' => 'Otomatik / Manuel / Pasif / Ölçüm Reddi',
+        'Ölçüm aralığı' => '0,00 – 6,00 ‰ BAC',
+        'Hazırlanma süresi' => 'Cihaz açıldıktan sonra en fazla 6 sn (0,00 ‰ için 2 sn)',
+        'Sonuç gösterme' => 'Örnek alımından en fazla 15 sn sonra; alkol yokken hemen',
+        'Çalışma sıcaklığı' => '−10 °C / +50 °C',
+        'Depolama sıcaklığı' => '−20 °C / +60 °C',
+        'Çevre basıncı / nem' => '600 – 1400 hPa / %20 – 98 bağıl nem',
+        'Nefes hacmi' => 'En az 1,2 L (ayarlanabilir)',
+        'Üfleme süresi' => 'En fazla 6 sn',
+        'Örnekleme' => 'Otomatik çalışan elektronik pompa',
+        'Ekran' => '3,5 inç dokunmatik TFT',
+        'Veri girişi' => '3 tuş ve dokunmatik ekran klavyesi',
+        'Hafıza' => 'Standart 7.500 kayıt (girilen veriye göre değişir)',
+        'Kayıt bilgileri' => 'Memur adı soyadı ve sicil no, sürücü adı soyadı ve kimlik no (opsiyonel araç plakası)',
+        'Kablosuz / konum' => 'GSM, Bluetooth, Wi-Fi ve GPS (opsiyonel)',
+        'Batarya' => '7,4 V şarj edilebilir lityum-iyon (opsiyonel alkalin ve Ni-MH pil)',
+        'Şarj' => '220 V şebeke ve/veya araç çakmak fişi (12 / 24 V)',
+        'Kalibrasyon' => 'Her 6 ayda bir; kuru gaz ve/veya buhar',
+      ],
+    ],
+    [
+      'id' => 'nam-e30c', 'ad' => 'NAM-E30C', 'tur' => 'Kameralı / yazıcılı alkolmetre',
+      'gorsel' => ['/img/urun/nam-e30c.jpg', 640, 480],
+      'ozellik' => [
+        'Entegre kamera: ölçüm sırasında üfleyen kişinin yüzünün görsel kaydı',
+        'Yeni nesil ARMAS fuel cell sensör; delil niteliğinde ölçüm',
+        '3,5 inç dokunmatik renkli ekran ve entegre termal yazıcı',
+        'QR kod ve barkod okuyucu ile hızlı ve hatasız kimlik girişi',
+        'Otomatik, Manuel, Pasif ve Ölçüm Reddi modları',
+        'Opsiyonel GPS ile ölçüm konumu; GSM, Wi-Fi ve Bluetooth ile uzaktan veri aktarımı',
+        'NAM-DATAPro ile 100.000\'e kadar kaydı bilgisayara aktarma',
+      ],
+      'teknik' => array_merge(['Kamera' => 'Entegre kamera (üfleyen kişinin yüz görüntüsü)'], $e30Teknik, ['Standart sapma' => 'Yaklaşık 0,005 ‰']),
+    ],
   ],
 ];
 ?>
@@ -116,7 +164,7 @@ $urunler = [
     <?php if ($grup === 'Alkolmetreler'): ?>
     <div class="urun-ek" id="nam-data">
       <h3>NAM-DATA ve NAM-DATAPro Veri Transfer Yazılımları</h3>
-      <p>NAM-07'deki veriler NAM-DATA, NAM-19'daki veriler NAM-DATAPro yazılımıyla bilgisayara aktarılır. NAM-DATA iki seviyeli yetkilendirme sunar: kullanıcılar verileri bilgisayara aktarabilir, arşivleyebilir, tarayabilir, sonuçları yazdırabilir ve farklı ortamlara kaydedebilir; yetkili kişiler bunlara ek olarak cihaz hafızasını temizleme, program ayarları ve yetkilendirme işlemlerini yapabilir.</p>
+      <p>NAM-07'deki veriler NAM-DATA; NAM-19, NAM-E30 ve NAM-E30C'deki veriler NAM-DATAPro yazılımıyla bilgisayara aktarılır. NAM-DATA iki seviyeli yetkilendirme sunar: kullanıcılar verileri bilgisayara aktarabilir, arşivleyebilir, tarayabilir, sonuçları yazdırabilir ve farklı ortamlara kaydedebilir; yetkili kişiler bunlara ek olarak cihaz hafızasını temizleme, program ayarları ve yetkilendirme işlemlerini yapabilir.</p>
     </div>
     <?php endif; ?>
     <?php endforeach; ?>

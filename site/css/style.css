@@ -424,8 +424,8 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .urun-vitrin-ad { padding: 0 var(--b-2); font-family: var(--ff-display); font-size: 1.5rem; line-height: 1.1; color: var(--slate-dark); letter-spacing: var(--izleme-orta); }
 .urun-vitrin-tur { padding: 0 var(--b-2); font-size: .85rem; color: var(--mid); font-weight: 400; }
 
-/* Yalnız iki ürün olduğunda (CROM TEST pasif) kutular yarım satırı geçmez */
-.urun-vitrin-2 { grid-template-columns: repeat(2, minmax(0, 300px)); }
+/* 6 ürün (4 alkolmetre + CROM TEST aktifken 2 test kiti) → 3 sütun, boş hücre kalmaz */
+.urun-vitrin-3 { grid-template-columns: repeat(3, 1fr); }
 
 /* Koyu zeminde ok bağlantısı */
 .ok-link-acik { color: var(--teal); }
@@ -513,7 +513,7 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .kenar-iletisim p { font-size: .9rem; }
 
 /* ---------- 9b. Ürünler sayfası ---------- */
-.urunler { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--b-6); margin: var(--b-6) 0 var(--b-8); }
+.urunler { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--b-6); margin: var(--b-6) 0 var(--b-8); align-items: start; } /* teknik tablo açılınca yan kart uzamasın */
 .urun {
   display: flex; flex-direction: column;
   background: var(--white); border: 1px solid rgba(194, 208, 216, .8); border-radius: var(--yaricap); box-shadow: var(--golge-1); overflow: hidden;

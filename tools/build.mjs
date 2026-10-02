@@ -289,7 +289,7 @@ meta['/gizlilik-politikasi/'] = { title: 'Gizlilik ve Çerez Politikası - Egefe
 // Ürünler: elle yazılan yeni sayfa (canlıda karşılığı yok; içerik /bilgi/ SSS'sinden + Armas yetkili bayilik bilgisi, 2026-10-01)
 meta['/urunler/'] = { title: 'Ürünler - Egefe Sağlık Bilişim A.Ş.', desc: CROM_AKTIF
   ? 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler (Armas Elektronik yetkili bayi ve servisi) ve Egefe\'nin yerli üretim uyuşturucu test kiti markası CROM TEST.'
-  : 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler, NAM-DATA ve NAM-DATAPro veri transfer yazılımları. Armas Elektronik yetkili bayi ve servisi.', h1: 'Ürünler', ust: null, og: '/img/urun/nam19-saha.webp', ogType: 'website' };
+  : 'NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler, NAM-DATA ve NAM-DATAPro veri transfer yazılımları. Armas Elektronik yetkili bayi ve servisi.', h1: 'Ürünler', ust: null, og: '/img/urun/nam19-saha.webp', ogType: 'website' };
 meta['/404/'] = { title: 'Sayfa Bulunamadı - Egefe Sağlık Bilişim A.Ş.', desc: '', h1: 'Sayfa bulunamadı', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', noindex: true };
 
 // ---------- PHP veri dosyaları ----------

@@ -304,3 +304,4 @@ Kullanıcı kararı: danışmanlık bölümü kullanıcı "aktife al" diyene kad
 - Veri: site/inc/karsilastir-veri.php (Armas teknik bilgileri; kaynakta olmayan "—"). Bölüm: site/inc/karsilastir.php. Mobil: yatay kaydırma, sabit ilk sütun, ipucu.
 - 2026-10-02: Ürün kartlarındaki "Karşılaştır" kutucukları kaldırıldı; seçim yalnız karşılaştırma bölümündeki çiplerle (kullanıcı).
 - 2026-10-02: Merkez adres → "Yıldızevler, 708 Sok. No:14/1, 06550 Çankaya/Ankara" (config.php: adres + JSON-LD streetAddress; KVKK taslak dosyası).
+- 2026-10-02: Karşılaştırma tablosu altındaki "Bilgiler üretici Armas Elektronik…" notu kaldırıldı (kullanıcı).

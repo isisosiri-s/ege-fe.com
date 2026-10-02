@@ -46,5 +46,4 @@
       </tfoot>
     </table>
   </div>
-  <p class="karsi-not">Bilgiler üretici Armas Elektronik'in teknik verilerinden alınmıştır. "—" işaretli alanlar için bize ulaşabilirsiniz.</p>
 </section>

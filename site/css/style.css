@@ -557,7 +557,6 @@ a.kart:focus-visible { outline-offset: 4px; border-radius: var(--yaricap); }
 .karsi-ad:active { color: var(--teal-deep); }
 .karsi-tablo tfoot td, .karsi-tablo tfoot th { border-bottom: 0; text-align: center; background: var(--white); }
 .karsi-tablo tfoot .dugme { width: 100%; max-width: 180px; }
-.karsi-not { margin: var(--b-3) 0 0; font-size: .78rem; color: var(--mist); }
 .karsi-ipucu { display: none; margin: 0 0 var(--b-2); font-size: .78rem; color: var(--mist); }
 .urun-durum { margin: 0 0 var(--b-2); font-size: .82rem; font-weight: 400; color: var(--mist); } /* sade not (kullanıcı: vurgulu olmasın) */
 .urun h3 { font-style: normal; color: var(--slate-dark); font-size: 1.8rem; margin: 0 0 var(--b-4); letter-spacing: var(--izleme-orta); }

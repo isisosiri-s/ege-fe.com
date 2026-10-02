@@ -71,6 +71,12 @@ $blogAktif = $yol === '/blog/' || $yol === '/category/saglik/' || ($m['ogType'] 
 <meta property="og:url" content="<?= e($canonical) ?>">
 <meta property="og:site_name" content="Egefe Sağlık Bilişim A.Ş.">
 <meta property="og:image" content="<?= e($ogImg) ?>">
+<?php if (!empty($m['ogW'])): ?><meta property="og:image:width" content="<?= (int)$m['ogW'] ?>">
+<meta property="og:image:height" content="<?= (int)$m['ogH'] ?>">
+<?php endif; ?>
+<meta property="og:image:type" content="<?= str_ends_with(strtolower($m['og']), '.png') ? 'image/png' : (str_ends_with(strtolower($m['og']), '.webp') ? 'image/webp' : 'image/jpeg') ?>">
+<meta property="og:image:alt" content="<?= e($m['title']) ?>">
+<meta name="twitter:image" content="<?= e($ogImg) ?>">
 <?php if ($m['ogType'] === 'article' && $m['yayin']): ?><meta property="article:published_time" content="<?= e($m['yayin']) ?>">
 <meta property="article:modified_time" content="<?= e($m['guncel'] ?: $m['yayin']) ?>">
 <meta property="article:section" content="Sağlık">

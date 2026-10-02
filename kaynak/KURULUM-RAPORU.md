@@ -278,3 +278,9 @@ Kullanıcı kararı: Armas profesyonel alkolmetrelerden NAM-E30 (yazıcılı) ve
 - Tek sayfa: /kalibrasyon/ "Periyodik Bakım ve Kalibrasyon" (Cihaz Kalibrasyonu + Periyodik Bakım bölümleri). /periyodik-bakim/ → 301 /kalibrasyon/ (.htaccess + dev-router).
 - Bakım periyodu yalnız 6 ay: "3 aylık, 6 aylık ve 12 aylık" ve /bilgi/ "3-6-12-24 ve 36 ay … sözleşmeler" ifadeleri kaldırıldı → "6 ayda bir".
 - Menü, footer, Servis kartları, Ürünler "Satış Sonrası" bağlantıları tek madde; kart özeti ve meta yeni.
+
+## Revizyon 13 (2026-10-02) — Paylaşım önizlemesi (WhatsApp vb.)
+- Yeni 1200×630 marka paylaşım görseli: site/img/paylasim.jpg (87 KB), üretimi `node tools/paylasim.mjs` (site fontları, koyu logo, NAM-19 saha fotoğrafı). Eski logo-kare faceb.jpg yerine varsayılan og:image.
+- Anasayfa başlığı: "Egefe Sağlık Bilişim A.Ş. | Alkolmetre, Servis ve Sağlık Danışmanlığı" (eski: "Anasayfa - …").
+- og:image:width/height/type/alt ve twitter:image eklendi (tüm sayfalar).
+- Blog paylaşım açıklamaları: "… için tıklayınız…" / başlık tekrarı olanlar yazının ilk tam cümleleriyle değişti.

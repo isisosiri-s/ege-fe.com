@@ -58,6 +58,8 @@ const WEBP = new Set();
 const webpYol = (li) => li.replace(/\.(jpe?g|png)$/i, '.webp');
 const resimUrl = (li) => { if (!/\.(jpe?g|png)$/i.test(li)) return imgUrl(li); WEBP.add(li); return imgUrl(webpYol(li)); };
 // Resmî kurum logoları (ÜTS, T.C. Sağlık Bakanlığı) hizmet sayfası üst görseli olarak kullanılmaz (kullanıcı onayı 2026-10-01)
+// Paylaşım (og:image) varsayılanı: 1200×630 marka görseli — üretimi: node tools/paylasim.mjs (2026-10-02)
+const VARSAYILAN_OG = '/img/paylasim.jpg';
 const LOGO_BANNER = /uts-1\.jpg|Basliksiz-1\.jpg/i;
 const srcFile = (li) => { const rel = li.replace('/wp-content/uploads/', ''); for (const c of [rel, rel.normalize('NFC'), encodeURI(rel)]) { const f = path.join(K, 'img', 'uploads', c); if (fss.existsSync(f)) return f; } return null; };
 const usedImgs = new Set();
@@ -217,9 +219,9 @@ function render(blocks, { h1, from, firstImgSkip, soruBaslik = false }) {
 }
 
 // Görsel boyutları (CLS için)
-function dims(li) {
+function dims(li, dosyaYolu) {
   try {
-    const buf = fss.readFileSync(srcFile(li));
+    const buf = fss.readFileSync(dosyaYolu || srcFile(li));
     if (buf[0] === 0x89) return ` width="${buf.readUInt32BE(16)}" height="${buf.readUInt32BE(20)}"`;
     let i = 2; while (i < buf.length) { if (buf[i] !== 0xff) break; const mk = buf[i + 1], len = buf.readUInt16BE(i + 2); if (mk >= 0xc0 && mk <= 0xc3) return ` width="${buf.readUInt16BE(i + 7)}" height="${buf.readUInt16BE(i + 5)}"`; i += 2 + len; }
   } catch {}
@@ -263,6 +265,8 @@ for (const p of ALL) {
   const h1raw = d.headings.find((h) => h.inMain && h.tag === 'h1')?.text;
   let h1 = stripTitle(d.title);
   if (p === '/category/saglik/') h1 = 'Sağlık';
+  // Ana sayfa başlığı: canlıdaki 'Anasayfa - …' paylaşım önizlemesinde bir şey anlatmıyordu (2026-10-02)
+  if (p === '/') d.title = 'Egefe Sağlık Bilişim A.Ş. | Alkolmetre, Servis ve Sağlık Danışmanlığı';
   if (p === '/hizmetler/') h1 = 'Servis Hizmetleri'; // menüde "Servis" (2026-10-01)
   if (p === '/kalibrasyon/') h1 = 'Periyodik Bakım ve Kalibrasyon'; // Periyodik Bakım ile birleşti (2026-10-02)
   if (BLOG.includes(p) && h1raw) h1 = h1raw.replace(/\s+/g, ' ').trim();
@@ -280,28 +284,38 @@ for (const p of ALL) {
     else { desc = ozet(blocks); descKaynak = 'sayfa metninden'; }
     descLog.push({ yol: p, eski: d.description, yeni: desc, kaynak: descKaynak });
   }
+  // Blog: canlıdaki açıklamalar çoğu kez "… için tıklayınız…" ya da başlığın tekrarı → yazının ilk tam cümleleri (paylaşım önizlemesi)
+  if (BLOG.includes(p) && (/tıklay[ıi]n/i.test(desc) || norm(desc) === norm(h1) || desc.length < 60)) {
+    descLog.push({ yol: p, eski: desc, yeni: (desc = ozetCumle(blocks, 155, 200)), kaynak: 'sayfa metninden (blog)' });
+  }
   let og = localImg(d.og['og:image'] || '') ;
-  if (og && YASAK_GORSEL.test(og)) og = '/img/urun/nam19-saha.webp'; // sitenin kendi görseli (img/), kopyalanmaz
-  else if (og && LOGO_BANNER.test(og)) og = '/wp-content/uploads/2022/01/faceb.jpg'; // kurum logosu paylaşım görseli olmaz
+  if (og && /faceb\.jpg$/i.test(og)) og = null; // eski logo-kare paylaşım görseli → yeni 1200×630 marka görseli
+  if (og && YASAK_GORSEL.test(og)) og = VARSAYILAN_OG; // sitenin kendi görseli (img/), kopyalanmaz
+  else if (og && LOGO_BANNER.test(og)) og = VARSAYILAN_OG; // kurum logosu paylaşım görseli olmaz
   else if (og) usedImgs.add(og);
   meta[p] = {
     title: d.title, desc, h1, ust: UST[p] || null,
-    og: og || '/wp-content/uploads/2022/01/faceb.jpg',
+    og: og || VARSAYILAN_OG,
     ogType: BLOG.includes(p) ? 'article' : 'website',
     yayin: d.og['article:published_time'] || null, guncel: d.og['article:modified_time'] || null,
   };
 }
-usedImgs.add('/wp-content/uploads/2022/01/faceb.jpg');
-meta['/kvkk/'] = { title: 'KVKK Aydınlatma Metni - Egefe Sağlık Bilişim A.Ş.', desc: '6698 sayılı KVKK kapsamında Egefe Bilişim Sağlık San. ve Tic. A.Ş. tarafından web sitesi formları aracılığıyla işlenen kişisel verilere ilişkin aydınlatma metni.', h1: 'KVKK Aydınlatma Metni', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', yasal: true };
-meta['/gizlilik-politikasi/'] = { title: 'Gizlilik ve Çerez Politikası - Egefe Sağlık Bilişim A.Ş.', desc: 'ege-fe.com gizlilik ve çerez politikası: toplanan veriler, kullanım amaçları, çerezler, saklama, üçüncü taraflar ve haklarınız.', h1: 'Gizlilik ve Çerez Politikası', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', yasal: true };
+meta['/kvkk/'] = { title: 'KVKK Aydınlatma Metni - Egefe Sağlık Bilişim A.Ş.', desc: '6698 sayılı KVKK kapsamında Egefe Bilişim Sağlık San. ve Tic. A.Ş. tarafından web sitesi formları aracılığıyla işlenen kişisel verilere ilişkin aydınlatma metni.', h1: 'KVKK Aydınlatma Metni', ust: null, og: VARSAYILAN_OG, ogType: 'website', yasal: true };
+meta['/gizlilik-politikasi/'] = { title: 'Gizlilik ve Çerez Politikası - Egefe Sağlık Bilişim A.Ş.', desc: 'ege-fe.com gizlilik ve çerez politikası: toplanan veriler, kullanım amaçları, çerezler, saklama, üçüncü taraflar ve haklarınız.', h1: 'Gizlilik ve Çerez Politikası', ust: null, og: VARSAYILAN_OG, ogType: 'website', yasal: true };
 // Periyodik Bakım ve Kalibrasyon (birleşik sayfa, 2026-10-02)
 meta['/kalibrasyon/'].title = 'Periyodik Bakım ve Kalibrasyon - Egefe Sağlık Bilişim A.Ş.';
 meta['/kalibrasyon/'].desc = 'Alkolmetrelerin 6 ayda bir periyodik bakımı ve kalibrasyonu: ölçüm sapmalarının belirlenip düzeltilmesi, bakım zamanı yaklaşınca bilgilendirme.';
 // Ürünler: elle yazılan yeni sayfa (canlıda karşılığı yok; içerik /bilgi/ SSS'sinden + Armas yetkili bayilik bilgisi, 2026-10-01)
 meta['/urunler/'] = { title: 'Ürünler - Egefe Sağlık Bilişim A.Ş.', desc: CROM_AKTIF
   ? 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler (Armas Elektronik yetkili bayi ve servisi) ve Egefe\'nin yerli üretim uyuşturucu test kiti markası CROM TEST.'
-  : 'NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler, NAM-DATA ve NAM-DATAPro veri transfer yazılımları. Armas Elektronik yetkili bayi ve servisi.', h1: 'Ürünler', ust: null, og: '/img/urun/nam19-saha.webp', ogType: 'website' };
-meta['/404/'] = { title: 'Sayfa Bulunamadı - Egefe Sağlık Bilişim A.Ş.', desc: '', h1: 'Sayfa bulunamadı', ust: null, og: '/wp-content/uploads/2022/01/faceb.jpg', ogType: 'website', noindex: true };
+  : 'NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler, NAM-DATA ve NAM-DATAPro veri transfer yazılımları. Armas Elektronik yetkili bayi ve servisi.', h1: 'Ürünler', ust: null, og: VARSAYILAN_OG, ogType: 'website' };
+meta['/404/'] = { title: 'Sayfa Bulunamadı - Egefe Sağlık Bilişim A.Ş.', desc: '', h1: 'Sayfa bulunamadı', ust: null, og: VARSAYILAN_OG, ogType: 'website', noindex: true };
+
+for (const m of Object.values(meta)) {
+  const yerel = m.og.startsWith('/img/') ? path.join(S, m.og) : srcFile(m.og);
+  const b = yerel ? dims('', yerel).match(/width="(\d+)" height="(\d+)"/) : null;
+  if (b) { m.ogW = +b[1]; m.ogH = +b[2]; }
+}
 
 // ---------- PHP veri dosyaları ----------
 const phpArr = (o, ind = '  ') => {

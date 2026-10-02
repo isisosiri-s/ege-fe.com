@@ -9,6 +9,8 @@ $yol = $yol ?? '/404/';
 $m = $META[$yol] ?? $META['/404/'];
 $canonical = SITE_URL . ($yol === '/404/' ? '/' : $yol);
 $ogImg = SITE_URL . implode('/', array_map('rawurlencode', explode('/', $m['og'])));
+// Sitenin kendi görsellerinde sürüm eki: WhatsApp/Facebook görseli adrese göre önbelleğe alır, görsel değişince yeni adres
+if (str_starts_with($m['og'], '/img/') && is_file(KOK . $m['og'])) $ogImg .= '?v=' . filemtime(KOK . $m['og']);
 if (empty($sayfa['etiket']) && !empty($m['ust']) && isset($META[$m['ust']])) $sayfa['etiket'] = $META[$m['ust']]['h1'];
 
 // Breadcrumb zinciri (meta.php 'ust' alanından)

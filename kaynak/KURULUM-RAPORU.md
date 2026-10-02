@@ -284,3 +284,4 @@ Kullanıcı kararı: Armas profesyonel alkolmetrelerden NAM-E30 (yazıcılı) ve
 - Anasayfa başlığı: "Egefe Sağlık Bilişim A.Ş. | Alkolmetre, Servis ve Sağlık Danışmanlığı" (eski: "Anasayfa - …").
 - og:image:width/height/type/alt ve twitter:image eklendi (tüm sayfalar).
 - Blog paylaşım açıklamaları: "… için tıklayınız…" / başlık tekrarı olanlar yazının ilk tam cümleleriyle değişti.
+- 2026-10-02: Paylaşım görseli ortalı yeniden tasarlandı (WhatsApp küçük önizlemede ortadan kare kırpar → logo + başlık ortadaki karede); og:image adresine sürüm eki (?v=dosya tarihi).

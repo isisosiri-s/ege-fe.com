@@ -293,3 +293,4 @@ Kullanıcı kararı: danışmanlık bölümü kullanıcı "aktife al" diyene kad
 - Pasifken: menüde Danışmanlık (mega menü) yok; footer Danışmanlık sütunu yok (4 sütun); anasayfa başlığı "Alkolmetrede yetkili satış ve servis", Danışmanlık giriş kartı yok (2 kart); Servis sayfasında "Danışmanlık Hizmetleri" yok; Hakkımızda "Eğitim Danışmanlık" ve "ÜTS, Tıbbi Cihaz, İlaç" maddeleri yok; sayfa sonu bandı "Ürünlerimiz ve servis hizmetlerimiz"; anasayfa title/description ve paylaşım görseli danışmanlıksız.
 - /danismanlik/, /uts/, /tibbi-cihaz/, /saglik-bakanligi-islemleri/, /diger-hizmetler/, /ilac/ ve alt sayfaları → 302 anasayfa; site haritasından çıktı (65 → 38 URL). Dosyalar sunucuda duruyor.
 - Aktife almak: true yap → node tools/build.mjs → node tools/paylasim.mjs → commit + push.
+- 2026-10-02: Anasayfa etiketi "Armas Elektronik Yetkili Bayi ve Servisi" → "Armas Elektronik Yetkili Satış ve Teknik Servis" (kullanıcı).

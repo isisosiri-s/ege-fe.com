@@ -14,7 +14,7 @@ $dan = DANISMANLIK_AKTIF; // Danışmanlık pasifken hiçbir yerde görünmez (c
       <p class="etiket">Armas Yetkili Bayi · CROM TEST Markası</p>
       <h1>Alkolmetre, uyuşturucu testi ve <em>sağlık danışmanlığı</em></h1>
       <?php else: ?>
-      <p class="etiket">Armas Elektronik Yetkili Bayi ve Servisi</p>
+      <p class="etiket">Armas Elektronik Yetkili Satış ve Teknik Servis</p>
       <?php if ($dan): ?><h1>Alkolmetre ve <em>sağlık danışmanlığı</em></h1><?php else: ?><h1>Alkolmetrede <em>yetkili satış ve servis</em></h1><?php endif; ?>
       <?php endif; ?>
       <?php if ($crom): ?>

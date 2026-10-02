@@ -297,3 +297,8 @@ Kullanıcı kararı: danışmanlık bölümü kullanıcı "aktife al" diyene kad
 - 2026-10-02: NAM-07 üretimi yok → satışta değil, yalnız periyodik bakım ve kalibrasyon: anasayfa vitrininden çıktı (3 ürün); /urunler/ kartı listenin sonunda "Üretimi sona erdi · Yalnızca periyodik bakım ve kalibrasyon" etiketiyle, düğmeler "Bakım / Kalibrasyon Talebi" (Teknik Destek) ve "Periyodik Bakım ve Kalibrasyon"; satış metinleri (anasayfa kartı ve açıklaması, ürünler açıklaması, CTA, alkol blog kutusu, paylaşım görseli) NAM-19 / NAM-E30 / NAM-E30C. "CE Uygunluklu Cihazlar" → "CE Uyumlu Cihazlar".
 - 2026-10-02: Anasayfa etiketi → "Yetkili Satış ve Teknik Servis" (Armas Elektronik kaldırıldı, kullanıcı).
 - 2026-10-02: /urunler/ NAM-07 kartındaki "Periyodik Bakım ve Kalibrasyon" düğmesi kaldırıldı; yalnız "Bakım / Kalibrasyon Talebi" kaldı (kullanıcı).
+
+## Revizyon 15 (2026-10-02) — Cihaz karşılaştırma
+- /urunler/ "Cihazları Karşılaştır" bölümü (alkolmetre kartlarının altında): NAM-19, NAM-E30, NAM-E30C; en fazla 3 cihaz (kullanıcı); NAM-07 satışta olmadığı için dahil değil.
+- Seçim çipleri + her kartta "Karşılaştır" kutucuğu (senkron), seçilmeyen sütunlar gizlenir, "Yalnızca farkları göster" süzgeci, sütun altında Teklif Al. JS yoksa tablo tam görünür.
+- Veri: site/inc/karsilastir-veri.php (Armas teknik bilgileri; kaynakta olmayan "—"). Bölüm: site/inc/karsilastir.php. Mobil: yatay kaydırma, sabit ilk sütun, ipucu.

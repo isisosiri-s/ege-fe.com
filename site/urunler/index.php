@@ -131,6 +131,7 @@ $urunler = [
 // Satışta olmayan (yalnız servis) ürünler alkolmetre listesinin sonunda gösterilir
 $urunler['Alkolmetreler'] = array_merge(array_filter($urunler['Alkolmetreler'], fn($u) => empty($u['yalnizServis'])), array_filter($urunler['Alkolmetreler'], fn($u) => !empty($u['yalnizServis'])));
 $servisTalep = '/iletisim/?konu=' . rawurlencode('Teknik Destek') . '#form';
+require __DIR__ . '/../inc/karsilastir-veri.php'; // cihaz karşılaştırma (en fazla 3, yalnız satıştaki modeller)
 ?>
 <section class="bolum bolum-ince">
   <div class="kap">
@@ -158,6 +159,7 @@ $servisTalep = '/iletisim/?konu=' . rawurlencode('Teknik Destek') . '#form';
             </div>
           </details>
           <?php endif; ?>
+          <?php if (isset($karsiCihaz[$u['id']])): ?><label class="karsi-kart"><input type="checkbox" value="<?= e($u['id']) ?>" data-karsi-kart checked> Karşılaştır</label><?php endif; ?>
           <div class="dugme-grubu">
             <?php if (!empty($u['yalnizServis'])): ?>
             <a class="dugme dugme-birincil" href="<?= e($servisTalep) ?>">Bakım / Kalibrasyon Talebi</a>
@@ -171,6 +173,7 @@ $servisTalep = '/iletisim/?konu=' . rawurlencode('Teknik Destek') . '#form';
       <?php endforeach; ?>
     </div>
     <?php if ($grup === 'Alkolmetreler'): ?>
+    <?php require __DIR__ . '/../inc/karsilastir.php'; ?>
     <div class="urun-ek" id="nam-data">
       <h3>NAM-DATA ve NAM-DATAPro Veri Transfer Yazılımları</h3>
       <p>NAM-07'deki veriler NAM-DATA; NAM-19, NAM-E30 ve NAM-E30C'deki veriler NAM-DATAPro yazılımıyla bilgisayara aktarılır. NAM-DATA iki seviyeli yetkilendirme sunar: kullanıcılar verileri bilgisayara aktarabilir, arşivleyebilir, tarayabilir, sonuçları yazdırabilir ve farklı ortamlara kaydedebilir; yetkili kişiler bunlara ek olarak cihaz hafızasını temizleme, program ayarları ve yetkilendirme işlemlerini yapabilir.</p>

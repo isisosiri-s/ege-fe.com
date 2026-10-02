@@ -67,6 +67,43 @@
       document.querySelectorAll('.yazi-karti[data-konu]').forEach(function (y) { y.hidden = k !== 'tumu' && y.getAttribute('data-konu') !== k; });
     });
   }
+  // Cihaz karşılaştırma (ürünler): seçim çipleri ve kartlardaki "Karşılaştır" kutucukları aynı seçimi paylaşır;
+  // en fazla N cihaz; seçilmeyen sütunlar gizlenir; "yalnızca farklar" eşit satırları gizler. JS yoksa tablo tam görünür.
+  var karsi = document.getElementById('karsilastir');
+  if (karsi) {
+    var enFazla = parseInt(karsi.getAttribute('data-en-fazla'), 10) || 3;
+    var kutular = function () { return document.querySelectorAll('[data-karsi-sec], [data-karsi-kart]'); };
+    var secililer = function () {
+      var s = []; karsi.querySelectorAll('[data-karsi-sec]').forEach(function (k) { if (k.checked) s.push(k.value); }); return s;
+    };
+    var fark = karsi.querySelector('[data-karsi-fark]');
+    var uyari = karsi.querySelector('[data-karsi-uyari]');
+    var tablo = karsi.querySelector('.karsi-kaydir');
+    var guncelle = function () {
+      var s = secililer();
+      kutular().forEach(function (k) {
+        k.checked = s.indexOf(k.value) > -1;
+        k.disabled = !k.checked && s.length >= enFazla; // sınır dolunca seçilmeyenler pasif
+        k.closest('label').classList.toggle('secili', k.checked);
+      });
+      karsi.querySelectorAll('[data-cihaz]').forEach(function (h) { h.hidden = s.indexOf(h.getAttribute('data-cihaz')) < 0; });
+      uyari.hidden = s.length >= 2;
+      karsi.style.setProperty('--karsi-sutun', Math.max(s.length, 1)); // mobil tablo genişliği seçili sütun sayısına göre
+      tablo.hidden = s.length < 1;
+      karsi.querySelectorAll('tbody tr').forEach(function (tr) {
+        var d = []; tr.querySelectorAll('td').forEach(function (td) { if (!td.hidden) d.push(td.textContent.trim()); });
+        tr.hidden = fark.checked && d.length > 1 && d.every(function (v) { return v === d[0]; });
+      });
+    };
+    document.addEventListener('change', function (e) {
+      var k = e.target;
+      if (k.matches && k.matches('[data-karsi-sec], [data-karsi-kart]')) {
+        karsi.querySelectorAll('[data-karsi-sec][value="' + k.value + '"]').forEach(function (x) { x.checked = k.checked; });
+        guncelle();
+      } else if (k === fark) guncelle();
+    });
+    guncelle();
+  }
   // Mobil menü: Danışmanlık grupları ayrı ayrı açılır (masaüstünde düğme gizli, liste hep açık)
   document.querySelectorAll('.grup-ac').forEach(function (b) {
     b.addEventListener('click', function () {

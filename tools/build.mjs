@@ -283,8 +283,8 @@ for (const p of ALL) {
     ? 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; CROM TEST uyuşturucu test kitleri; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.'
     : 'Armas Elektronik yetkili bayi ve servisi Egefe: alkolmetre satış, bakım ve kalibrasyon; tıbbi cihaz, ÜTS ve Sağlık Bakanlığı danışmanlığı.';
   if (p === '/' && !DAN_AKTIF) desc = CROM_AKTIF
-    ? 'Armas Elektronik yetkili bayi ve servisi Egefe: NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı, periyodik bakımı ve kalibrasyonu; CROM TEST uyuşturucu test kitleri.'
-    : 'Armas Elektronik yetkili bayi ve servisi Egefe: NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı, periyodik bakımı ve kalibrasyonu.';
+    ? 'Armas Elektronik yetkili satış ve teknik servisi Egefe: NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı; NAM-07 dahil periyodik bakım ve kalibrasyon; CROM TEST uyuşturucu test kitleri.'
+    : 'Armas Elektronik yetkili satış ve teknik servisi Egefe: NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı; NAM-07 dahil periyodik bakım ve kalibrasyon.';
   if (LOREM.test(desc) || /[A-Za-z]+ly [a-z]+ [a-z]+/.test(desc) && !/[ğüşıöçĞÜŞİÖÇ]/.test(desc)) {
     if (DESC_DUZELT[p]) { desc = DESC_DUZELT[p].aciklama; descKaynak = DESC_DUZELT[p].kaynak; }
     else if (HUB_GIRIS[p]) { desc = HUB_GIRIS[p].aciklama; descKaynak = HUB_GIRIS[p].kaynak; }
@@ -315,7 +315,7 @@ meta['/kalibrasyon/'].desc = 'Alkolmetrelerin 6 ayda bir periyodik bakımı ve k
 // Ürünler: elle yazılan yeni sayfa (canlıda karşılığı yok; içerik /bilgi/ SSS'sinden + Armas yetkili bayilik bilgisi, 2026-10-01)
 meta['/urunler/'] = { title: 'Ürünler - Egefe Sağlık Bilişim A.Ş.', desc: CROM_AKTIF
   ? 'NAM-07 ve NAM-19 delil sınıfı alkolmetreler (Armas Elektronik yetkili bayi ve servisi) ve Egefe\'nin yerli üretim uyuşturucu test kiti markası CROM TEST.'
-  : 'NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler, NAM-DATA ve NAM-DATAPro veri transfer yazılımları. Armas Elektronik yetkili bayi ve servisi.', h1: 'Ürünler', ust: null, og: VARSAYILAN_OG, ogType: 'website' };
+  : 'NAM-19, NAM-E30 ve NAM-E30C alkolmetreler ve NAM-DATAPro yazılımı; NAM-07 için periyodik bakım ve kalibrasyon. Armas Elektronik yetkili bayi ve servisi.', h1: 'Ürünler', ust: null, og: VARSAYILAN_OG, ogType: 'website' };
 meta['/404/'] = { title: 'Sayfa Bulunamadı - Egefe Sağlık Bilişim A.Ş.', desc: '', h1: 'Sayfa bulunamadı', ust: null, og: VARSAYILAN_OG, ogType: 'website', noindex: true };
 
 for (const m of Object.values(meta)) {

@@ -1,7 +1,8 @@
 <?php
 // Ürünler (elle yazılan sayfa). Kaynaklar: sitedeki /bilgi/ SSS + Armas Elektronik ürün sayfalarındaki teknik bilgiler
 // (Egefe Armas yetkili bayi ve servisi; görsel ve teknik bilgi kullanım izni kullanıcıdan, 2026-10-01).
-// Alkolmetre: NAM-07, NAM-19, NAM-E30, NAM-E30C (kullanıcı kararı 2026-10-02; başka Armas modeli kullanıcı söylemeden eklenmez).
+// Alkolmetre: NAM-19, NAM-E30, NAM-E30C satışta; NAM-07 üretimi yok → yalnız periyodik bakım ve kalibrasyon (kullanıcı, 2026-10-02).
+// Başka Armas modeli kullanıcı söylemeden eklenmez.
 // Uyuşturucu testi: yalnız kendi markamız CROM TEST — şu an PASİF (config.php $MARKA['aktif']); pasifken hiçbir yerde görünmez.
 $yol = '/urunler/';
 require_once __DIR__ . '/../inc/config.php';
@@ -18,7 +19,7 @@ $teklif = '/iletisim/?konu=' . rawurlencode('Ürünler') . '#form';
 $urunler = [
   'Alkolmetreler' => [
     [
-      'id' => 'nam-07', 'ad' => 'NAM-07', 'tur' => 'Delil sınıfı alkolmetre',
+      'id' => 'nam-07', 'ad' => 'NAM-07', 'tur' => 'Delil sınıfı alkolmetre', 'yalnizServis' => true,
       'gorsel' => ['/img/urun/nam07.png', 640, 480],
       'ozellik' => [
         'Yeni nesil elektrokimyasal sensör ile hassas ve güvenilir ölçüm',
@@ -127,6 +128,9 @@ $urunler = [
     ],
   ],
 ];
+// Satışta olmayan (yalnız servis) ürünler alkolmetre listesinin sonunda gösterilir
+$urunler['Alkolmetreler'] = array_merge(array_filter($urunler['Alkolmetreler'], fn($u) => empty($u['yalnizServis'])), array_filter($urunler['Alkolmetreler'], fn($u) => !empty($u['yalnizServis'])));
+$servisTalep = '/iletisim/?konu=' . rawurlencode('Teknik Destek') . '#form';
 ?>
 <section class="bolum bolum-ince">
   <div class="kap">
@@ -138,6 +142,7 @@ $urunler = [
         <div class="urun-gorsel"><img src="<?= e($u['gorsel'][0]) ?>" alt="<?= e($u['ad'] . ' ' . mb_strtolower($u['tur'], 'UTF-8')) ?>" width="<?= $u['gorsel'][1] ?>" height="<?= $u['gorsel'][2] ?>" loading="lazy" decoding="async"></div>
         <div class="urun-govde">
           <p class="urun-tur"><?= e($u['tur']) ?></p>
+          <?php if (!empty($u['yalnizServis'])): ?><p class="urun-durum">Üretimi sona erdi · Yalnızca periyodik bakım ve kalibrasyon</p><?php endif; ?>
           <h3><?= e($u['ad']) ?></h3>
           <ul class="urun-ozellik">
             <?php foreach ($u['ozellik'] as $o): ?><li><?= ikon('check', 18) ?><span><?= e($o) ?></span></li><?php endforeach; ?>
@@ -154,8 +159,13 @@ $urunler = [
           </details>
           <?php endif; ?>
           <div class="dugme-grubu">
+            <?php if (!empty($u['yalnizServis'])): ?>
+            <a class="dugme dugme-birincil" href="<?= e($servisTalep) ?>">Bakım / Kalibrasyon Talebi</a>
+            <a class="dugme dugme-cizgi" href="/kalibrasyon/">Periyodik Bakım ve Kalibrasyon</a>
+            <?php else: ?>
             <a class="dugme dugme-birincil" href="<?= e($teklif) ?>">Teklif Al</a>
             <a class="dugme dugme-cizgi" href="/bilgi/">Sık Sorulan Sorular</a>
+            <?php endif; ?>
           </div>
         </div>
       </article>

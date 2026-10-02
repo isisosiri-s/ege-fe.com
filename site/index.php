@@ -40,10 +40,10 @@ $dan = DANISMANLIK_AKTIF; // Danışmanlık pasifken hiçbir yerde görünmez (c
           <span class="giris-karti-etiket">Ürünler</span>
           <?php if ($crom): ?>
           <h3>Alkolmetre ve uyuşturucu testi</h3>
-          <p>NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler ve kendi markamız CROM TEST uyuşturucu madde tarama test kitleri.</p>
+          <p>NAM-19, NAM-E30 ve NAM-E30C alkolmetreler ve kendi markamız CROM TEST uyuşturucu madde tarama test kitleri.</p>
           <?php else: ?>
           <h3>Delil sınıfı alkolmetreler</h3>
-          <p>NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler; satış, periyodik bakım ve kalibrasyon.</p>
+          <p>NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı; NAM-07 dahil periyodik bakım ve kalibrasyon.</p>
           <?php endif; ?>
           <span class="ok-link">Ürünleri incele</span>
         </a>
@@ -81,8 +81,7 @@ $dan = DANISMANLIK_AKTIF; // Danışmanlık pasifken hiçbir yerde görünmez (c
       </div>
       <a class="ok-link" href="/urunler/">Tüm ürünler</a>
     </div>
-    <ul class="urun-vitrin<?= $crom ? ' urun-vitrin-3' : '' ?>">
-      <li><a href="/urunler/#nam-07"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam07.png" alt="NAM-07 alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-07</span><span class="urun-vitrin-tur">Delil sınıfı alkolmetre</span></a></li>
+    <ul class="urun-vitrin urun-vitrin-3"><!-- NAM-07 satışta değil (yalnız bakım/kalibrasyon) → vitrinde yok, 2026-10-02 -->
       <li><a href="/urunler/#nam-19"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam19.jpg" alt="NAM-19 alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-19</span><span class="urun-vitrin-tur">Delil sınıfı alkolmetre</span></a></li>
       <li><a href="/urunler/#nam-e30"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam-e30.jpg" alt="NAM-E30 yazıcılı alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-E30</span><span class="urun-vitrin-tur">Yazıcılı alkolmetre</span></a></li>
       <li><a href="/urunler/#nam-e30c"><span class="urun-vitrin-gorsel"><img src="/img/urun/nam-e30c.jpg" alt="NAM-E30C kameralı yazıcılı alkolmetre" width="640" height="480" loading="lazy" decoding="async"></span><span class="urun-vitrin-ad">NAM-E30C</span><span class="urun-vitrin-tur">Kameralı / yazıcılı alkolmetre</span></a></li>
@@ -107,7 +106,7 @@ $dan = DANISMANLIK_AKTIF; // Danışmanlık pasifken hiçbir yerde görünmez (c
     <ul class="sayaclar sayaclar-buyuk" aria-label="Egefe rakamlarla">
       <li><strong>200+</strong><span>Anlaşmalı Kurum</span></li>
       <li><strong>Armas</strong><span>Yetkili Bayi ve Servis</span></li>
-      <li><strong>CE</strong><span>Uygunluklu Cihazlar</span></li>
+      <li><strong>CE</strong><span>Uyumlu Cihazlar</span></li>
       <?php if ($crom): ?><li><strong>CROM TEST</strong><span>Yerli Üretim Test Kiti Markamız</span></li><?php endif; ?>
     </ul>
   </div>

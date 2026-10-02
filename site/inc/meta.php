@@ -3,7 +3,7 @@
 return [
   '/' => [
     'title' => 'Egefe Sağlık Bilişim A.Ş. | Alkolmetre Satış, Servis ve Kalibrasyon',
-    'desc' => 'Armas Elektronik yetkili bayi ve servisi Egefe: NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı, periyodik bakımı ve kalibrasyonu.',
+    'desc' => 'Armas Elektronik yetkili satış ve teknik servisi Egefe: NAM-19, NAM-E30 ve NAM-E30C alkolmetrelerin satışı; NAM-07 dahil periyodik bakım ve kalibrasyon.',
     'h1' => 'Anasayfa',
     'ust' => null,
     'og' => '/img/paylasim.jpg',
@@ -769,7 +769,7 @@ return [
   ],
   '/urunler/' => [
     'title' => 'Ürünler - Egefe Sağlık Bilişim A.Ş.',
-    'desc' => 'NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler, NAM-DATA ve NAM-DATAPro veri transfer yazılımları. Armas Elektronik yetkili bayi ve servisi.',
+    'desc' => 'NAM-19, NAM-E30 ve NAM-E30C alkolmetreler ve NAM-DATAPro yazılımı; NAM-07 için periyodik bakım ve kalibrasyon. Armas Elektronik yetkili bayi ve servisi.',
     'h1' => 'Ürünler',
     'ust' => null,
     'og' => '/img/paylasim.jpg',

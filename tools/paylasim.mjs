@@ -10,7 +10,7 @@ const S = path.resolve('site');
 // Danışmanlık açık/kapalı: site/inc/config.php → DANISMANLIK_AKTIF (pasifken görselde danışmanlık geçmez)
 const DAN_AKTIF = /define('DANISMANLIK_AKTIF',s*true)/.test(fs.readFileSync(path.join(S, 'inc', 'config.php'), 'utf8'));
 const baslik = DAN_AKTIF ? 'Alkolmetre ve <em>sağlık danışmanlığı</em>' : 'Alkolmetrede <em>yetkili satış ve servis</em>';
-const altMetin = DAN_AKTIF ? 'Satış, periyodik bakım ve kalibrasyon · ÜTS, tıbbi cihaz ve Sağlık Bakanlığı işlemleri' : 'Satış, periyodik bakım ve kalibrasyon · NAM-07, NAM-19, NAM-E30 ve NAM-E30C alkolmetreler';
+const altMetin = DAN_AKTIF ? 'Satış, periyodik bakım ve kalibrasyon · ÜTS, tıbbi cihaz ve Sağlık Bakanlığı işlemleri' : 'Satış, periyodik bakım ve kalibrasyon · NAM-19, NAM-E30 ve NAM-E30C alkolmetreler';
 const dosya = (p) => pathToFileURL(path.join(S, p)).href;
 
 const html = `<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>
